@@ -22,13 +22,13 @@ Der EU Cyber Resilience Act (CRA) ist ein Meilenstein für die IT-Sicherheit in 
 
 **Gültig für**:
 
-* Alle , die netzwerkfähige Produkte mit digitalen Elementen herstellen oder innerhalb der EU vertreiben (Gewinnerzielungsabsicht) und in der folgenden Liste nicht aufgeführt werden.
+* Alle, die netzwerkfähige Produkte mit digitalen Elementen herstellen oder innerhalb der EU vertreiben (Gewinnerzielungsabsicht) und in der folgenden Liste nicht aufgeführt werden.
 
 **Nicht gültig für**:
 
-* Lösungen in den Branchen Schiffahrt, Autombil und Luftfahrt (s. ...! )
+* Lösungen in den Branchen Schiffahrt, Automobil und Luftfahrt (s. ...! )
 * Medizintechnik (vergleichbare Anfordeurngen s. [MDR](/regmon/mdr.md) !)
-* Anbieter von Cloud-Diensten (vergelichbare Anfordeurngen s. [NIS2](/regmon/nis2))
+* Anbieter von Cloud-Diensten (vergleichbare Anforderungen s. [NIS2](/regmon/nis2))
 * Anbieter nicht-gewerblicher Open Source Software, (ACHTUNG! Definition *OS Steward* beachten!) 
 * Individual-Entwicklungen 
 
@@ -42,8 +42,8 @@ Der EU Cyber Resilience Act (CRA) ist ein Meilenstein für die IT-Sicherheit in 
 
 * Anforderung ein aktives Risiko-Management einzuführen
 * Zusätzliche Prozesse und Verantwortlichkeiten (Produktsicherheit, Vulnerability Disclosure, etc.)
-* Neue Anofrderungen an Produkt-Updates (freie Sicherheits-Patches für 10 Jahre)
-* Konformitätserklärung und CE-Kennezichen abgeben
+* Neue Anforderungen an Produkt-Updates (freie Sicherheits-Patches für 10 Jahre)
+* Konformitätserklärung und CE-Kennzeichen abgeben
 
 
 
@@ -75,7 +75,7 @@ Der EU Cyber Resilience Act (CRA) ist ein Meilenstein für die IT-Sicherheit in 
     * Aktiv ausgenutzte Schwachstellen innerhalb 24h nach Bekanntwerden an die ENISA und die nationale, Benannte Stelle (DE = BSI), s. Art 14 II a)
     * Innerhalb 72h eine präzise Beschreibung der Maßnahmen, die angestrebt werden, s. Art. 14 II b)
     * Spätestens einen Monat nach der Auflösung der Situation ein vollständiger Bericht , s. Art. 14 II c)
-    * Die Benannten Stellen dürfen nach Zwichenberichten fragen, s. Art 14 VI
+    * Die Benannten Stellen dürfen nach Zwischenberichten fragen, s. Art 14 VI
     * Die Benutzer müssen informiert werden, dass es eine Gefahr gibt und was sie dagegen tun sollten (CSAF Security Advisory), s. Art. 14 VIII.
     * Jeden *sicherheitsrelevanten Vorfall* - der dazu geeignet wäre, die Sicherheit der Software-Supply Chain zu gefährden, bspw. gehackte Admin Credentials - innerhalb  von 24h and die ENISA und die Benannte Stelle zu melden.
 
