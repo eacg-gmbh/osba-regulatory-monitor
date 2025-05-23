@@ -15,7 +15,7 @@ Die WorkGroup Security hält [wöchetlich Meetings](/osba-regulatory-monitor/ind
 
 ## Rechtliches
 
-Wir akzeptieren nur Änderungen oder Beizträge, wenn diese unter der gleichen Lizenz veröffentlich werden, wie das gesamte Repository. Mit der Eröffnung eines Pull-requests gegen dieses Repository, erklärt sich der Autor damit einverstanden, dass er seinen Beitrag unter die Creative Commons-non-comemrial-share-alike-Lizenz (CC-BY-SA-4.0) stellt. Zudem stellt er sicher, dass sein Beitrag frei von Rechten Dritter ist.
+Wir akzeptieren nur Änderungen oder Beizträge, wenn diese unter der gleichen Lizenz veröffentlich werden, wie das gesamte Repository. Mit der Eröffnung eines Pull-requests gegen dieses Repository, erklärt sich der Autor damit einverstanden, dass er seinen Beitrag unter die Creative-Commons-Non-Commercial-Share-Alike-Lizenz ([CC BY-NC-SA-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)) stellt. Zudem stellt er sicher, dass sein Beitrag frei von Rechten Dritter ist.
 
 ## Redaktionelles
 
