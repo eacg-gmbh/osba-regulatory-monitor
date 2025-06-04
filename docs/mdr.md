@@ -6,7 +6,7 @@ tags:
 
 # Digital Operational Resilience Act (DORA)
 
-Ist als europäische Verordnung am 17. Januar 2023 in Kraft getreten und gilt ohne weitere Umsetzungsate unmittelbar in allen EU-Mitgliedsstaaten. 
+Ist als europäische Verordnung am 17. Januar 2023 in Kraft getreten und gilt ohne weitere Umsetzungsakte unmittelbar in allen EU-Mitgliedsstaaten.
 
 ## Überblick
 
