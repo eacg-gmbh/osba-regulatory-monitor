@@ -13,7 +13,7 @@ Das Gesetz über die digitale operative Widerstandsfähigkeit (Digital Operation
 
 * **Segment**: IT Sicherheit / Financial Services
 
-* **Verabschiedet / Veröffentlicht**: ___ angenommen, bzw. ___ publiziert
+* **Verabschiedet / Veröffentlicht**: 
 
 * **Gültig ab**:
   * 17.01.2025

@@ -7,23 +7,23 @@ tags:
    - medical
 ---
 
-# Digital Operational Resilience Act (DORA)
+# Medical Device Regulation (MDR)
 
-Die Europäische Medizinprodukteverordnung (MDR) ist ein umfassender Rechtsrahmen, der die Medizinprodukte-Richtlinie (MDD) ersetzt, um die Sicherheit und Leistungsfähigkeit von Medizinprodukten innerhalb der Europäischen Union (EU) zu gewährleisten. Die MDR, offiziell bekannt als Verordnung (EU) 2017/745, trat am 26. Mai 2021 in Kraft und zielt darauf ab, die in der vorherigen Richtlinie festgestellten Lücken und Herausforderungen zu beheben und die Überwachung und Sicherheit von Medizinprodukten zu verbessern.
+Die Europäische Medizinprodukteverordnung (MDR) ist ein umfassender Rechtsrahmen, der die Medizinprodukte-Richtlinie (MDD) ersetzt, um die Sicherheit und Leistungsfähigkeit von Medizinprodukten innerhalb der Europäischen Union (EU) zu gewährleisten. Die MDR, offiziell bekannt als Verordnung (EU) 2017/745, trat ursprünglich am 26. Mai 2021 in Kraft und zielt darauf ab, die in der vorherigen Richtlinie festgestellten Lücken und Herausforderungen zu beheben und die Überwachung und Sicherheit von Medizinprodukten zu verbessern.
+
+Ist nach Aufschub wegenm Corona als europäische Verordnung am 17. Januar 2023 in Kraft getreten und gilt ohne weitere Umsetzungsakte unmittelbar in allen EU-Mitgliedsstaaten.
 
 ## Überblick
 
 * **Segment**: Medizin Produktsicherheit
-* **Verabschiedet / Veröffentlicht**: 
+* **Verabschiedet / Veröffentlicht**: 2017
 * **Gültig ab**:
-  * 26. Mai 2021
+  * 17. Januar 2023
 * **Gültig für**:
   * Hersteller von Medizinprodukten
 * **Nicht gültig für**:
-  
   * andere Branchen
 * **Grauzone**:
-  
   * k.A.
 * **Ziel**:
   Verbesserung der Sicherheit von Medizinprodukten
@@ -61,13 +61,6 @@ Die Europäische Medizinprodukteverordnung (MDR) ist ein umfassender Rechtsrahme
   * **Verbesserter Schutz für Patienten**:
   
     Die MDR zielt darauf ab, den Schutz von Patienten zu verbessern, indem sie sicherstellt, dass Medizinprodukte sicher, wirksam und von hoher Qualität sind. Die Verordnung führt strengere Anforderungen an die klinische Bewertung, die Überwachung nach dem Inverkehrbringen und das Risikomanagement ein.
-
-
-
-## Zentrale Forderungen
-
-* ...
-
 
 
 ## Lösungsansätze & Hilfestellungen

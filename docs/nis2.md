@@ -5,7 +5,7 @@ tags:
    - kritis
 ---
 
-# EU NIS2 Directive
+# EU Network & Infratsructure Directive v2 (NIS2)
 
 Der EU NIS2 ist ein Meilenstein für die IT-Sicherheit in Europa. Die neue, zweite Richtlinie über Netz- und Informationssysteme (NIS2) ist ein umfassender Rechtsrahmen, der von der Europäischen Union (EU) eingeführt wurde, um die Cybersicherheit und die Betriebsstabilität kritischer Infrastrukturen und digitaler Diensteanbieter zu verbessern. NIS2 baut auf der ursprünglichen Richtlinie über Netz- und Informationssysteme (NIS) auf und erweitert deren Anwendungsbereich auf eine größere Bandbreite von Sektoren und Einrichtungen, um der sich wandelnden digitalen Landschaft und den zunehmenden Cyberbedrohungen Rechnung zu tragen.
 
