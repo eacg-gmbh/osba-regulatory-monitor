@@ -26,7 +26,8 @@ nav:
     - Radio Frequency Directive (RED): 'red.md'
   - Non-EU: 'non-eu.md'
   - Standards: 
-      - ISO-52032: ''
+      - ISO-5230: 'openchain.md'
+      - TISAX: 'tisax.md'
   - About: 
     - 'about.md'
     - Changelog: 'CHANGELOG.md'
