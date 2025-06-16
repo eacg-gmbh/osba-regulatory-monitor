@@ -26,6 +26,9 @@ nav:
     - Radio Frequency Directive (RED): 'red.md'
   - Non-EU: 'non-eu.md'
   - Standards: 
+      - IEC-62304: 'iec62304.md'
+      - IEC-62443: 'iec62443.md'
+      - IEC-81001-5: 'iec81001-5-2.md'
       - ISO-5230: 'openchain.md'
       - TISAX: 'tisax.md'
   - About: 
