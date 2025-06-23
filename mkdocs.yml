@@ -26,6 +26,7 @@ nav:
     - Radio Frequency Directive (RED): 'red.md'
   - Non-EU: 'non-eu.md'
   - Standards: 
+      - IEC-18974: 'iec18974.md'
       - IEC-62304: 'iec62304.md'
       - IEC-62443: 'iec62443.md'
       - IEC-81001-5: 'iec81001-5-1.md'
