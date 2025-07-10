@@ -1,39 +1,50 @@
 ---
 tags:
    - cybersecurity
-   - product
-   - medical devices
+   - health
+   - travel
+   - transport
+   - utilities
+   - energy
+   - pharma
+   - internet-services
+   - cloud internet-services
+   - space
+   - public services
 ---
 
-# Medical Device Regulation (2017/745)
+# EU-Richtlinie zur Resilienz kritischer Einrichtungen (Critical Entities Resilience Directive, CER)
 
-Die CER-Richtlinie ist am 16. Januar 2023 in Kraft getreten. Die EU-Mitgliedstaaten haben bis zum 17. Oktober 2024 Zeit, die Bestimmungen in nationale Gesetzgebung zu überführen.. 
+Die EU-Richtlinie zur Resilienz kritischer Einrichtungen (CER, Critical Entities Resilience Directive) wurde 16. Januar 2023 verabschiedet. Die EU-Mitgliedstaaten haben bis Oktober 2024 Zeit, die Bestimmungen in nationale Gesetzgebung zu überführen. 
+Die CER-Richtlinie wird durch das im Koalitionsvertrag vereinbarte KRITIS-Dachgesetz umgesetzt. Das Gesetz schafft erstmalig eine sektorenübergreifende bundesgesetzliche Regelung zum physischen Schutz Kritischer Infrastrukturen in Deutschland.
 
 ## Überblick
 
-* **Segment**: IT Sicherheit
-* **Verabschiedet / Veröffentlicht**: ___ angenommen, bzw. ___ publiziert
+* **Segment**: IT Sicherheit in den folgenden Branchen:
+  - Energie (Strom, Gas, Öl)
+  - Transport (Luftfahrt, Schiffahrt, Schienenverkehr)
+  - Gesundheit (Krankenhäuser, pharmazeutische Industrie)
+  - Digitale Infratsruktur (Cloud-Dienste, Internet-Service-Provider)
+  - Raumfahrt
+  - Öffentliche Verwaltung
+* **Verabschiedet / Veröffentlicht**: 16.1.2023 angenommen (EU), Umsetzung in Deutschland steht noch aus
 * **Gültig ab**:
-  * 26.05.2021
-* **Gültig für**:
-  * Hersteller von Produkten für die Medizin
-* **Nicht gültig für**:
-  * tbd
-* **Grauzone**:
-  * k.A.
+  * 17.10.2024 (Umsetzung D steht noch aus)
 * **Ziel**:
-  Stärkung der Sicherheit von Medizinprodukten
-* **Neuerungen / Anforderungen**:
-  * ...
-
+  - Erhöhung der Resilienz gegen physische und digitale Bedrohungen (z. B. Cyberangriffe, Naturkatastrophen, Terrorismus).
+  - Standardisierung von Sicherheitsmaßnahmen für kritische Einrichtungen.
+  - Verbesserte Zusammenarbeit zwischen EU-Mitgliedstaaten und Behörden.
+  - Stärkere Meldepflichten bei Vorfällen, die die Resilienz gefährden.
 
 
 ## Zentrale Forderungen
+Für Deutschland bedeutet des KRITIS Dachgesetz, dass:
+* Kritische Infrastrukturen sollen klar und systematisch identifiziert werden.
+* Staat und KRITIS-Betreiber sollen regelmäßige Risikobewertungen durchführen und dadurch Gefahren besser erkennen.
+* Es werden Mindeststandards für Betreiber Kritischer Infrastrukturen festgelegt. Für die Betreiber bedeutet das mehr Handlungssicherheit, um sich gegen Gefahren zu schützen.
+* Ein zentrales Meldesystem für Störungen soll das bestehende Meldewesen im Cybersicherheitsbereich ergänzen. Mögliche Schwachstellen beim Schutz Kritischer Infrastrukturen können so besser erkannt und behoben werden.
+* Die Zusammenarbeit der beteiligten Akteure im Bereich der Kritischen Infrastrukturen soll besser organisiert und klare Verantwortlichkeiten und Ansprechpartner benannt werden.
 
-* ...
 
-
-
-## Lösungsansätze & Hilfestellungen
-
-* Ein guter Leitfaden für die Analyse zur Implemntierung findet sich ...
+## Weiterführende Links
+* [Informationen des Deutschen Bundestages](https://www.bundestag.de/dokumente/textarchiv/2024/kw49-de-kritische-anlagen-1032588)
