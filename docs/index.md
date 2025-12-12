@@ -20,4 +20,4 @@ Wir freuen uns über Unterstützung und Mitarbeit. Jeder, der bereits die eine o
 
 ## Kontakt
 
-Die WG Security trifft sich wöchentlich in einem virtuellen Meeting. Die Termine liegen derzeit Di., 1145-1230 MEZ. Mitglieder der OSBA finden den Einladungslinks im Humhub. Externe wenden sich bitte an die [Working Group](https://osb-alliance.de/ueber-uns/working-groups/wg-security).
+Die WG Security trifft sich wöchentlich in einem virtuellen Meeting. Die Termine liegen derzeit Fr., 1300-1400 MEZ. Mitglieder der OSBA finden den Einladungslinks im Humhub. Externe wenden sich bitte an die [Working Group](https://osb-alliance.de/ueber-uns/working-groups/wg-security).
