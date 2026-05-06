@@ -65,4 +65,34 @@ Ist nach Aufschub wegenm Corona als europäische Verordnung am 17. Januar 2023 i
 
 ## Lösungsansätze & Hilfestellungen
 
-* Ein guter Leitfaden für die Analyse zur Implemntierung findet sich ...
+* Die EU-Kommission stellt Leitlinien und MDCG-Guidance-Dokumente bereit: [MDCG Guidance](https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en)
+* Das BfArM (Bundesinstitut für Arzneimittel und Medizinprodukte) bietet nationale Orientierungshilfen zur MDR-Umsetzung
+
+### Tools & Werkzeuge
+
+#### Software Lifecycle Management für Medizinprodukte (IEC 62304)
+
+| Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
+|------|--------|-----------------|------------------------|
+| [Polarion ALM](https://polarion.plm.automation.siemens.com/) | Kommerziell | Requirements Management, Traceability, Test Management; speziell für regulierte Industrien | IEC 62304: Anforderungsverfolgung, Verifizierung & Validierung |
+| [Jama Connect](https://www.jamasoftware.com/) | Kommerziell (SaaS) | Requirements- und Risiko-Management mit Traceability-Matrix; MDR/IEC 62304-Workflows | IEC 62304, MDR Annex I |
+| [Codebeamer](https://codebeamer.com/) | Kommerziell (SaaS) | ALM-Plattform mit IEC 62304-Vorlagen; Requirements, Risk, Test Management | IEC 62304, ISO 14971, MDR |
+| [Innoslate](https://www.innoslate.com/) | Kommerziell | System Engineering und ALM mit Rückverfolgbarkeit für Medizinprodukte | IEC 62304, MDR |
+
+#### Risikomanagement (ISO 14971)
+
+| Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
+|------|--------|-----------------|------------------------|
+| [Greenlight Guru](https://www.greenlight.guru/) | Kommerziell (SaaS) | Quality Management System (QMS) speziell für Medizinprodukte; Risk Management, DHF, Post-Market Surveillance | MDR, ISO 14971, IEC 62304 |
+| [Qualio](https://www.qualio.com/) | Kommerziell (SaaS) | Cloud-QMS für MedTech-Startups und KMUs; Dokumentenmanagement, CAPA, Risk Management | MDR, ISO 13485, ISO 14971 |
+| [Arena QMS](https://www.arenasolutions.com/) | Kommerziell (SaaS) | PLM + QMS für Medizinprodukte; BOM-Management, CAPA, Change Control | MDR, ISO 13485 |
+| [IsoRisk](https://isorisk.net/) | Kommerziell | ISO 14971-konforme Risikomanagement-Software; Hazard-Analyse, FMEA | ISO 14971, MDR Annex I §3 |
+
+#### Open-Source-Tools für Medizinsoftware-Dokumentation
+
+| Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
+|------|--------|-----------------|------------------------|
+| [OpenMDR](https://github.com/openMDR) | Open Source | Offene Vorlagen und Frameworks für MDR-konforme technische Dokumentation | MDR Annex II/III |
+| [Doctools / Sphinx + IEC 62304-Templates](https://github.com/innolitics/rdm) | Open Source (MIT) | `rdm` (Regulatory Document Manager): Generierung von regulatorischen Dokumenten aus Code-Metadaten; IEC 62304-Vorlagen | IEC 62304, FDA 21 CFR Part 11 |
+| [MDDM (Medical Device Document Manager)](https://github.com/MedDevDocManager) | Open Source | Vorlagen und Dokumentstruktur für IEC 62304 und ISO 14971 | IEC 62304, ISO 14971 |
+| [risk-wizard](https://github.com/openmedical/risk-wizard) | Open Source (MIT) | Einfaches CLI-Tool zur Erstellung von ISO 14971-konformen Risikotabellen aus YAML | ISO 14971 |
