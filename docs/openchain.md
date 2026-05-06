@@ -67,7 +67,7 @@ Unternehmen, die eine Zertifizierung nach OpenChain anstreben, müssen die in de
 | [FOSSology](https://www.fossology.org/) | Open Source (GPL-2.0) | Lizenz-Scanning, Copyright-Analyse und FOSS-Compliance-Workflows; unterstützt SPDX und CycloneDX Export | ISO/IEC 5230: Identifizierung und Dokumentation von Open-Source-Komponenten |
 | [SW360](https://www.eclipse.org/sw360/) | Open Source (EPL-2.0) | Komponenten- und Lizenzverwaltung, SBOM-Erstellung, Integration mit FOSSology; entwickelt von Siemens/Eclipse | ISO/IEC 5230: Compliance-Prozesse und Dokumentation |
 | [ORT – OSS Review Toolkit](https://github.com/oss-review-toolkit/ort) | Open Source (Apache-2.0) | Vollautomatisierte Analyse von Abhängigkeiten, Lizenzen und Schwachstellen; CI/CD-Integration; SBOM-Erzeugung | ISO/IEC 5230, CRA: SBOM-Pflichten |
-| [TrustSource ts-core-ce](https://github.com/trustsource/ts-core-ce) | Open Source (Apache-2.0) | Open-Source-Compliance-Management inkl. Lizenzprüfung, SBOM-Verwaltung und Export | ISO/IEC 5230 |
+| [TrustSource CE](https://github.com/trustsource/ts-core-ce) | AGPL (Community Edition) | Vollständige SCA-Plattform: Lizenzprüfung, SBOM-Verwaltung und -Versionierung, Vulnerability Management und CSAF-Kommunikation | ISO/IEC 5230; IEC 18974 (Security Assurance) |
 | [FOSSA](https://fossa.com/) | Kommerziell (Freemium) | Automatisierte Open-Source-Lizenz-Compliance und Sicherheits-Scanning; CI-Integration | ISO/IEC 5230, OpenChain-Zertifizierung |
 | [Black Duck (Synopsys)](https://www.synopsys.com/software-integrity/security-testing/software-composition-analysis.html) | Kommerziell | Umfassende SCA-Plattform: Lizenz-Compliance, Security-Scanning, Policy-Enforcement | ISO/IEC 5230, CRA |
 

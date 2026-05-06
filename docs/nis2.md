@@ -87,7 +87,7 @@ Der EU NIS2 ist ein Meilenstein für die IT-Sicherheit in Europa. Die neue, zwei
 | Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
 |------|--------|-----------------|------------------------|
 | [TrustSource ts-scan](https://github.com/TrustSource/ts-scan) | Open Source | Universeller SCA-Scanner: analysiert Abhängigkeiten aus Build-Systemen und Paketmanagern, erzeugt CycloneDX/SPDX-SBOMs und lädt Ergebnisse in die TrustSource-Plattform hoch | NIS2 Art. 21(2)(a): Lieferkettensicherheit — SBOM als Basis für kontinuierliches Schwachstellenmanagement der eingesetzten Komponenten |
-| [TrustSource](https://github.com/trustsource/ts-core-ce) | Community Edition (OS) | SCA-Plattform für SBOM-Management, Lizenz-Compliance und kontinuierliches Schwachstellen-Tracking über den gesamten Komponentenbestand | NIS2 Art. 21(2)(a)(e): Lieferkettensicherheit und Schwachstellenprozesse |
+| [TrustSource CE](https://github.com/trustsource/ts-core-ce) | AGPL (Community Edition) | Vollständige SCA-Plattform: SBOM-Versionierung, Vulnerability Management und CSAF-Kommunikation — schließt den Loop von der Komponentenanalyse bis zum Security Advisory | NIS2 Art. 21(2)(a)(e): Lieferkettensicherheit und Schwachstellenprozesse |
 | [OWASP Dependency-Track](https://dependencytrack.org/) | Apache-2.0 | Kontinuierliche SBOM-Analyse: nimmt SBOMs entgegen, überwacht fortlaufend gegen NVD, OSV und weitere Datenbanken | NIS2 Art. 21(2)(a)(e): Zentrales SBOM-Lifecycle-Management und Schwachstellen-Monitoring |
 
 #### Monitoring & Schwachstellenmanagement
