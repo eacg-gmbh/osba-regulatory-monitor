@@ -27,14 +27,30 @@ Die CER-Richtlinie wird durch das im Koalitionsvertrag vereinbarte KRITIS-Dachge
   - Digitale Infratsruktur (Cloud-Dienste, Internet-Service-Provider)
   - Raumfahrt
   - Öffentliche Verwaltung
+
 * **Verabschiedet / Veröffentlicht**: 16.1.2023 angenommen (EU), Umsetzung in Deutschland steht noch aus
+
 * **Gültig ab**:
   * 17.10.2024 (Umsetzung D steht noch aus)
+
 * **Ziel**:
+
   - Erhöhung der Resilienz gegen physische und digitale Bedrohungen (z. B. Cyberangriffe, Naturkatastrophen, Terrorismus).
   - Standardisierung von Sicherheitsmaßnahmen für kritische Einrichtungen.
   - Verbesserte Zusammenarbeit zwischen EU-Mitgliedstaaten und Behörden.
   - Stärkere Meldepflichten bei Vorfällen, die die Resilienz gefährden.
+
+* **Neuerungen**:
+  Einführung folgneder PFlichten für kritische Einrichtungen:
+
+  * **Risikomanagement**: Einführung von Risikoanalysen und Notfallplänen.
+  * **Sicherheitsmaßnahmen**: Technische und organisatorische Schutzmaßnahmen (z. B. Cyber-Sicherheit, physische Sicherheit, Notfallkommunikation).
+  * **Meldepflichten**: Meldepflicht bei schweren Vorfällen an nationale Behörden.
+  * **Zusammenarbeit mit Behörden**: Regelmäßige Berichte und Audits.
+
+* **Sanktionen**:
+
+  Starfrechtliche Sanktionen bei Nichtbeachtung, einschließlich Geldstrafen und Betriebsstillegungen. 
 
 
 ## Zentrale Forderungen

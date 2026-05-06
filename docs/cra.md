@@ -53,7 +53,7 @@ Der EU Cyber Resilience Act (CRA) ist ein Meilenstein für die IT-Sicherheit in 
 
 * Regelmäßige Risikobetrachtungen von Sicherheitsbedrohungen sowie deren Dokumentation, s. Art. 13, III und IV
 
-* Bereitstellen einer Komformitätserklärung, s. Art 13 XII, resp. Art. 28 I und Annex IV
+* Bereitstellen einer Konformitätserklärung, s. Art 13 XII, resp. Art. 28 I und Annex IV
 
 * Bereitstellen des CE-Kennzeichens, s. Art. 12 XII, bzw. Art 30 I
 
