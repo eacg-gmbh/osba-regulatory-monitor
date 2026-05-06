@@ -60,7 +60,7 @@ Die überarbeitete eIDAS-Verordnung (eIDAS 2.0) erweitert den europäischen Rahm
 ### Technische Anforderungen (Art. 5a Abs. 4, Durchführungsrechtsakte)
 
 * Vollständige **Offline-Nutzbarkeit** für ausgewählte Anwendungsfälle
-* **Interoperabilität** zwischen Wallets verschiedener Mitgliedstaaten (EU-weite Interoperabilitätsarchitektur, ARF — Architecture Reference Framework)
+* **Interoperabilität** zwischen Wallets verschiedener Mitgliedstaaten (EU-weite Interoperabilitätsarchitektur, [ARF — Architecture Reference Framework](https://digital-strategy.ec.europa.eu/en/library/european-digital-identity-architecture-and-reference-framework-outline))
 * **Kein Tracking**: Diensteanbieter und Wallet-Anbieter dürfen Nutzerverhalten nicht länderübergreifend nachverfolgen
 * Sicherheitszertifizierung der Wallet nach anerkannten Standards (Common Criteria oder gleichwertig)
 
@@ -73,7 +73,7 @@ Die überarbeitete eIDAS-Verordnung (eIDAS 2.0) erweitert den europäischen Rahm
 
 ## Lösungsansätze & Hilfestellungen
 
-* Das **Architecture Reference Framework (ARF)** der EU-Kommission beschreibt die technischen Grundlagen der EUDIW und wird laufend aktualisiert — Referenzimplementierungen sind geplant
+* Das **[Architecture Reference Framework (ARF)](https://digital-strategy.ec.europa.eu/en/library/european-digital-identity-architecture-and-reference-framework-outline)** der EU-Kommission beschreibt die technischen Grundlagen der EUDIW und wird laufend aktualisiert — Referenzimplementierungen sind geplant
 * Der **OpenID for Verifiable Credentials (OID4VC)**-Standard und **ISO/IEC 18013-5** (mDL — Mobile Driving License) sind die zentralen technischen Protokolle für die EUDIW
 * Für Diensteanbieter: Frühzeitig prüfen, ob man zur Pflichtgruppe gehört, und bestehende Authentifizierungslösungen auf EUDIW-Kompatibilität vorbereiten
 * Für Identitätsprovider und SSO-Anbieter: EUDIW als zusätzlichen Identitätsanbieter (IdP) integrieren
