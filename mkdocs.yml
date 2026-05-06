@@ -29,8 +29,7 @@ nav:
     - Radio Frequency Directive (RED): 'red.md'
   - Deutschland:
     - KRITIS-Dachgesetz (KRITIS-DachG): 'kritis-dachgesetz.md'
-  - Non-EU: 'non-eu.md'
-  - Standards: 
+  - Standards:
       - IEC-18974: 'iec18974.md'
       - IEC-62304: 'iec62304.md'
       - IEC-62443: 'iec62443.md'
