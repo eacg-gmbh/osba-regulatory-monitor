@@ -69,9 +69,9 @@ Der EU NIS2 ist ein Meilenstein für die IT-Sicherheit in Europa. Die neue, zwei
 | Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
 |------|--------|-----------------|------------------------|
 | [MONARC](https://github.com/monarc-project/MonarcAppFO) | Open Source (AGPL) | Strukturierte Risikoanalyse nach ISO 27005; entwickelt von CASES Luxemburg | NIS2 Art. 21: Risikomanagementmaßnahmen |
-| [Eramba](https://www.eramba.org/) | Open Source Community / Kommerziell | GRC-Plattform: Risikoregister, Controls, Compliance-Mapping | NIS2 Art. 20–21, ISO 27001 |
+| [Eramba](https://www.eramba.org/) | Open Source (AGPL, Community Edition) | GRC-Plattform: Risikoregister, Controls, Compliance-Mapping | NIS2 Art. 20–21, ISO 27001 |
 | [OpenRMF](https://github.com/Cingulara/openrmf-oss) | Open Source (GPL-3.0) | RMF-Dokumentation, STIG-Checklisten, Compliance-Tracking | IT-Risikomanagement |
-| [Vanta](https://www.vanta.com/) | Kommerziell (SaaS) | Automatisiertes Compliance-Monitoring für ISO 27001, NIS2, SOC 2 | NIS2, ISO 27001 |
+| [Deming](https://github.com/dbarzin/deming) | Open Source (GPL) | ISMS-Management nach ISO/IEC 27001: Controls, Reifegradmessung, Audit-Trails und Compliance-Nachweise | NIS2 Art. 21: Risikomanagement-Maßnahmen strukturiert dokumentieren und nachweisen |
 
 #### Incident Management & Threat Intelligence
 
@@ -80,7 +80,6 @@ Der EU NIS2 ist ein Meilenstein für die IT-Sicherheit in Europa. Die neue, zwei
 | [TheHive](https://thehive-project.org/) | Open Source (AGPL) | Security Incident Response Plattform; strukturierte Vorfallbearbeitung und Reporting | NIS2 Art. 23: Meldepflicht schwerwiegender Vorfälle |
 | [MISP](https://www.misp-project.org/) | Open Source (AGPL) | Threat Intelligence Sharing; Austausch von IoCs zwischen Organisationen und Behörden | NIS2 Art. 29: Informationsaustausch |
 | [Cortex](https://github.com/TheHive-Project/Cortex) | Open Source (AGPL) | Automatisierte Analyse von Observables; ergänzt TheHive | Unterstützt Incident-Response-Prozesse |
-| [Deming](https://github.com/dbarzin/deming) | Open Source (GPL) | Web-basiertes IT-Sicherheits-Audit-Management nach ISO 27001; Maßnahmen-Tracking, Reifegradmessung und Compliance-Nachweise | NIS2 Art. 21: Risikomanagement-Maßnahmen dokumentieren und nachweisen |
 
 #### Monitoring & Schwachstellenmanagement
 
