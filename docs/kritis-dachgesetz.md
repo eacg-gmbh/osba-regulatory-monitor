@@ -104,7 +104,6 @@ Das KRITIS-Dachgesetz (offiziell: *Gesetz zur Umsetzung von Maßnahmen zur Verbe
 
 | Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
 |------|--------|-----------------|------------------------|
-| [PILAR](https://www.pilar-tool.com/) | Kommerziell (Freemium) | Risikoanalyse nach ISO 27005 / ENS, Asset-basierte Bedrohungs- und Schwachstellenanalyse | Risikoanalyse gem. § 8–9 KRITIS-DachG, NIS2 |
 | [OpenRMF](https://github.com/Cingulara/openrmf-oss) | Open Source (GPL-3.0) | Digitale RMF-Dokumentation, STIG-Checklisten, Compliance-Tracking | IT-Risikomanagement, unterstützt NIST RMF |
 | [MONARC](https://github.com/monarc-project/MonarcAppFO) | Open Source (AGPL) | Strukturierte Risikoanalyse nach ISO 27005; entwickelt von CASES Luxemburg | NIS2, KRITIS-DachG § 8–9 |
 | [Eramba](https://www.eramba.org/) | Open Source Community / Kommerziell | GRC-Plattform: Risikoregister, Controls, Compliance-Mapping | NIS2, ISO 27001, KRITIS-DachG |
@@ -118,7 +117,6 @@ Das KRITIS-Dachgesetz (offiziell: *Gesetz zur Umsetzung von Maßnahmen zur Verbe
 | [Zabbix](https://www.zabbix.com/) | Open Source (GPL-2.0) | IT-Monitoring und Alerting für Netzwerke, Server und OT/SCADA-Umgebungen | Frühwarnung bei Störungen, Betriebskontinuität |
 | [Nagios](https://www.nagios.org/) | Open Source (GPL) | Infrastruktur-Monitoring, Verfügbarkeitsüberwachung | Betriebsstabilität, Störungserkennung |
 | [GLPI](https://glpi-project.org/) | Open Source (GPL) | ITSM mit Incident/Problem/Change-Management und CMDB | Betriebliche Resilienz, Asset- und Vorfallverwaltung |
-| [Deming](https://github.com/dbarzin/deming) | Open Source (GPL) | Web-basiertes ITSM- und IT-Sicherheits-Audit-Management nach ISO 27001; Maßnahmen-Tracking und Compliance-Nachweise | Betriebliche Resilienz; Vorfallverfolgung und Audit-Dokumentation gem. § 8–9 KRITIS-DachG |
 
 #### Asset Management für kritische Infrastrukturen
 
