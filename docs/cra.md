@@ -83,6 +83,10 @@ Der EU Cyber Resilience Act (CRA) ist ein Meilenstein für die IT-Sicherheit in 
 
 ## Lösungsansätze & Hilfestellung
 
+### Einstieg: CRA-Prioritäten ermitteln
+
+Wer noch am Anfang der CRA-Umsetzung steht, kann mit dem **[MetaTrust CRA-Assessment](https://cra-support.eacg.de)** einen strukturierten Einstieg finden. Das Tool wurde auf Basis der MetaTrust-Methode für die Sovereign Tech Agency entwickelt und leitet aus einer Maturity-Befragung konkrete Umsetzungsprioritäten ab — die Ergebnisse sind direkt online verfügbar, ohne Registrierung.
+
 ### SBOM-Erstellung & Komponenten-Analyse
 
 | Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
