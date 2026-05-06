@@ -113,6 +113,7 @@ Der EU Cyber Resilience Act (CRA) ist ein Meilenstein für die IT-Sicherheit in 
 | [OpenVEX](https://github.com/openvex/spec) | Apache-2.0 | Maschinenlesbares Format zur Kommunikation des Ausnutzbarkeitsstatus von Schwachstellen (affected / not-affected / fixed); `vexctl` CLI | CRA Art. 13(6) + Annex I: Hersteller müssen Schwachstellenstatus kommunizieren; reduziert False-Positive-Aufwand |
 | [Vince](https://github.com/CERTCC/VINCE) | MIT | Open-Source-CVD-Case-Management-Plattform von CERT/CC: Intake, Triage, Koordination, Publikation | CRA Art. 14(1): Strukturierter CVD-Prozess mit Dokumentation |
 | [disclose.io Templates](https://disclose.io/) | CC0 | Standardisierte CVD-Policy-Vorlagen mit rechtlicher Safe-Harbor-Sprache | CRA Art. 14(1): Einstiegspunkt für eine konforme CVD-Policy |
+| [TrustSource CE](https://github.com/trustsource/ts-core-ce) | AGPL (Community Edition) | Integrierte CSAF-Kommunikation: erzeugt und verteilt Security Advisories direkt aus dem Vulnerability-Management-Workflow heraus | CRA Art. 14: CSAF-Meldepflichten an ENISA und BSI; schließt den Loop von Schwachstellenerkennung bis Advisory-Publikation |
 
 ### Software Supply Chain Security
 
@@ -122,5 +123,6 @@ Der EU Cyber Resilience Act (CRA) ist ein Meilenstein für die IT-Sicherheit in 
 | [SLSA Framework](https://slsa.dev/) | Open Framework (OpenSSF) | Gestufte Anforderungen (L1–L4) für Build-Integrität mit verifizierbarer Provenance; `slsa-github-generator` für GitHub Actions | CRA Annex I, Part II: Sichere Entwicklungsprozesse; SLSA L2+ als praktisches Minimum für CRA-konforme CI/CD-Pipelines |
 | [in-toto](https://in-toto.io/) | Apache-2.0 | Kryptografisch verifierbarer Nachweis jedes Build-Pipeline-Schritts (wer hat was ausgeführt, mit welchen Inputs) | CRA Annex I, Part II §4: Dokumentation des sicheren Entwicklungslebenszyklus |
 | [GUAC](https://github.com/guacsec/guac) | Apache-2.0 | Verknüpft SBOM-, SLSA- und Schwachstellendaten in einem Graphen; ermöglicht Queries wie „welche unserer Produkte sind von CVE-X betroffen?" | CRA Art. 13 + NIS2 Art. 21(2)(a): Supply-Chain-weite Schwachstellenanalyse |
+| [TrustSource CE](https://github.com/trustsource/ts-core-ce) | AGPL (Community Edition) | Zentrales SBOM-Repository mit Versionierung: verfolgt die Zusammensetzung jeder Produktversion über die Zeit und macht Lieferketten-Risiken transparent | CRA Art. 13: Technische Dokumentation über den Produktlebenszyklus; Annex I, Part II: Nachvollziehbarkeit der Softwarezusammensetzung |
 
 
