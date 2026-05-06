@@ -97,17 +97,14 @@ Das KRITIS-Dachgesetz (offiziell: *Gesetz zur Umsetzung von Maßnahmen zur Verbe
 |------|--------|-----------------|------------------------|
 | [OpenBCM](https://github.com/OpenBCM) | Open Source (GPL) | Strukturierte BCM-Planung, BIA (Business Impact Analysis), Notfallpläne | BCM-Pflicht gem. § 10 KRITIS-DachG, ISO 22301 |
 | [OSBC (Open Source BCM)](https://github.com/bcmlab/osbc) | Open Source (MIT) | Vorlagen und Prozessunterstützung für BCM-Dokumentation | Resilienzplan gem. § 11 KRITIS-DachG |
-| [Fusion Framework System](https://www.fusionrm.com/) | Kommerziell (SaaS) | Vollständiges BCM-, Krisen- und Resilienzmanagement inkl. BIA und Übungsplanung | ISO 22301, KRITIS-DachG §§ 10–11 |
-| [Quantivate BCM](https://www.quantivate.com/) | Kommerziell (SaaS) | BCM-Lifecycle, Notfallpläne, automatisierte Tests und Berichterstattung | ISO 22301, KRITIS-DachG |
 
 #### Risikoanalyse & Risikomanagement
 
 | Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
 |------|--------|-----------------|------------------------|
-| [PILAR](https://www.pilar-tool.com/) | Kommerziell (Freemium) | Risikoanalyse nach ISO 27005 / ENS, Asset-basierte Bedrohungs- und Schwachstellenanalyse | Risikoanalyse gem. § 8–9 KRITIS-DachG, NIS2 |
 | [OpenRMF](https://github.com/Cingulara/openrmf-oss) | Open Source (GPL-3.0) | Digitale RMF-Dokumentation, STIG-Checklisten, Compliance-Tracking | IT-Risikomanagement, unterstützt NIST RMF |
 | [MONARC](https://github.com/monarc-project/MonarcAppFO) | Open Source (AGPL) | Strukturierte Risikoanalyse nach ISO 27005; entwickelt von CASES Luxemburg | NIS2, KRITIS-DachG § 8–9 |
-| [Eramba](https://www.eramba.org/) | Open Source Community / Kommerziell | GRC-Plattform: Risikoregister, Controls, Compliance-Mapping | NIS2, ISO 27001, KRITIS-DachG |
+| [Eramba](https://www.eramba.org/) | Open Source (AGPL, Community Edition) | GRC-Plattform: Risikoregister, Controls, Compliance-Mapping | NIS2, ISO 27001, KRITIS-DachG |
 
 #### Incident Management / ITSM
 

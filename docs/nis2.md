@@ -69,9 +69,8 @@ Der EU NIS2 ist ein Meilenstein für die IT-Sicherheit in Europa. Die neue, zwei
 | Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
 |------|--------|-----------------|------------------------|
 | [MONARC](https://github.com/monarc-project/MonarcAppFO) | Open Source (AGPL) | Strukturierte Risikoanalyse nach ISO 27005; entwickelt von CASES Luxemburg | NIS2 Art. 21: Risikomanagementmaßnahmen |
-| [Eramba](https://www.eramba.org/) | Open Source Community / Kommerziell | GRC-Plattform: Risikoregister, Controls, Compliance-Mapping | NIS2 Art. 20–21, ISO 27001 |
+| [Eramba](https://www.eramba.org/) | Open Source (AGPL, Community Edition) | GRC-Plattform: Risikoregister, Controls, Compliance-Mapping | NIS2 Art. 20–21, ISO 27001 |
 | [OpenRMF](https://github.com/Cingulara/openrmf-oss) | Open Source (GPL-3.0) | RMF-Dokumentation, STIG-Checklisten, Compliance-Tracking | IT-Risikomanagement |
-| [Vanta](https://www.vanta.com/) | Kommerziell (SaaS) | Automatisiertes Compliance-Monitoring für ISO 27001, NIS2, SOC 2 | NIS2, ISO 27001 |
 
 #### Incident Management & Threat Intelligence
 
