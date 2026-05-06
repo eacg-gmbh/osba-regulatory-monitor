@@ -82,6 +82,14 @@ Der EU NIS2 ist ein Meilenstein für die IT-Sicherheit in Europa. Die neue, zwei
 | [Cortex](https://github.com/TheHive-Project/Cortex) | Open Source (AGPL) | Automatisierte Analyse von Observables; ergänzt TheHive | Unterstützt Incident-Response-Prozesse |
 | [Deming](https://github.com/dbarzin/deming) | Open Source (GPL) | Web-basiertes IT-Sicherheits-Audit-Management nach ISO 27001; Maßnahmen-Tracking, Reifegradmessung und Compliance-Nachweise | NIS2 Art. 21: Risikomanagement-Maßnahmen dokumentieren und nachweisen |
 
+#### SBOM & Lieferkettensicherheit (Art. 21 Abs. 2 lit. a)
+
+| Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
+|------|--------|-----------------|------------------------|
+| [TrustSource ts-scan](https://github.com/TrustSource/ts-scan) | Open Source | Universeller SCA-Scanner: analysiert Abhängigkeiten aus Build-Systemen und Paketmanagern, erzeugt CycloneDX/SPDX-SBOMs und lädt Ergebnisse in die TrustSource-Plattform hoch | NIS2 Art. 21(2)(a): Lieferkettensicherheit — SBOM als Basis für kontinuierliches Schwachstellenmanagement der eingesetzten Komponenten |
+| [TrustSource](https://github.com/trustsource/ts-core-ce) | Community Edition (OS) | SCA-Plattform für SBOM-Management, Lizenz-Compliance und kontinuierliches Schwachstellen-Tracking über den gesamten Komponentenbestand | NIS2 Art. 21(2)(a)(e): Lieferkettensicherheit und Schwachstellenprozesse |
+| [OWASP Dependency-Track](https://dependencytrack.org/) | Apache-2.0 | Kontinuierliche SBOM-Analyse: nimmt SBOMs entgegen, überwacht fortlaufend gegen NVD, OSV und weitere Datenbanken | NIS2 Art. 21(2)(a)(e): Zentrales SBOM-Lifecycle-Management und Schwachstellen-Monitoring |
+
 #### Monitoring & Schwachstellenmanagement
 
 | Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
