@@ -16,14 +16,19 @@ nav:
   - Hintergrund: 
     - 'index.md'
     - Mitarbeit: 'guidelines.md'
-  - EU Regularien: 
+  - EU Regularien:
+    - EU Artificial Intelligence Act (AI Act): 'aiact.md'
     - Directive on the Resilience of critical Entities (CER): 'cer.md'
+    - EU Data Act: 'dataact.md'
     - Digital Operational Resilience Act (DORA): 'dora.md'
     - EU Cyber Resilience Act (CRA): 'cra.md'
+    - eIDAS 2.0 / European Digital Identity Wallet: 'eidas2.md'
     - EU NIS2 Directive: 'nis2.md'
     - Medical Device Directive (MDR): 'mdr.md'
     - Product Liability Directive (PLD): 'pld.md'
     - Radio Frequency Directive (RED): 'red.md'
+  - Deutschland:
+    - KRITIS-Dachgesetz (KRITIS-DachG): 'kritis-dachgesetz.md'
   - Non-EU: 'non-eu.md'
   - Standards: 
       - IEC-18974: 'iec18974.md'

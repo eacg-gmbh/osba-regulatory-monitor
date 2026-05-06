@@ -83,3 +83,41 @@ Der EU Cyber Resilience Act (CRA) ist ein Meilenstein für die IT-Sicherheit in 
 
 ## Lösungsansätze & Hilfestellung
 
+### SBOM-Erstellung & Komponenten-Analyse
+
+| Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
+|------|--------|-----------------|------------------------|
+| [Syft](https://github.com/anchore/syft) | Apache-2.0 | Generiert SBOMs aus Container-Images, Dateisystemen und Quellcode in CycloneDX- und SPDX-Format; unterstützt 30+ Ökosysteme | CRA Annex I, Part II §1: Pflicht zur Komponentendokumentation; CRA Art. 13(4): SBOM bereitstellen |
+| [cdxgen](https://github.com/CycloneDX/cdxgen) | Apache-2.0 | Erzeugt CycloneDX-SBOMs aus Quellcode und Build-Manifesten für 20+ Sprachen; unterscheidet Build- und Runtime-Dependencies | CRA Annex I, Part II §1; besonders geeignet für Hersteller, die mit Quellcode-Analysen argumentieren müssen |
+| [Trivy](https://github.com/aquasecurity/trivy) | Apache-2.0 | All-in-One-Scanner: SBOM-Generierung + Schwachstellen + Fehlkonfigurationen + Secrets in einem Lauf; ideal für CI/CD | CRA Annex I, Part II §1+§2: SBOM und gleichzeitige Schwachstellenerkennung |
+| [TrustSource](https://github.com/trustsource/ts-core-ce) | Community Edition (OS) | SCA-Plattform für SBOM-Management, Lizenz-Compliance und Schwachstellen-Tracking; CLI-Clients für alle gängigen Build-Systeme | CRA Art. 13: Technische Dokumentation + SBOM; NIS2 Art. 21(2)(a): Lieferkettensicherheit |
+| [SPDX Tools](https://github.com/spdx/tools-java) | Apache-2.0 | Referenzimplementierung für SPDX-Format: Validierung, Konvertierung, Generierung | CRA: SPDX ist ISO/IEC-Norm (ISO 5962:2021) — relevant für CE-Konformitätsdokumentation |
+
+### Schwachstellen-Management
+
+| Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
+|------|--------|-----------------|------------------------|
+| [Grype](https://github.com/anchore/grype) | Apache-2.0 | Schwachstellenscanner auf Basis von Syft-SBOMs; gleicht Komponenten gegen NVD, GitHub Advisory DB und OSV ab | CRA Art. 13(6): Schwachstellen ohne ungebührliche Verzögerung beheben; Annex I, Part II §2: Keine bekannten ausnutzbaren Schwachstellen |
+| [OSV-Scanner](https://github.com/google/osv-scanner) | Apache-2.0 | Scannt Dependency-Manifeste und SBOMs gegen die OSV-Datenbank (Google); hohe Abdeckung für Open-Source-Ökosysteme | CRA Art. 13(6); OSV-Datenbankqualität besonders hoch für npm, PyPI, Go, Rust |
+| [Dependency-Track](https://dependencytrack.org/) | Apache-2.0 | Kontinuierliche SBOM-Analyse-Plattform (OWASP): nimmt SBOMs entgegen, überwacht fortlaufend gegen mehrere Vuln-Quellen, erzeugt VEX-Dokumente | CRA Art. 13 + Art. 14: Vollständiges Lifecycle-SBOM-Management und Meldeworkflows — de-facto Open-Source-Standard |
+| [DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | BSD-3-Clause | AppSec-Vulnerability-Management: aggregiert Scanner-Ergebnisse, dedupliziert, verfolgt Remediation und SLAs | CRA Art. 13(6): Dokumentierter Behebungsprozess mit Audit-Trail |
+
+### Coordinated Vulnerability Disclosure (CVD) & Sicherheits-Advisories
+
+| Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
+|------|--------|-----------------|------------------------|
+| [BSI CSAF-Tooling](https://github.com/csaf-poc) | Apache-2.0 / MIT | CSAF-Referenz-Server (`csaf_provider`), Validator (`csaf_checker`) und Web-Editor (`secvisogram`) für maschinenlesbare Sicherheitsadvisories | CRA Art. 14(1): Pflicht zur Veröffentlichung von Sicherheitsadvisories; BSI TR-03191 empfiehlt CSAF als Standardformat |
+| [OpenVEX](https://github.com/openvex/spec) | Apache-2.0 | Maschinenlesbares Format zur Kommunikation des Ausnutzbarkeitsstatus von Schwachstellen (affected / not-affected / fixed); `vexctl` CLI | CRA Art. 13(6) + Annex I: Hersteller müssen Schwachstellenstatus kommunizieren; reduziert False-Positive-Aufwand |
+| [Vince](https://github.com/CERTCC/VINCE) | MIT | Open-Source-CVD-Case-Management-Plattform von CERT/CC: Intake, Triage, Koordination, Publikation | CRA Art. 14(1): Strukturierter CVD-Prozess mit Dokumentation |
+| [disclose.io Templates](https://disclose.io/) | CC0 | Standardisierte CVD-Policy-Vorlagen mit rechtlicher Safe-Harbor-Sprache | CRA Art. 14(1): Einstiegspunkt für eine konforme CVD-Policy |
+
+### Software Supply Chain Security
+
+| Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
+|------|--------|-----------------|------------------------|
+| [Sigstore / cosign](https://github.com/sigstore/cosign) | Apache-2.0 | Schlüsselloses Signieren und Verifizieren von Container-Images, SBOMs und anderen Artefakten; `cosign` kann signierte SBOMs direkt an Images anheften | CRA Annex I, Part II §3: Software-Integrität; NIS2 Art. 21(2)(a): Lieferkettensicherheit |
+| [SLSA Framework](https://slsa.dev/) | Open Framework (OpenSSF) | Gestufte Anforderungen (L1–L4) für Build-Integrität mit verifizierbarer Provenance; `slsa-github-generator` für GitHub Actions | CRA Annex I, Part II: Sichere Entwicklungsprozesse; SLSA L2+ als praktisches Minimum für CRA-konforme CI/CD-Pipelines |
+| [in-toto](https://in-toto.io/) | Apache-2.0 | Kryptografisch verifierbarer Nachweis jedes Build-Pipeline-Schritts (wer hat was ausgeführt, mit welchen Inputs) | CRA Annex I, Part II §4: Dokumentation des sicheren Entwicklungslebenszyklus |
+| [GUAC](https://github.com/guacsec/guac) | Apache-2.0 | Verknüpft SBOM-, SLSA- und Schwachstellendaten in einem Graphen; ermöglicht Queries wie „welche unserer Produkte sind von CVE-X betroffen?" | CRA Art. 13 + NIS2 Art. 21(2)(a): Supply-Chain-weite Schwachstellenanalyse |
+
+

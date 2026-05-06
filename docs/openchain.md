@@ -55,4 +55,34 @@ Unternehmen, die eine Zertifizierung nach OpenChain anstreben, müssen die in de
 
 ## Lösungsansätze & Hilfestellungen
 
-* Ein mächtiges Werkzeug zur Unterstützung der Umsetzung gibt es bspw. unter https://github.com/trustsource/ts-core-ce 
+* Das OpenChain-Projekt der Linux Foundation stellt Selbstbewertungs-Checklisten und Curriculum-Materialien kostenlos bereit: [OpenChain Resources](https://www.openchainproject.org/resources)
+* Die OSBA unterstützt Unternehmen bei der Einführung von Open-Source-Compliance-Prozessen
+
+### Tools & Werkzeuge
+
+#### Open Source Compliance & SBOM-Management
+
+| Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
+|------|--------|-----------------|------------------------|
+| [FOSSology](https://www.fossology.org/) | Open Source (GPL-2.0) | Lizenz-Scanning, Copyright-Analyse und FOSS-Compliance-Workflows; unterstützt SPDX und CycloneDX Export | ISO/IEC 5230: Identifizierung und Dokumentation von Open-Source-Komponenten |
+| [SW360](https://www.eclipse.org/sw360/) | Open Source (EPL-2.0) | Komponenten- und Lizenzverwaltung, SBOM-Erstellung, Integration mit FOSSology; entwickelt von Siemens/Eclipse | ISO/IEC 5230: Compliance-Prozesse und Dokumentation |
+| [ORT – OSS Review Toolkit](https://github.com/oss-review-toolkit/ort) | Open Source (Apache-2.0) | Vollautomatisierte Analyse von Abhängigkeiten, Lizenzen und Schwachstellen; CI/CD-Integration; SBOM-Erzeugung | ISO/IEC 5230, CRA: SBOM-Pflichten |
+| [TrustSource ts-core-ce](https://github.com/trustsource/ts-core-ce) | Open Source (Apache-2.0) | Open-Source-Compliance-Management inkl. Lizenzprüfung, SBOM-Verwaltung und Export | ISO/IEC 5230 |
+| [FOSSA](https://fossa.com/) | Kommerziell (Freemium) | Automatisierte Open-Source-Lizenz-Compliance und Sicherheits-Scanning; CI-Integration | ISO/IEC 5230, OpenChain-Zertifizierung |
+| [Black Duck (Synopsys)](https://www.synopsys.com/software-integrity/security-testing/software-composition-analysis.html) | Kommerziell | Umfassende SCA-Plattform: Lizenz-Compliance, Security-Scanning, Policy-Enforcement | ISO/IEC 5230, CRA |
+
+#### Lizenz-Scanning
+
+| Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
+|------|--------|-----------------|------------------------|
+| [ScanCode Toolkit](https://github.com/nexB/scancode-toolkit) | Open Source (Apache-2.0) | Erkennung von Lizenzen, Copyrights und Paketmetadaten in Quellcode; Basis für viele andere Tools | ISO/IEC 5230: Lizenzidentifizierung |
+| [licensee](https://github.com/licensee/licensee) | Open Source (MIT) | Schnelle Lizenzidentifikation in Projekten anhand von LICENSE-Dateien; GitHub-Integration | ISO/IEC 5230: Lizenzerkennung |
+| [REUSE Tool](https://reuse.software/) | Open Source (GPL-3.0) | SPDX-basierte Lizenz- und Copyright-Markierung im Quellcode; Prüfung auf REUSE-Compliance | ISO/IEC 5230: Lizenz-Dokumentation |
+| [Scanoss](https://www.scanoss.com/) | Open Source / Kommerziell | Code-Snippet-Scanning und SBOM-Erzeugung in Echtzeit | ISO/IEC 5230, CRA: SBOM |
+
+#### SBOM-Erstellung & -Verwaltung
+
+| Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
+|------|--------|-----------------|------------------------|
+| [Syft](https://github.com/anchore/syft) | Open Source (Apache-2.0) | SBOM-Generierung aus Container-Images, Dateisystemen und Quellcode (SPDX, CycloneDX) | CRA, ISO/IEC 5230: SBOM |
+| [cdxgen](https://github.com/CycloneDX/cdxgen) | Open Source (Apache-2.0) | CycloneDX-SBOM-Generator für viele Programmiersprachen und Build-Systeme | CRA, ISO/IEC 5230 |

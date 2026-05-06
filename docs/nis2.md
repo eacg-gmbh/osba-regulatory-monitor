@@ -59,4 +59,33 @@ Der EU NIS2 ist ein Meilenstein für die IT-Sicherheit in Europa. Die neue, zwei
 
 ## Lösungsansätze & Hilfestellungen
 
-* Ein guter Leitfaden für die Analyse zur Implemntierung findet sich ...
+* Ein guter Leitfaden für die Analyse zur Implementierung findet sich beim BSI: [BSI NIS2-Umsetzung](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/it-grundschutz-kompendium_node.html)
+* ENISA bietet Leitfäden und Mapping-Tabellen für NIS2-Anforderungen: [ENISA NIS2](https://www.enisa.europa.eu/topics/cybersecurity-policy/nis-directive-new)
+
+### Tools & Werkzeuge
+
+#### GRC & Risikomanagement
+
+| Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
+|------|--------|-----------------|------------------------|
+| [MONARC](https://github.com/monarc-project/MonarcAppFO) | Open Source (AGPL) | Strukturierte Risikoanalyse nach ISO 27005; entwickelt von CASES Luxemburg | NIS2 Art. 21: Risikomanagementmaßnahmen |
+| [Eramba](https://www.eramba.org/) | Open Source Community / Kommerziell | GRC-Plattform: Risikoregister, Controls, Compliance-Mapping | NIS2 Art. 20–21, ISO 27001 |
+| [OpenRMF](https://github.com/Cingulara/openrmf-oss) | Open Source (GPL-3.0) | RMF-Dokumentation, STIG-Checklisten, Compliance-Tracking | IT-Risikomanagement |
+| [Vanta](https://www.vanta.com/) | Kommerziell (SaaS) | Automatisiertes Compliance-Monitoring für ISO 27001, NIS2, SOC 2 | NIS2, ISO 27001 |
+
+#### Incident Management & Threat Intelligence
+
+| Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
+|------|--------|-----------------|------------------------|
+| [TheHive](https://thehive-project.org/) | Open Source (AGPL) | Security Incident Response Plattform; strukturierte Vorfallbearbeitung und Reporting | NIS2 Art. 23: Meldepflicht schwerwiegender Vorfälle |
+| [MISP](https://www.misp-project.org/) | Open Source (AGPL) | Threat Intelligence Sharing; Austausch von IoCs zwischen Organisationen und Behörden | NIS2 Art. 29: Informationsaustausch |
+| [Cortex](https://github.com/TheHive-Project/Cortex) | Open Source (AGPL) | Automatisierte Analyse von Observables; ergänzt TheHive | Unterstützt Incident-Response-Prozesse |
+| [Deming](https://github.com/dbarzin/deming) | Open Source (GPL) | Web-basiertes IT-Sicherheits-Audit-Management nach ISO 27001; Maßnahmen-Tracking, Reifegradmessung und Compliance-Nachweise | NIS2 Art. 21: Risikomanagement-Maßnahmen dokumentieren und nachweisen |
+
+#### Monitoring & Schwachstellenmanagement
+
+| Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
+|------|--------|-----------------|------------------------|
+| [Wazuh](https://wazuh.com/) | Open Source (GPL) | SIEM, Intrusion Detection, Log-Analyse, Schwachstellenerkennung | NIS2 Art. 21: Sicherheit von Netz- und Informationssystemen |
+| [OpenVAS / Greenbone](https://www.greenbone.net/) | Open Source (GPL) | Schwachstellenscanner für Netzwerke und Systeme | NIS2: Schwachstellenmanagement |
+| [Zabbix](https://www.zabbix.com/) | Open Source (GPL-2.0) | Infrastruktur-Monitoring und Alerting | Betriebsstabilität, Frühwarnung |
