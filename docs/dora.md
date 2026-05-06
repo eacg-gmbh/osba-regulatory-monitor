@@ -73,11 +73,6 @@ Finanzinstitute müssen umfassende Rahmenwerke für das IKT-Risikomanagement ein
 | [Eramba](https://www.eramba.org/) | Open Source (AGPL, Community Edition) | GRC-Plattform: Risikoregister, Controls, Policy-Management, Audit-Trails | DORA Art. 5–14: ICT-Risikomanagement-Rahmenwerk |
 | [OpenRMF](https://github.com/Cingulara/openrmf-oss) | Open Source (GPL-3.0) | RMF-Dokumentation, STIG-Checklisten, Control-Tracking | ICT-Risikodokumentation |
 
-#### Drittparteien-ICT-Risiko & Vendor Management
-
-| Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
-|------|--------|-----------------|------------------------|
-| [simple-tprm](https://github.com/ossf/wg-best-practices-os-developers) | Open Source | Fragebögen und Templates für Third-Party Risk Assessments nach OpenSSF Best Practices | DORA Art. 28–44: Due-Diligence bei ICT-Drittanbietern |
 
 #### Incident Management & Reporting
 

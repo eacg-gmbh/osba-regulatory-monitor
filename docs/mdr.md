@@ -70,22 +70,8 @@ Ist nach Aufschub wegenm Corona als europäische Verordnung am 17. Januar 2023 i
 
 ### Tools & Werkzeuge
 
-#### Software Lifecycle Management für Medizinprodukte (IEC 62304)
+#### Software Lifecycle Management & Dokumentation (IEC 62304)
 
 | Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
 |------|--------|-----------------|------------------------|
-
-#### Risikomanagement (ISO 14971)
-
-| Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
-|------|--------|-----------------|------------------------|
-| [risk-wizard](https://github.com/openmedical/risk-wizard) | Open Source (MIT) | CLI-Tool zur Erstellung von ISO 14971-konformen Risikotabellen aus YAML | ISO 14971, MDR Annex I §3 |
-
-#### Open-Source-Tools für Medizinsoftware-Dokumentation
-
-| Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
-|------|--------|-----------------|------------------------|
-| [OpenMDR](https://github.com/openMDR) | Open Source | Offene Vorlagen und Frameworks für MDR-konforme technische Dokumentation | MDR Annex II/III |
-| [Doctools / Sphinx + IEC 62304-Templates](https://github.com/innolitics/rdm) | Open Source (MIT) | `rdm` (Regulatory Document Manager): Generierung von regulatorischen Dokumenten aus Code-Metadaten; IEC 62304-Vorlagen | IEC 62304, FDA 21 CFR Part 11 |
-| [MDDM (Medical Device Document Manager)](https://github.com/MedDevDocManager) | Open Source | Vorlagen und Dokumentstruktur für IEC 62304 und ISO 14971 | IEC 62304, ISO 14971 |
-| [risk-wizard](https://github.com/openmedical/risk-wizard) | Open Source (MIT) | Einfaches CLI-Tool zur Erstellung von ISO 14971-konformen Risikotabellen aus YAML | ISO 14971 |
+| [rdm (Regulatory Document Manager)](https://github.com/innolitics/rdm) | Open Source (MIT) | Generiert IEC 62304-konforme regulatorische Dokumente aus Code-Repositories; Markdown-basiert, Git-integriert | IEC 62304 vollständig, MDR Annex II/III |

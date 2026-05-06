@@ -106,7 +106,7 @@ Der EU Cyber Resilience Act (CRA) ist ein Meilenstein für die IT-Sicherheit in 
 
 | Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
 |------|--------|-----------------|------------------------|
-| [BSI CSAF-Tooling](https://github.com/csaf-poc) | Apache-2.0 / MIT | CSAF-Referenz-Server (`csaf_provider`), Validator (`csaf_checker`) und Web-Editor (`secvisogram`) für maschinenlesbare Sicherheitsadvisories | CRA Art. 14(1): Pflicht zur Veröffentlichung von Sicherheitsadvisories; BSI TR-03191 empfiehlt CSAF als Standardformat |
+| [BSI CSAF-Tooling](https://github.com/csaf-poc/csaf_provider) | Apache-2.0 / MIT | CSAF-Referenz-Server (`csaf_provider`), Validator (`csaf_checker`) und Web-Editor (`secvisogram`) für maschinenlesbare Sicherheitsadvisories | CRA Art. 14(1): Pflicht zur Veröffentlichung von Sicherheitsadvisories; BSI TR-03191 empfiehlt CSAF als Standardformat |
 | [OpenVEX](https://github.com/openvex/spec) | Apache-2.0 | Maschinenlesbares Format zur Kommunikation des Ausnutzbarkeitsstatus von Schwachstellen (affected / not-affected / fixed); `vexctl` CLI | CRA Art. 13(6) + Annex I: Hersteller müssen Schwachstellenstatus kommunizieren; reduziert False-Positive-Aufwand |
 | [Vince](https://github.com/CERTCC/VINCE) | MIT | Open-Source-CVD-Case-Management-Plattform von CERT/CC: Intake, Triage, Koordination, Publikation | CRA Art. 14(1): Strukturierter CVD-Prozess mit Dokumentation |
 | [disclose.io Templates](https://disclose.io/) | CC0 | Standardisierte CVD-Policy-Vorlagen mit rechtlicher Safe-Harbor-Sprache | CRA Art. 14(1): Einstiegspunkt für eine konforme CVD-Policy |

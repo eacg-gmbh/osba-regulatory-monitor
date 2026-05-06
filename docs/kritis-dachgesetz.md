@@ -96,7 +96,6 @@ Das KRITIS-Dachgesetz (offiziell: *Gesetz zur Umsetzung von Maßnahmen zur Verbe
 | Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
 |------|--------|-----------------|------------------------|
 | [OpenBCM](https://github.com/OpenBCM) | Open Source (GPL) | Strukturierte BCM-Planung, BIA (Business Impact Analysis), Notfallpläne | BCM-Pflicht gem. § 10 KRITIS-DachG, ISO 22301 |
-| [OSBC (Open Source BCM)](https://github.com/bcmlab/osbc) | Open Source (MIT) | Vorlagen und Prozessunterstützung für BCM-Dokumentation | Resilienzplan gem. § 11 KRITIS-DachG |
 
 #### Risikoanalyse & Risikomanagement
 
