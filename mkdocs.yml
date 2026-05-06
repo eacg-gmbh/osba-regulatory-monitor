@@ -92,6 +92,7 @@ theme:
 
 plugins:
   - tags
+  - include-markdown
     
 extra:
   homepage: https://www.osb-alliance.de
