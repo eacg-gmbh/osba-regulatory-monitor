@@ -13,7 +13,7 @@ Der EU AI Act ist die weltweit erste umfassende gesetzliche Regulierung von Kün
 
 ## Überblick
 
-* **Segment**: KI-Systeme und KI-Modelle mit allgemeinem Verwendungszweck (GPAI)
+* **Segment**: KI-Systeme und KI-Modelle mit allgemeinem Verwendungszweck (GPAI — General Purpose AI Model)
 * **Verabschiedet / Veröffentlicht**: 13. März 2024 (EP), 21. Mai 2024 (Rat), veröffentlicht 12. Juli 2024 (ABl. EU)
 * **Gültig ab** (stufenweise Anwendung):
   * **2. Februar 2025**: Verbote für unzulässige KI-Praktiken (Titel II)
@@ -100,7 +100,7 @@ Pflichten für Anbieter von Hochrisiko-KI:
 
 | Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
 |------|--------|-----------------|------------------------|
-| [NIST AI RMF Playbook](https://airc.nist.gov/Docs/2) | Frei (Public Domain) | Strukturiertes Risikomanagement für KI (GOVERN / MAP / MEASURE / MANAGE); Hunderte konkreter Maßnahmen | Art. 9: Iteratives Risikomanagement; lässt sich direkt auf EU AI Act-Artikel mappen |
+| [NIST AI RMF Playbook](https://airc.nist.gov/docs/AI_RMF_Playbook.pdf) | Frei (Public Domain) | Strukturiertes Risikomanagement für KI (GOVERN / MAP / MEASURE / MANAGE); Hunderte konkreter Maßnahmen | Art. 9: Iteratives Risikomanagement; lässt sich direkt auf EU AI Act-Artikel mappen |
 | [MIT AI Risk Repository](https://airisk.mit.edu/) | Frei (Open Access) | Durchsuchbare Datenbank mit 700+ klassifizierten KI-Risiken nach Ursache und Domäne | Art. 9: Systematische Risikoidentifikation; Abgleich mit Annex III Hochrisiko-Kategorien |
 
 #### Bias-Erkennung & Fairness (Art. 10, 15)
