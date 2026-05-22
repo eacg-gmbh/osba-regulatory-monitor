@@ -77,6 +77,34 @@ Pflichten für Anbieter von Hochrisiko-KI:
 * Chatbots müssen sich als KI zu erkennen geben
 * Deepfakes müssen kenntlich gemacht werden
 
+### Sanktionsregime (Art. 99–101)
+
+| Ebene | Verstoß | Bußgeld |
+|-------|---------|---------|
+| **Tier 1** | Verstoß gegen Verbote (Art. 5) | **35 Mio. EUR oder 7 % des weltweiten Jahresumsatzes** (der höhere Betrag; KMU: der niedrigere) |
+| **Tier 2** | Verstöße gegen Anbieter-/Betreiberpflichten, Transparenzpflichten | **15 Mio. EUR oder 3 % des weltweiten Jahresumsatzes** |
+| **Tier 3** | Unrichtige oder irreführende Informationen an Behörden | **7,5 Mio. EUR oder 1 % des weltweiten Jahresumsatzes** |
+| **GPAI** | Verstöße gegen Art. 53/55 (via Kommission) | **15 Mio. EUR oder 3 % des weltweiten Jahresumsatzes** |
+
+**KMU-Schutzklausel**: Für kleine und mittlere Unternehmen gilt stets der *niedrigere* der beiden Beträge.
+
+### Wechselwirkungen mit anderen EU-Regularien
+
+Der AI Act überlappt erheblich mit anderen Regelwerken — insbesondere bei Cybersicherheit, Dokumentation und Incident Reporting:
+
+| Pflicht | AI Act | CRA | NIS2 | DORA | PLD |
+|---------|--------|-----|------|------|-----|
+| Risikomanagement | Art. 9, 55 | Art. 13 | Art. 21 | Art. 6 | — |
+| Technische Dokumentation / SBOM | Art. 11, Anh. IV | Art. 13(3) | teilweise | teilweise | teilweise |
+| Cybersicherheit | Art. 15 | Kernpflicht | Art. 21 | Art. 9–11 | — |
+| Schwachstellen-Management | Art. 72 (Post-Market) | Art. 13–14 | Art. 21 | Art. 12 | — |
+| Incident Reporting | Art. 55, 73 | Art. 14 (24 h) | Art. 19 (24 h) | Art. 19 **(4 h)** | — |
+| Produkthaftung | — | — | — | — | Art. 4 (fehlerhaftes Produkt) |
+
+**Wichtigste Überschneidung AI Act ↔ CRA:** Hochrisiko-KI-Systeme, die als digitale Produkte in Verkehr gebracht werden, unterliegen ab August/September 2026 **gleichzeitig** beiden Regelwerken. Eine integrierte SBOM (Art. 15 AI Act + CRA Annex I) und ein gemeinsamer Vulnerability-Disclosure-Prozess sind dringend empfohlen.
+
+**Finanzsektor (DORA):** Bei KI-Systemen für Kreditwürdigkeitsbewertung, Trading oder Risikomodelle greift zusätzlich DORA mit einer Incident-Meldepflicht von **4 Stunden** — der strengsten Frist aller vier Regelwerke.
+
 
 
 ## Lösungsansätze & Hilfestellungen
