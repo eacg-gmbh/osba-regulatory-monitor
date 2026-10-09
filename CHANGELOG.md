@@ -6,6 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ## [Unreleased]
 
 ### Added
+- **NIS2**: Abschnitt „Vorgaben des BSI (Deutschland)" auf Basis der BSI-Primärquellen (NIS-2-Pflichten, Registrierungspflicht, Meldepflicht, FAQ, Checkliste, Infopakete zu Risikomanagement, Lieferkette, Sicherheitsmaßnahmen/Schwachstellenmanagement, DORA und Geschäftsleitungsschulung); BSI-Portal seit 06.01.2026, keine allgemeine Übergangsfrist, Registrierung innerhalb von drei Monaten, Meldewege, Software- und Lieferkettenvorgaben; DORA-Abgrenzung um § 28 Abs. 7 BSIG (keine Doppelmeldung) und fortbestehende Registrierungspflicht ergänzt
 - **DORA**: Seite vertieft — Verordnung (EU) 2022/2554 mit Verabschiedungs- und Anwendungsdaten, Geltungsbereich und Ausnahmen (Art. 2), Neuerungen, zentrale Forderungen mit Artikelverweisen (Art. 5–50), Meldefristen für Vorfälle (4 h / 72 h / 1 Monat), TLPT, Informationsregister und Mindestvertragsinhalte, Aufsicht über kritische IKT-Drittanbieter, Sanktionen, Abschnitt „Relevanz für Software-Hersteller und Open Source", Zeitplan der Level-2-Rechtsakte, Abschnitt „Wechselwirkungen mit anderen EU-Regularien" (NIS2, CRA, AI Act, PLD); SBOM-&-Lieferkettensicherheit-Tabelle (ts-scan, TrustSource CE, Dependency-Track)
 
 ### Changed
