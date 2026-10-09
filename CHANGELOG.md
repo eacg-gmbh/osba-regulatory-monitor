@@ -3,6 +3,24 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+- **DORA**: Seite vertieft — Verordnung (EU) 2022/2554 mit Verabschiedungs- und Anwendungsdaten, Geltungsbereich und Ausnahmen (Art. 2), Neuerungen, zentrale Forderungen mit Artikelverweisen (Art. 5–50), Meldefristen für Vorfälle (4 h / 72 h / 1 Monat), TLPT, Informationsregister und Mindestvertragsinhalte, Aufsicht über kritische IKT-Drittanbieter, Sanktionen, Abschnitt „Relevanz für Software-Hersteller und Open Source", Zeitplan der Level-2-Rechtsakte, Abschnitt „Wechselwirkungen mit anderen EU-Regularien" (NIS2, CRA, AI Act, PLD); SBOM-&-Lieferkettensicherheit-Tabelle (ts-scan, TrustSource CE, Dependency-Track)
+
+### Changed
+- **Alle Seiten DORA, CRA, NIS2, AI Act, PLD**: Aussagen gegen den Wortlaut im Amtsblatt der EU geprüft, Artikelverweise als Links zu EUR-Lex ergänzt, Abschnitt „Quellen" mit ELI-Links hinzugefügt
+- **DORA**: Meldefristen der Delegierten Verordnung (EU) 2025/301 zugeordnet statt Art. 19; Art. 16 (vereinfachter Rahmen) und Art. 30 (Abs. 2 vs. Abs. 3) präzisiert; Delegierte Verordnung (EU) 2024/1774 (Open-Source-Bibliotheken, Quellcodeprüfung) ergänzt
+- **CRA**: Anwendungsdaten (Kapitel IV ab 11.06.2026, Art. 14 ab 11.09.2026, Rest ab 11.12.2027), Ausnahmen, Produktklassen, Meldepflichten (Empfänger, Fristen, Abschlussberichte), Sanktionen und Support-Zeiträume korrigiert bzw. ergänzt; falsche Artikelverweise in Text und Tool-Tabellen berichtigt
+- **NIS2**: Anwendungsdaten, Begriffe (wesentliche/wichtige Einrichtungen), Lieferkette (Art. 21 Abs. 2 lit. d statt lit. a), Aufsicht und Bußgelder belegt; deutsche Umsetzung (BSIG, BGBl. 2025 I Nr. 301) ergänzt; defekte Links ersetzt
+- **AI Act**: Anwendungstermine nach der Digital-Omnibus-Verordnung (EU) 2026/1744 aktualisiert (Hochrisiko Anhang III ab 02.12.2027, Anhang I ab 02.08.2028); Art. 5, Open-Source-Ausnahme, GPAI, Art. 50, Sanktionen korrigiert; Wechselwirkungs-Tabelle (DORA, CRA, NIS2, PLD) neu belegt
+- **PLD**: Verabschiedung, Geltung ab 09.12.2026, Haftende, Produktbegriff, Beweiserleichterungen, Fristen und Haftungsausschlüsse belegt; unbelegte Aussagen zu Höchstgrenze/Selbstbehalt abgeschwächt
+
+### Fixed
+- **DORA**: Tippfehler korrigiert
+
+---
+
 ## [0.5.0] - 2026-05-07
 
 ### Added

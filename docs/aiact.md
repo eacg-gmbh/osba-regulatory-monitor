@@ -11,108 +11,169 @@ tags:
 
 Der EU AI Act ist die weltweit erste umfassende gesetzliche Regulierung von Künstlicher Intelligenz. Er verfolgt einen risikobasierten Ansatz: Je höher das potenzielle Schadenspotenzial eines KI-Systems, desto strenger die Anforderungen. Ziel ist es, Vertrauen in KI zu schaffen, ohne Innovation unnötig zu bremsen.
 
+> [!NOTE]
+>
+> Alle Artikelverweise beziehen sich, sofern nicht anders angegeben, auf die [Verordnung (EU) 2024/1689](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689) und führen direkt zum jeweiligen Artikel (EUR-Lex, Fassung vom 12.07.2024). Seit dem 27.07.2026 gilt sie in der durch die [Digital-Omnibus-Verordnung zur KI (EU) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj) geänderten Fassung; die verlinkten Anker zeigen den Ursprungstext, Änderungen sind im Text kenntlich gemacht. Stand dieser Seite: Oktober 2026. Die Quellen stehen im Abschnitt [Quellen](#quellen). Die Seite ist eine Orientierung und ersetzt keine Rechtsberatung.
+
 ## Überblick
 
 * **Segment**: KI-Systeme und KI-Modelle mit allgemeinem Verwendungszweck (GPAI — General Purpose AI Model)
-* **Verabschiedet / Veröffentlicht**: 13. März 2024 (EP), 21. Mai 2024 (Rat), veröffentlicht 12. Juli 2024 (ABl. EU)
-* **Gültig ab** (stufenweise Anwendung):
-  * **2. Februar 2025**: Verbote für unzulässige KI-Praktiken (Titel II)
-  * **2. August 2025**: Regelungen für KI-Modelle mit allgemeinem Verwendungszweck (GPAI) und Governance
-  * **2. August 2026**: Anforderungen für Hochrisiko-KI-Systeme (Anhang I & III), Transparenzpflichten
-  * **2. August 2027**: Vollständige Anwendung, inkl. KI-Systeme in regulierten Produkten
-* **Gültig für**:
-  * Anbieter (Provider) von KI-Systemen und GPAI-Modellen, die in der EU in Verkehr gebracht werden
-  * Betreiber (Deployer) von KI-Systemen, die in der EU eingesetzt werden
-  * Importeure und Händler von KI-Systemen
-  * Auch für Anbieter außerhalb der EU, sofern der Output in der EU genutzt wird
-* **Nicht gültig für**:
-  * KI-Systeme, die ausschließlich für militärische oder nationale Sicherheitszwecke entwickelt werden
-  * KI-Systeme zur ausschließlich privaten, nicht-gewerblichen Nutzung
-  * Open-Source-Modelle (mit Einschränkungen bei Hochrisiko-Verwendung)
+* **Verabschiedet / Veröffentlicht**:
+    * Verordnung (EU) 2024/1689 vom 13.06.2024 (Position des Parlaments 13.03.2024, Beschluss des Rates 21.05.2024), veröffentlicht im Amtsblatt der EU (L) am 12.07.2024
+    * Geändert durch die Digital-Omnibus-Verordnung zur KI, Verordnung (EU) 2026/1744 vom 08.07.2026, veröffentlicht am 24.07.2026, in Kraft seit 27.07.2026 (dritter Tag nach Veröffentlichung, [Art. 4 der VO 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj))
+
+* **Gültig ab** ([Art. 113](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_113)), stufenweise Anwendung:
+    * **01.08.2024**: Inkrafttreten (20. Tag nach Veröffentlichung)
+    * **02.02.2025**: Allgemeine Bestimmungen (Kapitel I, darunter [Art. 4 KI-Kompetenz](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_4)) und Verbote unzulässiger KI-Praktiken (Kapitel II, [Art. 5](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_5))
+    * **02.08.2025**: Governance (Kapitel VII), Pflichten für Anbieter von KI-Modellen mit allgemeinem Verwendungszweck (Kapitel V), Sanktionen (Kapitel XII, ausgenommen [Art. 101](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_101)), notifizierende Behörden (Kapitel III Abschnitt 4) und [Art. 78](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_78)
+    * **02.08.2026**: Allgemeiner Geltungsbeginn, insbesondere die Transparenzpflichten nach [Art. 50](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_50) sowie die Geldbußen der Kommission gegenüber GPAI-Anbietern nach [Art. 101](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_101)
+    * **02.12.2026**: Neue Verbote nach Art. 5 Abs. 1 Buchstaben ba und bb (nicht einvernehmliche intime Deepfakes, Darstellungen sexuellen Kindesmissbrauchs) sowie Frist für Altsysteme zur Umsetzung der Kennzeichnungspflicht nach [Art. 50 Abs. 2](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_50) (beides durch die VO 2026/1744 eingefügt)
+    * **02.12.2027**: Hochrisiko-KI-Systeme nach [Art. 6 Abs. 2](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_6) und [Anhang III](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#anx_III) (eigenständige Systeme); Kapitel III Abschnitte 1 bis 3 gelten hierfür erst ab diesem Datum (geändert durch VO 2026/1744, ursprünglich 02.08.2026)
+    * **02.08.2028**: Hochrisiko-KI-Systeme nach [Art. 6 Abs. 1](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_6) und [Anhang I](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#anx_I) (KI in regulierten Produkten; geändert durch VO 2026/1744, ursprünglich 02.08.2027)
+    * **02.08.2027**: Frist für GPAI-Modelle, die vor dem 02.08.2025 in Verkehr gebracht wurden ([Art. 111 Abs. 3](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_111))
+    * **02.08.2030**: Frist für Hochrisiko-KI-Systeme, die bestimmungsgemäß von Behörden verwendet werden und bereits vor dem Geltungsbeginn in Verkehr gebracht wurden ([Art. 111 Abs. 2](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_111))
+
+* **Gültig für** ([Art. 2 Abs. 1](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_2)):
+    * Anbieter (Provider), die in der Union KI-Systeme in Verkehr bringen oder in Betrieb nehmen oder GPAI-Modelle in Verkehr bringen, unabhängig vom Niederlassungsort
+    * Betreiber (Deployer) von KI-Systemen mit Sitz oder Standort in der Union
+    * Anbieter und Betreiber mit Sitz in einem Drittland, wenn die Ausgabe des KI-Systems in der Union verwendet wird
+    * Einführer und Händler von KI-Systemen, Produkthersteller, die KI-Systeme mit ihrem Produkt unter eigenem Namen in Verkehr bringen, Bevollmächtigte von Anbietern aus Drittländern sowie betroffene Personen in der Union
+
+* **Nicht gültig für** ([Art. 2 Abs. 3 bis 12](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_2)):
+    * KI-Systeme, die ausschließlich für militärische Zwecke, Verteidigungszwecke oder Zwecke der nationalen Sicherheit eingesetzt werden (Abs. 3)
+    * KI-Systeme und -Modelle, die eigens für den alleinigen Zweck der wissenschaftlichen Forschung und Entwicklung entwickelt und in Betrieb genommen werden (Abs. 6); Forschung, Tests und Entwicklung vor dem Inverkehrbringen, ausgenommen Tests unter Realbedingungen (Abs. 8)
+    * Betreiber, die natürliche Personen sind und KI-Systeme im Rahmen einer ausschließlich persönlichen und nicht beruflichen Tätigkeit verwenden (Abs. 10)
+    * KI-Systeme unter freier und quelloffener Lizenz, **es sei denn**, sie werden als Hochrisiko-KI-System oder als KI-System, das unter [Art. 5](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_5) oder [Art. 50](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_50) fällt, in Verkehr gebracht oder in Betrieb genommen (Abs. 12). Für GPAI-Modelle gelten gesonderte Erleichterungen (siehe unten), die bei systemischem Risiko entfallen
+
 * **Grauzone**:
-  * Abgrenzung zwischen „KI-System" und klassischer Software (Definition in Art. 3 Nr. 1 und Anhang I)
-  * Einordnung von Modellen, die sowohl GPAI als auch Hochrisiko-Anwendungen abdecken
-  * Verantwortungsaufteilung zwischen Anbieter und Betreiber bei Feintuning oder Integration
-
-
+    * Abgrenzung zwischen „KI-System" und klassischer Software (Legaldefinition in [Art. 3 Nr. 1](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_3); die Kommission erlässt hierzu Leitlinien nach [Art. 96](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_96))
+    * Ausnahmen von der Hochrisiko-Einstufung nach [Art. 6 Abs. 3](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_6) (z. B. enge Verfahrensaufgabe, vorbereitende Aufgabe) sind vom Anbieter zu begründen und zu dokumentieren ([Art. 6 Abs. 4](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_6)); bei Profiling natürlicher Personen gilt das System immer als hochriskant
+    * Einordnung von Modellen, die sowohl GPAI als auch Bestandteil eines Hochrisiko-KI-Systems sind
+    * Verantwortungsaufteilung zwischen Anbieter und Betreiber bei Feintuning oder Integration: Wer ein Hochrisiko-KI-System mit eigenem Namen versieht, es wesentlich verändert oder die Zweckbestimmung so ändert, dass es hochriskant wird, gilt als Anbieter ([Art. 25 Abs. 1](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_25))
 
 ## Zentrale Forderungen
 
-### Verbotene KI-Praktiken (Art. 5)
+### KI-Kompetenz ([Art. 4](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_4))
 
-* KI-Systeme zur unbewussten Beeinflussung von Personen (Subliminal Manipulation)
-* Ausnützung von Schwächen vulnerabler Gruppen
-* Social Scoring durch staatliche Stellen
-* Echtzeit-biometrische Fernidentifikation im öffentlichen Raum (mit engen Ausnahmen für Strafverfolgung)
-* Emotionserkennung am Arbeitsplatz und in Bildungseinrichtungen
-* Biometrische Kategorisierung zur Ableitung sensibler Merkmale (Rasse, politische Meinung, etc.)
+* Anbieter und Betreiber von KI-Systemen ergreifen Maßnahmen, um die KI-Kompetenz ihres Personals und der in ihrem Auftrag mit dem Betrieb und der Nutzung befassten Personen zu fördern (seit 02.02.2025). Seit der Änderung durch die VO 2026/1744 besteht die Pflicht, die Entwicklung der KI-Kompetenz zu unterstützen; ein bestimmtes Kompetenzniveau muss nicht garantiert werden. Zuvor war formuliert, dass nach besten Kräften ein ausreichendes Maß sicherzustellen sei.
 
-### Hochrisiko-KI-Systeme (Art. 6, Anhang III)
+### Verbotene KI-Praktiken ([Art. 5 Abs. 1](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_5))
 
-Betroffene Bereiche u.a.: biometrische Identifikation, kritische Infrastruktur, Bildung, Beschäftigung, wesentliche Dienstleistungen (Kredit, Sozialleistungen), Strafverfolgung, Migration, Justiz.
+* Unterschwellige oder absichtlich manipulative bzw. täuschende Techniken, die das Verhalten wesentlich verändern und erheblichen Schaden verursachen können (lit. a)
+* Ausnutzung von Schutzbedürftigkeit aufgrund von Alter, Behinderung oder bestimmter sozialer oder wirtschaftlicher Situation (lit. b)
+* Soziale Bewertung (Social Scoring) natürlicher Personen mit ungerechtfertigter oder unverhältnismäßiger Schlechterstellung, **nicht beschränkt auf staatliche Stellen**, das Verbot gilt auch für private Akteure (lit. c)
+* Risikobewertung zur Vorhersage von Straftaten ausschließlich auf Grundlage von Profiling oder persönlichen Merkmalen (lit. d)
+* Ungezieltes Auslesen von Gesichtsbildern aus dem Internet oder von Überwachungsaufnahmen zum Aufbau von Gesichtserkennungsdatenbanken (lit. e)
+* Ableitung von Emotionen am Arbeitsplatz und in Bildungseinrichtungen, außer aus medizinischen Gründen oder Sicherheitsgründen (lit. f)
+* Biometrische Kategorisierung, um Rasse, politische Einstellung, Gewerkschaftszugehörigkeit, religiöse oder weltanschauliche Überzeugung, Sexualleben oder sexuelle Ausrichtung abzuleiten (lit. g)
+* Biometrische Echtzeit-Fernidentifizierung in öffentlich zugänglichen Räumen zu Strafverfolgungszwecken, außer wenn unbedingt erforderlich für drei enge Ziele (gezielte Suche nach bestimmten Opfern und Vermissten, Abwenden einer konkreten Gefahr für Leben oder körperliche Unversehrtheit bzw. eines Terroranschlags, Verfolgung bestimmter schwerer Straftaten); Genehmigung und Schutzvorkehrungen nach [Art. 5 Abs. 2 bis 7](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_5) (lit. h)
+* Neu ab 02.12.2026 (VO 2026/1744): KI-Systeme, die realistische intime Inhalte einer bestimmbaren Person ohne deren Einwilligung erzeugen oder manipulieren (lit. ba), sowie KI-Systeme zur Erzeugung oder Manipulation von Material des sexuellen Kindesmissbrauchs (lit. bb)
 
-Pflichten für Anbieter von Hochrisiko-KI:
+### Hochrisiko-KI-Systeme ([Art. 6](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_6), [Anhang III](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#anx_III))
 
-* **Risikomanagementsystem** einrichten und dokumentieren, s. Art. 9
-* **Daten-Governance** sicherstellen: Trainings-, Validierungs- und Testdaten müssen geeignet, repräsentativ und frei von unzulässigen Verzerrungen sein, s. Art. 10
-* **Technische Dokumentation** erstellen und aktuell halten (s. Art. 11, Anhang IV)
-* **Automatische Protokollierung** (Logging) des Systemverhaltens sicherstellen, s. Art. 12
-* **Transparenz** gegenüber Betreibern gewährleisten (Gebrauchsanweisung, Zweck, Grenzen), s. Art. 13
-* **Menschliche Aufsicht** (Human Oversight) technisch ermöglichen, s. Art. 14
-* **Genauigkeit, Robustheit und Cybersicherheit** sicherstellen, s. Art. 15
-* **Konformitätsbewertung** durchführen (intern oder durch Dritte), s. Art. 43
-* **EU-Konformitätserklärung** ausstellen und CE-Kennzeichen anbringen, s. Art. 47–49
-* **Registrierung** in der EU-Datenbank (EUAI-Datenbank), s. Art. 71
+Ein KI-System ist hochriskant, wenn es Sicherheitsbauteil eines Produkts nach den Harmonisierungsrechtsvorschriften in [Anhang I](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#anx_I) ist (oder selbst ein solches Produkt) und einer Konformitätsbewertung durch Dritte unterliegt ([Art. 6 Abs. 1](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_6)), oder wenn es in einem der Bereiche von [Anhang III](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#anx_III) eingesetzt werden soll ([Art. 6 Abs. 2](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_6)). Bereiche nach Anhang III:
 
-### KI-Modelle mit allgemeinem Verwendungszweck / GPAI (Art. 51–56)
+1. Biometrie (soweit nach Unions- oder nationalem Recht zulässig): Fernidentifizierung, biometrische Kategorisierung nach sensiblen Merkmalen, Emotionserkennung
+2. Kritische Infrastruktur (Sicherheitsbauteile bei kritischer digitaler Infrastruktur, Straßenverkehr, Wasser-, Gas-, Wärme- und Stromversorgung)
+3. Allgemeine und berufliche Bildung
+4. Beschäftigung, Personalmanagement und Zugang zur Selbstständigkeit
+5. Zugang zu grundlegenden privaten und öffentlichen Diensten und Leistungen (u. a. Sozialleistungen, Kreditwürdigkeitsprüfung natürlicher Personen, Risikobewertung und Preisbildung bei Lebens- und Krankenversicherungen, Notrufe)
+6. Strafverfolgung
+7. Migration, Asyl und Grenzkontrolle
+8. Rechtspflege und demokratische Prozesse
 
-* Bereitstellung technischer Dokumentation an nachgelagerte Anbieter
-* Einhaltung von Urheberrechts-Verpflichtungen (s. Art. 53 c)
-* Veröffentlichung einer Zusammenfassung der Trainingsdaten
-* Für Modelle mit **systemischem Risiko** (> 10²⁵ FLOP): Adversarial Testing, Meldung schwerwiegender Vorfälle an die Kommission, Cybersicherheitsmaßnahmen
+Anwendungszeitpunkt: 02.12.2027 für Systeme nach Anhang III und 02.08.2028 für Systeme nach Anhang I (siehe Überblick). Die Kommission sollte nach [Art. 6 Abs. 5](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_6) Leitlinien mit praktischen Beispielen bereitstellen (Frist im Originaltext: 02.02.2026; ob und wann diese veröffentlicht wurden, ist hier nicht geprüft).
 
-### Transparenzpflichten (Art. 50)
+Pflichten für Anbieter von Hochrisiko-KI ([Art. 16](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_16)):
 
-* KI-generierte Inhalte (Texte, Bilder, Audio, Video) müssen als solche maschinenlesbar gekennzeichnet sein (Watermarking)
-* Chatbots müssen sich als KI zu erkennen geben
-* Deepfakes müssen kenntlich gemacht werden
+* **Risikomanagementsystem** einrichten, anwenden, dokumentieren und aufrechterhalten, s. [Art. 9](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_9)
+* **Daten-Governance** sicherstellen: Trainings-, Validierungs- und Testdatensätze müssen relevant, hinreichend repräsentativ und so weit wie möglich fehlerfrei und vollständig sein; mögliche Verzerrungen (Bias) sind zu untersuchen, zu erkennen und abzuschwächen, s. [Art. 10](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_10) (Abs. 2 lit. f und g, Abs. 3)
+* **Technische Dokumentation** erstellen und aktuell halten (s. [Art. 11](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_11), [Anhang IV](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#anx_IV)); vereinfachte Form für KMU und kleine Midcaps (durch VO 2026/1744)
+* **Automatische Protokollierung** (Logging) von Ereignissen ermöglichen, s. [Art. 12](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_12)
+* **Transparenz** gegenüber Betreibern gewährleisten (Betriebsanleitung, Zweck, Grenzen), s. [Art. 13](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_13)
+* **Menschliche Aufsicht** (Human Oversight) ermöglichen, s. [Art. 14](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_14)
+* **Genauigkeit, Robustheit und Cybersicherheit** sicherstellen, einschließlich Widerstandsfähigkeit gegen KI-spezifische Angriffe wie Data Poisoning, Model Poisoning und Adversarial Examples, s. [Art. 15 Abs. 5](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_15)
+* **Qualitätsmanagementsystem** einführen ([Art. 17](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_17)), Dokumentation und Protokolle aufbewahren ([Art. 18](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_18), [Art. 19](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_19)), Korrekturmaßnahmen ergreifen ([Art. 20](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_20))
+* **Konformitätsbewertung** durchführen, s. [Art. 43](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_43): für Systeme nach Anhang III Nr. 2 bis 8 grundsätzlich durch interne Kontrolle ([Anhang VI](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#anx_VI)), für biometrische Systeme nach Anhang III Nr. 1 je nach Anwendung harmonisierter Normen interne Kontrolle oder Bewertung unter Beteiligung einer notifizierten Stelle ([Anhang VII](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#anx_VII))
+* **EU-Konformitätserklärung** ausstellen ([Art. 47](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_47), 10 Jahre Bereithaltung) und **CE-Kennzeichnung** anbringen ([Art. 48](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_48))
+* **Registrierung** in der EU-Datenbank ([Art. 49](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_49), [Art. 71](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_71)); gilt nicht für Systeme nach Anhang III Nr. 2; auch Anbieter, die ein Anhang-III-System als nicht hochriskant einstufen, müssen sich registrieren ([Art. 49 Abs. 2](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_49))
+* **Beobachtung nach dem Inverkehrbringen** (Post-Market-Monitoring) mit Plan einrichten, s. [Art. 72](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_72)
+* **Schwerwiegende Vorfälle** den Marktüberwachungsbehörden melden, s. [Art. 73](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_73) (Frist grundsätzlich spätestens 15 Tage nach Kenntnis, bei weitverbreitetem Verstoß oder Störung kritischer Infrastruktur spätestens 2 Tage, bei Tod einer Person spätestens 10 Tage)
 
-### Sanktionsregime (Art. 99–101)
+Pflichten für Betreiber von Hochrisiko-KI ([Art. 26](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_26)): Nutzung gemäß Betriebsanleitung, menschliche Aufsicht durch kompetente Personen, Prüfung der Eingabedaten, soweit sie der eigenen Kontrolle unterliegen, Überwachung des Betriebs, Aufbewahrung der Protokolle für mindestens sechs Monate, Information der Arbeitnehmervertreter und betroffenen Arbeitnehmer vor Einsatz am Arbeitsplatz sowie Information betroffener natürlicher Personen. Öffentliche Stellen, private Anbieter öffentlicher Dienste und Betreiber von Kredit- und Versicherungs-Systemen nach Anhang III Nr. 5 lit. b und c führen vorab eine Grundrechte-Folgenabschätzung durch ([Art. 27](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_27)).
 
-| Ebene | Verstoß | Bußgeld |
-|-------|---------|---------|
-| **Tier 1** | Verstoß gegen Verbote (Art. 5) | **35 Mio. EUR oder 7 % des weltweiten Jahresumsatzes** (der höhere Betrag; KMU: der niedrigere) |
-| **Tier 2** | Verstöße gegen Anbieter-/Betreiberpflichten, Transparenzpflichten | **15 Mio. EUR oder 3 % des weltweiten Jahresumsatzes** |
-| **Tier 3** | Unrichtige oder irreführende Informationen an Behörden | **7,5 Mio. EUR oder 1 % des weltweiten Jahresumsatzes** |
-| **GPAI** | Verstöße gegen Art. 53/55 (via Kommission) | **15 Mio. EUR oder 3 % des weltweiten Jahresumsatzes** |
+### KI-Modelle mit allgemeinem Verwendungszweck / GPAI ([Art. 51](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_51) bis [Art. 56](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_56))
 
-**KMU-Schutzklausel**: Für kleine und mittlere Unternehmen gilt stets der *niedrigere* der beiden Beträge.
+Pflichten für alle GPAI-Anbieter ([Art. 53 Abs. 1](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_53)):
+
+* Technische Dokumentation des Modells erstellen und aktuell halten, auf Anfrage für das KI-Büro und die nationalen Behörden bereitstellen (lit. a, Mindestinhalt [Anhang XI](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#anx_XI))
+* Informationen und Dokumentation für nachgelagerte Anbieter von KI-Systemen bereitstellen, die das Modell integrieren (lit. b, Mindestinhalt [Anhang XII](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#anx_XII))
+* Strategie zur Einhaltung des Urheberrechts der Union, insbesondere zur Beachtung eines Rechtevorbehalts nach Art. 4 Abs. 3 der Richtlinie (EU) 2019/790 (lit. c)
+* Hinreichend detaillierte Zusammenfassung der Trainingsinhalte nach der Vorlage des KI-Büros veröffentlichen (lit. d)
+* Bevollmächtigten in der Union benennen, wenn der Anbieter in einem Drittland niedergelassen ist ([Art. 54](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_54))
+
+Erleichterung für Open Source: Die Pflichten nach [Art. 53 Abs. 1 lit. a und b](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_53) und die Pflicht zur Benennung eines Bevollmächtigten ([Art. 54 Abs. 6](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_54)) gelten nicht für Anbieter von Modellen unter freier und quelloffener Lizenz mit öffentlich zugänglichen Parametern; die Ausnahme gilt **nicht** bei systemischem Risiko ([Art. 53 Abs. 2](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_53)). Urheberrechtsstrategie und Trainingsdaten-Zusammenfassung bleiben auch für Open-Source-Modelle Pflicht.
+
+Systemisches Risiko ([Art. 51](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_51)): Ein Modell gilt als systemisch riskant, wenn es Fähigkeiten mit hohem Wirkungsgrad hat oder die Kommission dies entscheidet. Bei einer kumulierten Trainingsrechenleistung von mehr als 10²⁵ Gleitkommaoperationen (FLOP) wird dies **vermutet** ([Art. 51 Abs. 2](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_51)); die Kommission kann den Schwellenwert per delegiertem Rechtsakt anpassen ([Art. 51 Abs. 3](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_51)). Der Anbieter meldet das Erreichen der Schwelle unverzüglich, spätestens innerhalb von zwei Wochen, an die Kommission und kann begründet geltend machen, dass trotzdem kein systemisches Risiko besteht ([Art. 52](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_52)).
+
+Zusätzliche Pflichten bei systemischem Risiko ([Art. 55 Abs. 1](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_55)): Modellbewertung nach dem Stand der Technik einschließlich dokumentierter Angriffstests (Adversarial Testing), Bewertung und Minderung systemischer Risiken auf Unionsebene, Erfassung und unverzügliche Meldung schwerwiegender Vorfälle an das KI-Büro und ggf. nationale Behörden, angemessenes Maß an Cybersicherheit für Modell und physische Infrastruktur.
+
+Anbieter können sich bis zur Veröffentlichung harmonisierter Normen auf Praxisleitfäden nach [Art. 56](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_56) stützen ([Art. 53 Abs. 4](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_53), [Art. 55 Abs. 2](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_55)). Modelle, die vor dem 02.08.2025 in Verkehr gebracht wurden, müssen die Pflichten bis zum 02.08.2027 erfüllen ([Art. 111 Abs. 3](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_111)).
+
+### Transparenzpflichten ([Art. 50](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_50))
+
+Gelten seit dem 02.08.2026:
+
+* **Interaktion mit KI** ([Abs. 1](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_50)): Anbieter gestalten KI-Systeme, die direkt mit natürlichen Personen interagieren, so, dass diese informiert werden, dass sie mit einem KI-System interagieren (außer es ist offensichtlich)
+* **Kennzeichnung synthetischer Inhalte** ([Abs. 2](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_50)): Anbieter von KI-Systemen, die synthetische Audio-, Bild-, Video- oder Textinhalte erzeugen, stellen sicher, dass die Ausgaben in einem maschinenlesbaren Format gekennzeichnet und als künstlich erzeugt oder manipuliert erkennbar sind. Für Systeme, die vor dem 02.08.2026 in Verkehr gebracht wurden, gilt eine Übergangsfrist bis 02.12.2026 ([Art. 111 Abs. 4](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_111), eingefügt durch VO 2026/1744)
+* **Emotionserkennung und biometrische Kategorisierung** ([Abs. 3](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_50)): Betreiber informieren die betroffenen Personen über den Betrieb des Systems
+* **Deepfakes und KI-generierte Texte** ([Abs. 4](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_50)): Betreiber legen offen, dass Bild-, Ton- oder Videoinhalte (Deepfakes) künstlich erzeugt oder manipuliert wurden; gleiches gilt für KI-generierte Texte, die veröffentlicht werden, um über Angelegenheiten von öffentlichem Interesse zu informieren, außer bei redaktioneller Kontrolle und Verantwortung. Erleichterungen für offensichtlich künstlerische, kreative, satirische oder fiktionale Werke
+* Die Information muss spätestens bei der ersten Interaktion bzw. Aussetzung klar und eindeutig erfolgen ([Abs. 5](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_50)). Praxisleitfäden zur Kennzeichnung werden vom KI-Büro gefördert ([Abs. 7](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_50))
+
+### Sanktionsregime ([Art. 99](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_99) bis [101](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_101))
+
+Die Mitgliedstaaten legen die Sanktionen fest und müssen dabei die folgenden Obergrenzen beachten ([Art. 99 Abs. 1](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_99)). Die Beträge sind jeweils Höchstbeträge („bis zu"); maßgeblich ist der höhere Wert, bei Unternehmen bezogen auf den weltweiten Jahresumsatz des vorangegangenen Geschäftsjahres.
+
+| Ebene | Verstoß | Bußgeld (bis zu) | Fundstelle |
+|-------|---------|---------|------------|
+| **Tier 1** | Verstoß gegen Verbote ([Art. 5](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_5)) | **35 Mio. EUR oder 7 %** | [Art. 99 Abs. 3](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_99) |
+| **Tier 2** | Verstöße gegen Pflichten der Anbieter ([Art. 16](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_16)), Bevollmächtigten ([Art. 22](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_22)), Einführer ([Art. 23](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_23)), Händler ([Art. 24](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_24)) und Betreiber ([Art. 26](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_26)), Anforderungen an notifizierte Stellen sowie Transparenzpflichten ([Art. 50](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_50)); durch VO 2026/1744 zusätzlich Pflichten nach [Art. 25 Abs. 2 und 4](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_25) | **15 Mio. EUR oder 3 %** | [Art. 99 Abs. 4](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_99) |
+| **Tier 3** | Falsche, unvollständige oder irreführende Informationen auf Auskunftsersuchen an notifizierte Stellen oder nationale Behörden | **7,5 Mio. EUR oder 1 %** | [Art. 99 Abs. 5](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_99) |
+| **GPAI** | Vorsätzliche oder fahrlässige Verstöße von GPAI-Anbietern gegen die Verordnung, Nichtbefolgung von Auskunftsverlangen, Maßnahmen oder Zugangsanforderungen der Kommission; Verhängung durch die Kommission, gilt seit 02.08.2026 | **15 Mio. EUR oder 3 %** (je nachdem, was höher ist) | [Art. 101 Abs. 1](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_101) |
+| **EU-Organe** | Verbote bzw. sonstige Verstöße von Organen, Einrichtungen und Stellen der Union; Verhängung durch den EDSB | 1,5 Mio. EUR bzw. 750 000 EUR | [Art. 100 Abs. 2 und 3](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_100) |
+
+Die Pflichten nach [Art. 53](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_53) und [Art. 55](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_55) fallen bei Verstößen unter die allgemeine Klausel „einschlägige Bestimmungen" des [Art. 101 Abs. 1 lit. a](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_101).
+
+**KMU-Schutzklausel**: Für KMU, einschließlich Start-ups, gilt für jede Geldbuße nach Art. 99 der jeweils *niedrigere* der beiden Beträge ([Art. 99 Abs. 6](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_99)). Durch die VO 2026/1744 gilt dies für kleine Midcap-Unternehmen für Geldbußen nach Abs. 4 und 5 ebenfalls (Abs. 6a). Art. 101 enthält keine entsprechende ausdrückliche Regel. Bei der Bemessung sind u. a. Art, Schwere und Dauer des Verstoßes, Größe und Umsatz des Akteurs sowie Vorsatz oder Fahrlässigkeit zu berücksichtigen ([Art. 99 Abs. 7](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_99)).
 
 ### Wechselwirkungen mit anderen EU-Regularien
 
-Der AI Act überlappt erheblich mit anderen Regelwerken — insbesondere bei Cybersicherheit, Dokumentation und Incident Reporting:
+Der AI Act überlappt erheblich mit anderen Regelwerken, insbesondere bei Cybersicherheit, Dokumentation und Incident Reporting. Die Zuordnung der Artikel ist eine Orientierung; die Pflichten richten sich an unterschiedliche Adressaten (Anbieter von KI, Hersteller, Einrichtungen, Finanzunternehmen).
 
-| Pflicht | AI Act | CRA | NIS2 | DORA | PLD |
+| Pflicht | AI Act | [CRA](cra.md) | [NIS2](nis2.md) | [DORA](dora.md) | [PLD](pld.md) |
 |---------|--------|-----|------|------|-----|
-| Risikomanagement | Art. 9, 55 | Art. 13 | Art. 21 | Art. 6 | — |
-| Technische Dokumentation / SBOM | Art. 11, Anh. IV | Art. 13(3) | teilweise | teilweise | teilweise |
-| Cybersicherheit | Art. 15 | Kernpflicht | Art. 21 | Art. 9–11 | — |
-| Schwachstellen-Management | Art. 72 (Post-Market) | Art. 13–14 | Art. 21 | Art. 12 | — |
-| Incident Reporting | Art. 55, 73 | Art. 14 (24 h) | Art. 19 (24 h) | Art. 19 **(4 h)** | — |
-| Produkthaftung | — | — | — | — | Art. 4 (fehlerhaftes Produkt) |
+| Risikomanagement | [Art. 9](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_9) (Hochrisiko), [Art. 55 Abs. 1 lit. b](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_55) (GPAI mit systemischem Risiko) | [Art. 13 Abs. 2 und 3](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13) (Cybersicherheitsrisikobewertung) | [Art. 21](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_21) | [Art. 6](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022R2554#art_6) (IKT-Risikomanagementrahmen) | — |
+| Technische Dokumentation / SBOM | [Art. 11](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_11), [Anhang IV](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#anx_IV) (keine SBOM-Pflicht) | [Art. 13 Abs. 12](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13), [Art. 31](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_31), Anh. VII; SBOM: [Anh. I Teil II Nr. 1](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I) | — | — (Informationsregister für Drittdienstleister: [Art. 28 Abs. 3](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022R2554#art_28)) | [Art. 9](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024L2853#art_9) (Offenlegung von Beweismitteln im Verfahren) |
+| Cybersicherheit | [Art. 15 Abs. 5](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_15) | [Art. 13 Abs. 1](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13) i. V. m. [Anh. I Teil I](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I) | [Art. 21 Abs. 2](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_21) | [Art. 9](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022R2554#art_9), [Art. 10](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022R2554#art_10), [Art. 11](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022R2554#art_11) | [Art. 7 Abs. 2 lit. f](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024L2853#art_7) (Cybersicherheitsanforderungen als Fehlerkriterium) |
+| Schwachstellen-Management | [Art. 15 Abs. 5](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_15) (KI-spezifische Schwachstellen), [Art. 72](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_72) (Beobachtung nach dem Inverkehrbringen) | [Art. 13 Abs. 6 und 8](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13), [Anh. I Teil II](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I) | [Art. 21 Abs. 2 lit. e](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_21), [Art. 12](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_12) (koordinierte Offenlegung) | [Art. 8 Abs. 2](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022R2554#art_8), [Art. 9 Abs. 4 lit. f](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022R2554#art_9) (Patches und Updates), [Art. 10 Abs. 1](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022R2554#art_10) | [Art. 7 Abs. 2](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024L2853#art_7) (Software-Updates, Lernfähigkeit) |
+| Incident Reporting | [Art. 73](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_73) (Anbieter Hochrisiko-KI): spätestens 15 Tage, in Sonderfällen 2 bzw. 10 Tage; [Art. 55 Abs. 1 lit. c](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_55) (GPAI mit systemischem Risiko): unverzüglich | [Art. 14](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_14) (ab 11.09.2026): 24 h / 72 h / Abschlussbericht 14 Tage nach Verfügbarkeit einer Korrektur- oder Risikominderungsmaßnahme (Schwachstelle) bzw. 1 Monat (Vorfall) | [Art. 23 Abs. 4](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_23): 24 h / 72 h / 1 Monat | [Art. 19](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022R2554#art_19) i. V. m. [Del. VO (EU) 2025/301 Art. 5](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32025R0301#art_5): Erstmeldung 4 h nach Einstufung als schwerwiegend, spätestens 24 h nach Kenntnis; Zwischenmeldung 72 h; Abschlussmeldung 1 Monat | — |
+| Produkthaftung | — (Haftung nicht Gegenstand des AI Act) | — | — | — | [Art. 4 Nr. 1](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024L2853#art_4) (Software ist Produkt), [Art. 5](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024L2853#art_5), [Art. 7](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024L2853#art_7) (Fehlerhaftigkeit), [Art. 8](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024L2853#art_8) (haftende Wirtschaftsakteure); gilt für Produkte, die nach dem 09.12.2026 in Verkehr gebracht werden ([Art. 2 Abs. 1](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024L2853#art_2)) |
 
-**Wichtigste Überschneidung AI Act ↔ CRA:** Hochrisiko-KI-Systeme, die als digitale Produkte in Verkehr gebracht werden, unterliegen ab August/September 2026 **gleichzeitig** beiden Regelwerken. Eine integrierte SBOM (Art. 15 AI Act + CRA Annex I) und ein gemeinsamer Vulnerability-Disclosure-Prozess sind dringend empfohlen.
+Hinweise zu den Zeitpunkten: Die Meldepflichten nach CRA Art. 14 gelten seit dem 11.09.2026, die übrigen CRA-Pflichten erst ab dem 11.12.2027 ([CRA Art. 71](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_71)). Die Hochrisiko-Pflichten des AI Act für Systeme nach Anhang III gelten seit der Änderung durch die VO 2026/1744 ab dem 02.12.2027 und damit fast zeitgleich mit der CRA-Hauptanwendung.
 
-**Finanzsektor (DORA):** Bei KI-Systemen für Kreditwürdigkeitsbewertung, Trading oder Risikomodelle greift zusätzlich DORA mit einer Incident-Meldepflicht von **4 Stunden** — der strengsten Frist aller vier Regelwerke.
+**AI Act ↔ CRA:** Hochrisiko-KI-Systeme, die zugleich Produkte mit digitalen Elementen im Sinne des CRA sind, unterliegen beiden Regelwerken. Der CRA enthält hierfür eine ausdrückliche Verzahnung ([CRA Art. 12](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_12)): Solche Produkte gelten als konform mit den Cybersicherheitsanforderungen des [Art. 15 AI Act](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_15), wenn sie die grundlegenden Anforderungen nach [CRA Anh. I Teil I](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I) erfüllen, die Herstellerprozesse [Anh. I Teil II](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I) genügen und dies in der nach dem CRA ausgestellten EU-Konformitätserklärung nachgewiesen wird; das Konformitätsbewertungsverfahren richtet sich nach [Art. 43 AI Act](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_43). Die Genauigkeits- und Robustheitsanforderungen aus [Art. 15](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_15) bleiben unberührt. Eine integrierte Dokumentation (SBOM nach CRA, technische Dokumentation nach AI Act) und ein gemeinsamer Vulnerability-Disclosure-Prozess sind sinnvoll.
 
+**Finanzsektor ([DORA](dora.md)):** Setzen Finanzunternehmen KI-Systeme ein (Kreditwürdigkeitsprüfung, Betrugserkennung, Risikomodelle), sind diese Teil der IKT-Assets und unterliegen DORA; schwerwiegende IKT-Vorfälle sind nach DORA zu melden (Erstmeldung 4 Stunden nach Einstufung, spätestens 24 Stunden nach Kenntnis). Der AI Act berücksichtigt die interne Governance des Finanzsektors, etwa bei der Überwachungspflicht der Betreiber ([Art. 26 Abs. 5 und 6](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_26)), beim Qualitätsmanagementsystem ([Art. 17 Abs. 4](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_17)) und beim Post-Market-Monitoring ([Art. 72 Abs. 4](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_72)); als Marktüberwachungsbehörde gilt für regulierte Finanzinstitute die Finanzaufsicht ([Art. 74 Abs. 6](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_74)). Bei Vorfällen können damit zwei Meldewege mit unterschiedlichen Fristen und Auslösern bestehen.
 
+**Produkthaftung (PLD):** Die Produkthaftungsrichtlinie (EU) 2024/2853 erfasst Software ausdrücklich als Produkt ([Art. 4 Nr. 1](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024L2853#art_4)) und nennt unter den Umständen der Fehlerhaftigkeit u. a. Lernfähigkeit, Software-Updates und Cybersicherheitsanforderungen ([Art. 7 Abs. 2 lit. c, f](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024L2853#art_7)). Die Einhaltung des AI Act schließt die Haftung nach PLD nicht aus; Sanktionen nach dem AI Act und zivilrechtliche Haftung sind getrennte Regime.
 
 ## Lösungsansätze & Hilfestellungen
 
-* Die **EU AI Office** (zuständige Behörde der Kommission) veröffentlicht Leitlinien und Codes of Practice, insb. für GPAI-Anbieter
-* Das **BSI** und die nationalen Marktüberwachungsbehörden sind die zuständigen Stellen in Deutschland
-* Harmonisierte Normen (CEN/CENELEC) für Hochrisiko-KI werden derzeit erarbeitet — bis dahin können ISO/IEC 42001 (AI Management System) und ISO/IEC 23894 (AI Risk Management) als Orientierung dienen
-* Für Open-Source-Anbieter: Prüfen, ob das Modell als GPAI mit systemischem Risiko eingestuft werden könnte — dann gelten auch für Open-Source-Anbieter umfangreichere Pflichten
+* Das **KI-Büro (AI Office)** der Kommission ([Art. 64](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_64)) ist u. a. für GPAI zuständig und veröffentlicht Leitlinien. Der [Praxisleitfaden für KI-Modelle mit allgemeinem Verwendungszweck](https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai) (General-Purpose AI Code of Practice, veröffentlicht am 10.07.2025) mit den Kapiteln Transparenz, Urheberrecht sowie Sicherheit und Gefahrenabwehr dient als Nachweis nach [Art. 56](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_56) und [Art. 53 Abs. 4](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_53). Informationen bietet die [Seite des KI-Büros](https://digital-strategy.ec.europa.eu/en/policies/ai-office)
+* Nationale Behörden: Jeder Mitgliedstaat benennt mindestens eine notifizierende Behörde und eine Marktüberwachungsbehörde sowie eine zentrale Anlaufstelle ([Art. 70](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_70)). In Deutschland ist nach dem KI-Marktüberwachungs- und Innovationsförderungsgesetz (KI-MIG) die Bundesnetzagentur als zentrale Marktüberwachungsbehörde vorgesehen; für regulierte Finanzinstitute gilt die Finanzaufsicht ([Art. 74 Abs. 6](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_74)). Der Stand der Verkündung im Bundesgesetzblatt ist hier nicht abschließend geprüft
+* Harmonisierte Normen: Die Einhaltung harmonisierter Normen, deren Fundstellen im Amtsblatt veröffentlicht sind, begründet die Vermutung der Konformität ([Art. 40](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_40)). Die europäischen Normungsorganisationen CEN und CENELEC erarbeiten diese im [JTC 21](https://www.cencenelec.eu/areas-of-work/cen-cenelec-topics/artificial-intelligence/). Bis zu ihrer Verfügbarkeit können [ISO/IEC 42001](https://www.iso.org/standard/42001) (KI-Managementsystem) und [ISO/IEC 23894](https://www.iso.org/standard/77304.html) (Leitfaden KI-Risikomanagement) als Orientierung dienen. Sie begründen allerdings keine Konformitätsvermutung nach dem AI Act
+* Für KMU und Start-ups sehen [Art. 62](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_62) und [Art. 63](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_63) Unterstützungsmaßnahmen vor (Zugang zu Reallaboren, vereinfachte Elemente des Qualitätsmanagementsystems, Leitlinien); die VO 2026/1744 erweitert diese teilweise auf kleine Midcap-Unternehmen
+* Für Open-Source-Anbieter: KI-Systeme unter freier Lizenz sind nur dann ausgenommen, wenn sie weder hochriskant noch von [Art. 5](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_5) oder [Art. 50](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_50) erfasst sind ([Art. 2 Abs. 12](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_2)). Bei GPAI-Modellen entfallen die Erleichterungen nach [Art. 53 Abs. 2](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_53), sobald ein systemisches Risiko vorliegt (Vermutung ab 10²⁵ FLOP, [Art. 51 Abs. 2](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_51))
 
 ### Tools & Werkzeuge
 
@@ -120,46 +181,61 @@ Der AI Act überlappt erheblich mit anderen Regelwerken — insbesondere bei Cyb
 
 | Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
 |------|--------|-----------------|------------------------|
-| [Hugging Face Model Cards](https://huggingface.co/docs/hub/model-cards) | Apache-2.0 | Strukturierte Dokumentation von ML-Modellen (Zweck, Limitierungen, Trainingsdaten, Evaluierungsergebnisse) in YAML + Markdown | Art. 13: Transparenz gegenüber Betreibern; Art. 11 + Anhang IV: Technische Dokumentation |
-| [Google Model Card Toolkit](https://github.com/google/model-card-toolkit) | Apache-2.0 | Programmatische Erzeugung strukturierter Model Cards inkl. quantitativer Performance-Metriken | Art. 13: Automatisch generierte Transparenz-Dokumentation; Art. 15: Performance-Kennzahlen |
-| [ALTAI Self-Assessment](https://futurium.ec.europa.eu/en/european-ai-alliance/pages/altai-assessment-list-trustworthy-artificial-intelligence) | Frei (EU-Kommission) | Online-Selbstbewertungs-Checkliste (96 Fragen) nach den EU Ethics Guidelines for Trustworthy AI | Art. 9: Initialer Gap-Assessment-Einstieg; gute Vorbereitung auf formelle Konformitätsbewertung |
+| [Hugging Face Model Cards](https://huggingface.co/docs/hub/model-cards) | Apache-2.0 | Strukturierte Dokumentation von ML-Modellen (Zweck, Limitierungen, Trainingsdaten, Evaluierungsergebnisse) in YAML + Markdown | [Art. 13](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_13): Transparenz gegenüber Betreibern; [Art. 11](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_11) + [Anhang IV](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#anx_IV): Technische Dokumentation |
+| [Google Model Card Toolkit](https://github.com/google/model-card-toolkit) | Apache-2.0 | Programmatische Erzeugung strukturierter Model Cards inkl. quantitativer Performance-Metriken | [Art. 13](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_13): Automatisch generierte Transparenz-Dokumentation; [Art. 15](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_15): Performance-Kennzahlen |
+| [ALTAI Self-Assessment](https://futurium.ec.europa.eu/en/european-ai-alliance/pages/altai-assessment-list-trustworthy-artificial-intelligence) | Frei (EU-Kommission) | Online-Selbstbewertungs-Checkliste nach den EU Ethics Guidelines for Trustworthy AI (vor dem AI Act entstanden, nicht auf dessen Artikel zugeschnitten) | [Art. 9](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_9): Initialer Gap-Assessment-Einstieg; gute Vorbereitung auf formelle Konformitätsbewertung |
 
 #### Risikobewertung & Risikomanagement (Art. 9)
 
 | Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
 |------|--------|-----------------|------------------------|
-| [NIST AI RMF Playbook](https://airc.nist.gov/docs/AI_RMF_Playbook.pdf) | Frei (Public Domain) | Strukturiertes Risikomanagement für KI (GOVERN / MAP / MEASURE / MANAGE); Hunderte konkreter Maßnahmen | Art. 9: Iteratives Risikomanagement; lässt sich direkt auf EU AI Act-Artikel mappen |
-| [MIT AI Risk Repository](https://airisk.mit.edu/) | Frei (Open Access) | Durchsuchbare Datenbank mit 700+ klassifizierten KI-Risiken nach Ursache und Domäne | Art. 9: Systematische Risikoidentifikation; Abgleich mit Annex III Hochrisiko-Kategorien |
+| [NIST AI RMF Playbook](https://airc.nist.gov/docs/AI_RMF_Playbook.pdf) | Frei (Public Domain) | Strukturiertes Risikomanagement für KI (GOVERN / MAP / MEASURE / MANAGE); Hunderte konkreter Maßnahmen | [Art. 9](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_9): Iteratives Risikomanagement; lässt sich direkt auf EU AI Act-Artikel mappen |
+| [MIT AI Risk Repository](https://airisk.mit.edu/) | Frei (Open Access) | Durchsuchbare Datenbank mit klassifizierten KI-Risiken nach Ursache und Domäne | [Art. 9](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_9): Systematische Risikoidentifikation; Abgleich mit [Anhang III](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#anx_III) Hochrisiko-Kategorien |
 
 #### Bias-Erkennung & Fairness (Art. 10, 15)
 
 | Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
 |------|--------|-----------------|------------------------|
-| [Fairlearn](https://github.com/fairlearn/fairlearn) | MIT | Fairness-Metriken (Demographic Parity, Equalized Odds) + Mitigationsalgorithmen für Klassifikatoren und Regression | Art. 10: Disparitäten in Trainingsdaten erkennen; Art. 9: Diskriminierungsrisiko quantifizieren |
-| [IBM AI Fairness 360](https://github.com/Trusted-AI/AIF360) | Apache-2.0 | Umfangreiche Bibliothek mit 70+ Fairness-Metriken und 10+ Bias-Mitigationsalgorithmen (Pre/In/Post-Processing) | Art. 10: Pre-Processing gegen Trainingsdaten-Bias; Art. 15: Adversarial Debiasing für Robustheit |
-| [Aequitas](https://github.com/dssg/aequitas) | MIT | Bias-Audit-Toolkit mit Gruppen-Disparitäts-Reports; besonders geeignet für Audit-Dokumentation | Art. 9: Audit-ready Disparity Reports für Konformitätsbewertung; Art. 13: Berichtsformat für technische Dokumentation |
+| [Fairlearn](https://github.com/fairlearn/fairlearn) | MIT | Fairness-Metriken (Demographic Parity, Equalized Odds) + Mitigationsalgorithmen für Klassifikatoren und Regression | [Art. 10](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_10): Disparitäten in Trainingsdaten erkennen; [Art. 9](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_9): Diskriminierungsrisiko quantifizieren |
+| [IBM AI Fairness 360](https://github.com/Trusted-AI/AIF360) | Apache-2.0 | Umfangreiche Bibliothek mit 70+ Fairness-Metriken und 10+ Bias-Mitigationsalgorithmen (Pre/In/Post-Processing) | [Art. 10](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_10): Pre-Processing gegen Trainingsdaten-Bias; [Art. 15](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_15): Adversarial Debiasing für Robustheit |
+| [Aequitas](https://github.com/dssg/aequitas) | MIT | Bias-Audit-Toolkit mit Gruppen-Disparitäts-Reports; besonders geeignet für Audit-Dokumentation | [Art. 9](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_9): Audit-ready Disparity Reports für Konformitätsbewertung; [Art. 13](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_13): Berichtsformat für technische Dokumentation |
 
 #### Erklärbarkeit / XAI (Art. 13)
 
 | Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
 |------|--------|-----------------|------------------------|
-| [SHAP](https://github.com/shap/shap) | MIT | Modell-agnostische Feature-Attribution via Shapley Values; globale und lokale Erklärungen | Art. 13: Lokale Erklärungen („warum wurde diese Entscheidung getroffen?") für Hochrisiko-KI; Art. 9: Risikotreiber identifizieren |
-| [Alibi](https://github.com/SeldonIO/alibi) | Apache-2.0 | Counterfactual Explanations, Anchors, Kernel SHAP; Companion `alibi-detect` für Drift- und Ausreißer-Erkennung | Art. 13: Counterfactuals direkt handlungsrelevant für betroffene Personen; Art. 15: `alibi-detect` für Robustheit im Betrieb |
-| [InterpretML](https://github.com/interpretml/interpret) | MIT | Erklärbares Boosting (EBM = Glass-Box-Modell mit GBM-Genauigkeit) + Black-Box-Erklärungen (SHAP, LIME, PDP) | Art. 13: Glass-Box-EBMs bieten inhärente Transparenz ohne Post-hoc-Erklärung — in Konformitätsbewertungen leichter verteidigbar |
-| [LIME](https://github.com/marcotcr/lime) | BSD-2-Clause | Lokale Surrogatmodelle für tabellarische, Text- und Bilddaten | Art. 13: Einzelentscheidungserklärungen, insb. für NLP-Modelle |
+| [SHAP](https://github.com/shap/shap) | MIT | Modell-agnostische Feature-Attribution via Shapley Values; globale und lokale Erklärungen | [Art. 13](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_13): Lokale Erklärungen („warum wurde diese Entscheidung getroffen?") für Hochrisiko-KI; [Art. 9](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_9): Risikotreiber identifizieren |
+| [Alibi](https://github.com/SeldonIO/alibi) | Apache-2.0 | Counterfactual Explanations, Anchors, Kernel SHAP; Companion `alibi-detect` für Drift- und Ausreißer-Erkennung | [Art. 13](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_13): Counterfactuals direkt handlungsrelevant für betroffene Personen; [Art. 15](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_15): `alibi-detect` für Robustheit im Betrieb |
+| [InterpretML](https://github.com/interpretml/interpret) | MIT | Erklärbares Boosting (EBM = Glass-Box-Modell mit GBM-Genauigkeit) + Black-Box-Erklärungen (SHAP, LIME, PDP) | [Art. 13](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_13): Glass-Box-EBMs bieten inhärente Transparenz ohne Post-hoc-Erklärung — in Konformitätsbewertungen leichter verteidigbar |
+| [LIME](https://github.com/marcotcr/lime) | BSD-2-Clause | Lokale Surrogatmodelle für tabellarische, Text- und Bilddaten | [Art. 13](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_13): Einzelentscheidungserklärungen, insb. für NLP-Modelle |
 
-#### Logging, Experiment-Tracking & MLOps (Art. 12)
+#### Logging, Experiment-Tracking & MLOps (Art. 11, 12, 72)
+
+Art. 12 verlangt die automatische Ereignisprotokollierung des *laufenden* Hochrisiko-Systems; Trainings- und Entwicklungsnachweise gehören dagegen zur technischen Dokumentation (Art. 11, Anhang IV).
 
 | Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
 |------|--------|-----------------|------------------------|
-| [MLflow](https://github.com/mlflow/mlflow) | Apache-2.0 | End-to-End ML-Lifecycle: Experiment-Tracking, Model Registry mit Stage-Gates, Artefakt-Speicherung | Art. 12: Natürliches Audit-Log für Trainingsläufe, Hyperparameter, Datensatz-Versionen; Anhang IV: Entwicklungsnachweis |
-| [DVC](https://github.com/iterative/dvc) | Apache-2.0 | Git-basierte Versionierung von Datensätzen und ML-Pipelines; reproduzierbare Trainingsläufe | Art. 10: Daten-Lineage und -Versionierung; Art. 12: Pipeline-Audit-Trail |
-| [Evidently AI](https://github.com/evidentlyai/evidently) | Apache-2.0 | ML-Monitoring-Reports für Daten-Drift, Target-Drift und Modell-Performance im Betrieb; HTML/JSON-Output | Art. 12: Zeitgestempelte Monitoring-Reports als Audit-Artefakte; Art. 15: Drift-Erkennung für Robustheit |
+| [MLflow](https://github.com/mlflow/mlflow) | Apache-2.0 | End-to-End ML-Lifecycle: Experiment-Tracking, Model Registry mit Stage-Gates, Artefakt-Speicherung | [Art. 11](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_11) + [Anhang IV](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#anx_IV): Entwicklungsnachweis (Trainingsläufe, Hyperparameter, Datensatz-Versionen); [Art. 12](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_12) betrifft die Betriebsprotokolle des Systems |
+| [DVC](https://github.com/iterative/dvc) | Apache-2.0 | Git-basierte Versionierung von Datensätzen und ML-Pipelines; reproduzierbare Trainingsläufe | [Art. 10](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_10): Daten-Lineage und -Versionierung; [Art. 11](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_11) + [Anhang IV](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#anx_IV): Nachvollziehbarkeit der Pipeline |
+| [Evidently AI](https://github.com/evidentlyai/evidently) | Apache-2.0 | ML-Monitoring-Reports für Daten-Drift, Target-Drift und Modell-Performance im Betrieb; HTML/JSON-Output | [Art. 72](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_72): Zeitgestempelte Monitoring-Reports als Baustein der Beobachtung nach dem Inverkehrbringen; [Art. 15](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_15): Drift-Erkennung für Robustheit |
 
 #### Datenqualität & Governance (Art. 10)
 
 | Tool | Lizenz | Problem / Zweck | Regulatorische Relevanz |
 |------|--------|-----------------|------------------------|
-| [Great Expectations](https://github.com/great-expectations/great_expectations) | Apache-2.0 | Datenvalidierungs-Framework mit definierbaren „Expectations"; erzeugt „Data Docs" als menschenlesbare Validierungsberichte | Art. 10: Nachweis, dass Trainingsdaten definierte Qualitätskriterien erfüllen (Vollständigkeit, Balance, Korrektheit) |
-| [Cleanlab](https://github.com/cleanlab/cleanlab) | Apache-2.0 | Automatische Label-Qualitätsprüfung: findet fehlerhafte Labels, Duplikate und Ausreißer in Trainingsdaten | Art. 10: Direkte Umsetzung der Anforderung, dass Trainingsdaten „frei von Fehlern" sein sollen; Art. 15: Saubere Labels verbessern Robustheit |
-| [OpenMetadata](https://github.com/open-metadata/OpenMetadata) | Apache-2.0 | Moderner Open-Source-Datenkatalog mit Lineage, Qualitäts-Checks und 50+ Konnektoren | Art. 10: Zentrale Dokumentation der Datenprovenienz; Art. 12: Datenzugriffs-Audit-Log |
+| [Great Expectations](https://github.com/great-expectations/great_expectations) | Apache-2.0 | Datenvalidierungs-Framework mit definierbaren „Expectations"; erzeugt „Data Docs" als menschenlesbare Validierungsberichte | [Art. 10](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_10): Nachweis, dass Trainingsdaten definierte Qualitätskriterien erfüllen (Vollständigkeit, Balance, Korrektheit) |
+| [Cleanlab](https://github.com/cleanlab/cleanlab) | Apache-2.0 | Automatische Label-Qualitätsprüfung: findet fehlerhafte Labels, Duplikate und Ausreißer in Trainingsdaten | [Art. 10](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_10) Abs. 3: Unterstützt die Anforderung, dass Datensätze „so weit wie möglich fehlerfrei" sein sollen; [Art. 15](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_15): Saubere Labels verbessern Robustheit |
+| [OpenMetadata](https://github.com/open-metadata/OpenMetadata) | Apache-2.0 | Moderner Open-Source-Datenkatalog mit Lineage, Qualitäts-Checks und 50+ Konnektoren | [Art. 10](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_10) Abs. 2 lit. b: Dokumentation von Datenerhebung und Datenherkunft (Provenienz) |
+
+## Quellen
+
+Alle Rechtstexte in der deutschen Fassung im Amtsblatt der EU (ELI-Links):
+
+* [Verordnung (EU) 2024/1689 (AI Act)](https://eur-lex.europa.eu/eli/reg/2024/1689/oj)
+* [Verordnung (EU) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj) (Digital-Omnibus-Verordnung zur KI; ändert u. a. die Anwendungszeitpunkte in Art. 113, Art. 4, Art. 5, Art. 99 und Art. 111)
+* Für den Abschnitt „Wechselwirkungen": [CRA (EU) 2024/2847](https://eur-lex.europa.eu/eli/reg/2024/2847/oj), [NIS2 (EU) 2022/2555](https://eur-lex.europa.eu/eli/dir/2022/2555/oj), [DORA (EU) 2022/2554](https://eur-lex.europa.eu/eli/reg/2022/2554/oj), [Delegierte Verordnung (EU) 2025/301](https://eur-lex.europa.eu/eli/reg_del/2025/301/oj), [PLD (EU) 2024/2853](https://eur-lex.europa.eu/eli/dir/2024/2853/oj)
+* [Richtlinie (EU) 2019/790](https://eur-lex.europa.eu/eli/dir/2019/790/oj) (Urheberrecht im digitalen Binnenmarkt, Art. 4 Abs. 3 Rechtevorbehalt)
+* [Kommission: General-Purpose AI Code of Practice](https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai) und [KI-Büro](https://digital-strategy.ec.europa.eu/en/policies/ai-office)
+* [CEN-CENELEC: Artificial Intelligence (JTC 21)](https://www.cencenelec.eu/areas-of-work/cen-cenelec-topics/artificial-intelligence/)
+* Normen (kostenpflichtig, Katalogseiten öffentlich): [ISO/IEC 42001:2023](https://www.iso.org/standard/42001), [ISO/IEC 23894:2023](https://www.iso.org/standard/77304.html)
+* Presseberichte zum KI-MIG (Sekundärquelle): [Börse Express, 12.07.2026](https://www.boerse-express.com/news/articles/ki-gesetz-beschlossen-bundesnetzagentur-wird-zentrale-aufsichtsbehoerde-927249)
