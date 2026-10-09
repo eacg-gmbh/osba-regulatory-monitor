@@ -1,0 +1,2138 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Stellt eine Uebersicht an Regularien sowie deren Wirkung auf die Software-Entwicklung vor ">
+      
+      
+        <meta name="author" content="OSBA Security Workgroup">
+      
+      
+        <link rel="canonical" href="https://eacg-gmbh.github.io/osba-regulatory-monitor/nis2/">
+      
+      
+        <link rel="prev" href="../eidas2/">
+      
+      
+        <link rel="next" href="../mdr/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>EU NIS2 Directive - OSBA Regulatory Monitor</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config",""),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>if("undefined"!=typeof __md_analytics){var consent=__md_get("__consent");consent&&consent.analytics&&__md_analytics()}</script>
+  
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="lime">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#eu-network-information-security-directive-v2-nis2" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://www.osb-alliance.de" title="OSBA Regulatory Monitor" class="md-header__button md-logo" aria-label="OSBA Regulatory Monitor" data-md-component="logo">
+      
+  <img src="../assets/osba-logo-claim.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            OSBA Regulatory Monitor
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              EU NIS2 Directive
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="lime"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/eacg-gmbh/osba-regulatory-monitor" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href=".." class="md-tabs__link">
+          
+  
+  
+    
+  
+  Hintergrund
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../aiact/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  EU Regularien
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../kritis-dachgesetz/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Deutschland
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../iec18974/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Standards
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../about/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  About
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://www.osb-alliance.de" title="OSBA Regulatory Monitor" class="md-nav__button md-logo" aria-label="OSBA Regulatory Monitor" data-md-component="logo">
+      
+  <img src="../assets/osba-logo-claim.svg" alt="logo">
+
+    </a>
+    OSBA Regulatory Monitor
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/eacg-gmbh/osba-regulatory-monitor" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href=".." class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hintergrund
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Hintergrund
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guidelines/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mitarbeit
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EU Regularien
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    EU Regularien
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aiact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EU Artificial Intelligence Act (AI Act)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Directive on the Resilience of critical Entities (CER)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dataact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EU Data Act
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dora/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Digital Operational Resilience Act (DORA)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EU Cyber Resilience Act (CRA)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../eidas2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    eIDAS 2.0 / European Digital Identity Wallet
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EU NIS2 Directive
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EU NIS2 Directive
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#uberblick" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Überblick
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zentrale-forderungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zentrale Forderungen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Zentrale Forderungen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vorgaben-des-bsi-deutschland" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vorgaben des BSI (Deutschland)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#losungsansatze-hilfestellungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lösungsansätze &amp; Hilfestellungen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Lösungsansätze &amp; Hilfestellungen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tools-werkzeuge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tools &amp; Werkzeuge
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tools &amp; Werkzeuge">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#grc-risikomanagement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GRC &amp; Risikomanagement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#incident-management-threat-intelligence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Incident Management &amp; Threat Intelligence
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sbom-lieferkettensicherheit-art-21-abs-2-lit-d-und-e" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SBOM &amp; Lieferkettensicherheit (Art. 21 Abs. 2 lit. d und e)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#monitoring-schwachstellenmanagement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Monitoring &amp; Schwachstellenmanagement
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quellen
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mdr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Medical Device Directive (MDR)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pld/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Product Liability Directive (PLD)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../red/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Radio Frequency Directive (RED)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deutschland
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Deutschland
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kritis-dachgesetz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    KRITIS-Dachgesetz (KRITIS-DachG)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Standards
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Standards
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iec18974/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC-18974
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iec62304/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC-62304
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iec62443/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC-62443
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iec81001-5-1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC-81001-5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../openchain/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ISO-5230
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tisax/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TISAX
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    About
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Über dieses Projekt
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CHANGELOG/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Changelog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#uberblick" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Überblick
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zentrale-forderungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zentrale Forderungen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Zentrale Forderungen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vorgaben-des-bsi-deutschland" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vorgaben des BSI (Deutschland)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#losungsansatze-hilfestellungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lösungsansätze &amp; Hilfestellungen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Lösungsansätze &amp; Hilfestellungen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tools-werkzeuge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tools &amp; Werkzeuge
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tools &amp; Werkzeuge">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#grc-risikomanagement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GRC &amp; Risikomanagement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#incident-management-threat-intelligence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Incident Management &amp; Threat Intelligence
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sbom-lieferkettensicherheit-art-21-abs-2-lit-d-und-e" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SBOM &amp; Lieferkettensicherheit (Art. 21 Abs. 2 lit. d und e)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#monitoring-schwachstellenmanagement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Monitoring &amp; Schwachstellenmanagement
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quellen
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <a href="../.#tag:cybersecurity" class="md-tag">cybersecurity</a>
+      
+    
+      
+      
+      
+      
+        <a href="../.#tag:kritis" class="md-tag">kritis</a>
+      
+    
+      
+      
+      
+      
+        <a href="../.#tag:saas" class="md-tag">saas</a>
+      
+    
+  </nav>
+
+
+
+<h1 id="eu-network-information-security-directive-v2-nis2">EU Network &amp; Information Security Directive v2 (NIS2)</h1>
+<p>Die Richtlinie (EU) 2022/2555 über Maßnahmen für ein hohes gemeinsames Cybersicherheitsniveau in der Union (NIS2) ersetzt die ursprüngliche NIS-Richtlinie (EU) 2016/1148 (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_44">Art. 44</a>). Sie verpflichtet "wesentliche" und "wichtige" Einrichtungen aus den Sektoren der Anhänge I und II zu Risikomanagementmaßnahmen im Bereich der Cybersicherheit, zu Meldepflichten bei erheblichen Sicherheitsvorfällen und verpflichtet die Mitgliedstaaten zu Aufsicht und Durchsetzung (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_1">Art. 1</a>). Als EU-Richtlinie gilt sie nicht unmittelbar, sondern wirkt über die nationale Umsetzung (in Deutschland das BSI-Gesetz, BSIG).</p>
+<blockquote>
+<p>[!NOTE]</p>
+<p>Alle Artikelverweise ("Art.") beziehen sich, sofern nicht anders angegeben, auf die <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555">Richtlinie (EU) 2022/2555</a> und führen direkt zum jeweiligen Artikel. Verweise mit "§" beziehen sich auf das deutsche <a href="https://www.gesetze-im-internet.de/bsig_2025/BJNR12D0B0025.html">BSI-Gesetz (BSIG)</a>. Die Seite ist eine Orientierungshilfe und keine Rechtsberatung. Alle Quellen stehen im Abschnitt <a href="#quellen">Quellen</a>.</p>
+</blockquote>
+<h2 id="uberblick">Überblick</h2>
+<ul>
+<li>
+<p><strong>Segment</strong>: IT Sicherheit / Betreiber kritischer und sonstiger wichtiger Dienste (Sektoren nach Anhang I und II, darunter Anbieter digitaler Infrastruktur und IKT-Dienste)</p>
+</li>
+<li>
+<p><strong>Verabschiedet / Veröffentlicht</strong>:</p>
+<ul>
+<li>Richtlinie (EU) 2022/2555 vom 14.12.2022, veröffentlicht im Amtsblatt der EU (L 333) am 27.12.2022</li>
+</ul>
+</li>
+<li>
+<p><strong>Gültig ab</strong>:</p>
+<ul>
+<li>In Kraft getreten: 16.01.2023 (20. Tag nach Veröffentlichung, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_45">Art. 45</a>)</li>
+<li>Umsetzungsfrist der Mitgliedstaaten: 17.10.2024; die nationalen Vorschriften sind ab dem 18.10.2024 anzuwenden (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_41">Art. 41 Abs. 1</a>). Mit Wirkung vom 18.10.2024 ist die NIS-Richtlinie aufgehoben (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_44">Art. 44</a>).</li>
+<li>Deutschland: Das NIS-2-Umsetzungs- und Cybersicherheitsstärkungsgesetz hat das BSI-Gesetz neu gefasst (Ausfertigung 02.12.2025, verkündet in <a href="https://www.recht.bund.de/bgbl/1/2025/301/VO.html">BGBl. 2025 I Nr. 301</a> am 05.12.2025). Es ist am 06.12.2025 in Kraft getreten (Art. 30 des Gesetzes, laut Fußnote im <a href="https://www.gesetze-im-internet.de/bsig_2025/BJNR12D0B0025.html">BSIG</a>). Die Registrierungspflicht beim BSI besteht spätestens drei Monate, nachdem eine Einrichtung als besonders wichtig oder wichtig gilt (<a href="https://www.gesetze-im-internet.de/bsig_2025/__33.html">§ 33 Abs. 1</a>); die Meldepflicht für Sicherheitsvorfälle gilt frühestens ab Einrichtung des Meldewegs (<a href="https://www.gesetze-im-internet.de/bsig_2025/__32.html">§ 32 Abs. 1</a>). Das BSI-Portal für die Registrierung ist seit dem 06.01.2026 verfügbar (<a href="https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/260601_NIS2_BSI-Portal.html">BSI-Pressemitteilung</a>). Laut <a href="https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/NIS-2-FAQ/NIS-2-FAQ-allgemein/FAQ-zu-NIS-2_node.html">BSI-FAQ</a> gibt es <strong>keine allgemeine Übergangsfrist</strong>: Betroffene müssen Registrierung, Risikomanagement und Meldepflichten unmittelbar nach Inkrafttreten erfüllen. Details siehe <a href="#vorgaben-des-bsi-deutschland">Vorgaben des BSI</a>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Gültig für</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_2">Art. 2</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_3">Art. 3</a>):</p>
+<p>Öffentliche und private Einrichtungen der in <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#anx_I">Anhang I</a> (Sektoren mit hoher Kritikalität) oder <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#anx_II">Anhang II</a> (sonstige kritische Sektoren) genannten Arten, die mindestens mittlere Unternehmen im Sinne der Empfehlung 2003/361/EG sind und ihre Dienste in der Union erbringen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_2">Art. 2 Abs. 1</a>). Die Richtlinie unterscheidet:</p>
+<ul>
+<li><strong>Wesentliche Einrichtungen</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_3">Art. 3 Abs. 1</a>): u. a. Einrichtungen nach Anhang I, die die Schwellenwerte für mittlere Unternehmen überschreiten (also große Unternehmen), qualifizierte Vertrauensdiensteanbieter sowie TLD-Namenregister und DNS-Diensteanbieter unabhängig von der Größe, mittlere Anbieter öffentlicher elektronischer Kommunikationsnetze und -dienste, Einrichtungen der öffentlichen Verwaltung der Zentralregierung und als kritisch eingestufte Einrichtungen nach der Richtlinie (EU) 2022/2557 (CER).</li>
+<li><strong>Wichtige Einrichtungen</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_3">Art. 3 Abs. 2</a>): alle übrigen Einrichtungen der Anhänge I oder II, die nicht wesentlich sind (z. B. mittlere Unternehmen in Anhang I sowie mittlere und große Unternehmen in Anhang II).</li>
+<li><strong>Größenunabhängig</strong> erfasst sind u. a. Anbieter öffentlicher elektronischer Kommunikationsnetze und -dienste, Vertrauensdiensteanbieter, TLD-Namenregister und DNS-Diensteanbieter, Einzelanbieter eines für kritische gesellschaftliche oder wirtschaftliche Tätigkeiten unerlässlichen Dienstes sowie Einrichtungen, die Domänennamenregistrierungsdienste erbringen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_2">Art. 2 Abs. 2 bis 4</a>).</li>
+<li><strong>Sektoren Anhang I</strong>: Energie, Verkehr, Bankwesen, Finanzmarktinfrastrukturen, Gesundheitswesen, Trinkwasser, Abwasser, digitale Infrastruktur (u. a. Cloud-Computing, Rechenzentren, CDN, DNS, TLD, Vertrauensdienste, Kommunikationsnetze), Verwaltung von IKT-Diensten (B2B: Anbieter verwalteter Dienste und verwalteter Sicherheitsdienste), öffentliche Verwaltung, Weltraum.</li>
+<li><strong>Sektoren Anhang II</strong>: Post- und Kurierdienste, Abfallbewirtschaftung, Chemie, Lebensmittel, verarbeitendes Gewerbe (Medizinprodukte und In-vitro-Diagnostika, Datenverarbeitungsgeräte/Elektronik/Optik, elektrische Ausrüstungen, Maschinenbau, Kraftwagen, sonstiger Fahrzeugbau), Anbieter digitaler Dienste (Online-Marktplätze, Online-Suchmaschinen, Plattformen für soziale Netzwerke), Forschung.</li>
+<li><strong>Deutschland</strong>: Als "besonders wichtige" Einrichtung (entspricht der wesentlichen Einrichtung) gelten u. a. Betreiber kritischer Anlagen sowie Einrichtungen der Anlage 1 ab 250 Mitarbeitern oder mehr als 50 Mio. EUR Jahresumsatz und zugleich mehr als 43 Mio. EUR Bilanzsumme; als "wichtige" Einrichtung gelten Einrichtungen der Anlagen 1 und 2 ab 50 Mitarbeitern oder mehr als 10 Mio. EUR Jahresumsatz und Bilanzsumme (<a href="https://www.gesetze-im-internet.de/bsig_2025/__28.html">§ 28</a>).</li>
+</ul>
+</li>
+<li>
+<p><strong>Nicht gültig für</strong>:</p>
+<ul>
+<li>Einrichtungen der öffentlichen Verwaltung, die ihre Tätigkeiten in den Bereichen nationale Sicherheit, öffentliche Sicherheit, Verteidigung oder Strafverfolgung ausüben (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_2">Art. 2 Abs. 7</a>); die Mitgliedstaaten können weitere derartige Einrichtungen von den Pflichten aus <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_21">Art. 21</a> und <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_23">Art. 23</a> ausnehmen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_2">Art. 2 Abs. 8</a>)</li>
+<li>Kleinst- und kleine Unternehmen, sofern kein größenunabhängiger Tatbestand nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_2">Art. 2 Abs. 2 bis 4</a> vorliegt</li>
+<li>Einrichtungen, die die Mitgliedstaaten nach Art. 2 Abs. 4 der DORA-Verordnung vom DORA-Anwendungsbereich ausgenommen haben (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_2">Art. 2 Abs. 10</a>)</li>
+<li>Einrichtungen, für die ein <strong>sektorspezifischer Rechtsakt</strong> der Union mit mindestens gleichwertigen Anforderungen gilt: Die einschlägigen Bestimmungen der NIS2, einschließlich Aufsicht und Durchsetzung, finden dann keine Anwendung (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_4">Art. 4</a>). Das betrifft insbesondere Finanzunternehmen unter <a href="../dora/">DORA</a>.</li>
+<li>Reine Hersteller von Hard- und Software sind nicht als solche erfasst: Die Anhänge nennen keine allgemeine Softwarehersteller-Kategorie. Erfasst sind jedoch die in Anhang I und II aufgeführten Dienste und Herstellungsbereiche (z. B. Cloud-Computing, verwaltete Dienste, Online-Marktplätze sowie das verarbeitende Gewerbe nach Anhang II). Produktsicherheit regelt der <a href="../cra/">Cyber Resilience Act</a>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Grauzone</strong>:</p>
+<ul>
+<li>Abgrenzung zu <a href="../dora/">DORA</a>: DORA gilt für Finanzunternehmen, die nach den nationalen Umsetzungsvorschriften zu <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_3">Art. 3</a> als wesentliche oder wichtige Einrichtungen ermittelt wurden, als sektorspezifischer Rechtsakt im Sinne von <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_4">Art. 4</a> (DORA Art. 1 Abs. 2, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022R2554#art_1">Verordnung (EU) 2022/2554</a>). Voraussetzung für die Nichtanwendung der NIS2-Bestimmungen ist nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_4">Art. 4 Abs. 1 und 2</a> eine mindestens gleichwertige Wirkung der sektorspezifischen Anforderungen an das Risikomanagement oder an die Meldung erheblicher Vorfälle. Gilt der Rechtsakt nicht für alle Einrichtungen eines Sektors, bleibt die NIS2 für die nicht erfassten Einrichtungen anwendbar. In Deutschland sind die Pflichten nach <a href="https://www.gesetze-im-internet.de/bsig_2025/__28.html">§§ 30, 31, 32, 35, 36, 38 und 39 BSIG</a> für Finanzunternehmen nach Art. 2 Abs. 2 der DORA-Verordnung ausgenommen (<a href="https://www.gesetze-im-internet.de/bsig_2025/__28.html">§ 28 Abs. 6</a>). Die <strong>Registrierungspflicht nach § 33 BSIG bleibt bestehen</strong>, und eine Meldung nach § 32 BSIG entfällt, soweit ein Vorfall ausschließlich DORA-pflichtige Unternehmen betrifft und bereits nach DORA zu melden ist (§ 28 Abs. 7; freiwillige Meldung nach § 5 BSIG bleibt möglich). Konzerninterne IT-Dienstleister sind nicht automatisch von der Ausnahme erfasst (<a href="https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/NIS-2-FAQ/NIS-2-FAQ-allgemein/FAQ-zu-NIS-2_node.html">BSI-FAQ</a>, <a href="https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/NIS-2-Infopakete/NIS-2-DORA/NIS-2-DORA_node.html">BSI-Infopaket DORA und NIS-2</a>). Konzerne mit gemischten Tätigkeiten sind im Einzelfall zu prüfen.</li>
+<li>Dienstleister und Zulieferer, die selbst nicht in den Anhängen genannt sind, sind mittelbar über die Lieferkettenanforderungen ihrer Kunden betroffen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_21">Art. 21 Abs. 2 lit. d und Abs. 3</a>).</li>
+<li>Verhältnis zur Cybersicherheit von Produkten: Die NIS2 regelt Einrichtungen und deren Betrieb; Anforderungen an Produkte mit digitalen Elementen stellt der <a href="../cra/">Cyber Resilience Act</a>.</li>
+<li>Verhältnis zu kritischen Anlagen in Deutschland: <a href="../kritis-dachgesetz/">KRITIS-Dachgesetz</a> (physische Resilienz, Richtlinie (EU) 2022/2557) und BSIG ergänzen sich; für die Einstufung als kritische Anlage nach BSIG gelten Übergangsregelungen (<a href="https://www.gesetze-im-internet.de/bsig_2025/__66.html">§ 66</a>).</li>
+</ul>
+</li>
+<li>
+<p><strong>Ziel</strong>:
+  Ein hohes gemeinsames Cybersicherheitsniveau in der gesamten Union zur Verbesserung des Funktionierens des Binnenmarkts (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_1">Art. 1 Abs. 1</a>).</p>
+</li>
+<li>
+<p><strong>Neuerungen / Anforderungen</strong>:</p>
+<ul>
+<li>Pflicht der Mitgliedstaaten zu nationalen Cybersicherheitsstrategien, zuständigen Behörden, zentralen Anlaufstellen und CSIRTs (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_1">Art. 1 Abs. 2 lit. a</a>)</li>
+<li>Verantwortung der Leitungsorgane (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_20">Art. 20</a>)</li>
+<li>Risikomanagementmaßnahmen im Bereich der Cybersicherheit (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_21">Art. 21</a>)</li>
+<li>Gestuftes Meldeverfahren für erhebliche Sicherheitsvorfälle (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_23">Art. 23</a>)</li>
+<li>Registrierung der Einrichtungen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_3">Art. 3 Abs. 3 und 4</a>; für bestimmte digitale Anbieter zusätzlich das ENISA-Register nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_27">Art. 27</a>)</li>
+<li>Aufsicht, Durchsetzung und Geldbußen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_32">Art. 32</a> bis <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_34">Art. 34</a>)</li>
+<li>Konkretisierung für digitale Anbieter durch die <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2690">Durchführungsverordnung (EU) 2024/2690</a>: Sie gilt für DNS-Diensteanbieter, TLD-Namenregister, Cloud-Computing-Dienstleister, Rechenzentrumsdienste, Inhaltszustellnetze, Anbieter verwalteter Dienste und verwalteter Sicherheitsdienste, Online-Marktplätze, Online-Suchmaschinen, Plattformen für soziale Netzwerke und Vertrauensdiensteanbieter (Art. 1). Ihr Anhang legt die technischen und methodischen Anforderungen zu den Maßnahmen nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_21">Art. 21 Abs. 2 lit. a bis j</a> fest (Art. 2; z. B. Nr. 5 zur Sicherheit der Lieferkette); die Art. 3 bis 14 präzisieren, wann ein Sicherheitsvorfall als erheblich gilt (z. B. direkter finanzieller Verlust von mehr als 500 000 EUR oder 5 % des Jahresumsatzes, je nachdem, welcher Wert niedriger ist, Art. 3 Abs. 1 lit. a). Sie wurde am 18.10.2024 veröffentlicht und ist am 20. Tag danach (07.11.2024) in Kraft getreten (Art. 16).</li>
+</ul>
+</li>
+</ul>
+<h2 id="zentrale-forderungen">Zentrale Forderungen</h2>
+<ul>
+<li>
+<p><strong>Governance und Rechenschaftspflicht</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_20">Art. 20</a>):</p>
+<p>Die Leitungsorgane wesentlicher und wichtiger Einrichtungen müssen die Risikomanagementmaßnahmen nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_21">Art. 21</a> billigen, deren Umsetzung überwachen und können für Verstöße verantwortlich gemacht werden (Abs. 1). Die Mitglieder der Leitungsorgane müssen an Schulungen teilnehmen; den Beschäftigten sollen regelmäßig Schulungen angeboten werden (Abs. 2). Die natürlichen Personen in leitender Verantwortung können zudem für Verstöße haftbar gemacht werden (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_32">Art. 32 Abs. 6</a>, für wichtige Einrichtungen entsprechend nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_33">Art. 33 Abs. 5</a>). In Deutschland: Umsetzungs-, Überwachungs- und Schulungspflicht der Geschäftsleitung mit Haftung gegenüber der Einrichtung nach den gesellschaftsrechtlichen Regeln (<a href="https://www.gesetze-im-internet.de/bsig_2025/__38.html">§ 38 BSIG</a>).</p>
+</li>
+<li>
+<p><strong>Risikomanagementmaßnahmen</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_21">Art. 21</a>):</p>
+<p>Einrichtungen müssen geeignete und verhältnismäßige technische, operative und organisatorische Maßnahmen ergreifen, die dem Stand der Technik entsprechen, auf einem gefahrenübergreifenden Ansatz beruhen und dem bestehenden Risiko angemessen sind (Abs. 1 und 2). Die Mindestmaßnahmen nach Abs. 2:</p>
+<ul>
+<li>a) Konzepte zur Risikoanalyse und zur Sicherheit von Informationssystemen</li>
+<li>b) Bewältigung von Sicherheitsvorfällen</li>
+<li>c) Aufrechterhaltung des Betriebs (Backup-Management, Wiederherstellung nach einem Notfall) und Krisenmanagement</li>
+<li>d) Sicherheit der Lieferkette einschließlich der Beziehungen zu unmittelbaren Anbietern und Diensteanbietern</li>
+<li>e) Sicherheitsmaßnahmen bei Erwerb, Entwicklung und Wartung von Netz- und Informationssystemen, einschließlich Management und Offenlegung von Schwachstellen</li>
+<li>f) Konzepte und Verfahren zur Bewertung der Wirksamkeit der Risikomanagementmaßnahmen</li>
+<li>g) grundlegende Verfahren der Cyberhygiene und Schulungen</li>
+<li>h) Konzepte und Verfahren für den Einsatz von Kryptografie und gegebenenfalls Verschlüsselung</li>
+<li>i) Sicherheit des Personals, Zugriffskontrolle und Management von Anlagen</li>
+<li>j) Multi-Faktor- oder kontinuierliche Authentifizierung, gesicherte Sprach-, Video- und Textkommunikation sowie gegebenenfalls gesicherte Notfallkommunikation</li>
+</ul>
+<p>Deutsche Umsetzung: <a href="https://www.gesetze-im-internet.de/bsig_2025/__30.html">§ 30 Abs. 2 BSIG</a> (Nr. 1 bis 10 entsprechen lit. a bis j).</p>
+</li>
+<li>
+<p><strong>Sicherheit der Lieferkette</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_21">Art. 21 Abs. 2 lit. d und Abs. 3</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_22">Art. 22</a>):</p>
+<p>Bei den Lieferkettenmaßnahmen sind die spezifischen Schwachstellen der einzelnen unmittelbaren Anbieter und Diensteanbieter, die Gesamtqualität ihrer Produkte und ihrer Cybersicherheitspraxis, einschließlich der Sicherheit ihrer Entwicklungsprozesse, sowie die Ergebnisse koordinierter Risikobewertungen kritischer Lieferketten auf EU-Ebene zu berücksichtigen (Art. 21 Abs. 3). Die Richtlinie selbst nennt weder eine SBOM-Pflicht noch Due-Diligence-Prüfungen im Einzelnen; die Durchführungsverordnung (EU) 2024/2690 (Anhang Nr. 5) konkretisiert dies für die dort genannten digitalen Anbieter.</p>
+</li>
+<li>
+<p><strong>Meldung von Vorfällen</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_23">Art. 23</a>):</p>
+<p>Erhebliche Sicherheitsvorfälle sind dem CSIRT oder der zuständigen Behörde zu melden (Abs. 1). Ein Vorfall ist erheblich, wenn er schwerwiegende Betriebsstörungen oder finanzielle Verluste verursacht hat oder verursachen kann oder andere Personen durch erhebliche materielle oder immaterielle Schäden beeinträchtigt hat oder beeinträchtigen kann (Abs. 3). Gestufte Fristen (Abs. 4):</p>
+<ul>
+<li>unverzüglich, spätestens <strong>24 Stunden</strong> nach Kenntnisnahme: Frühwarnung (u. a. Verdacht auf rechtswidrige oder böswillige Handlung, grenzüberschreitende Auswirkungen)</li>
+<li>unverzüglich, spätestens <strong>72 Stunden</strong> nach Kenntnisnahme: Meldung des Vorfalls mit erster Bewertung (Schweregrad, Auswirkungen, ggf. Kompromittierungsindikatoren); für Vertrauensdiensteanbieter gilt hierfür ebenfalls eine Frist von 24 Stunden</li>
+<li>auf Ersuchen: Zwischenbericht</li>
+<li>spätestens <strong>einen Monat</strong> nach der Meldung: Abschlussbericht (bei andauerndem Vorfall: Fortschrittsbericht und Abschlussbericht innerhalb eines Monats nach Behandlung des Vorfalls)</li>
+</ul>
+<p>Gegebenenfalls sind außerdem die Empfänger der Dienste zu unterrichten (Abs. 1 und 2). Die Meldung allein begründet keine höhere Haftung der meldenden Einrichtung (Abs. 1). Deutsche Umsetzung: Meldung an die gemeinsame Meldestelle von BSI und BBK mit denselben Fristen (<a href="https://www.gesetze-im-internet.de/bsig_2025/__32.html">§ 32 BSIG</a>).</p>
+</li>
+<li>
+<p><strong>Registrierung</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_3">Art. 3 Abs. 3 und 4</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_27">Art. 27</a>):</p>
+<p>Die Mitgliedstaaten erstellen Listen der wesentlichen und wichtigen Einrichtungen (bis 17.04.2025, danach mindestens alle zwei Jahre überprüft); die Einrichtungen übermitteln dafür Name, Kontaktdaten, Sektor und die betroffenen Mitgliedstaaten und melden Änderungen innerhalb von zwei Wochen (Art. 3 Abs. 4). Für DNS-Diensteanbieter, TLD-Namenregister, Cloud-, Rechenzentrums-, CDN-, Managed-Service-Anbieter, Online-Marktplätze, Suchmaschinen und soziale Netzwerke führt zudem die ENISA ein EU-Register (Art. 27). In Deutschland: Registrierung beim BSI (<a href="https://www.gesetze-im-internet.de/bsig_2025/__33.html">§ 33 BSIG</a>).</p>
+</li>
+<li>
+<p><strong>Aufsicht und Durchsetzung</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_32">Art. 32</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_33">Art. 33</a>):</p>
+<ul>
+<li>Wesentliche Einrichtungen unterliegen einer umfassenden Aufsicht: Vor-Ort-Kontrollen, regelmäßige und gezielte Sicherheitsprüfungen, Ad-hoc-Prüfungen, Sicherheitsscans, Informations- und Nachweisanforderungen (Art. 32 Abs. 2). Durchsetzungsbefugnisse reichen von Warnungen und verbindlichen Anweisungen bis zur Benennung eines Überwachungsbeauftragten und zur Veröffentlichung von Verstößen (Abs. 4); bei Wirkungslosigkeit sind u. a. die vorübergehende Aussetzung von Zertifizierungen oder Genehmigungen und ein vorübergehendes Tätigkeitsverbot für Leitungspersonen vorzusehen (Abs. 5).</li>
+<li>Wichtige Einrichtungen unterliegen nur einer nachträglichen (Ex-post-)Aufsicht, wenn Nachweise, Hinweise oder Informationen auf eine Nichterfüllung hindeuten (Art. 33 Abs. 1); die Befugnisse sind ähnlich ausgestaltet (Art. 33 Abs. 2 und 4).</li>
+<li>Deutschland: <a href="https://www.gesetze-im-internet.de/bsig_2025/__61.html">§ 61 BSIG</a> (besonders wichtige Einrichtungen), <a href="https://www.gesetze-im-internet.de/bsig_2025/__62.html">§ 62 BSIG</a> (wichtige Einrichtungen).</li>
+</ul>
+</li>
+<li>
+<p><strong>Geldbußen</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_34">Art. 34</a>):</p>
+<p>Mindest-Höchstbeträge, die die Mitgliedstaaten vorsehen müssen, bei Verstößen gegen <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_21">Art. 21</a> oder <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_23">Art. 23</a>:</p>
+<ul>
+<li>wesentliche Einrichtungen: mindestens 10 000 000 EUR oder mindestens 2 % des weltweiten Vorjahresumsatzes des Unternehmens, je nachdem, welcher Betrag höher ist (Abs. 4)</li>
+<li>wichtige Einrichtungen: mindestens 7 000 000 EUR oder mindestens 1,4 % des weltweiten Vorjahresumsatzes, je nachdem, welcher Betrag höher ist (Abs. 5)</li>
+</ul>
+<p>Deutschland (<a href="https://www.gesetze-im-internet.de/bsig_2025/__65.html">§ 65 Abs. 5 bis 7 BSIG</a>): bis zu 10 Mio. EUR (besonders wichtige) bzw. 7 Mio. EUR (wichtige Einrichtungen); bei einem Gesamtumsatz von mehr als 500 Mio. EUR bis zu 2 % bzw. 1,4 % des Gesamtumsatzes.</p>
+</li>
+<li>
+<p><strong>Informationsaustausch und Zusammenarbeit</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_29">Art. 29</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_30">Art. 30</a>):</p>
+<p>Freiwilliger Austausch von Cybersicherheitsinformationen (Bedrohungen, Beinahe-Vorfälle, Schwachstellen, Kompromittierungsindikatoren) innerhalb von Gemeinschaften wesentlicher und wichtiger Einrichtungen auf Basis von Vereinbarungen (Art. 29); zusätzlich freiwillige Meldungen an CSIRTs oder Behörden (Art. 30).</p>
+</li>
+<li>
+<p><strong>Zertifizierung und Normung</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_24">Art. 24</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_25">Art. 25</a>):</p>
+<p>Die Mitgliedstaaten können die Verwendung zertifizierter IKT-Produkte, -Dienste und -Prozesse vorschreiben; die Anwendung europäischer und internationaler Normen ist zu fördern.</p>
+</li>
+</ul>
+<h3 id="vorgaben-des-bsi-deutschland">Vorgaben des BSI (Deutschland)</h3>
+<p>In Deutschland ist das BSI die zuständige Aufsichtsbehörde. Es veröffentlicht Vorgaben und Hilfestellungen, die hier nach Themen zusammengefasst sind. Die Seiten des BSI werden fortlaufend aktualisiert, maßgeblich sind der Gesetzestext (<a href="https://www.gesetze-im-internet.de/bsig_2025/BJNR12D0B0025.html">BSIG</a>) und die jeweils aktuellen BSI-Seiten (Abruf der hier wiedergegebenen Inhalte am 09.10.2026).</p>
+<ul>
+<li>
+<p><strong>Betroffenheit</strong> (<a href="https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/NIS-2-Pflichten/nis-2-pflichten_node.html">BSI-Pflichten</a>):</p>
+<p>Das BSI nennt rund 29.500 „besonders wichtige" und „wichtige" Einrichtungen, für die sich erstmals gesetzliche Pflichten ergeben. Eine unverbindliche Selbsteinschätzung bietet die <a href="https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/BSI-Portal/NIS-2-Betroffenheitspruefung/nis-2-betroffenheitspruefung_node.html">NIS-2-Betroffenheitsprüfung</a> des BSI. Unternehmen, die selbst nicht betroffen sind, aber betroffene Einrichtungen beliefern, können mittelbar betroffen sein (siehe Lieferkette).</p>
+</li>
+<li>
+<p><strong>Registrierung</strong> (<a href="https://www.gesetze-im-internet.de/bsig_2025/__33.html">§ 33 BSIG</a>, <a href="https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/NIS-2-Pflichten/nis-2-pflichten_node.html">BSI-Pflichten</a>, <a href="https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/Registrierungspflicht/registrierungspflicht_node.html">Registrierungspflicht</a>):</p>
+<ul>
+<li>Zweistufiger Prozess: zuerst Registrierung beim digitalen Dienst „Mein Unternehmenskonto" (MUK), dann Registrierung im <a href="https://portal.bsi.bund.de">BSI-Portal</a>. Voraussetzung für MUK ist laut <a href="https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/NIS-2/nis-2-checkliste.pdf?__blob=publicationFile&amp;v=9">BSI-Checkliste</a> ein ELSTER-Organisationszertifikat, das unter Angabe einer deutschen Steuernummer erhalten wird.</li>
+<li>Frist: spätestens <strong>drei Monate</strong>, nachdem eine Einrichtung erstmals oder erneut als besonders wichtige oder wichtige Einrichtung gilt (§ 33 Abs. 1). Für Einrichtungen, die bereits mit Inkrafttreten am 06.12.2025 betroffen waren, ergibt sich daraus rechnerisch der 06.03.2026 (eigene Berechnung, keine BSI-Angabe). Das BSI erwartet laut FAQ, dass das Gros der Registrierungen bis Sommer 2026 abgeschlossen ist.</li>
+<li>Änderungen sind unverzüglich, spätestens nach zwei Wochen, über das BSI-Portal zu übermitteln.</li>
+<li>Erhoben werden u. a. Name und Anschrift, Rechtsform und Registerdaten (aus MUK), NIS-2-Kontaktstelle und Kontaktperson, Sektor, Branche und Einrichtungsart, Mitgliedstaaten der Diensterbringung, zuständige Aufsichtsbehörden, Unternehmensgröße (Beschäftigte, Jahresumsatz, Bilanzsumme) und öffentlich erreichbare IP-Adressbereiche.</li>
+<li>Verbindlich für die Ausgestaltung ist das BSI-Dokument <a href="https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/KRITIS/ausgestaltung_registrierungsverfahren.pdf?__blob=publicationFile&amp;v=4">Einzelheiten zur Ausgestaltung des Registrierungsverfahrens (Version 1)</a> (§ 33 Abs. 6).</li>
+<li>Auch DORA-regulierte Einrichtungen müssen sich registrieren.</li>
+</ul>
+</li>
+<li>
+<p><strong>Meldepflicht</strong> (<a href="https://www.gesetze-im-internet.de/bsig_2025/__32.html">§ 32 BSIG</a>, <a href="https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/NIS-2-Infopakete/NIS-2-Meldepflicht/NIS-2-Meldepflicht_node.html">BSI-Infopaket Meldepflicht</a>):</p>
+<ul>
+<li>Erheblich ist ein Sicherheitsvorfall nach § 2 Nr. 11 BSIG, wenn er schwerwiegende Betriebsstörungen oder finanzielle Verluste verursacht hat oder verursachen kann oder andere Personen erheblich schädigt oder schädigen kann. Für DNS-Diensteanbieter, TLD-Namenregister, Cloud- und Rechenzentrumsanbieter, CDN, Anbieter verwalteter (Sicherheits-)Dienste, Online-Marktplätze, Suchmaschinen, soziale Netzwerke und Vertrauensdiensteanbieter gilt die Durchführungsverordnung (EU) 2024/2690. Ein Ausfall oder eine Beeinträchtigung kritischer Dienstleistungen ist stets erheblich.</li>
+<li>Drei Stufen, jeweils ab Kenntniserlangung (maßgeblich ist die Kenntnis eines Mitarbeitenden innerhalb der Arbeitszeit): <strong>frühe Erstmeldung innerhalb von 24 Stunden</strong>, <strong>Folgemeldung innerhalb von 72 Stunden</strong>, <strong>Abschlussmeldung spätestens einen Monat nach Übermittlung der 72-Stunden-Meldung</strong> (§ 32 Abs. 1 Nr. 4) (bei noch nicht beendetem Vorfall folgt eine weitere Folgemeldung). Die BSI-Seite „NIS-2-Pflichten" nennt für die Abschlussmeldung 30 Tage, das Infopaket Meldepflicht und der Gesetzestext einen Monat; maßgeblich ist der Gesetzestext.</li>
+<li>Meldeweg: über das BSI-Portal. Wer vor der Registrierung einen erheblichen Vorfall erleidet, meldet über das <a href="https://mip2.bsi.bund.de/de/meldungen/meldung-ohne-registrierung-erstellen/?meldestelle=10&amp;formular=32">Online-Formular im Melde- und Informationsportal (MIP)</a>. KRITIS-Betreiber und Bundesbehörden nutzen vorübergehend ihre bisherigen Meldewege.</li>
+<li>Grundsatz „Schnelligkeit vor Vollständigkeit": Eine abgegebene Meldung kann nicht zurückgezogen, aber durch Folgemeldungen korrigiert werden. Meldeberechtigt ist grundsätzlich jeder Mitarbeitende; Dienstleister dürfen zur Meldung ermächtigt werden, die Verantwortung bleibt bei der Einrichtung.</li>
+<li>Das BSI bestätigt den Eingang in der Regel umgehend, spätestens innerhalb von 24 Stunden. Es kann anordnen, dass Nutzer der Dienste über erhebliche Vorfälle informiert werden. Eine über die Meldung hinausgehende Dokumentationspflicht besteht nicht, wird aber empfohlen.</li>
+<li>Einrichtungen sollen BSI-Warnungen auch außerhalb der Geschäftszeiten entgegennehmen und intern weiterleiten können.</li>
+</ul>
+</li>
+<li>
+<p><strong>Risikomanagement und Nachweise</strong> (<a href="https://www.gesetze-im-internet.de/bsig_2025/__30.html">§ 30 BSIG</a>, <a href="https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/NIS-2-Infopakete/NIS-2-Risikomanagementmassnahmen/NIS-2-Risikomanagementmassnahmen_node.html">BSI-Infopaket Risikomanagementmaßnahmen</a>, <a href="https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/NIS-2-FAQ/NIS-2-FAQ-allgemein/FAQ-zu-NIS-2_node.html">BSI-FAQ</a>):</p>
+<ul>
+<li>Geeignete, verhältnismäßige und wirksame technische und organisatorische Maßnahmen, mindestens die zehn Maßnahmen nach § 30 Abs. 2 BSIG (Entsprechung zu Art. 21 Abs. 2 der Richtlinie). Sie sind zu dokumentieren; die Verantwortung für Umsetzung und Überwachung liegt bei der Geschäftsleitung.</li>
+<li>Die Maßnahmen sollen den <strong>Stand der Technik</strong> einhalten und einschlägige europäische und internationale Normen berücksichtigen. Das Gesetz definiert den Begriff nicht; das BSI verweist auf die Definition im Handbuch der Rechtsförmlichkeit und stellt eine <a href="https://www.github.com/BSI-Bund/Stand-der-Technik-Bibliothek">Stand-der-Technik-Bibliothek</a> auf GitHub bereit, die auf dem IT-Grundschutz basiert.</li>
+<li><strong>Nachweise</strong> müssen nur auf Anordnung des BSI vorgelegt werden (z. B. Dokumentationen, Prüfberichte, Audits, Zertifizierungen); Betreiber kritischer Anlagen müssen auch ohne Aufforderung Nachweise einreichen.</li>
+<li>Ein allgemeines Zertifikat zum Nachweis der Anforderungen gibt es nicht. Eine ISO-27001-Zertifizierung kann berücksichtigt werden, genügt aber allein nicht (siehe <a href="https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/NIS-2-Infopakete/NIS-2-ISO27001/NIS-2-ISO-27001_node.html">BSI-Infopaket ISO/IEC 27001</a>).</li>
+<li>Auch bei vollständig ausgelagerter IT bleibt die Einrichtung verantwortlich: Sie muss sicherstellen, dass Dienstleister die Vorgaben umsetzen, diese regelmäßig geprüft werden und Vorfälle ordnungsgemäß gemeldet werden.</li>
+<li>Das BSI bietet zusätzlich eine <a href="https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/NIS-2/nis-2-checkliste.pdf?__blob=publicationFile&amp;v=9">NIS-2-Checkliste</a> mit den Schritten Betroffenheit prüfen, Verantwortlichkeiten festlegen, registrieren, Meldepflicht erfüllen, Geschäftsleitung schulen, Risikomanagementmaßnahmen umsetzen.</li>
+</ul>
+</li>
+<li>
+<p><strong>Software, Entwicklung und Lieferkette</strong> (§ 30 Abs. 2 Nr. 4 und 5 BSIG; <a href="https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/NIS-2-Infopakete/NIS-2-Lieferkette/NIS-2-Lieferkette_node.html">Infopaket Sichere Lieferkette</a>, <a href="https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/NIS-2-Infopakete/NIS-2-Sicherheitsmassnahmen/NIS-2-Sicherheitsmassnahmen_node.html">Infopaket Sicherheitsmaßnahmen und Schwachstellenmanagement</a>):</p>
+<p>Für Software-Hersteller und Open-Source-Projekte sind diese BSI-Vorgaben besonders relevant. Das BSI stellt klar, dass das BSIG Zulieferer nicht unmittelbar verpflichtet; betroffene Einrichtungen müssen ihre Zulieferer aber zur Einhaltung entsprechender Sicherheitsanforderungen verpflichten und können deshalb möglicherweise nicht mehr mit jedem Unternehmen zusammenarbeiten.</p>
+<ul>
+<li><strong>Lieferkette:</strong> vertragliche Vereinbarungen mit Zulieferern zu Risikomanagementmaßnahmen, Vorfallsbewältigung und Patchmanagement, Anhalten zu Security by Design und Security by Default, Berücksichtigung von BSI-Empfehlungen. Laut Gesetzesbegründung sind die Gesamtqualität der Produkte und die Cybersicherheitspraxis der Anbieter, einschließlich der Sicherheit ihrer Entwicklungsprozesse, zu berücksichtigen. Als Vorgehen empfiehlt das BSI Cyber-Supply-Chain-Risk-Management in fünf Schritten (Beteiligte identifizieren, Richtlinien entwickeln, eingesetzte Hard- und Software samt Bezugsquelle kennen, die gesamte Kette inkl. Sub-Zulieferern verstehen, Wirksamkeit und Auditfähigkeit sicherstellen). Der Anforderungskatalog zur Lieferkettensicherheit ist in der <a href="https://github.com/BSI-Bund/Stand-der-Technik-Bibliothek/tree/main/control_layer/Lieferkettensicherheit">Stand-der-Technik-Bibliothek</a> abrufbar.</li>
+<li><strong>Erwerb:</strong> Lieferanten und Produkte nach Sicherheitskriterien auswählen und regelmäßig prüfen, vertragliche Regelungen zu Sicherheitsstandards und Meldepflichten, Lieferantenaudits, und anstreben, dass eingesetzte Komponenten frei von bekannten, ausnutzbaren Sicherheitslücken sind.</li>
+<li><strong>Entwicklung (empfohlen):</strong> sicherer Entwicklungszyklus („Security by Design"), Eingabevalidierung, Verschlüsselung, minimale Berechtigungen, Verwendung speichersicherer Programmiersprachen (z. B. Rust), Sicherheitstests, Code Reviews und Penetrationstests bereits während der Entwicklung, <strong>Sicherheitskriterien für die Auswahl von Bibliotheken und Drittsoftware</strong> einschließlich deren Security Practices, sichere Standardkonfiguration („Security by Default").</li>
+<li><strong>Betrieb und Wartung:</strong> Konfigurations- und Änderungsmanagement, regelmäßige Sicherheitsprüfungen, Patch- und Update-Management mit priorisierter Behandlung kritischer Schwachstellen und ausschließlich sicheren Updatemechanismen.</li>
+<li><strong>Schwachstellenmanagement und Offenlegung:</strong> regelmäßiges Scannen und Priorisieren, Dokumentation, interner Meldeprozess, Veröffentlichung einer Meldemöglichkeit für Sicherheitsforschende (z. B. <code>security.txt</code> nach RFC 9116), zeitnahe Mitteilung kritischer Schwachstellen, Meldung an zuständige Aufsichtsbehörden nach gesetzlichen Vorgaben (z. B. Cyber Resilience Act, siehe <a href="../cra/">CRA</a>), koordinierte Offenlegung, freiwillige Meldung an das BSI über das BSI-Portal (auch anonym). Das BSI nennt CSAF als Hilfsmittel für das automatisierte Schwachstellenmanagement.</li>
+<li><strong>Erwartung an Hersteller:</strong> Das BSI rät betroffenen Unternehmen, konkrete Cybersicherheitsanforderungen an Software- und Hardwareprodukte zu stellen, die der Hersteller idealerweise belegen kann, auch anhand europäischer und internationaler Normen. Das BSI begrüßt einheitliche Fragenkataloge für Lieferanten; eine erste Orientierung bieten die <a href="https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/KRITIS/UPK/upk-anforderungen-lieferanten.pdf?__blob=publicationFile&amp;v=14">UP-KRITIS-Best-Practice-Empfehlungen für Anforderungen an Lieferanten</a>. Für Hersteller von Produkten mit digitalen Elementen veröffentlicht das BSI außerdem die Technische Richtlinie <a href="https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03183/tr-03183.html">TR-03183</a> (Teil 2 zu SBOM, Teil 3 zu Schwachstellenmeldungen), siehe <a href="../cra/#bsi-tr-03183-technische-richtlinie-des-bsi">CRA</a>. Sie ist nicht Bestandteil des BSIG und begründet keine Konformitätsvermutung.</li>
+</ul>
+</li>
+<li>
+<p><strong>Geschäftsleitung</strong> (<a href="https://www.gesetze-im-internet.de/bsig_2025/__38.html">§ 38 BSIG</a>, <a href="https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/NIS-2/nis-2-geschaeftsleitungsschulung.pdf?__blob=publicationFile&amp;v=8">BSI-Handreichung zur Geschäftsleitungsschulung</a>):</p>
+<p>Geschäftsleitungen müssen sich nach § 38 Abs. 3 BSIG regelmäßig schulen lassen. Das Gesetz nennt keine konkreten Vorgaben zu Intervall und Dauer; das BSI empfiehlt eine ausführliche Erstschulung mit regelmäßigen Folgeschulungen, abgestimmt auf das Risiko der Einrichtung, und eine nachvollziehbare Dokumentation der Teilnahme. Die Handreichung ist rechtlich nicht verbindlich.</p>
+</li>
+</ul>
+<h2 id="losungsansatze-hilfestellungen">Lösungsansätze &amp; Hilfestellungen</h2>
+<ul>
+<li>Informationen des BSI zu NIS-2-regulierten Unternehmen, Registrierung und Meldepflicht: <a href="https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/nis-2-regulierte-unternehmen_node.html">BSI NIS-2</a></li>
+<li>Der <a href="https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/it-grundschutz-kompendium_node.html">IT-Grundschutz des BSI</a> kann als Methodik für Risikoanalyse und Maßnahmenumsetzung dienen (keine Konformitätsvermutung im Gesetz; siehe Art. 25 zur Normung). Das BSI stellt klar: Der IT-Grundschutz ist für NIS-2-Einrichtungen <strong>nicht verpflichtend</strong>; bestehende Managementsysteme sind eine Grundlage, aber gegen den Maßnahmenkatalog des § 30 BSIG zu prüfen und ggf. zu ergänzen (<a href="https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/NIS-2-FAQ/NIS-2-FAQ-allgemein/FAQ-zu-NIS-2_node.html">BSI-FAQ</a>).</li>
+<li>Überblick der Europäischen Kommission zur NIS2: <a href="https://digital-strategy.ec.europa.eu/en/policies/nis2-directive">Kommission: NIS2-Richtlinie</a></li>
+</ul>
+<h3 id="tools-werkzeuge">Tools &amp; Werkzeuge</h3>
+<h4 id="grc-risikomanagement">GRC &amp; Risikomanagement</h4>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Lizenz</th>
+<th>Problem / Zweck</th>
+<th>Regulatorische Relevanz</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/monarc-project/MonarcAppFO">MONARC</a></td>
+<td>Open Source (AGPL)</td>
+<td>Strukturierte Risikoanalyse nach ISO 27005; entwickelt von CASES Luxemburg</td>
+<td>NIS2 Art. 21: Risikomanagementmaßnahmen</td>
+</tr>
+<tr>
+<td><a href="https://www.eramba.org/">Eramba</a></td>
+<td>Open Source (AGPL, Community Edition)</td>
+<td>GRC-Plattform: Risikoregister, Controls, Compliance-Mapping</td>
+<td>NIS2 Art. 20–21, ISO 27001</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Cingulara/openrmf-oss">OpenRMF</a></td>
+<td>Open Source (GPL-3.0)</td>
+<td>RMF-Dokumentation, STIG-Checklisten, Compliance-Tracking</td>
+<td>IT-Risikomanagement</td>
+</tr>
+</tbody>
+</table>
+<h4 id="incident-management-threat-intelligence">Incident Management &amp; Threat Intelligence</h4>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Lizenz</th>
+<th>Problem / Zweck</th>
+<th>Regulatorische Relevanz</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://thehive-project.org/">TheHive</a></td>
+<td>Open Source (AGPL)</td>
+<td>Security Incident Response Plattform; strukturierte Vorfallbearbeitung und Reporting</td>
+<td>NIS2 Art. 23: Meldepflicht schwerwiegender Vorfälle</td>
+</tr>
+<tr>
+<td><a href="https://www.misp-project.org/">MISP</a></td>
+<td>Open Source (AGPL)</td>
+<td>Threat Intelligence Sharing; Austausch von IoCs zwischen Organisationen und Behörden</td>
+<td>NIS2 Art. 29: Informationsaustausch</td>
+</tr>
+<tr>
+<td><a href="https://github.com/TheHive-Project/Cortex">Cortex</a></td>
+<td>Open Source (AGPL)</td>
+<td>Automatisierte Analyse von Observables; ergänzt TheHive</td>
+<td>Unterstützt Incident-Response-Prozesse</td>
+</tr>
+<tr>
+<td><a href="https://github.com/dbarzin/deming">Deming</a></td>
+<td>Open Source (GPL)</td>
+<td>Web-basiertes IT-Sicherheits-Audit-Management nach ISO 27001; Maßnahmen-Tracking, Reifegradmessung und Compliance-Nachweise</td>
+<td>NIS2 Art. 21: Risikomanagement-Maßnahmen dokumentieren und nachweisen</td>
+</tr>
+</tbody>
+</table>
+<h4 id="sbom-lieferkettensicherheit-art-21-abs-2-lit-d-und-e">SBOM &amp; Lieferkettensicherheit (Art. 21 Abs. 2 lit. d und e)</h4>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Lizenz</th>
+<th>Problem / Zweck</th>
+<th>Regulatorische Relevanz</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/TrustSource/ts-scan">TrustSource ts-scan</a></td>
+<td>Open Source</td>
+<td>Universeller SCA-Scanner: analysiert Abhängigkeiten aus Build-Systemen und Paketmanagern, erzeugt CycloneDX/SPDX-SBOMs und lädt Ergebnisse in die TrustSource-Plattform hoch</td>
+<td>NIS2 Art. 21(2)(d): Lieferkettensicherheit — SBOM als Basis für kontinuierliches Schwachstellenmanagement der eingesetzten Komponenten</td>
+</tr>
+<tr>
+<td><a href="https://github.com/trustsource/ts-core-ce">TrustSource CE</a></td>
+<td>AGPL (Community Edition)</td>
+<td>Vollständige SCA-Plattform: SBOM-Versionierung, Vulnerability Management und CSAF-Kommunikation — schließt den Loop von der Komponentenanalyse bis zum Security Advisory</td>
+<td>NIS2 Art. 21(2)(d)(e): Lieferkettensicherheit und Schwachstellenprozesse</td>
+</tr>
+<tr>
+<td><a href="https://dependencytrack.org/">OWASP Dependency-Track</a></td>
+<td>Apache-2.0</td>
+<td>Kontinuierliche SBOM-Analyse: nimmt SBOMs entgegen, überwacht fortlaufend gegen NVD, OSV und weitere Datenbanken</td>
+<td>NIS2 Art. 21(2)(d)(e): Zentrales SBOM-Lifecycle-Management und Schwachstellen-Monitoring</td>
+</tr>
+</tbody>
+</table>
+<h4 id="monitoring-schwachstellenmanagement">Monitoring &amp; Schwachstellenmanagement</h4>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Lizenz</th>
+<th>Problem / Zweck</th>
+<th>Regulatorische Relevanz</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://wazuh.com/">Wazuh</a></td>
+<td>Open Source (GPL)</td>
+<td>SIEM, Intrusion Detection, Log-Analyse, Schwachstellenerkennung</td>
+<td>NIS2 Art. 21: Sicherheit von Netz- und Informationssystemen</td>
+</tr>
+<tr>
+<td><a href="https://www.greenbone.net/">OpenVAS / Greenbone</a></td>
+<td>Open Source (GPL)</td>
+<td>Schwachstellenscanner für Netzwerke und Systeme</td>
+<td>NIS2: Schwachstellenmanagement</td>
+</tr>
+<tr>
+<td><a href="https://www.zabbix.com/">Zabbix</a></td>
+<td>Open Source (GPL-2.0)</td>
+<td>Infrastruktur-Monitoring und Alerting</td>
+<td>Betriebsstabilität, Frühwarnung</td>
+</tr>
+</tbody>
+</table>
+<h2 id="quellen">Quellen</h2>
+<p>Alle EU-Rechtstexte in der deutschen Fassung im Amtsblatt der EU (ELI-Links):</p>
+<ul>
+<li><a href="https://eur-lex.europa.eu/eli/dir/2022/2555/oj">Richtlinie (EU) 2022/2555 (NIS2)</a></li>
+<li><a href="https://eur-lex.europa.eu/eli/reg_impl/2024/2690/oj">Durchführungsverordnung (EU) 2024/2690</a>: technische und methodische Anforderungen und erhebliche Sicherheitsvorfälle für digitale Anbieter</li>
+<li><a href="https://eur-lex.europa.eu/eli/reg/2022/2554/oj">Verordnung (EU) 2022/2554 (DORA)</a>, Art. 1 Abs. 2: DORA als sektorspezifischer Rechtsakt im Sinne von NIS2 Art. 4</li>
+<li><a href="https://eur-lex.europa.eu/eli/dir/2022/2557/oj">Richtlinie (EU) 2022/2557 (CER)</a>: kritische Einrichtungen</li>
+<li><a href="https://eur-lex.europa.eu/eli/reco/2003/361/oj">Empfehlung 2003/361/EG</a>: KMU-Definition (Größenschwellen)</li>
+<li><a href="https://eur-lex.europa.eu/eli/dir/2016/1148/oj">Richtlinie (EU) 2016/1148 (NIS-Richtlinie, aufgehoben)</a></li>
+</ul>
+<p>Deutsche Umsetzung:</p>
+<ul>
+<li><a href="https://www.gesetze-im-internet.de/bsig_2025/BJNR12D0B0025.html">BSI-Gesetz (BSIG)</a>, Artikel 1 des NIS-2-Umsetzungs- und Cybersicherheitsstärkungsgesetzes vom 02.12.2025, <a href="https://www.recht.bund.de/bgbl/1/2025/301/VO.html">BGBl. 2025 I Nr. 301</a>, in Kraft seit 06.12.2025</li>
+<li><a href="https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/nis-2-regulierte-unternehmen_node.html">BSI: NIS-2-regulierte Unternehmen</a> mit <a href="https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/NIS-2-Pflichten/nis-2-pflichten_node.html">Pflichten</a>, <a href="https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/Registrierungspflicht/registrierungspflicht_node.html">Registrierungspflicht</a>, <a href="https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/NIS-2-Infopakete/NIS-2-Meldepflicht/NIS-2-Meldepflicht_node.html">Meldepflicht</a>, <a href="https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/NIS-2-FAQ/NIS-2-FAQ-allgemein/FAQ-zu-NIS-2_node.html">FAQ</a>, <a href="https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/NIS-2/nis-2-checkliste.pdf?__blob=publicationFile&amp;v=9">Checkliste</a> und den Infopaketen zu <a href="https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/NIS-2-Infopakete/NIS-2-Risikomanagementmassnahmen/NIS-2-Risikomanagementmassnahmen_node.html">Risikomanagement</a>, <a href="https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/NIS-2-Infopakete/NIS-2-Lieferkette/NIS-2-Lieferkette_node.html">Lieferkette</a>, <a href="https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/NIS-2-Infopakete/NIS-2-Sicherheitsmassnahmen/NIS-2-Sicherheitsmassnahmen_node.html">Sicherheitsmaßnahmen</a>, <a href="https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/NIS-2-Infopakete/NIS-2-DORA/NIS-2-DORA_node.html">DORA</a> und <a href="https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/NIS-2-Infopakete/NIS-2-ISO27001/NIS-2-ISO-27001_node.html">ISO/IEC 27001</a></li>
+<li><a href="https://digital-strategy.ec.europa.eu/en/policies/nis2-directive">Europäische Kommission: NIS2-Richtlinie</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 <a href="https://osb-alliance.de/impressum">OSBA WG Security</a>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+
+
+
+<h4>Cookie consent</h4>
+<p>We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to make our documentation better. </p>
+<input class="md-toggle" type="checkbox" id="__settings" >
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+    
+    
+      
+        
+  
+  
+    
+    
+  
+  <li class="task-list-item">
+    <label class="task-list-control">
+      <input type="checkbox" name="github" checked>
+      <span class="task-list-indicator"></span>
+      GitHub
+    </label>
+  </li>
+
+      
+    
+    
+      
+        
+  
+  
+    
+    
+  
+  <li class="task-list-item">
+    <label class="task-list-control">
+      <input type="checkbox" name="analytics" >
+      <span class="task-list-indicator"></span>
+      Google Analytics
+    </label>
+  </li>
+
+      
+    
+  </ul>
+</div>
+<div class="md-consent__controls">
+  
+    
+      <button class="md-button md-button--primary">Accept</button>
+    
+    
+    
+  
+    
+    
+    
+      <label class="md-button" for="__settings">Manage settings</label>
+    
+  
+    
+    
+      <button type="reset" class="md-button md-button--primary">Reject</button>
+    
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "header.autohide", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../assets/feedback.js"></script>
+      
+    
+  </body>
+</html>

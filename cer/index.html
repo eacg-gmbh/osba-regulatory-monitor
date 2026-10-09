@@ -1,0 +1,2036 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Stellt eine Uebersicht an Regularien sowie deren Wirkung auf die Software-Entwicklung vor ">
+      
+      
+        <meta name="author" content="OSBA Security Workgroup">
+      
+      
+        <link rel="canonical" href="https://eacg-gmbh.github.io/osba-regulatory-monitor/cer/">
+      
+      
+        <link rel="prev" href="../aiact/">
+      
+      
+        <link rel="next" href="../dataact/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Directive on the Resilience of critical Entities (CER) - OSBA Regulatory Monitor</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config",""),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>if("undefined"!=typeof __md_analytics){var consent=__md_get("__consent");consent&&consent.analytics&&__md_analytics()}</script>
+  
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="lime">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#eu-richtlinie-zur-resilienz-kritischer-einrichtungen-critical-entities-resilience-directive-cer" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://www.osb-alliance.de" title="OSBA Regulatory Monitor" class="md-header__button md-logo" aria-label="OSBA Regulatory Monitor" data-md-component="logo">
+      
+  <img src="../assets/osba-logo-claim.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            OSBA Regulatory Monitor
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Directive on the Resilience of critical Entities (CER)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="lime"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/eacg-gmbh/osba-regulatory-monitor" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href=".." class="md-tabs__link">
+          
+  
+  
+    
+  
+  Hintergrund
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../aiact/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  EU Regularien
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../kritis-dachgesetz/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Deutschland
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../iec18974/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Standards
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../about/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  About
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://www.osb-alliance.de" title="OSBA Regulatory Monitor" class="md-nav__button md-logo" aria-label="OSBA Regulatory Monitor" data-md-component="logo">
+      
+  <img src="../assets/osba-logo-claim.svg" alt="logo">
+
+    </a>
+    OSBA Regulatory Monitor
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/eacg-gmbh/osba-regulatory-monitor" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href=".." class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hintergrund
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Hintergrund
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guidelines/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mitarbeit
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EU Regularien
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    EU Regularien
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aiact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EU Artificial Intelligence Act (AI Act)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Directive on the Resilience of critical Entities (CER)
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Directive on the Resilience of critical Entities (CER)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#uberblick" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Überblick
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zentrale-forderungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zentrale Forderungen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Zentrale Forderungen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pflichten-der-mitgliedstaaten" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pflichten der Mitgliedstaaten
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pflichten-der-kritischen-einrichtungen-kapitel-iii" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pflichten der kritischen Einrichtungen (Kapitel III)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kritische-einrichtungen-von-besonderer-bedeutung-fur-europa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kritische Einrichtungen von besonderer Bedeutung für Europa
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relevanz-fur-software-hersteller-und-open-source" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relevanz für Software-Hersteller und Open Source
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wechselwirkungen-mit-anderen-eu-regularien" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wechselwirkungen mit anderen EU-Regularien
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#konkretisierungen-durch-die-kommission" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Konkretisierungen durch die Kommission
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#umsetzung-in-deutschland-stand-09102026" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Umsetzung in Deutschland (Stand 09.10.2026)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#losungsansatze-hilfestellungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lösungsansätze &amp; Hilfestellungen
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#weiterfuhrende-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Weiterführende Links
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quellen
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dataact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EU Data Act
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dora/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Digital Operational Resilience Act (DORA)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EU Cyber Resilience Act (CRA)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../eidas2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    eIDAS 2.0 / European Digital Identity Wallet
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nis2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EU NIS2 Directive
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mdr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Medical Device Directive (MDR)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pld/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Product Liability Directive (PLD)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../red/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Radio Frequency Directive (RED)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deutschland
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Deutschland
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kritis-dachgesetz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    KRITIS-Dachgesetz (KRITIS-DachG)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Standards
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Standards
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iec18974/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC-18974
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iec62304/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC-62304
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iec62443/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC-62443
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iec81001-5-1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC-81001-5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../openchain/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ISO-5230
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tisax/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TISAX
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    About
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Über dieses Projekt
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CHANGELOG/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Changelog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#uberblick" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Überblick
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zentrale-forderungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zentrale Forderungen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Zentrale Forderungen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pflichten-der-mitgliedstaaten" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pflichten der Mitgliedstaaten
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pflichten-der-kritischen-einrichtungen-kapitel-iii" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pflichten der kritischen Einrichtungen (Kapitel III)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kritische-einrichtungen-von-besonderer-bedeutung-fur-europa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kritische Einrichtungen von besonderer Bedeutung für Europa
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relevanz-fur-software-hersteller-und-open-source" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relevanz für Software-Hersteller und Open Source
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wechselwirkungen-mit-anderen-eu-regularien" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wechselwirkungen mit anderen EU-Regularien
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#konkretisierungen-durch-die-kommission" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Konkretisierungen durch die Kommission
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#umsetzung-in-deutschland-stand-09102026" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Umsetzung in Deutschland (Stand 09.10.2026)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#losungsansatze-hilfestellungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lösungsansätze &amp; Hilfestellungen
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#weiterfuhrende-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Weiterführende Links
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quellen
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <a href="../.#tag:cloud-internet-services" class="md-tag">cloud internet-services</a>
+      
+    
+      
+      
+      
+      
+        <a href="../.#tag:cybersecurity" class="md-tag">cybersecurity</a>
+      
+    
+      
+      
+      
+      
+        <a href="../.#tag:energy" class="md-tag">energy</a>
+      
+    
+      
+      
+      
+      
+        <a href="../.#tag:health" class="md-tag">health</a>
+      
+    
+      
+      
+      
+      
+        <a href="../.#tag:internet-services" class="md-tag">internet-services</a>
+      
+    
+      
+      
+      
+      
+        <a href="../.#tag:pharma" class="md-tag">pharma</a>
+      
+    
+      
+      
+      
+      
+        <a href="../.#tag:public-services" class="md-tag">public services</a>
+      
+    
+      
+      
+      
+      
+        <a href="../.#tag:space" class="md-tag">space</a>
+      
+    
+      
+      
+      
+      
+        <a href="../.#tag:transport" class="md-tag">transport</a>
+      
+    
+      
+      
+      
+      
+        <a href="../.#tag:travel" class="md-tag">travel</a>
+      
+    
+      
+      
+      
+      
+        <a href="../.#tag:utilities" class="md-tag">utilities</a>
+      
+    
+  </nav>
+
+
+
+<h1 id="eu-richtlinie-zur-resilienz-kritischer-einrichtungen-critical-entities-resilience-directive-cer">EU-Richtlinie zur Resilienz kritischer Einrichtungen (Critical Entities Resilience Directive, CER)</h1>
+<p>Die Richtlinie (EU) 2022/2557 über die Resilienz kritischer Einrichtungen (CER, Critical Entities Resilience Directive) verpflichtet die EU-Mitgliedstaaten, kritische Einrichtungen in elf Sektoren zu ermitteln und diesen Einrichtungen Pflichten zur <strong>physischen und organisatorischen Resilienz</strong> aufzuerlegen (Risikobewertung, Resilienzmaßnahmen, Meldung von Sicherheitsvorfällen). Sie ersetzt die Richtlinie 2008/114/EG über europäische kritische Infrastrukturen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_27">Art. 27</a>). Die Cybersicherheit dieser Einrichtungen regelt dagegen <a href="../nis2/">NIS2</a>. In Deutschland ist die CER-Richtlinie durch das <a href="../kritis-dachgesetz/">KRITIS-Dachgesetz</a> umgesetzt (in Kraft seit 17.03.2026).</p>
+<blockquote>
+<p>[!NOTE]</p>
+<p>Alle Artikelverweise beziehen sich, sofern nicht anders angegeben, auf die <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557">Richtlinie (EU) 2022/2557</a> und führen direkt zum jeweiligen Artikel (Erwägungsgründe: „Erwgr."). Die Quellen der übrigen Rechtsakte und der nationalen Umsetzung stehen im Abschnitt <a href="#quellen">Quellen</a>. Stand dieser Seite: 09.10.2026. Keine Rechtsberatung.</p>
+</blockquote>
+<h2 id="uberblick">Überblick</h2>
+<ul>
+<li>
+<p><strong>Segment</strong>: Resilienz kritischer Infrastrukturen (überwiegend physische Sicherheit und Betriebskontinuität; Cybersicherheit ist grundsätzlich Gegenstand von NIS2). Sektoren laut <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#anx_1">Anhang</a>:</p>
+<ul>
+<li>Energie (Strom, Fernwärme und -kälte, Erdöl, Erdgas, Wasserstoff)</li>
+<li>Verkehr (Luftfahrt, Schienenverkehr, Schifffahrt, Straßenverkehr, öffentlicher Verkehr)</li>
+<li>Bankwesen</li>
+<li>Finanzmarktinfrastrukturen</li>
+<li>Gesundheit (u. a. Gesundheitsdienstleister, Arzneimittel- und Medizinprodukteherstellung)</li>
+<li>Trinkwasser</li>
+<li>Abwasser</li>
+<li>Digitale Infrastruktur (u. a. Internet-Knoten, DNS, TLD-Register, Cloud-Computing, Rechenzentren, Inhaltszustellnetze, Vertrauensdienste, elektronische Kommunikationsnetze und -dienste)</li>
+<li>Öffentliche Verwaltung (Zentralregierungen)</li>
+<li>Weltraum (Bodeninfrastrukturen)</li>
+<li>Produktion, Verarbeitung und Vertrieb von Lebensmitteln</li>
+</ul>
+</li>
+<li>
+<p><strong>Verabschiedet / Veröffentlicht</strong>:</p>
+<ul>
+<li>Richtlinie (EU) 2022/2557 vom 14.12.2022 (Geschehen zu Straßburg am 14. Dezember 2022), veröffentlicht im Amtsblatt der EU (L 333) am 27.12.2022 (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_29">Art. 29</a>)</li>
+<li>Begleitend: <a href="https://eur-lex.europa.eu/eli/reg_del/2023/2450/oj">Delegierte Verordnung (EU) 2023/2450</a> vom 25.07.2023 mit der nicht erschöpfenden Liste wesentlicher Dienste (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_5">Art. 5 Abs. 1</a>), veröffentlicht am 30.10.2023</li>
+</ul>
+</li>
+<li>
+<p><strong>Gültig ab</strong>:</p>
+<ul>
+<li>In Kraft getreten: 16.01.2023 (zwanzigster Tag nach Veröffentlichung, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_28">Art. 28</a>)</li>
+<li>Umsetzung in nationales Recht bis <strong>17.10.2024</strong>, Anwendung der nationalen Vorschriften ab <strong>18.10.2024</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_26">Art. 26 Abs. 1</a>). Die Richtlinie wirkt gegenüber den Mitgliedstaaten (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_29">Art. 29</a>); Pflichten für Einrichtungen entstehen erst durch das nationale Recht und die Ermittlung als kritische Einrichtung.</li>
+<li>Aufhebung der Richtlinie 2008/114/EG mit Wirkung vom 18.10.2024 (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_27">Art. 27</a>)</li>
+<li>Weitere Fristen für die Mitgliedstaaten: nationale Strategie und Risikobewertung bis 17.01.2026 (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_4">Art. 4 Abs. 1</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_5">Art. 5 Abs. 1</a>), Ermittlung der kritischen Einrichtungen bis <strong>17.07.2026</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_6">Art. 6 Abs. 1</a>), Bericht der Kommission zur Umsetzung bis 17.07.2027 (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_25">Art. 25</a>)</li>
+</ul>
+</li>
+<li>
+<p><strong>Gültig für</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_2">Art. 2 Nr. 1</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_6">Art. 6</a>):</p>
+<p><strong>Kritische Einrichtungen</strong>, also öffentliche oder private Einrichtungen, die ein Mitgliedstaat als einer der Kategorien in der dritten Spalte des <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#anx_1">Anhangs</a> angehörend eingestuft hat. Eine Einrichtung wird nur eingestuft, wenn sie kumulativ (a) einen oder mehrere wesentliche Dienste erbringt, (b) im Hoheitsgebiet des Mitgliedstaats tätig ist und ihre kritische Infrastruktur dort liegt und (c) ein Sicherheitsvorfall eine erhebliche Störung dieser Dienste bewirken würde (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_6">Art. 6 Abs. 2</a>). Kriterien für die Erheblichkeit nennt <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_7">Art. 7 Abs. 1</a>. Die Richtlinie legt keine festen Schwellenwerte oder Unternehmensgrößen fest, die Einstufung erfolgt durch die Mitgliedstaaten.</p>
+</li>
+<li>
+<p><strong>Nicht gültig für</strong>:</p>
+<ul>
+<li>Angelegenheiten, die unter <a href="../nis2/">NIS2</a> fallen (Cybersicherheit), unbeschadet von Art. 8 (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_1">Art. 1 Abs. 2</a>)</li>
+<li>Einrichtungen der öffentlichen Verwaltung, die ihre Tätigkeiten in den Bereichen nationale Sicherheit, öffentliche Sicherheit, Verteidigung oder Strafverfolgung ausüben (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_1">Art. 1 Abs. 6</a>). Die Mitgliedstaaten können bestimmte Vorschriften (Art. 11, Kapitel III, IV und VI) außerdem für kritische Einrichtungen in diesen Bereichen ausschließen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_1">Art. 1 Abs. 7</a>).</li>
+<li><strong>Banken, Finanzmarktinfrastrukturen und digitale Infrastruktur</strong>: Für die in diesen Sektoren ermittelten kritischen Einrichtungen (Anhang Nr. 3, 4 und 8) gelten Art. 11 sowie die Kapitel III, IV und VI nicht (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_8">Art. 8</a>). Sie werden stattdessen über <a href="../dora/">DORA</a> bzw. <a href="../nis2/">NIS2</a> reguliert (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#rct_9">Erwgr. 9</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#rct_20">Erwgr. 20</a>). Die Mitgliedstaaten können für sie höhere nationale Anforderungen vorsehen.</li>
+<li>Einrichtungen, für die sektorspezifische Rechtsakte der Union mindestens gleichwertige Resilienzanforderungen enthalten, soweit die Mitgliedstaaten dies so anerkennen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_1">Art. 1 Abs. 3</a>)</li>
+</ul>
+</li>
+<li>
+<p><strong>Grauzone</strong>:</p>
+<ul>
+<li>Abgrenzung zu NIS2: Die CER-Richtlinie deckt nicht cyberbezogene Risiken ab (physischer Schutz, Personal, Wiederherstellung), NIS2 die Sicherheit von Netz- und Informationssystemen. Die Mitgliedstaaten müssen beide Richtlinien koordiniert umsetzen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_1">Art. 1 Abs. 2</a>). Die Richtlinie definiert „Sicherheitsvorfall" allerdings allgemein als Ereignis, das die Erbringung eines wesentlichen Dienstes erheblich stört oder stören könnte (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_2">Art. 2 Nr. 3</a>); die Trennlinie zu rein cyberbedingten Vorfällen regelt das nationale Recht.</li>
+<li>Einstufung und Pflichten hängen von der nationalen Umsetzung ab. Die Richtlinie ist <strong>Mindestharmonisierung</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_3">Art. 3</a>): Mitgliedstaaten dürfen strengere Vorschriften erlassen oder beibehalten (z. B. zusätzliche Sektoren, niedrigere Schwellen).</li>
+<li>Ob und in welchem Umfang Software und IT-Dienste als Teil der „kritischen Infrastrukturen" gelten (Objekte, Anlagen, Ausrüstung, Netze oder Systeme, die für die Erbringung eines wesentlichen Dienstes erforderlich sind, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_2">Art. 2 Nr. 4</a>), ist im Einzelfall zu prüfen. Die Richtlinie richtet ihre Maßnahmen primär auf physischen Schutz aus (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_13">Art. 13 Abs. 1 Buchst. b</a>).</li>
+</ul>
+</li>
+<li>
+<p><strong>Ziel</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_1">Art. 1 Abs. 1</a>):
+  Sicherstellung der ungehinderten Erbringung von Diensten im Binnenmarkt, die für wichtige gesellschaftliche Funktionen oder wirtschaftliche Tätigkeiten unerlässlich sind, durch ein hohes Resilienzniveau kritischer Einrichtungen. Resilienz ist die Fähigkeit, einen Sicherheitsvorfall zu verhindern, sich davor zu schützen, darauf zu reagieren, ihn abzuwehren, die Folgen zu begrenzen, ihn aufzufangen, zu bewältigen und sich davon zu erholen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_2">Art. 2 Nr. 2</a>). Die Risiken umfassen natürliche und vom Menschen verursachte Risiken, darunter Unfälle, Naturkatastrophen, gesundheitliche Notlagen, hybride Bedrohungen und terroristische Straftaten (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_5">Art. 5 Abs. 1</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_12">Art. 12 Abs. 2</a>).</p>
+</li>
+<li>
+<p><strong>Neuerungen / Anforderungen</strong>:</p>
+<ul>
+<li><strong>Pflichten der Mitgliedstaaten</strong> (Kapitel II): nationale Strategie, nationale Risikobewertung, Ermittlung kritischer Einrichtungen, zuständige Behörden und zentrale Anlaufstelle, Unterstützung der Einrichtungen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_4">Art. 4–10</a>)</li>
+<li><strong>Risikobewertung</strong> durch die kritische Einrichtung binnen neun Monaten nach der Mitteilung ihrer Einstufung, danach mindestens alle vier Jahre (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_12">Art. 12</a>)</li>
+<li><strong>Resilienzmaßnahmen</strong> (technisch, sicherheitsbezogen, organisatorisch) und Resilienzplan (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_13">Art. 13</a>)</li>
+<li><strong>Zuverlässigkeitsüberprüfungen</strong> von Personen in sensiblen Funktionen nach Maßgabe des nationalen Rechts (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_14">Art. 14</a>)</li>
+<li><strong>Meldung von Sicherheitsvorfällen</strong>: Erstmeldung binnen 24 Stunden, ausführlicher Bericht spätestens einen Monat später (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_15">Art. 15</a>)</li>
+<li><strong>Aufsicht und Durchsetzung</strong>: Vor-Ort-Kontrollen, Audits, Anweisungen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_21">Art. 21</a>) und Sanktionen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_22">Art. 22</a>)</li>
+<li><strong>Kritische Einrichtungen von besonderer Bedeutung für Europa</strong> (wesentliche Dienste in sechs oder mehr Mitgliedstaaten) mit Beratungsmissionen der Kommission (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_17">Art. 17–18</a>)</li>
+</ul>
+</li>
+<li>
+<p><strong>Sanktionen</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_22">Art. 22</a>):
+  Die Richtlinie selbst legt weder Bußgeldhöhen noch Straf- oder Betriebsuntersagungsregelungen fest. Die Mitgliedstaaten erlassen Sanktionsvorschriften, die <strong>wirksam, verhältnismäßig und abschreckend</strong> sein müssen, und teilten sie der Kommission bis 17.10.2024 mit. Die zuständigen Behörden können außerdem Maßnahmen zur Behebung von Verstößen anordnen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_21">Art. 21 Abs. 3</a>). Die konkreten Höhen bestimmt das nationale Recht (Deutschland: siehe unten).</p>
+</li>
+</ul>
+<h2 id="zentrale-forderungen">Zentrale Forderungen</h2>
+<h3 id="pflichten-der-mitgliedstaaten">Pflichten der Mitgliedstaaten</h3>
+<ul>
+<li><strong>Strategie</strong> zur Verbesserung der Resilienz kritischer Einrichtungen bis 17.01.2026, mindestens alle vier Jahre zu aktualisieren (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_4">Art. 4</a>)</li>
+<li><strong>Risikobewertung durch die Mitgliedstaaten</strong> bis 17.01.2026 und mindestens alle vier Jahre, auf Grundlage der Liste wesentlicher Dienste (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_5">Art. 5</a>; Liste: <a href="https://eur-lex.europa.eu/eli/reg_del/2023/2450/oj">Delegierte Verordnung (EU) 2023/2450</a>, die Liste ist nicht erschöpfend)</li>
+<li><strong>Ermittlung der kritischen Einrichtungen</strong> bis 17.07.2026, Überprüfung mindestens alle vier Jahre; Mitteilung der Einstufung an die Einrichtung binnen eines Monats (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_6">Art. 6</a>). Die Einrichtungen werden dabei über ihre Pflichten und deren Geltungsbeginn informiert; Kapitel III gilt zehn Monate nach der Mitteilung (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_6">Art. 6 Abs. 3</a>).</li>
+<li><strong>Zuständige Behörden und zentrale Anlaufstelle</strong>, ausreichend ausgestattet; Kooperation mit den NIS2-Behörden bei Cyber- und Nicht-Cyber-Risiken (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_9">Art. 9</a>)</li>
+<li><strong>Unterstützung</strong> der kritischen Einrichtungen, u. a. durch Leitfäden, Übungen, Beratung und Schulungen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_10">Art. 10</a>)</li>
+<li><strong>Aufsicht</strong>: Vor-Ort-Kontrollen und externe Aufsichtsmaßnahmen, Audits sowie Anweisungen zur Behebung von Verstößen, jeweils unter angemessenen Garantien (u. a. Schutz von Geschäftsgeheimnissen, Rechtsbehelf, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_21">Art. 21 Abs. 4</a>). Es gibt keine in der Richtlinie vorgeschriebenen „regelmäßigen Berichte" der Einrichtungen an die Behörde; Auskunfts- und Nachweispflichten ergeben sich aus der Aufsicht.</li>
+</ul>
+<h3 id="pflichten-der-kritischen-einrichtungen-kapitel-iii">Pflichten der kritischen Einrichtungen (Kapitel III)</h3>
+<ul>
+<li><strong>Risikobewertung</strong> binnen neun Monaten nach der Mitteilung der Einstufung, danach bei Bedarf, mindestens alle vier Jahre; berücksichtigt natürliche und vom Menschen verursachte Risiken sowie Abhängigkeiten zu anderen Sektoren. Vorhandene Bewertungen aus anderen Rechtsakten können genutzt werden (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_12">Art. 12</a>).</li>
+<li><strong>Resilienzmaßnahmen</strong>: geeignete und verhältnismäßige technische, sicherheitsbezogene und organisatorische Maßnahmen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_13">Art. 13 Abs. 1</a>), insbesondere zur<ul>
+<li>Verhinderung von Sicherheitsvorfällen (inkl. Katastrophenvorsorge, Anpassung an den Klimawandel), Buchst. a</li>
+<li>Gewährleistung eines angemessenen physischen Schutzes von Räumlichkeiten und kritischen Infrastrukturen, Buchst. b</li>
+<li>Reaktion auf Sicherheitsvorfälle, Abwehr und Begrenzung der Folgen, Buchst. c</li>
+<li>Wiederherstellung nach Sicherheitsvorfällen (inkl. Betriebsaufrechterhaltung und alternative Lieferketten), Buchst. d</li>
+<li>Sicherheitsmanagement hinsichtlich der Mitarbeiter (Personalkategorien mit kritischen Funktionen, Zugangsrechte, Zuverlässigkeitsüberprüfungen, Schulung), Buchst. e; dabei ist das Personal externer Dienstleister zu berücksichtigen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_13">Art. 13 Abs. 1 Unterabs. 2</a>)</li>
+<li>Sensibilisierung des Personals durch Schulungen, Informationsmaterial und Übungen, Buchst. f</li>
+</ul>
+</li>
+<li><strong>Resilienzplan</strong> oder gleichwertige Dokumente, die diese Maßnahmen beschreiben, und deren Anwendung; Dokumente und Maßnahmen aus anderen Rechtsakten können verwendet werden (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_13">Art. 13 Abs. 2</a>).</li>
+<li><strong>Verbindungsbeauftragter</strong> als Ansprechpartner für die zuständigen Behörden (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_13">Art. 13 Abs. 3</a>).</li>
+<li><strong>Zuverlässigkeitsüberprüfungen</strong>: Die Mitgliedstaaten legen fest, unter welchen Bedingungen eine kritische Einrichtung sie in hinreichend begründeten Fällen beantragen darf, u. a. für Personen mit sensiblen Funktionen oder mit direktem Zugriff oder Fernzugriff auf Räumlichkeiten, Informationen oder Kontrollsysteme (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_14">Art. 14 Abs. 1</a>). Mindestinhalt sind Identitätsprüfung und Strafregisterprüfung (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_14">Art. 14 Abs. 3</a>).</li>
+<li><strong>Meldung von Sicherheitsvorfällen</strong>, die die Erbringung wesentlicher Dienste erheblich stören oder stören könnten, unverzüglich an die zuständige Behörde: Erstmeldung spätestens 24 Stunden nach Kenntnis (außer wenn dies in operativer Hinsicht nicht möglich ist), gegebenenfalls gefolgt von einem ausführlichen Bericht spätestens einen Monat danach. Erheblichkeitsparameter sind Zahl und Anteil der betroffenen Nutzer, Dauer und betroffenes Gebiet (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_15">Art. 15 Abs. 1</a>). Die Meldung begründet keine höhere Haftung (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_15">Art. 15 Abs. 2</a>).</li>
+<li><strong>Normen</strong>: Die Mitgliedstaaten fördern europäische und internationale Normen und technische Spezifikationen, ohne eine bestimmte Technologie vorzuschreiben oder zu bevorzugen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_16">Art. 16</a>).</li>
+</ul>
+<h3 id="kritische-einrichtungen-von-besonderer-bedeutung-fur-europa">Kritische Einrichtungen von besonderer Bedeutung für Europa</h3>
+<ul>
+<li>Als solche gelten kritische Einrichtungen, die wesentliche Dienste für oder in sechs oder mehr Mitgliedstaaten erbringen und der Kommission gemeldet wurden (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_17">Art. 17</a>).</li>
+<li>Die Kommission kann Beratungsmissionen zur Bewertung ihrer Maßnahmen organisieren (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_18">Art. 18</a>).</li>
+</ul>
+<h3 id="relevanz-fur-software-hersteller-und-open-source">Relevanz für Software-Hersteller und Open Source</h3>
+<p>Die Richtlinie richtet sich an die Mitgliedstaaten und die von ihnen ermittelten kritischen Einrichtungen. Software-Hersteller oder Open-Source-Projekte werden nicht als solche adressiert. Soweit der Normtext es hergibt, kommen sie nur mittelbar in Betracht:</p>
+<ul>
+<li>Als <strong>Dienstleister kritischer Einrichtungen</strong>: Das Personal externer Dienstleister ist bei der Festlegung der Personalkategorien mit kritischen Funktionen zu berücksichtigen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_13">Art. 13 Abs. 1 Unterabs. 2</a>); Zuverlässigkeitsüberprüfungen können Personen mit Fernzugriff auf Kontrollsysteme betreffen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_14">Art. 14 Abs. 1 Buchst. b</a>). Die Anforderungen reichen kritische Einrichtungen typischerweise vertraglich weiter.</li>
+<li>Als <strong>Anbieter digitaler Infrastruktur</strong> (z. B. Cloud, Rechenzentren, DNS): eigene Einstufung als kritische Einrichtung möglich, dann aber ohne Kapitel III, IV und VI (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_8">Art. 8</a>); die Cyber- und die zugehörige physische Sicherheit der Systeme regelt <a href="../nis2/">NIS2</a> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#rct_20">Erwgr. 20</a>).</li>
+<li>Anforderungen an die Produktsicherheit digitaler Produkte regelt der <a href="../cra/">Cyber Resilience Act</a>, nicht die CER-Richtlinie.</li>
+</ul>
+<h3 id="wechselwirkungen-mit-anderen-eu-regularien">Wechselwirkungen mit anderen EU-Regularien</h3>
+<ul>
+<li><strong><a href="../nis2/">NIS2</a></strong>: Die CER-Richtlinie gilt nicht für Angelegenheiten, die unter NIS2 fallen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_1">Art. 1 Abs. 2</a>). Als kritische Einrichtungen eingestufte Einrichtungen unterliegen unabhängig von ihrer Größe auch NIS2 (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_2">Art. 2 Abs. 3 NIS2</a>) und gelten als <strong>wesentliche Einrichtungen</strong> im Sinne von NIS2 (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_3">Art. 3 Abs. 1 Buchst. f NIS2</a>). Beide Behördenstränge sind zu koordinieren: Strategie, Informationsaustausch und Aufsicht (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_4">Art. 4 Abs. 2 Buchst. g</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_9">Art. 9 Abs. 6</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_21">Art. 21 Abs. 5</a>). Die Gruppe für die Resilienz kritischer Einrichtungen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_19">Art. 19</a>) tagt mindestens einmal jährlich gemeinsam mit der NIS2-Kooperationsgruppe (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_14">Art. 14 Abs. 9 NIS2</a>).</li>
+<li><strong><a href="../dora/">DORA</a></strong>: Für kritische Einrichtungen im Bankwesen und in den Finanzmarktinfrastrukturen gelten die Kapitel III, IV und VI der CER-Richtlinie nicht (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_8">Art. 8</a>); zuständige Behörden sind grundsätzlich die in Art. 46 DORA genannten (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_9">Art. 9 Abs. 1 Unterabs. 2</a>).</li>
+<li><strong>Sektorspezifisches Unionsrecht</strong>: Gleichwertige Anforderungen können die CER-Pflichten verdrängen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_1">Art. 1 Abs. 3</a>); bereits vorhandene Risikobewertungen und Dokumente anderer Rechtsakte dürfen genutzt werden (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_12">Art. 12 Abs. 1</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_13">Art. 13 Abs. 2</a>).</li>
+<li><strong>Datenschutz</strong>: DSGVO und Richtlinie 2002/58/EG bleiben unberührt (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_1">Art. 1 Abs. 9</a>); Zuverlässigkeitsüberprüfungen müssen verhältnismäßig sein und strikt auf das Notwendige beschränkt (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_14">Art. 14 Abs. 2</a>).</li>
+</ul>
+<h3 id="konkretisierungen-durch-die-kommission">Konkretisierungen durch die Kommission</h3>
+<ul>
+<li><a href="https://eur-lex.europa.eu/eli/reg_del/2023/2450/oj">Delegierte Verordnung (EU) 2023/2450</a> (25.07.2023): nicht erschöpfende Liste wesentlicher Dienste je Sektor und Teilsektor (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_5">Art. 5 Abs. 1</a>). Sie tritt am zwanzigsten Tag nach ihrer Veröffentlichung am 30.10.2023 in Kraft (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32023R2450#art_3">Art. 3</a> der Verordnung).</li>
+<li><a href="https://eur-lex.europa.eu/eli/C/2025/4990/oj">Mitteilung C/2025/4990</a> (12.09.2025): unverbindliche Leitlinien zur Ermittlung kritischer Einrichtungen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_6">Art. 6 Abs. 6</a>) und zur Erheblichkeit einer Störung (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_7">Art. 7 Abs. 3</a>) sowie unverbindliches Berichtsmuster für die Risikobewertung (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_5">Art. 5 Abs. 5</a>).</li>
+<li><a href="https://eur-lex.europa.eu/eli/C/2026/3712/oj">Mitteilung C/2026/3712</a> (13.07.2026): unverbindliche Leitlinien zu den Resilienzmaßnahmen nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_13">Art. 13 Abs. 5</a>.</li>
+<li>Die in <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_13">Art. 13 Abs. 6</a> vorgesehenen Durchführungsrechtsakte zu technischen und methodischen Spezifikationen konnten im Rahmen der Recherche nicht als erlassen belegt werden.</li>
+</ul>
+<h3 id="umsetzung-in-deutschland-stand-09102026">Umsetzung in Deutschland (Stand 09.10.2026)</h3>
+<p>Details zum Gesetz stehen auf der Seite <a href="../kritis-dachgesetz/">KRITIS-Dachgesetz</a>. Belegt ist:</p>
+<ul>
+<li><strong>Gesetz</strong>: „Gesetz zur Umsetzung der Richtlinie (EU) 2022/2557 und zur Stärkung der Resilienz kritischer Anlagen", ausgefertigt am 11.03.2026, verkündet am 16.03.2026 (<a href="https://www.recht.bund.de/bgbl/1/2026/66/VO">BGBl. 2026 I Nr. 66</a>). Artikel 1 ist das <a href="https://www.gesetze-im-internet.de/kritisdachg/">KRITIS-Dachgesetz (KRITISDachG)</a>. Es trat am Tag nach der Verkündung (<strong>17.03.2026</strong>) in Kraft; § 14 Abs. 3 bis 5 KRITISDachG treten am 01.01.2030 in Kraft (Art. 11 des Gesetzes). Der Bundestag hat den Gesetzentwurf (Drucksache 21/2510) im Januar 2026 beschlossen (<a href="https://www.bundestag.de/dokumente/textarchiv/2026/kw05-de-kritische-infrastruktur-1137002">Bundestag</a>). Die Umsetzungsfrist (17.10.2024) wurde damit überschritten.</li>
+<li><strong>Vertragsverletzungsverfahren</strong>: Die Kommission hat im November 2024 Aufforderungsschreiben an 24 Mitgliedstaaten, darunter Deutschland, versandt (<a href="https://germany.representation.ec.europa.eu/news/cybersicherheit-und-resilienz-kritischer-einrichtungen-vertragsverletzungsverfahren-gegen-2024-11-28_de">Vertretung der EU-Kommission, 28.11.2024</a>) und im Juli 2025 gegenüber Deutschland und zwölf weiteren Staaten mit Gründen versehene Stellungnahmen abgegeben (<a href="https://germany.representation.ec.europa.eu/nachrichten-und-veranstaltungen/pressemitteilungen/vertragsverletzungsverfahren-im-juli-entscheidungen-zu-deutschland-2025-07-17_de">Vertretung der EU-Kommission, 17.07.2025</a>). Der aktuelle Verfahrensstand nach Inkrafttreten des KRITISDachG wurde nicht verifiziert.</li>
+<li><strong>Struktur des KRITISDachG</strong>: Es adressiert <strong>Betreiber kritischer Anlagen</strong> statt „kritischer Einrichtungen". Sektoren sind Energie, Transport und Verkehr, Finanzwesen, Sozialversicherung/Grundsicherung, Gesundheitswesen, Wasser, Ernährung, Informationstechnik und Telekommunikation, Weltraum und Siedlungsabfallentsorgung (<a href="https://www.gesetze-im-internet.de/kritisdachg/__4.html">§ 4 Abs. 1</a>); die Sektoren Sozialversicherung und Siedlungsabfallentsorgung gehen über den Anhang der Richtlinie hinaus (Mindestharmonisierung, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_3">Art. 3</a>). Ausgenommen von weiten Teilen sind u. a. Finanzunternehmen im Anwendungsbereich von DORA und der Sektor Informationstechnik und Telekommunikation (§ 4 Abs. 2), entsprechend <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_8">Art. 8</a> der Richtlinie. Zentrale Anlaufstelle ist das Bundesamt für Bevölkerungsschutz und Katastrophenhilfe (BBK, <a href="https://www.gesetze-im-internet.de/kritisdachg/__3.html">§ 3 Abs. 1</a>). Die Definition „Anlage" umfasst auch Software und IT-Dienste; solche, die nicht unmittelbar der Steuerung, Überwachung oder Unterstützung physischer Prozesse der Erbringung kritischer Dienstleistungen dienen, unterliegen ausschließlich dem BSI-Gesetz (<a href="https://www.gesetze-im-internet.de/kritisdachg/__2.html">§ 2 Nr. 2</a>).</li>
+<li><strong>Pflichten und Fristen</strong>: Registrierung beim BBK spätestens drei Monate, nachdem eine Anlage als kritische Anlage gilt (<a href="https://www.gesetze-im-internet.de/kritisdachg/__8.html">§ 8 Abs. 1</a>); Risikoanalyse und -bewertung des Betreibers erstmals neun Monate, Resilienzpflichten und Resilienzplan (<a href="https://www.gesetze-im-internet.de/kritisdachg/__13.html">§ 13</a>), Meldewesen (<a href="https://www.gesetze-im-internet.de/kritisdachg/__18.html">§ 18</a>) und Umsetzungs- und Überwachungspflicht der Geschäftsleitung (<a href="https://www.gesetze-im-internet.de/kritisdachg/__20.html">§ 20</a>) erstmals zehn Monate nach der Registrierung (<a href="https://www.gesetze-im-internet.de/kritisdachg/__8.html">§ 8 Abs. 7</a>). Vorfälle sind unverzüglich, spätestens 24 Stunden nach Kenntnis, über die gemeinsame Meldestelle von BSI und BBK zu melden, ein ausführlicher Bericht folgt spätestens einen Monat nach Kenntnis (<a href="https://www.gesetze-im-internet.de/kritisdachg/__18.html">§ 18 Abs. 1</a>).</li>
+<li><strong>Bußgelder</strong>: bis zu 1 Mio. Euro (z. B. bei Verstoß gegen vollziehbare Anordnungen nach § 8 Abs. 2), bis 500.000 Euro, bis 200.000 Euro bzw. bis 100.000 Euro je nach Tatbestand (<a href="https://www.gesetze-im-internet.de/kritisdachg/__24.html">§ 24 Abs. 2</a>).</li>
+<li><strong>Kritische Anlagen und KRITIS-Verordnung</strong>: Welche Anlagen „erheblich" und damit kritisch sind, bestimmt das BMI durch Rechtsverordnung (<a href="https://www.gesetze-im-internet.de/kritisdachg/__4.html">§ 4 Abs. 3</a>, <a href="https://www.gesetze-im-internet.de/kritisdachg/__5.html">§ 5</a>); als Regelwert gelten grundsätzlich 500.000 zu versorgende Einwohner (<a href="https://www.gesetze-im-internet.de/kritisdachg/__5.html">§ 5 Abs. 2</a>). Das BMI hat am 26.05.2026 einen Referentenentwurf der Kritisverordnung (KritisV) vorgelegt (<a href="https://www.dihk.de/de/newsroom/bundesministerium-des-innern-legt-verordnung-zur-identifikation-von-kritis-betreibern-vor-183048">DIHK</a>). Ein Erlass der Verordnung konnte nicht belegt werden; nach einer sekundären Quelle war das Verfahren im Oktober 2026 noch nicht abgeschlossen (<a href="https://datenraume.de/blog/kritis-dachgesetz/">datenraume.de</a>). Die Registrierungspflicht knüpft nach § 8 Abs. 1 daran an, dass eine Anlage als kritische Anlage gilt.</li>
+<li><strong>Verhältnis zu NIS2</strong>: Das KRITISDachG regelt die physische Resilienz und ergänzt das deutsche NIS2-Umsetzungsrecht (BSI-Gesetz). Meldungen erfolgen über eine gemeinsame Meldestelle von BSI und BBK, die Registrierung über eine gemeinsame Registrierungsmöglichkeit (§ 8 Abs. 1, § 18 Abs. 1 KRITISDachG). Das Registrierungsformular erfasst auch die eingesetzten Typen kritischer Komponenten nach § 2 Nr. 23 BSI-Gesetz (§ 8 Abs. 1 Nr. 8 KRITISDachG).</li>
+</ul>
+<h2 id="losungsansatze-hilfestellungen">Lösungsansätze &amp; Hilfestellungen</h2>
+<ul>
+<li>Die Richtlinie und das KRITISDachG zielen überwiegend auf physische Sicherheit und Betriebskontinuität. Für den Cyber-Anteil (Risikomanagement der IT, Meldung, Lieferkette) bieten die Seiten <a href="../nis2/">NIS2</a>, <a href="../dora/">DORA</a> und <a href="../cra/">CRA</a> Lösungsansätze und Werkzeuge.</li>
+<li>Hilfestellung der Kommission: die unverbindlichen Leitlinien <a href="https://eur-lex.europa.eu/eli/C/2025/4990/oj">C/2025/4990</a> (Ermittlung kritischer Einrichtungen) und <a href="https://eur-lex.europa.eu/eli/C/2026/3712/oj">C/2026/3712</a> (Resilienzmaßnahmen).</li>
+<li>Vorhandene Risikobewertungen und Dokumente aus anderen Rechtsakten (z. B. nach NIS2, Notfall- und Kontinuitätsmanagement) dürfen für die CER-Pflichten genutzt werden und können von der Behörde ganz oder teilweise als gleichwertig anerkannt werden (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_12">Art. 12 Abs. 2</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2557#art_13">Art. 13 Abs. 2</a>).</li>
+</ul>
+<h2 id="weiterfuhrende-links">Weiterführende Links</h2>
+<ul>
+<li><a href="https://www.bundestag.de/dokumente/textarchiv/2024/kw49-de-kritische-anlagen-1032588">Informationen des Deutschen Bundestages (Beratung 2024)</a></li>
+<li><a href="https://www.bundestag.de/dokumente/textarchiv/2026/kw05-de-kritische-infrastruktur-1137002">Informationen des Deutschen Bundestages (Beschluss 2026)</a></li>
+<li><a href="https://www.gesetze-im-internet.de/kritisdachg/">KRITISDachG im Volltext (gesetze-im-internet.de)</a></li>
+</ul>
+<h2 id="quellen">Quellen</h2>
+<p>Alle Rechtstexte in der deutschen Fassung im Amtsblatt der EU (ELI-Links) bzw. im Bundesgesetzblatt:</p>
+<ul>
+<li><a href="https://eur-lex.europa.eu/eli/dir/2022/2557/oj">Richtlinie (EU) 2022/2557 (CER)</a></li>
+<li><a href="https://eur-lex.europa.eu/eli/reg_del/2023/2450/oj">Delegierte Verordnung (EU) 2023/2450</a>: Liste wesentlicher Dienste</li>
+<li><a href="https://eur-lex.europa.eu/eli/C/2025/4990/oj">Mitteilung der Kommission C/2025/4990</a>: Leitlinien und Berichtsmuster nach Art. 5 Abs. 5, Art. 6 Abs. 6 und Art. 7 Abs. 3</li>
+<li><a href="https://eur-lex.europa.eu/eli/C/2026/3712/oj">Mitteilung der Kommission C/2026/3712</a>: Leitlinien zu Art. 13 Abs. 5</li>
+<li>Für den Abschnitt „Wechselwirkungen": <a href="https://eur-lex.europa.eu/eli/dir/2022/2555/oj">NIS2 (EU) 2022/2555</a>, <a href="https://eur-lex.europa.eu/eli/reg/2022/2554/oj">DORA (EU) 2022/2554</a></li>
+<li><a href="https://www.recht.bund.de/bgbl/1/2026/66/VO">Gesetz zur Umsetzung der Richtlinie (EU) 2022/2557 und zur Stärkung der Resilienz kritischer Anlagen, BGBl. 2026 I Nr. 66 vom 16.03.2026</a> (Volltext: <a href="https://www.recht.bund.de/bgbl/1/2026/66/regelungstext.pdf?__blob=publicationFile&amp;v=1">PDF</a>)</li>
+<li><a href="https://www.gesetze-im-internet.de/kritisdachg/">KRITISDachG (gesetze-im-internet.de)</a></li>
+<li><a href="https://germany.representation.ec.europa.eu/news/cybersicherheit-und-resilienz-kritischer-einrichtungen-vertragsverletzungsverfahren-gegen-2024-11-28_de">Vertretung der EU-Kommission in Deutschland: Aufforderungsschreiben (28.11.2024)</a> und <a href="https://germany.representation.ec.europa.eu/nachrichten-und-veranstaltungen/pressemitteilungen/vertragsverletzungsverfahren-im-juli-entscheidungen-zu-deutschland-2025-07-17_de">mit Gründen versehene Stellungnahme (17.07.2025)</a></li>
+<li><a href="https://www.bundestag.de/dokumente/textarchiv/2026/kw05-de-kritische-infrastruktur-1137002">Deutscher Bundestag: Beschluss zum KRITIS-Dachgesetz (2026)</a></li>
+<li><a href="https://www.dihk.de/de/newsroom/bundesministerium-des-innern-legt-verordnung-zur-identifikation-von-kritis-betreibern-vor-183048">DIHK: Referentenentwurf der Kritisverordnung (26.05.2026)</a> und <a href="https://datenraume.de/blog/kritis-dachgesetz/">datenraume.de: Stand KRITIS-Dachgesetz</a> (sekundäre Quellen)</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 <a href="https://osb-alliance.de/impressum">OSBA WG Security</a>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+
+
+
+<h4>Cookie consent</h4>
+<p>We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to make our documentation better. </p>
+<input class="md-toggle" type="checkbox" id="__settings" >
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+    
+    
+      
+        
+  
+  
+    
+    
+  
+  <li class="task-list-item">
+    <label class="task-list-control">
+      <input type="checkbox" name="github" checked>
+      <span class="task-list-indicator"></span>
+      GitHub
+    </label>
+  </li>
+
+      
+    
+    
+      
+        
+  
+  
+    
+    
+  
+  <li class="task-list-item">
+    <label class="task-list-control">
+      <input type="checkbox" name="analytics" >
+      <span class="task-list-indicator"></span>
+      Google Analytics
+    </label>
+  </li>
+
+      
+    
+  </ul>
+</div>
+<div class="md-consent__controls">
+  
+    
+      <button class="md-button md-button--primary">Accept</button>
+    
+    
+    
+  
+    
+    
+    
+      <label class="md-button" for="__settings">Manage settings</label>
+    
+  
+    
+    
+      <button type="reset" class="md-button md-button--primary">Reject</button>
+    
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "header.autohide", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../assets/feedback.js"></script>
+      
+    
+  </body>
+</html>

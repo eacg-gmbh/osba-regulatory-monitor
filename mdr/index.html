@@ -1,0 +1,2248 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Stellt eine Uebersicht an Regularien sowie deren Wirkung auf die Software-Entwicklung vor ">
+      
+      
+        <meta name="author" content="OSBA Security Workgroup">
+      
+      
+        <link rel="canonical" href="https://eacg-gmbh.github.io/osba-regulatory-monitor/mdr/">
+      
+      
+        <link rel="prev" href="../nis2/">
+      
+      
+        <link rel="next" href="../pld/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Medical Device Directive (MDR) - OSBA Regulatory Monitor</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config",""),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>if("undefined"!=typeof __md_analytics){var consent=__md_get("__consent");consent&&consent.analytics&&__md_analytics()}</script>
+  
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="lime">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#medical-device-regulation-mdr" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://www.osb-alliance.de" title="OSBA Regulatory Monitor" class="md-header__button md-logo" aria-label="OSBA Regulatory Monitor" data-md-component="logo">
+      
+  <img src="../assets/osba-logo-claim.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            OSBA Regulatory Monitor
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Medical Device Directive (MDR)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="lime"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/eacg-gmbh/osba-regulatory-monitor" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href=".." class="md-tabs__link">
+          
+  
+  
+    
+  
+  Hintergrund
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../aiact/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  EU Regularien
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../kritis-dachgesetz/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Deutschland
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../iec18974/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Standards
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../about/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  About
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://www.osb-alliance.de" title="OSBA Regulatory Monitor" class="md-nav__button md-logo" aria-label="OSBA Regulatory Monitor" data-md-component="logo">
+      
+  <img src="../assets/osba-logo-claim.svg" alt="logo">
+
+    </a>
+    OSBA Regulatory Monitor
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/eacg-gmbh/osba-regulatory-monitor" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href=".." class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hintergrund
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Hintergrund
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guidelines/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mitarbeit
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EU Regularien
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    EU Regularien
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aiact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EU Artificial Intelligence Act (AI Act)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Directive on the Resilience of critical Entities (CER)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dataact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EU Data Act
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dora/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Digital Operational Resilience Act (DORA)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EU Cyber Resilience Act (CRA)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../eidas2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    eIDAS 2.0 / European Digital Identity Wallet
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nis2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EU NIS2 Directive
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Medical Device Directive (MDR)
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Medical Device Directive (MDR)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#uberblick" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Überblick
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zentrale-forderungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zentrale Forderungen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Zentrale Forderungen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#software-und-cybersicherheit-anhang-i" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Software und Cybersicherheit (Anhang I)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#klassifizierung-von-software-regel-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Klassifizierung von Software (Regel 11)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#herstellerpflichten-art-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Herstellerpflichten (Art. 10)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uberwachung-nach-dem-inverkehrbringen-art-83-bis-86" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Überwachung nach dem Inverkehrbringen (Art. 83 bis 86)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vigilanz-und-meldefristen-art-87-bis-92" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vigilanz und Meldefristen (Art. 87 bis 92)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eudamed-und-udi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EUDAMED und UDI
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wechselwirkungen-mit-anderen-eu-regularien" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wechselwirkungen mit anderen EU-Regularien
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#normen-iec-62304-und-iec-81001-5-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Normen: IEC 62304 und IEC 81001-5-1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#revisionsvorschlag-der-kommission" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Revisionsvorschlag der Kommission
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#losungsansatze-hilfestellungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lösungsansätze &amp; Hilfestellungen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Lösungsansätze &amp; Hilfestellungen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tools-werkzeuge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tools &amp; Werkzeuge
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tools &amp; Werkzeuge">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#software-lifecycle-management-dokumentation-iec-62304" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Software Lifecycle Management &amp; Dokumentation (IEC 62304)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quellen
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pld/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Product Liability Directive (PLD)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../red/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Radio Frequency Directive (RED)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deutschland
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Deutschland
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kritis-dachgesetz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    KRITIS-Dachgesetz (KRITIS-DachG)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Standards
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Standards
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iec18974/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC-18974
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iec62304/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC-62304
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iec62443/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC-62443
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iec81001-5-1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC-81001-5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../openchain/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ISO-5230
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tisax/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TISAX
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    About
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Über dieses Projekt
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CHANGELOG/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Changelog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#uberblick" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Überblick
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zentrale-forderungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zentrale Forderungen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Zentrale Forderungen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#software-und-cybersicherheit-anhang-i" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Software und Cybersicherheit (Anhang I)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#klassifizierung-von-software-regel-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Klassifizierung von Software (Regel 11)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#herstellerpflichten-art-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Herstellerpflichten (Art. 10)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uberwachung-nach-dem-inverkehrbringen-art-83-bis-86" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Überwachung nach dem Inverkehrbringen (Art. 83 bis 86)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vigilanz-und-meldefristen-art-87-bis-92" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vigilanz und Meldefristen (Art. 87 bis 92)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eudamed-und-udi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EUDAMED und UDI
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wechselwirkungen-mit-anderen-eu-regularien" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wechselwirkungen mit anderen EU-Regularien
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#normen-iec-62304-und-iec-81001-5-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Normen: IEC 62304 und IEC 81001-5-1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#revisionsvorschlag-der-kommission" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Revisionsvorschlag der Kommission
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#losungsansatze-hilfestellungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lösungsansätze &amp; Hilfestellungen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Lösungsansätze &amp; Hilfestellungen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tools-werkzeuge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tools &amp; Werkzeuge
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tools &amp; Werkzeuge">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#software-lifecycle-management-dokumentation-iec-62304" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Software Lifecycle Management &amp; Dokumentation (IEC 62304)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quellen
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <a href="../.#tag:cybersecurity" class="md-tag">cybersecurity</a>
+      
+    
+      
+      
+      
+      
+        <a href="../.#tag:medical" class="md-tag">medical</a>
+      
+    
+      
+      
+      
+      
+        <a href="../.#tag:product-safety" class="md-tag">product safety</a>
+      
+    
+      
+      
+      
+      
+        <a href="../.#tag:safety" class="md-tag">safety</a>
+      
+    
+      
+      
+      
+      
+        <a href="../.#tag:security" class="md-tag">security</a>
+      
+    
+  </nav>
+
+
+
+<h1 id="medical-device-regulation-mdr">Medical Device Regulation (MDR)</h1>
+<p>Die Europäische Medizinprodukteverordnung (MDR), offiziell Verordnung (EU) 2017/745, ist der Rechtsrahmen für das Inverkehrbringen, die Bereitstellung auf dem Markt und die Inbetriebnahme von Medizinprodukten in der Europäischen Union (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0745#art_1">Art. 1 Abs. 1</a>). Sie hat die Richtlinien 90/385/EWG (aktive implantierbare Medizinprodukte) und 93/42/EWG (Medizinprodukte) abgelöst (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02017R0745-20250110#art_122">Art. 122</a>) und gilt als EU-Verordnung unmittelbar in allen Mitgliedstaaten. <strong>Software kann selbst ein Medizinprodukt sein</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0745#art_2">Art. 2 Nr. 1</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0745#rct_19">Erwägungsgrund 19</a>). Damit gelten für Hersteller von Medizinprodukte-Software auch die Anforderungen an Software-Lebenszyklus und IT-Sicherheit aus Anhang I.</p>
+<blockquote>
+<p>[!NOTE]</p>
+<p>Alle Artikelverweise beziehen sich, sofern nicht anders angegeben, auf die <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0745">Verordnung (EU) 2017/745</a> und führen direkt zum jeweiligen Artikel. Links auf Artikel, die durch Änderungsrechtsakte betroffen sind (u. a. Art. 10, 10a, 120, 123), führen zur <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02017R0745-20250110">konsolidierten Fassung vom 10.01.2025</a>; die übrigen zum Amtsblatt-Text. Die Wortlaute wurden mit der konsolidierten deutschen Fassung vom 10.01.2025 (eine neuere konsolidierte Fassung wurde nicht gefunden) abgeglichen; Änderungsrechtsakte, Beschlüsse und Leitlinien stehen im Abschnitt <a href="#quellen">Quellen</a>. Stand: 09.10.2026. Die Seite ist eine Orientierung und keine Rechtsberatung.</p>
+</blockquote>
+<h2 id="uberblick">Überblick</h2>
+<ul>
+<li>
+<p><strong>Segment</strong>: Medizin Produktsicherheit</p>
+</li>
+<li>
+<p><strong>Verabschiedet / Veröffentlicht</strong>:</p>
+<ul>
+<li>Verordnung (EU) 2017/745 vom 05.04.2017, veröffentlicht im Amtsblatt der EU (L 117) am 05.05.2017</li>
+<li>Parallel: Verordnung (EU) 2017/746 über In-vitro-Diagnostika (IVDR), die nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0745#art_1">Art. 1 Abs. 6 lit. a</a> nicht von der MDR erfasst werden. Die Software- und Cybersicherheitsanforderungen sind dort vergleichbar aufgebaut; diese Seite behandelt nur die MDR.</li>
+</ul>
+</li>
+<li>
+<p><strong>Gültig ab</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02017R0745-20250110#art_123">Art. 123</a>):</p>
+<ul>
+<li>In Kraft getreten: 25.05.2017 (20. Tag nach Veröffentlichung, Abs. 1)</li>
+<li>Anwendbar: <strong>26.05.2021</strong> (Abs. 2). Ursprünglich war der 26.05.2020 vorgesehen; die Verschiebung um ein Jahr erfolgte wegen COVID-19 durch die <a href="https://eur-lex.europa.eu/eli/reg/2020/561/oj">Verordnung (EU) 2020/561</a>.</li>
+<li>Einzelne Vorschriften galten früher oder gelten später (z. B. Benannte Stellen ab 26.11.2017 nach Abs. 3 lit. a; EUDAMED-Pflichten stufenweise, siehe <a href="#eudamed-und-udi">EUDAMED und UDI</a>).</li>
+<li>Hinweis: Der 17.01.2023, der in früheren Fassungen dieser Seite genannt war, ist <strong>kein</strong> MDR-Datum.</li>
+</ul>
+</li>
+<li>
+<p><strong>Übergangsfristen für Altprodukte</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02017R0745-20250110#art_120">Art. 120</a>, geändert durch die <a href="https://eur-lex.europa.eu/eli/reg/2023/607/oj">Verordnung (EU) 2023/607</a>):</p>
+<p>Produkte mit gültiger Bescheinigung nach der Richtlinie 90/385/EWG oder 93/42/EWG dürfen unter den Bedingungen des Abs. 3c noch in Verkehr gebracht oder in Betrieb genommen werden bis:</p>
+<table>
+<thead>
+<tr>
+<th>Datum</th>
+<th>Produkte (Art. 120 Abs. 3a, 3b)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>31.12.2027</strong></td>
+<td>alle Produkte der Klasse III und implantierbare Produkte der Klasse IIb (ausgenommen Nahtmaterial, Klammern, Zahnfüllungen, Zahnspangen, Zahnkronen, Schrauben, Keile, Zahn- bzw. Knochenplatten, Drähte, Stifte, Klemmen und Verbindungsstücke)</td>
+</tr>
+<tr>
+<td><strong>31.12.2028</strong></td>
+<td>übrige Produkte der Klasse IIb, Klasse IIa sowie Klasse I in sterilem Zustand oder mit Messfunktion; außerdem Produkte, die nach der Richtlinie 93/42/EWG ohne Benannte Stelle konformitätsbewertet wurden (Eigenerklärung vor dem 26.05.2021) und nach der MDR eine Benannte Stelle benötigen</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Voraussetzungen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02017R0745-20250110#art_120">Art. 120 Abs. 3c</a>): Produkt entspricht weiterhin den Richtlinien, keine wesentlichen Änderungen von Auslegung und Zweckbestimmung, kein unannehmbares Risiko, Qualitätsmanagementsystem nach Art. 10 Abs. 9 spätestens seit 26.05.2024, förmlicher Antrag bei einer Benannten Stelle bis 26.05.2024 und schriftliche Vereinbarung bis 26.09.2024.</li>
+<li>Bereits in Verkehr gebrachte Produkte dürfen weiter bereitgestellt oder in Betrieb genommen werden (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02017R0745-20250110#art_120">Abs. 4</a>; die frühere Abverkaufsfrist von einem Jahr ist entfallen).</li>
+<li>Für diese Altprodukte gelten Überwachung nach dem Inverkehrbringen, Marktüberwachung, Vigilanz und Registrierung bereits nach der MDR (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02017R0745-20250110#art_120">Abs. 3d</a>).</li>
+<li><strong>Software-Bezug</strong>: Ein Update, das Auslegung oder Zweckbestimmung wesentlich verändert, kann den Altproduktstatus gefährden (Abs. 3c lit. b). Ob eine Änderung „wesentlich" ist, ist im Einzelfall zu prüfen (siehe MDCG-Leitlinien im Abschnitt <a href="#losungsansatze-hilfestellungen">Lösungsansätze</a>).</li>
+<li>Implantierbare Sonderanfertigungen der Klasse III durften nur bis 26.05.2026 ohne Bescheinigung in Verkehr gebracht werden (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02017R0745-20250110#art_120">Abs. 3f</a>); diese Frist ist abgelaufen.</li>
+</ul>
+</li>
+<li>
+<p><strong>Gültig für</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0745#art_1">Art. 1 Abs. 1</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0745#art_2">Art. 2 Nr. 1</a>):</p>
+<ul>
+<li>Hersteller von Medizinprodukten und Zubehör für den menschlichen Gebrauch, einschließlich <strong>Software mit medizinischer Zweckbestimmung</strong> (Diagnose, Verhütung, Überwachung, Vorhersage, Prognose, Behandlung oder Linderung von Krankheiten u. a.)</li>
+<li>Bevollmächtigte, Importeure und Händler (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0745#art_11">Art. 11 bis 14</a>)</li>
+<li>Ab Geltungsbeginn der Gemeinsamen Spezifikationen auch die Produktgruppen ohne medizinische Zweckbestimmung nach Anhang XVI (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0745#art_1">Art. 1 Abs. 2</a>)</li>
+</ul>
+</li>
+<li>
+<p><strong>Nicht gültig für</strong>:</p>
+<ul>
+<li>In-vitro-Diagnostika im Sinne der Verordnung (EU) 2017/746 (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0745#art_1">Art. 1 Abs. 6 lit. a</a>)</li>
+<li>Software für allgemeine Zwecke, auch wenn sie in Einrichtungen des Gesundheitswesens eingesetzt wird, sowie Software für Lifestyle und Wohlbefinden (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0745#rct_19">Erwägungsgrund 19</a>). Maßgeblich ist die vom Hersteller festgelegte Zweckbestimmung (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0745#art_2">Art. 2 Nr. 1</a>).</li>
+<li>Produkte, die ausschließlich innerhalb von Gesundheitseinrichtungen in der Union hergestellt und verwendet werden, mit Ausnahme der Anforderungen aus Anhang I und unter weiteren Voraussetzungen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02017R0745-20250110#art_5">Art. 5 Abs. 5</a>)</li>
+<li>Weitere Ausnahmen listet <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0745#art_1">Art. 1 Abs. 6</a> auf.</li>
+</ul>
+</li>
+<li>
+<p><strong>Grauzone</strong>:</p>
+<ul>
+<li>Qualifizierung von Software als Medizinprodukt (Zweckbestimmung, Abgrenzung zu Wellness- und Allzweck-Software). Hilfestellung: <a href="#losungsansatze-hilfestellungen">MDCG 2019-11 Rev.1</a>.</li>
+<li>Verhältnis zu Cyber Resilience Act, NIS2 und AI Act (siehe <a href="#wechselwirkungen-mit-anderen-eu-regularien">Wechselwirkungen</a>).</li>
+<li>Der Status der Normen IEC 62304 und IEC 81001-5-1 als harmonisierte Normen (siehe <a href="#normen-iec-62304-und-iec-81001-5-1">Normen</a>).</li>
+<li>Die Revision von MDR und IVDR ist nur vorgeschlagen, nicht beschlossen (siehe <a href="#revisionsvorschlag-der-kommission">Revisionsvorschlag</a>).</li>
+</ul>
+</li>
+<li>
+<p><strong>Ziel</strong>:
+  Ein hohes Gesundheitsschutzniveau für Patienten und Anwender bei gleichzeitigem Funktionieren des Binnenmarkts für Medizinprodukte (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0745#art_1">Art. 1 Abs. 1</a>). Gegenüber den Vorgängerrichtlinien schärft die MDR Klassifizierung, klinische Bewertung, Überwachung nach dem Inverkehrbringen und Rückverfolgbarkeit.</p>
+</li>
+<li>
+<p><strong>Neuerungen / Anforderungen</strong>:</p>
+<ul>
+<li><strong>Klassifizierung nach Risiko</strong> in die Klassen I, IIa, IIb und III nach Anhang VIII (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0745#art_51">Art. 51 Abs. 1</a>). Für Software gilt insbesondere Regel 11 (siehe unten). Ob und welche Benannte Stelle beteiligt wird, richtet sich nach der Klasse (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0745#art_52">Art. 52</a>).</li>
+<li><strong>Risikomanagementsystem und Qualitätsmanagementsystem</strong> als Herstellerpflichten (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02017R0745-20250110#art_10">Art. 10 Abs. 2 und 9</a>).</li>
+<li><strong>Klinische Bewertung</strong> und klinische Nachbeobachtung nach dem Inverkehrbringen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02017R0745-20250110#art_10">Art. 10 Abs. 3</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02017R0745-20250110#art_61">Art. 61</a>, Anhang XIV); für implantierbare Produkte und Produkte der Klasse III ein öffentlich zugänglicher Kurzbericht über Sicherheit und klinische Leistung (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02017R0745-20250110#art_32">Art. 32</a>).</li>
+<li><strong>Überwachung nach dem Inverkehrbringen</strong> und <strong>Vigilanz</strong> mit festen Meldefristen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02017R0745-20250110#art_83">Art. 83 bis 92</a>).</li>
+<li><strong>Eindeutige Produktidentifikation (UDI)</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0745#art_27">Art. 27</a>) und die <strong>Europäische Datenbank für Medizinprodukte (EUDAMED)</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0745#art_33">Art. 33</a>).</li>
+<li><strong>Benannte Stellen</strong> mit strengeren Benennungs- und Überwachungsanforderungen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0745#art_35">Art. 35 bis 50</a>).</li>
+<li><strong>Für die Einhaltung der Regulierungsvorschriften verantwortliche Person</strong> (PRRC) in der Organisation des Herstellers (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0745#art_15">Art. 15</a>).</li>
+<li><strong>Ausreichende finanzielle Deckung</strong> der potenziellen Haftung (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02017R0745-20250110#art_10">Art. 10 Abs. 16</a>).</li>
+<li><strong>Pflichten bei Lieferunterbrechung oder -beendigung</strong> bestimmter Produkte, in der Regel mindestens sechs Monate vorab (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02017R0745-20250110#art_10a">Art. 10a</a>, eingefügt durch die <a href="https://eur-lex.europa.eu/eli/reg/2024/1860/oj">Verordnung (EU) 2024/1860</a>).</li>
+<li><strong>Sanktionen</strong> legen die Mitgliedstaaten fest (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0745#art_113">Art. 113</a>); in Deutschland ergänzt das <a href="https://www.gesetze-im-internet.de/mpdg/">Medizinprodukterecht-Durchführungsgesetz (MPDG)</a> die Verordnung.</li>
+</ul>
+</li>
+</ul>
+<h2 id="zentrale-forderungen">Zentrale Forderungen</h2>
+<h3 id="software-und-cybersicherheit-anhang-i">Software und Cybersicherheit (Anhang I)</h3>
+<p>Die MDR enthält <strong>keinen eigenen Cybersicherheitsabschnitt</strong>. Cybersicherheit ist Teil der grundlegenden Sicherheits- und Leistungsanforderungen (GSPR) in <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0745#anx_I">Anhang I</a>, die jedes Produkt erfüllen muss (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02017R0745-20250110#art_5">Art. 5 Abs. 2</a>). Die Nachweisführung läuft über das Risikomanagement und die technische Dokumentation (Anhänge II und III).</p>
+<table>
+<thead>
+<tr>
+<th>Anforderung</th>
+<th>Fundstelle</th>
+<th>Inhalt</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sicherheit, Wirksamkeit, Stand der Technik</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0745#anx_I">Anhang I Kapitel I Nr. 1</a></td>
+<td>Produkte erzielen die vorgesehene Leistung und sind sicher und wirksam; der allgemein anerkannte Stand der Technik ist zugrunde zu legen</td>
+</tr>
+<tr>
+<td>Risikomanagement über den Lebenszyklus</td>
+<td>Anhang I Kapitel I Nr. 3</td>
+<td>kontinuierlicher iterativer Prozess über den gesamten Lebenszyklus, einschließlich Auswertung der Daten aus der Überwachung nach dem Inverkehrbringen</td>
+</tr>
+<tr>
+<td>Rangfolge der Risikokontrolle</td>
+<td>Anhang I Kapitel I Nr. 4</td>
+<td>sichere Auslegung vor Schutzmaßnahmen vor Information der Anwender</td>
+</tr>
+<tr>
+<td>Wechselwirkung Software und IT-Umgebung</td>
+<td>Anhang I Kapitel II Nr. 14.2 lit. d</td>
+<td>Risiken durch negative Wechselwirkung zwischen Software und der IT-Umgebung, in der sie eingesetzt wird, sind auszuschließen oder so weit wie möglich zu reduzieren</td>
+</tr>
+<tr>
+<td>Zuverlässigkeit programmierbarer Systeme und Software</td>
+<td>Anhang I Kapitel II Nr. 17.1</td>
+<td>Wiederholbarkeit, Zuverlässigkeit und Leistung; Vorkehrungen für das Erstauftreten eines Defekts</td>
+</tr>
+<tr>
+<td>Software-Lebenszyklus und Informationssicherheit</td>
+<td>Anhang I Kapitel II Nr. 17.2</td>
+<td>Entwicklung nach dem Stand der Technik unter Berücksichtigung der Grundsätze des Software-Lebenszyklus, des Risikomanagements <strong>einschließlich der Informationssicherheit</strong>, der Verifizierung und der Validierung</td>
+</tr>
+<tr>
+<td>Mobile Plattformen</td>
+<td>Anhang I Kapitel II Nr. 17.3</td>
+<td>Berücksichtigung der Eigenschaften der mobilen Plattform und der äußeren Einflüsse</td>
+</tr>
+<tr>
+<td>Mindestanforderungen an IT-Umgebung</td>
+<td>Anhang I Kapitel II Nr. 17.4</td>
+<td>Hersteller legen Mindestanforderungen an Hardware, Eigenschaften von IT-Netzen und <strong>IT-Sicherheitsmaßnahmen einschließlich des Schutzes vor unbefugtem Zugriff</strong> fest</td>
+</tr>
+<tr>
+<td>Schutz vor unbefugtem Zugriff (aktive Produkte)</td>
+<td>Anhang I Kapitel II Nr. 18.8</td>
+<td>Produkte sind so weit wie möglich vor unbefugtem Zugriff geschützt, der das bestimmungsgemäße Funktionieren behindern könnte</td>
+</tr>
+<tr>
+<td>Information an Anwender</td>
+<td>Anhang I Kapitel III Nr. 23.4 lit. ab</td>
+<td>Die Gebrauchsanweisung enthält die Mindestanforderungen an Hardware, IT-Netze und IT-Sicherheitsmaßnahmen einschließlich Schutz vor unbefugtem Zugriff</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Einordnung der Abschnitte 14.2 und 14.4</strong>: Abschnitt 14.2 lit. d betrifft die Wechselwirkung zwischen Software und IT-Umgebung. Abschnitt 14.4 behandelt dagegen Einstellung, Kalibrierung und Instandhaltung und ist <strong>kein</strong> IT-Sicherheitsabschnitt. Die zentralen IT-Sicherheitsanforderungen stehen in den Abschnitten 17.2, 17.4, 18.8 und 23.4 lit. ab.</li>
+<li>Die MDR nennt keine konkreten technischen Maßnahmen (z. B. Verschlüsselung, SBOM, Schwachstellenmanagement) und keine feste Frist für Sicherheitsupdates. Diese Konkretisierung leisten Leitlinien und Normen (siehe unten).</li>
+</ul>
+<h3 id="klassifizierung-von-software-regel-11">Klassifizierung von Software (Regel 11)</h3>
+<p>Software gilt als aktives Produkt (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0745#art_2">Art. 2 Nr. 4</a>) und wird nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0745#anx_VIII">Anhang VIII</a> klassifiziert:</p>
+<ul>
+<li><strong>Durchführungsvorschrift 3.3</strong>: Software, die ein Produkt steuert oder dessen Anwendung beeinflusst, wird derselben Klasse zugerechnet wie das Produkt. Unabhängige Software wird für sich allein klassifiziert.</li>
+<li><strong>Regel 11</strong> (Kapitel III Nr. 6.3):<ul>
+<li>Software, die Informationen für Entscheidungen zu diagnostischen oder therapeutischen Zwecken liefert, gehört zur <strong>Klasse IIa</strong>, außer die Entscheidungen können<ul>
+<li>Tod oder eine irreversible Verschlechterung des Gesundheitszustands verursachen: <strong>Klasse III</strong>,</li>
+<li>eine schwerwiegende Verschlechterung des Gesundheitszustands oder einen chirurgischen Eingriff verursachen: <strong>Klasse IIb</strong>.</li>
+</ul>
+</li>
+<li>Software zur Überwachung physiologischer Prozesse gehört zur <strong>Klasse IIa</strong>, bei der Kontrolle vitaler physiologischer Parameter, deren Änderung zu einer unmittelbaren Gefahr für den Patienten führen könnte, zur <strong>Klasse IIb</strong>.</li>
+<li>Sämtliche andere Software gehört zur <strong>Klasse I</strong>.</li>
+</ul>
+</li>
+<li>Folge: Software ab Klasse IIa benötigt in der Regel eine Benannte Stelle (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0745#art_52">Art. 52 Abs. 4 und 6</a>); Klasse I wird durch die EU-Konformitätserklärung des Herstellers erklärt (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0745#art_52">Art. 52 Abs. 7</a>). Das ist auch für den AI Act relevant (siehe unten).</li>
+</ul>
+<h3 id="herstellerpflichten-art-10">Herstellerpflichten (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02017R0745-20250110#art_10">Art. 10</a>)</h3>
+<ul>
+<li>Risikomanagementsystem nach Anhang I Abschnitt 3 (Abs. 2), klinische Bewertung (Abs. 3), technische Dokumentation nach Anhang II und III (Abs. 4), EU-Konformitätserklärung und CE-Kennzeichnung (Abs. 6)</li>
+<li><strong>Qualitätsmanagementsystem</strong> (Abs. 9), das u. a. Produktrealisierung einschließlich Planung, Auslegung und Entwicklung (lit. g), Risikomanagement (lit. e), Überwachung nach dem Inverkehrbringen (lit. i), Vigilanzverfahren (lit. k) und die Auswahl und Kontrolle von Zulieferern und Unterauftragnehmern (lit. d) umfasst. Letzteres ist für zugekaufte Software und Open-Source-Komponenten relevant.</li>
+<li>Aufbewahrung der Dokumentation mindestens zehn Jahre, bei implantierbaren Produkten mindestens 15 Jahre nach Inverkehrbringen des letzten Produkts (Abs. 8)</li>
+<li>Sofortige <strong>Korrekturmaßnahmen</strong> bei Nichtkonformität (Abs. 12) und ein System für die Aufzeichnung und Meldung von Vorkommnissen (Abs. 13)</li>
+</ul>
+<h3 id="uberwachung-nach-dem-inverkehrbringen-art-83-bis-86">Überwachung nach dem Inverkehrbringen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02017R0745-20250110#art_83">Art. 83 bis 86</a>)</h3>
+<ul>
+<li>Pro Produkt ein System, das aktiv und systematisch Daten über Qualität, Leistung und Sicherheit während der gesamten Lebensdauer sammelt, aufzeichnet und analysiert (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02017R0745-20250110#art_83">Art. 83 Abs. 1 und 2</a>). Die Daten fließen u. a. in das Risikomanagement nach Anhang I Kapitel I ein (Abs. 3 lit. a). Für Software sind damit auch bekannt gewordene Schwachstellen und Sicherheitsvorfälle Gegenstand der Überwachung, soweit sie Sicherheit oder Leistung des Produkts betreffen.</li>
+<li>Plan zur Überwachung nach dem Inverkehrbringen als Teil der technischen Dokumentation (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0745#art_84">Art. 84</a>, Anhang III Abschnitt 1)</li>
+<li>Klasse I: Bericht über die Überwachung nach dem Inverkehrbringen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0745#art_85">Art. 85</a>); Klassen IIa, IIb und III: regelmäßig aktualisierter Sicherheitsbericht (PSUR), bei IIb und III mindestens jährlich, bei IIa bei Bedarf, mindestens alle zwei Jahre (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02017R0745-20250110#art_86">Art. 86 Abs. 1</a>)</li>
+</ul>
+<h3 id="vigilanz-und-meldefristen-art-87-bis-92">Vigilanz und Meldefristen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02017R0745-20250110#art_87">Art. 87 bis 92</a>)</h3>
+<p>Hersteller melden schwerwiegende Vorkommnisse und Sicherheitskorrekturmaßnahmen im Feld (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02017R0745-20250110#art_87">Art. 87 Abs. 1</a>). Die Fristen gestaffelt nach Schwere:</p>
+<table>
+<thead>
+<tr>
+<th>Fall</th>
+<th>Frist</th>
+<th>Fundstelle</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Schwerwiegendes Vorkommnis (Regelfall)</td>
+<td>unverzüglich nach Feststellung eines (möglichen) Kausalzusammenhangs, spätestens <strong>15 Tage</strong> nach Kenntnis</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02017R0745-20250110#art_87">Art. 87 Abs. 3</a></td>
+</tr>
+<tr>
+<td>Schwerwiegende Gefahr für die öffentliche Gesundheit</td>
+<td>unverzüglich, spätestens <strong>2 Tage</strong> nach Kenntnis</td>
+<td>Art. 87 Abs. 4</td>
+</tr>
+<tr>
+<td>Tod oder unvorhergesehene schwerwiegende Verschlechterung des Gesundheitszustands</td>
+<td>unverzüglich, spätestens <strong>10 Tage</strong> nach Kenntnis</td>
+<td>Art. 87 Abs. 5</td>
+</tr>
+<tr>
+<td>Sicherheitskorrekturmaßnahme im Feld</td>
+<td>ohne ungebührliche Verzögerung <strong>vor</strong> Ergreifen der Maßnahme (außer in dringenden Fällen)</td>
+<td>Art. 87 Abs. 8</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Bei Eilbedürftigkeit ist eine vorläufige Meldung mit nachfolgender vollständiger Meldung möglich (Abs. 6). Bei Unsicherheit, ob ein Vorkommnis meldepflichtig ist, wird fristgerecht gemeldet (Abs. 7).</li>
+<li><strong>Trendmeldung</strong> bei statistisch signifikantem Anstieg nicht schwerwiegender Vorkommnisse (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02017R0745-20250110#art_88">Art. 88</a>); Untersuchung und Abschlussbericht (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02017R0745-20250110#art_89">Art. 89 Abs. 1 und 5</a>); Sicherheitsanweisung im Feld an die Anwender, mit UDI und SRN (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02017R0745-20250110#art_89">Art. 89 Abs. 8</a>).</li>
+<li>Die Meldung erfolgt über das elektronische System nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02017R0745-20250110#art_92">Art. 92</a>. Dessen Pflichten gelten erst sechs Monate nach der Kommissionsmitteilung, dass das Vigilanz-Modul funktionsfähig ist (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02017R0745-20250110#art_123">Art. 123 Abs. 3 lit. d</a>); bis dahin gelten die Vigilanzvorschriften der Richtlinien fort. Ob eine solche Mitteilung zum Vigilanz-Modul inzwischen veröffentlicht wurde, ist <strong>nicht verifiziert</strong> (siehe <a href="#eudamed-und-udi">EUDAMED und UDI</a>).</li>
+<li>Die Meldefristen der MDR betreffen Vorkommnisse mit dem Produkt und sind getrennt von den Meldepflichten einer Einrichtung nach NIS2 zu sehen (siehe <a href="#wechselwirkungen-mit-anderen-eu-regularien">Wechselwirkungen</a>).</li>
+</ul>
+<h3 id="eudamed-und-udi">EUDAMED und UDI</h3>
+<ul>
+<li><strong>UDI-System</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0745#art_27">Art. 27</a>): UDI-DI und UDI-PI (Abs. 1), Zuteilung vor Inverkehrbringen (Abs. 3), UDI-Träger auf Kennzeichnung und höheren Verpackungsebenen (Abs. 4), Basis-UDI-DI in der EU-Konformitätserklärung (Abs. 6). Staffelung der Kennzeichnungspflicht nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02017R0745-20250110#art_123">Art. 123 Abs. 3 lit. f</a>: implantierbare Produkte und Klasse III ab 26.05.2021, Klassen IIa und IIb ab 26.05.2023, Klasse I ab 26.05.2025.</li>
+<li><strong>UDI für Software</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0745#anx_VI">Anhang VI Teil C Nr. 6.5</a>): Die UDI wird auf Systemebene der Software zugeteilt. Die Software-Identifikation (Version) ist Teil der UDI-PI. Eine neue UDI-DI ist erforderlich, wenn sich ursprüngliche Leistung, Sicherheit oder bestimmungsgemäße Verwendung oder die Auswertung der Daten ändern. Geringfügige Änderungen (Fehlerbehebungen, Sicherheitspatches, Betriebseffizienz) erfordern eine neue UDI-PI, aber keine neue UDI-DI.</li>
+<li><strong>EUDAMED</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0745#art_33">Art. 33</a>): Die Pflichten zu den einzelnen elektronischen Systemen gelten gestaffelt, sechs Monate nach der Mitteilung der Kommission, dass das jeweilige System funktionsfähig ist (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02017R0745-20250110#art_123">Art. 123 Abs. 3 lit. d</a>, neu gefasst durch die <a href="https://eur-lex.europa.eu/eli/reg/2024/1860/oj">Verordnung (EU) 2024/1860</a>).<ul>
+<li>Mit dem <a href="https://eur-lex.europa.eu/eli/dec/2025/2371/oj">Beschluss (EU) 2025/2371</a> (veröffentlicht am 27.11.2025) bestätigte die Kommission vier Systeme als funktionsfähig: Akteursregistrierung, UDI-Datenbank und Produktregistrierung, Benannte Stellen und Bescheinigungen sowie Marktüberwachung. Die Pflichten dazu gelten daher sechs Monate nach der Veröffentlichung, also seit Ende Mai 2026 (in Veröffentlichungen Dritter mit 28.05.2026 angegeben; das genaue Datum wurde nicht gegen eine Primärquelle verifiziert).</li>
+<li>Die Registrierungspflicht der Hersteller für die Produktdaten gilt nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02017R0745-20250110#art_123">Art. 123 Abs. 3 lit. e</a> spätestens 12 Monate nach der Veröffentlichung der Mitteilung (also bis Ende November 2026) für die dort genannten Produkte.</li>
+<li>Die Systeme für Vigilanz und Überwachung nach dem Inverkehrbringen sowie für klinische Prüfungen waren nicht Teil dieses Beschlusses. Ob inzwischen weitere Mitteilungen ergangen sind, wurde hier nicht verifiziert.</li>
+</ul>
+</li>
+</ul>
+<h3 id="wechselwirkungen-mit-anderen-eu-regularien">Wechselwirkungen mit anderen EU-Regularien</h3>
+<table>
+<thead>
+<tr>
+<th>Regelwerk</th>
+<th>Verhältnis zur MDR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Cyber Resilience Act (CRA)</strong></td>
+<td>Der CRA gilt <strong>nicht</strong> für Produkte mit digitalen Elementen, auf die die Verordnungen (EU) 2017/745 (MDR) oder 2017/746 (IVDR) Anwendung finden (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_2">CRA Art. 2 Abs. 2 lit. a und b</a>). Begründung: Die MDR/IVDR behandeln Cybersicherheit bereits über grundlegende Anforderungen und die Leitlinie MDCG 2019-16 (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#rct_25">CRA Erwägungsgrund 25</a>). Nicht erfasste Software (z. B. Allzweck-Software ohne medizinische Zweckbestimmung) kann dagegen unter den CRA fallen; wearables zur Gesundheitsüberwachung, die nicht unter MDR/IVDR fallen, nennt der CRA ausdrücklich in <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_III">Anhang III Klasse I Nr. 19</a>. Siehe <a href="../cra/">CRA</a>.</td>
+</tr>
+<tr>
+<td><strong>NIS2</strong></td>
+<td>Hersteller von Medizinprodukten und In-vitro-Diagnostika sind Sektor „Verarbeitendes Gewerbe" in <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#anx_II">Anhang II Nr. 5 lit. a</a> der Richtlinie (EU) 2022/2555 und damit bei mindestens mittlerer Größe grundsätzlich <strong>wichtige Einrichtungen</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_2">Art. 2 Abs. 1</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_3">Art. 3 Abs. 2</a>). Hersteller von Medizinprodukten, die in einer Notlage im Bereich der öffentlichen Gesundheit als kritisch gelistet sind, stehen zusätzlich in <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#anx_I">Anhang I Nr. 5</a> (Gesundheitswesen). NIS2 betrifft die Einrichtung (Risikomanagement, Meldepflichten), die MDR das Produkt. Siehe <a href="../nis2/">NIS2</a>.</td>
+</tr>
+<tr>
+<td><strong>EU AI Act</strong></td>
+<td>Medizinprodukte sind in <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#anx_I">Anhang I Abschnitt A Nr. 11</a> (MDR) und Nr. 12 (IVDR) des AI Act aufgeführt. Ein KI-System ist hochriskant, wenn es Sicherheitsbauteil eines solchen Produkts oder selbst ein solches Produkt ist <strong>und</strong> das Produkt einer Konformitätsbewertung durch Dritte (Benannte Stelle) unterliegt (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_6">Art. 6 Abs. 1</a>). KI-Software der MDR-Klasse I ohne Benannte Stelle erfüllt diese Voraussetzung nicht. Die Pflichten für diese Systeme gelten seit der Änderung durch die <a href="https://eur-lex.europa.eu/eli/reg/2026/1744/oj">Verordnung (EU) 2026/1744</a> ab dem <strong>02.08.2028</strong> (ursprünglich 02.08.2027); die MDR selbst bleibt unverändert maßgeblich für das Produkt. Siehe <a href="../aiact/">AI Act</a>.</td>
+</tr>
+<tr>
+<td><strong>Produkthaftung</strong></td>
+<td>Hersteller haften für fehlerhafte Produkte nach Unionsrecht und nationalem Recht (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02017R0745-20250110#art_10">Art. 10 Abs. 16</a>). Siehe <a href="../pld/">PLD</a>.</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>[!NOTE]</p>
+<p>Die Verordnung (EU) 2026/1744 verschiebt Medizinprodukte <strong>nicht</strong> von Anhang I Abschnitt A nach Abschnitt B des AI Act (die geprüfte Fassung ändert die Liste in Anhang I nicht). Sie fügt aber einen neuen <a href="https://eur-lex.europa.eu/eli/reg/2026/1744/oj">Art. 2 Abs. 13</a> in den AI Act ein: Für Hochrisiko-KI-Systeme nach Art. 6 Abs. 1 kann die Anwendung der Art. 9 bis 15 und 17 bis 25 beschränkt werden, soweit die Rechtsvorschriften nach Anhang I Abschnitt A (also auch die MDR) ein gleichwertiges oder höheres Schutzniveau bieten. Die Kommission soll dazu bis zum 02.08.2027 delegierte Rechtsakte erlassen. Solche Rechtsakte lagen nach den hier geprüften Quellen noch nicht vor.</p>
+</blockquote>
+<h3 id="normen-iec-62304-und-iec-81001-5-1">Normen: IEC 62304 und IEC 81001-5-1</h3>
+<ul>
+<li>Harmonisierte Normen begründen die Konformitätsvermutung für die damit abgedeckten Anforderungen, auch für System- und Prozessanforderungen wie Qualitäts- und Risikomanagement (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0745#art_8">Art. 8 Abs. 1</a>). Voraussetzung ist die Veröffentlichung der Fundstelle im Amtsblatt.</li>
+<li><a href="../iec62304/">IEC 62304</a> (Software-Lebenszyklus) und <a href="../iec81001-5-1/">IEC 81001-5-1</a> (Cybersicherheit im Lebenszyklus von Gesundheitssoftware) sind in der konsolidierten Fassung (Stand 17.06.2026) des <a href="https://eur-lex.europa.eu/eli/dec_impl/2021/1182/oj">Durchführungsbeschlusses (EU) 2021/1182</a> <strong>nicht</strong> gelistet. Sie begründen damit nach hier geprüftem Stand keine Konformitätsvermutung, sind aber als Stand der Technik für Anhang I Nr. 17.2 allgemein anerkannt. Neuere Beschlüsse nach dem 17.06.2026 wurden nicht geprüft.</li>
+</ul>
+<h3 id="revisionsvorschlag-der-kommission">Revisionsvorschlag der Kommission</h3>
+<ul>
+<li>Die Kommission hat am 16.12.2025 einen Vorschlag zur Vereinfachung von MDR und IVDR vorgelegt (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:52025PC1023">COM(2025) 1023</a>, Verfahren <a href="https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0404(COD)">2025/0404(COD)</a>).</li>
+<li>Stand laut Legislative Observatory (abgerufen am 09.10.2026): Verfahren im Ausschuss (Ausschuss für öffentliche Gesundheit SANT, Berichterstatter Oliver Schenk), Verfahrensstufe „Awaiting committee decision", indikativer Termin für die Abstimmung im Plenum 14.12.2026. <strong>Der Vorschlag ist nicht beschlossen</strong> und hat keine Rechtswirkung. Die Inhalte dieser Seite beziehen sich weiter auf die geltende Verordnung.</li>
+</ul>
+<h2 id="losungsansatze-hilfestellungen">Lösungsansätze &amp; Hilfestellungen</h2>
+<ul>
+<li>Die EU-Kommission stellt Leitlinien und MDCG-Dokumente bereit: <a href="https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en">MDCG Guidance</a>. Die Dokumente sind <strong>nicht rechtsverbindlich</strong>; verbindlich auslegen kann nur der Gerichtshof der Europäischen Union.<ul>
+<li><a href="https://health.ec.europa.eu/document/download/b23b362f-8a56-434c-922a-5b3ca4d0a7a1_en">MDCG 2019-16 Rev.1 „Guidance on Cybersecurity for medical devices"</a>: Erstfassung Dezember 2019, Rev.1 Juli 2020. Nach dem Stand der MDCG-Übersicht (09.10.2026) ist Rev.1 die aktuelle Fassung. Das Dokument legt die Cybersicherheitsanforderungen aus Anhang I von MDR und IVDR aus (Abschnitt 1.3).</li>
+<li>MDCG 2019-11 Rev.1 „Qualification and classification of software" (Juni 2025): Qualifizierung und Klassifizierung von Software nach MDR und IVDR (in der <a href="https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en">MDCG-Übersicht</a> aufgeführt)</li>
+<li><a href="https://health.ec.europa.eu/document/download/b2c4e715-f2b4-4d24-af60-056b5d41a72e_en?filename=md_mdcg_2023-4_software_en.pdf">MDCG 2023-4</a> (Oktober 2023): Medical Device Software (MDSW) in Kombination mit Hardware</li>
+</ul>
+</li>
+<li>Das BfArM (Bundesinstitut für Arzneimittel und Medizinprodukte) bietet nationale Informationen zu Medizinprodukten: <a href="https://www.bfarm.de/DE/Medizinprodukte/_node.html">BfArM Medizinprodukte</a></li>
+<li>Normen für Software und Cybersicherheit: <a href="../iec62304/">IEC 62304</a>, <a href="../iec81001-5-1/">IEC 81001-5-1</a>, ergänzend <a href="../iec62443/">IEC 62443</a></li>
+<li><a href="https://eur-lex.europa.eu/eli/reg/2017/745/oj">Verordnung (EU) 2017/745 im Volltext (EUR-Lex)</a></li>
+</ul>
+<h3 id="tools-werkzeuge">Tools &amp; Werkzeuge</h3>
+<h4 id="software-lifecycle-management-dokumentation-iec-62304">Software Lifecycle Management &amp; Dokumentation (IEC 62304)</h4>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Lizenz</th>
+<th>Problem / Zweck</th>
+<th>Regulatorische Relevanz</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/innolitics/rdm">rdm (Regulatory Document Manager)</a></td>
+<td>Open Source (MIT)</td>
+<td>Dokumentation als Code: Markdown-Vorlagen und Python-Skripte erzeugen Dokumente für Medizinprodukte-Software (Word, PDF) aus einem Git-Repository; laut README besonders für Software nach IEC 62304 geeignet</td>
+<td>Unterstützung bei IEC 62304-Dokumenten (Nachweis zu Anhang I Nr. 17.2). Die README nennt FDA-510(k)-Einreichungen; ein MDR-spezifischer Vorlagensatz (Anhang II/III) wird dort nicht belegt. Die Eignung für die technische Dokumentation nach MDR ist im Einzelfall zu prüfen.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="quellen">Quellen</h2>
+<p>Alle Rechtstexte in der deutschen Fassung im Amtsblatt der EU (ELI-Links), Abgleich mit der konsolidierten Fassung vom 10.01.2025:</p>
+<ul>
+<li><a href="https://eur-lex.europa.eu/eli/reg/2017/745/oj">Verordnung (EU) 2017/745 (MDR)</a></li>
+<li><a href="https://eur-lex.europa.eu/eli/reg/2017/746/oj">Verordnung (EU) 2017/746 (IVDR)</a></li>
+<li><a href="https://eur-lex.europa.eu/eli/reg/2020/561/oj">Verordnung (EU) 2020/561</a>: Verschiebung des Geltungsbeginns der MDR auf den 26.05.2021</li>
+<li><a href="https://eur-lex.europa.eu/eli/reg/2023/607/oj">Verordnung (EU) 2023/607</a>: Verlängerung der Übergangsfristen (31.12.2027 / 31.12.2028)</li>
+<li><a href="https://eur-lex.europa.eu/eli/reg/2024/1860/oj">Verordnung (EU) 2024/1860</a>: schrittweise Einführung von EUDAMED, Pflicht zur Information bei Lieferunterbrechung (Art. 10a)</li>
+<li><a href="https://eur-lex.europa.eu/eli/dec/2025/2371/oj">Beschluss (EU) 2025/2371</a>: Funktionsfähigkeit der ersten vier EUDAMED-Systeme</li>
+<li><a href="https://eur-lex.europa.eu/eli/dec_impl/2021/1182/oj">Durchführungsbeschluss (EU) 2021/1182</a> in der Fassung vom 17.06.2026 (harmonisierte Normen zur MDR), geändert u. a. durch den <a href="https://eur-lex.europa.eu/eli/dec_impl/2026/1231/oj">Durchführungsbeschluss (EU) 2026/1231</a></li>
+<li>Für den Abschnitt „Wechselwirkungen": <a href="https://eur-lex.europa.eu/eli/reg/2024/2847/oj">CRA (EU) 2024/2847</a>, <a href="https://eur-lex.europa.eu/eli/dir/2022/2555/oj">NIS2 (EU) 2022/2555</a>, <a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj">AI Act (EU) 2024/1689</a>, <a href="https://eur-lex.europa.eu/eli/reg/2026/1744/oj">Digital-Omnibus-Verordnung zur KI (EU) 2026/1744</a></li>
+<li><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:52025PC1023">Vorschlag COM(2025) 1023</a> und <a href="https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0404(COD)">Verfahrensstand 2025/0404(COD) im Legislative Observatory</a></li>
+<li><a href="https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en">MDCG-Leitlinien der Europäischen Kommission</a>, <a href="https://health.ec.europa.eu/document/download/b23b362f-8a56-434c-922a-5b3ca4d0a7a1_en">MDCG 2019-16 Rev.1</a></li>
+<li><a href="https://www.bfarm.de/DE/Medizinprodukte/_node.html">BfArM: Medizinprodukte</a>, <a href="https://www.gesetze-im-internet.de/mpdg/">Medizinprodukterecht-Durchführungsgesetz (MPDG)</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 <a href="https://osb-alliance.de/impressum">OSBA WG Security</a>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+
+
+
+<h4>Cookie consent</h4>
+<p>We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to make our documentation better. </p>
+<input class="md-toggle" type="checkbox" id="__settings" >
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+    
+    
+      
+        
+  
+  
+    
+    
+  
+  <li class="task-list-item">
+    <label class="task-list-control">
+      <input type="checkbox" name="github" checked>
+      <span class="task-list-indicator"></span>
+      GitHub
+    </label>
+  </li>
+
+      
+    
+    
+      
+        
+  
+  
+    
+    
+  
+  <li class="task-list-item">
+    <label class="task-list-control">
+      <input type="checkbox" name="analytics" >
+      <span class="task-list-indicator"></span>
+      Google Analytics
+    </label>
+  </li>
+
+      
+    
+  </ul>
+</div>
+<div class="md-consent__controls">
+  
+    
+      <button class="md-button md-button--primary">Accept</button>
+    
+    
+    
+  
+    
+    
+    
+      <label class="md-button" for="__settings">Manage settings</label>
+    
+  
+    
+    
+      <button type="reset" class="md-button md-button--primary">Reject</button>
+    
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "header.autohide", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../assets/feedback.js"></script>
+      
+    
+  </body>
+</html>

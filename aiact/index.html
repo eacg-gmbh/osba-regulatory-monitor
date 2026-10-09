@@ -1,0 +1,2426 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Stellt eine Uebersicht an Regularien sowie deren Wirkung auf die Software-Entwicklung vor ">
+      
+      
+        <meta name="author" content="OSBA Security Workgroup">
+      
+      
+        <link rel="canonical" href="https://eacg-gmbh.github.io/osba-regulatory-monitor/aiact/">
+      
+      
+        <link rel="prev" href="../guidelines/">
+      
+      
+        <link rel="next" href="../cer/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>EU Artificial Intelligence Act (AI Act) - OSBA Regulatory Monitor</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config",""),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>if("undefined"!=typeof __md_analytics){var consent=__md_get("__consent");consent&&consent.analytics&&__md_analytics()}</script>
+  
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="lime">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#eu-artificial-intelligence-act-ai-act" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://www.osb-alliance.de" title="OSBA Regulatory Monitor" class="md-header__button md-logo" aria-label="OSBA Regulatory Monitor" data-md-component="logo">
+      
+  <img src="../assets/osba-logo-claim.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            OSBA Regulatory Monitor
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              EU Artificial Intelligence Act (AI Act)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="lime"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/eacg-gmbh/osba-regulatory-monitor" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href=".." class="md-tabs__link">
+          
+  
+  
+    
+  
+  Hintergrund
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  
+    
+  
+  EU Regularien
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../kritis-dachgesetz/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Deutschland
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../iec18974/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Standards
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../about/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  About
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://www.osb-alliance.de" title="OSBA Regulatory Monitor" class="md-nav__button md-logo" aria-label="OSBA Regulatory Monitor" data-md-component="logo">
+      
+  <img src="../assets/osba-logo-claim.svg" alt="logo">
+
+    </a>
+    OSBA Regulatory Monitor
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/eacg-gmbh/osba-regulatory-monitor" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href=".." class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hintergrund
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Hintergrund
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guidelines/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mitarbeit
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EU Regularien
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    EU Regularien
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EU Artificial Intelligence Act (AI Act)
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EU Artificial Intelligence Act (AI Act)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#uberblick" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Überblick
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zentrale-forderungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zentrale Forderungen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Zentrale Forderungen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ki-kompetenz-art-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        KI-Kompetenz (Art. 4)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#verbotene-ki-praktiken-art-5-abs-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Verbotene KI-Praktiken (Art. 5 Abs. 1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hochrisiko-ki-systeme-art-6-anhang-iii" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hochrisiko-KI-Systeme (Art. 6, Anhang III)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ki-modelle-mit-allgemeinem-verwendungszweck-gpai-art-51-bis-art-56" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        KI-Modelle mit allgemeinem Verwendungszweck / GPAI (Art. 51 bis Art. 56)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transparenzpflichten-art-50" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Transparenzpflichten (Art. 50)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sanktionsregime-art-99-bis-101" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sanktionsregime (Art. 99 bis 101)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wechselwirkungen-mit-anderen-eu-regularien" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wechselwirkungen mit anderen EU-Regularien
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#losungsansatze-hilfestellungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lösungsansätze &amp; Hilfestellungen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Lösungsansätze &amp; Hilfestellungen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tools-werkzeuge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tools &amp; Werkzeuge
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tools &amp; Werkzeuge">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#modell-dokumentation-model-cards-art-11-13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modell-Dokumentation &amp; Model Cards (Art. 11, 13)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#risikobewertung-risikomanagement-art-9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Risikobewertung &amp; Risikomanagement (Art. 9)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bias-erkennung-fairness-art-10-15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bias-Erkennung &amp; Fairness (Art. 10, 15)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#erklarbarkeit-xai-art-13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Erklärbarkeit / XAI (Art. 13)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#logging-experiment-tracking-mlops-art-11-12-72" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Logging, Experiment-Tracking &amp; MLOps (Art. 11, 12, 72)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#datenqualitat-governance-art-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Datenqualität &amp; Governance (Art. 10)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quellen
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Directive on the Resilience of critical Entities (CER)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dataact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EU Data Act
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dora/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Digital Operational Resilience Act (DORA)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EU Cyber Resilience Act (CRA)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../eidas2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    eIDAS 2.0 / European Digital Identity Wallet
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nis2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EU NIS2 Directive
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mdr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Medical Device Directive (MDR)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pld/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Product Liability Directive (PLD)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../red/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Radio Frequency Directive (RED)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deutschland
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Deutschland
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kritis-dachgesetz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    KRITIS-Dachgesetz (KRITIS-DachG)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Standards
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Standards
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iec18974/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC-18974
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iec62304/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC-62304
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iec62443/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC-62443
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iec81001-5-1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC-81001-5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../openchain/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ISO-5230
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tisax/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TISAX
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    About
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Über dieses Projekt
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CHANGELOG/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Changelog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#uberblick" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Überblick
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zentrale-forderungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zentrale Forderungen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Zentrale Forderungen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ki-kompetenz-art-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        KI-Kompetenz (Art. 4)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#verbotene-ki-praktiken-art-5-abs-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Verbotene KI-Praktiken (Art. 5 Abs. 1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hochrisiko-ki-systeme-art-6-anhang-iii" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hochrisiko-KI-Systeme (Art. 6, Anhang III)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ki-modelle-mit-allgemeinem-verwendungszweck-gpai-art-51-bis-art-56" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        KI-Modelle mit allgemeinem Verwendungszweck / GPAI (Art. 51 bis Art. 56)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transparenzpflichten-art-50" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Transparenzpflichten (Art. 50)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sanktionsregime-art-99-bis-101" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sanktionsregime (Art. 99 bis 101)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wechselwirkungen-mit-anderen-eu-regularien" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wechselwirkungen mit anderen EU-Regularien
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#losungsansatze-hilfestellungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lösungsansätze &amp; Hilfestellungen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Lösungsansätze &amp; Hilfestellungen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tools-werkzeuge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tools &amp; Werkzeuge
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tools &amp; Werkzeuge">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#modell-dokumentation-model-cards-art-11-13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modell-Dokumentation &amp; Model Cards (Art. 11, 13)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#risikobewertung-risikomanagement-art-9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Risikobewertung &amp; Risikomanagement (Art. 9)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bias-erkennung-fairness-art-10-15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bias-Erkennung &amp; Fairness (Art. 10, 15)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#erklarbarkeit-xai-art-13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Erklärbarkeit / XAI (Art. 13)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#logging-experiment-tracking-mlops-art-11-12-72" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Logging, Experiment-Tracking &amp; MLOps (Art. 11, 12, 72)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#datenqualitat-governance-art-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Datenqualität &amp; Governance (Art. 10)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quellen
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <a href="../.#tag:ai" class="md-tag">ai</a>
+      
+    
+      
+      
+      
+      
+        <a href="../.#tag:documentation" class="md-tag">documentation</a>
+      
+    
+      
+      
+      
+      
+        <a href="../.#tag:general" class="md-tag">general</a>
+      
+    
+      
+      
+      
+      
+        <a href="../.#tag:processes" class="md-tag">processes</a>
+      
+    
+      
+      
+      
+      
+        <a href="../.#tag:risk-management" class="md-tag">risk management</a>
+      
+    
+  </nav>
+
+
+
+<h1 id="eu-artificial-intelligence-act-ai-act">EU Artificial Intelligence Act (AI Act)</h1>
+<p>Der EU AI Act ist die weltweit erste umfassende gesetzliche Regulierung von Künstlicher Intelligenz. Er verfolgt einen risikobasierten Ansatz: Je höher das potenzielle Schadenspotenzial eines KI-Systems, desto strenger die Anforderungen. Ziel ist es, Vertrauen in KI zu schaffen, ohne Innovation unnötig zu bremsen.</p>
+<blockquote>
+<p>[!NOTE]</p>
+<p>Alle Artikelverweise beziehen sich, sofern nicht anders angegeben, auf die <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689">Verordnung (EU) 2024/1689</a> und führen direkt zum jeweiligen Artikel (EUR-Lex, Fassung vom 12.07.2024). Seit dem 27.07.2026 gilt sie in der durch die <a href="https://eur-lex.europa.eu/eli/reg/2026/1744/oj">Digital-Omnibus-Verordnung zur KI (EU) 2026/1744</a> geänderten Fassung; die verlinkten Anker zeigen den Ursprungstext, Änderungen sind im Text kenntlich gemacht. Stand dieser Seite: Oktober 2026. Die Quellen stehen im Abschnitt <a href="#quellen">Quellen</a>. Die Seite ist eine Orientierung und ersetzt keine Rechtsberatung.</p>
+</blockquote>
+<h2 id="uberblick">Überblick</h2>
+<ul>
+<li><strong>Segment</strong>: KI-Systeme und KI-Modelle mit allgemeinem Verwendungszweck (GPAI — General Purpose AI Model)</li>
+<li>
+<p><strong>Verabschiedet / Veröffentlicht</strong>:</p>
+<ul>
+<li>Verordnung (EU) 2024/1689 vom 13.06.2024 (Position des Parlaments 13.03.2024, Beschluss des Rates 21.05.2024), veröffentlicht im Amtsblatt der EU (L) am 12.07.2024</li>
+<li>Geändert durch die Digital-Omnibus-Verordnung zur KI, Verordnung (EU) 2026/1744 vom 08.07.2026, veröffentlicht am 24.07.2026, in Kraft seit 27.07.2026 (dritter Tag nach Veröffentlichung, <a href="https://eur-lex.europa.eu/eli/reg/2026/1744/oj">Art. 4 der VO 2026/1744</a>)</li>
+</ul>
+</li>
+<li>
+<p><strong>Gültig ab</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_113">Art. 113</a>), stufenweise Anwendung:</p>
+<ul>
+<li><strong>01.08.2024</strong>: Inkrafttreten (20. Tag nach Veröffentlichung)</li>
+<li><strong>02.02.2025</strong>: Allgemeine Bestimmungen (Kapitel I, darunter <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_4">Art. 4 KI-Kompetenz</a>) und Verbote unzulässiger KI-Praktiken (Kapitel II, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_5">Art. 5</a>)</li>
+<li><strong>02.08.2025</strong>: Governance (Kapitel VII), Pflichten für Anbieter von KI-Modellen mit allgemeinem Verwendungszweck (Kapitel V), Sanktionen (Kapitel XII, ausgenommen <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_101">Art. 101</a>), notifizierende Behörden (Kapitel III Abschnitt 4) und <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_78">Art. 78</a></li>
+<li><strong>02.08.2026</strong>: Allgemeiner Geltungsbeginn, insbesondere die Transparenzpflichten nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_50">Art. 50</a> sowie die Geldbußen der Kommission gegenüber GPAI-Anbietern nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_101">Art. 101</a></li>
+<li><strong>02.12.2026</strong>: Neue Verbote nach Art. 5 Abs. 1 Buchstaben ba und bb (nicht einvernehmliche intime Deepfakes, Darstellungen sexuellen Kindesmissbrauchs) sowie Frist für Altsysteme zur Umsetzung der Kennzeichnungspflicht nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_50">Art. 50 Abs. 2</a> (beides durch die VO 2026/1744 eingefügt)</li>
+<li><strong>02.12.2027</strong>: Hochrisiko-KI-Systeme nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_6">Art. 6 Abs. 2</a> und <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#anx_III">Anhang III</a> (eigenständige Systeme); Kapitel III Abschnitte 1 bis 3 gelten hierfür erst ab diesem Datum (geändert durch VO 2026/1744, ursprünglich 02.08.2026)</li>
+<li><strong>02.08.2028</strong>: Hochrisiko-KI-Systeme nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_6">Art. 6 Abs. 1</a> und <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#anx_I">Anhang I</a> (KI in regulierten Produkten; geändert durch VO 2026/1744, ursprünglich 02.08.2027)</li>
+<li><strong>02.08.2027</strong>: Frist für GPAI-Modelle, die vor dem 02.08.2025 in Verkehr gebracht wurden (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_111">Art. 111 Abs. 3</a>)</li>
+<li><strong>02.08.2030</strong>: Frist für Hochrisiko-KI-Systeme, die bestimmungsgemäß von Behörden verwendet werden und bereits vor dem Geltungsbeginn in Verkehr gebracht wurden (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_111">Art. 111 Abs. 2</a>)</li>
+</ul>
+</li>
+<li>
+<p><strong>Gültig für</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_2">Art. 2 Abs. 1</a>):</p>
+<ul>
+<li>Anbieter (Provider), die in der Union KI-Systeme in Verkehr bringen oder in Betrieb nehmen oder GPAI-Modelle in Verkehr bringen, unabhängig vom Niederlassungsort</li>
+<li>Betreiber (Deployer) von KI-Systemen mit Sitz oder Standort in der Union</li>
+<li>Anbieter und Betreiber mit Sitz in einem Drittland, wenn die Ausgabe des KI-Systems in der Union verwendet wird</li>
+<li>Einführer und Händler von KI-Systemen, Produkthersteller, die KI-Systeme mit ihrem Produkt unter eigenem Namen in Verkehr bringen, Bevollmächtigte von Anbietern aus Drittländern sowie betroffene Personen in der Union</li>
+</ul>
+</li>
+<li>
+<p><strong>Nicht gültig für</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_2">Art. 2 Abs. 3 bis 12</a>):</p>
+<ul>
+<li>KI-Systeme, die ausschließlich für militärische Zwecke, Verteidigungszwecke oder Zwecke der nationalen Sicherheit eingesetzt werden (Abs. 3)</li>
+<li>KI-Systeme und -Modelle, die eigens für den alleinigen Zweck der wissenschaftlichen Forschung und Entwicklung entwickelt und in Betrieb genommen werden (Abs. 6); Forschung, Tests und Entwicklung vor dem Inverkehrbringen, ausgenommen Tests unter Realbedingungen (Abs. 8)</li>
+<li>Betreiber, die natürliche Personen sind und KI-Systeme im Rahmen einer ausschließlich persönlichen und nicht beruflichen Tätigkeit verwenden (Abs. 10)</li>
+<li>KI-Systeme unter freier und quelloffener Lizenz, <strong>es sei denn</strong>, sie werden als Hochrisiko-KI-System oder als KI-System, das unter <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_5">Art. 5</a> oder <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_50">Art. 50</a> fällt, in Verkehr gebracht oder in Betrieb genommen (Abs. 12). Für GPAI-Modelle gelten gesonderte Erleichterungen (siehe unten), die bei systemischem Risiko entfallen</li>
+</ul>
+</li>
+<li>
+<p><strong>Grauzone</strong>:</p>
+<ul>
+<li>Abgrenzung zwischen „KI-System" und klassischer Software (Legaldefinition in <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_3">Art. 3 Nr. 1</a>; die Kommission erlässt hierzu Leitlinien nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_96">Art. 96</a>)</li>
+<li>Ausnahmen von der Hochrisiko-Einstufung nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_6">Art. 6 Abs. 3</a> (z. B. enge Verfahrensaufgabe, vorbereitende Aufgabe) sind vom Anbieter zu begründen und zu dokumentieren (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_6">Art. 6 Abs. 4</a>); bei Profiling natürlicher Personen gilt das System immer als hochriskant</li>
+<li>Einordnung von Modellen, die sowohl GPAI als auch Bestandteil eines Hochrisiko-KI-Systems sind</li>
+<li>Verantwortungsaufteilung zwischen Anbieter und Betreiber bei Feintuning oder Integration: Wer ein Hochrisiko-KI-System mit eigenem Namen versieht, es wesentlich verändert oder die Zweckbestimmung so ändert, dass es hochriskant wird, gilt als Anbieter (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_25">Art. 25 Abs. 1</a>)</li>
+</ul>
+</li>
+</ul>
+<h2 id="zentrale-forderungen">Zentrale Forderungen</h2>
+<h3 id="ki-kompetenz-art-4">KI-Kompetenz (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_4">Art. 4</a>)</h3>
+<ul>
+<li>Anbieter und Betreiber von KI-Systemen ergreifen Maßnahmen, um die KI-Kompetenz ihres Personals und der in ihrem Auftrag mit dem Betrieb und der Nutzung befassten Personen zu fördern (seit 02.02.2025). Seit der Änderung durch die VO 2026/1744 besteht die Pflicht, die Entwicklung der KI-Kompetenz zu unterstützen; ein bestimmtes Kompetenzniveau muss nicht garantiert werden. Zuvor war formuliert, dass nach besten Kräften ein ausreichendes Maß sicherzustellen sei.</li>
+</ul>
+<h3 id="verbotene-ki-praktiken-art-5-abs-1">Verbotene KI-Praktiken (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_5">Art. 5 Abs. 1</a>)</h3>
+<ul>
+<li>Unterschwellige oder absichtlich manipulative bzw. täuschende Techniken, die das Verhalten wesentlich verändern und erheblichen Schaden verursachen können (lit. a)</li>
+<li>Ausnutzung von Schutzbedürftigkeit aufgrund von Alter, Behinderung oder bestimmter sozialer oder wirtschaftlicher Situation (lit. b)</li>
+<li>Soziale Bewertung (Social Scoring) natürlicher Personen mit ungerechtfertigter oder unverhältnismäßiger Schlechterstellung, <strong>nicht beschränkt auf staatliche Stellen</strong>, das Verbot gilt auch für private Akteure (lit. c)</li>
+<li>Risikobewertung zur Vorhersage von Straftaten ausschließlich auf Grundlage von Profiling oder persönlichen Merkmalen (lit. d)</li>
+<li>Ungezieltes Auslesen von Gesichtsbildern aus dem Internet oder von Überwachungsaufnahmen zum Aufbau von Gesichtserkennungsdatenbanken (lit. e)</li>
+<li>Ableitung von Emotionen am Arbeitsplatz und in Bildungseinrichtungen, außer aus medizinischen Gründen oder Sicherheitsgründen (lit. f)</li>
+<li>Biometrische Kategorisierung, um Rasse, politische Einstellung, Gewerkschaftszugehörigkeit, religiöse oder weltanschauliche Überzeugung, Sexualleben oder sexuelle Ausrichtung abzuleiten (lit. g)</li>
+<li>Biometrische Echtzeit-Fernidentifizierung in öffentlich zugänglichen Räumen zu Strafverfolgungszwecken, außer wenn unbedingt erforderlich für drei enge Ziele (gezielte Suche nach bestimmten Opfern und Vermissten, Abwenden einer konkreten Gefahr für Leben oder körperliche Unversehrtheit bzw. eines Terroranschlags, Verfolgung bestimmter schwerer Straftaten); Genehmigung und Schutzvorkehrungen nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_5">Art. 5 Abs. 2 bis 7</a> (lit. h)</li>
+<li>Neu ab 02.12.2026 (VO 2026/1744): KI-Systeme, die realistische intime Inhalte einer bestimmbaren Person ohne deren Einwilligung erzeugen oder manipulieren (lit. ba), sowie KI-Systeme zur Erzeugung oder Manipulation von Material des sexuellen Kindesmissbrauchs (lit. bb)</li>
+</ul>
+<h3 id="hochrisiko-ki-systeme-art-6-anhang-iii">Hochrisiko-KI-Systeme (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_6">Art. 6</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#anx_III">Anhang III</a>)</h3>
+<p>Ein KI-System ist hochriskant, wenn es Sicherheitsbauteil eines Produkts nach den Harmonisierungsrechtsvorschriften in <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#anx_I">Anhang I</a> ist (oder selbst ein solches Produkt) und einer Konformitätsbewertung durch Dritte unterliegt (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_6">Art. 6 Abs. 1</a>), oder wenn es in einem der Bereiche von <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#anx_III">Anhang III</a> eingesetzt werden soll (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_6">Art. 6 Abs. 2</a>). Bereiche nach Anhang III:</p>
+<ol>
+<li>Biometrie (soweit nach Unions- oder nationalem Recht zulässig): Fernidentifizierung, biometrische Kategorisierung nach sensiblen Merkmalen, Emotionserkennung</li>
+<li>Kritische Infrastruktur (Sicherheitsbauteile bei kritischer digitaler Infrastruktur, Straßenverkehr, Wasser-, Gas-, Wärme- und Stromversorgung)</li>
+<li>Allgemeine und berufliche Bildung</li>
+<li>Beschäftigung, Personalmanagement und Zugang zur Selbstständigkeit</li>
+<li>Zugang zu grundlegenden privaten und öffentlichen Diensten und Leistungen (u. a. Sozialleistungen, Kreditwürdigkeitsprüfung natürlicher Personen, Risikobewertung und Preisbildung bei Lebens- und Krankenversicherungen, Notrufe)</li>
+<li>Strafverfolgung</li>
+<li>Migration, Asyl und Grenzkontrolle</li>
+<li>Rechtspflege und demokratische Prozesse</li>
+</ol>
+<p>Anwendungszeitpunkt: 02.12.2027 für Systeme nach Anhang III und 02.08.2028 für Systeme nach Anhang I (siehe Überblick). Die Kommission sollte nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_6">Art. 6 Abs. 5</a> Leitlinien mit praktischen Beispielen bereitstellen (Frist im Originaltext: 02.02.2026; ob und wann diese veröffentlicht wurden, ist hier nicht geprüft).</p>
+<p>Pflichten für Anbieter von Hochrisiko-KI (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_16">Art. 16</a>):</p>
+<ul>
+<li><strong>Risikomanagementsystem</strong> einrichten, anwenden, dokumentieren und aufrechterhalten, s. <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_9">Art. 9</a></li>
+<li><strong>Daten-Governance</strong> sicherstellen: Trainings-, Validierungs- und Testdatensätze müssen relevant, hinreichend repräsentativ und so weit wie möglich fehlerfrei und vollständig sein; mögliche Verzerrungen (Bias) sind zu untersuchen, zu erkennen und abzuschwächen, s. <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_10">Art. 10</a> (Abs. 2 lit. f und g, Abs. 3)</li>
+<li><strong>Technische Dokumentation</strong> erstellen und aktuell halten (s. <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_11">Art. 11</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#anx_IV">Anhang IV</a>); vereinfachte Form für KMU und kleine Midcaps (durch VO 2026/1744)</li>
+<li><strong>Automatische Protokollierung</strong> (Logging) von Ereignissen ermöglichen, s. <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_12">Art. 12</a></li>
+<li><strong>Transparenz</strong> gegenüber Betreibern gewährleisten (Betriebsanleitung, Zweck, Grenzen), s. <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_13">Art. 13</a></li>
+<li><strong>Menschliche Aufsicht</strong> (Human Oversight) ermöglichen, s. <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_14">Art. 14</a></li>
+<li><strong>Genauigkeit, Robustheit und Cybersicherheit</strong> sicherstellen, einschließlich Widerstandsfähigkeit gegen KI-spezifische Angriffe wie Data Poisoning, Model Poisoning und Adversarial Examples, s. <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_15">Art. 15 Abs. 5</a></li>
+<li><strong>Qualitätsmanagementsystem</strong> einführen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_17">Art. 17</a>), Dokumentation und Protokolle aufbewahren (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_18">Art. 18</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_19">Art. 19</a>), Korrekturmaßnahmen ergreifen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_20">Art. 20</a>)</li>
+<li><strong>Konformitätsbewertung</strong> durchführen, s. <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_43">Art. 43</a>: für Systeme nach Anhang III Nr. 2 bis 8 grundsätzlich durch interne Kontrolle (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#anx_VI">Anhang VI</a>), für biometrische Systeme nach Anhang III Nr. 1 je nach Anwendung harmonisierter Normen interne Kontrolle oder Bewertung unter Beteiligung einer notifizierten Stelle (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#anx_VII">Anhang VII</a>)</li>
+<li><strong>EU-Konformitätserklärung</strong> ausstellen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_47">Art. 47</a>, 10 Jahre Bereithaltung) und <strong>CE-Kennzeichnung</strong> anbringen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_48">Art. 48</a>)</li>
+<li><strong>Registrierung</strong> in der EU-Datenbank (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_49">Art. 49</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_71">Art. 71</a>); gilt nicht für Systeme nach Anhang III Nr. 2; auch Anbieter, die ein Anhang-III-System als nicht hochriskant einstufen, müssen sich registrieren (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_49">Art. 49 Abs. 2</a>)</li>
+<li><strong>Beobachtung nach dem Inverkehrbringen</strong> (Post-Market-Monitoring) mit Plan einrichten, s. <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_72">Art. 72</a></li>
+<li><strong>Schwerwiegende Vorfälle</strong> den Marktüberwachungsbehörden melden, s. <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_73">Art. 73</a> (Frist grundsätzlich spätestens 15 Tage nach Kenntnis, bei weitverbreitetem Verstoß oder Störung kritischer Infrastruktur spätestens 2 Tage, bei Tod einer Person spätestens 10 Tage)</li>
+</ul>
+<p>Pflichten für Betreiber von Hochrisiko-KI (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_26">Art. 26</a>): Nutzung gemäß Betriebsanleitung, menschliche Aufsicht durch kompetente Personen, Prüfung der Eingabedaten, soweit sie der eigenen Kontrolle unterliegen, Überwachung des Betriebs, Aufbewahrung der Protokolle für mindestens sechs Monate, Information der Arbeitnehmervertreter und betroffenen Arbeitnehmer vor Einsatz am Arbeitsplatz sowie Information betroffener natürlicher Personen. Öffentliche Stellen, private Anbieter öffentlicher Dienste und Betreiber von Kredit- und Versicherungs-Systemen nach Anhang III Nr. 5 lit. b und c führen vorab eine Grundrechte-Folgenabschätzung durch (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_27">Art. 27</a>).</p>
+<h3 id="ki-modelle-mit-allgemeinem-verwendungszweck-gpai-art-51-bis-art-56">KI-Modelle mit allgemeinem Verwendungszweck / GPAI (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_51">Art. 51</a> bis <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_56">Art. 56</a>)</h3>
+<p>Pflichten für alle GPAI-Anbieter (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_53">Art. 53 Abs. 1</a>):</p>
+<ul>
+<li>Technische Dokumentation des Modells erstellen und aktuell halten, auf Anfrage für das KI-Büro und die nationalen Behörden bereitstellen (lit. a, Mindestinhalt <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#anx_XI">Anhang XI</a>)</li>
+<li>Informationen und Dokumentation für nachgelagerte Anbieter von KI-Systemen bereitstellen, die das Modell integrieren (lit. b, Mindestinhalt <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#anx_XII">Anhang XII</a>)</li>
+<li>Strategie zur Einhaltung des Urheberrechts der Union, insbesondere zur Beachtung eines Rechtevorbehalts nach Art. 4 Abs. 3 der Richtlinie (EU) 2019/790 (lit. c)</li>
+<li>Hinreichend detaillierte Zusammenfassung der Trainingsinhalte nach der Vorlage des KI-Büros veröffentlichen (lit. d)</li>
+<li>Bevollmächtigten in der Union benennen, wenn der Anbieter in einem Drittland niedergelassen ist (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_54">Art. 54</a>)</li>
+</ul>
+<p>Erleichterung für Open Source: Die Pflichten nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_53">Art. 53 Abs. 1 lit. a und b</a> und die Pflicht zur Benennung eines Bevollmächtigten (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_54">Art. 54 Abs. 6</a>) gelten nicht für Anbieter von Modellen unter freier und quelloffener Lizenz mit öffentlich zugänglichen Parametern; die Ausnahme gilt <strong>nicht</strong> bei systemischem Risiko (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_53">Art. 53 Abs. 2</a>). Urheberrechtsstrategie und Trainingsdaten-Zusammenfassung bleiben auch für Open-Source-Modelle Pflicht.</p>
+<p>Systemisches Risiko (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_51">Art. 51</a>): Ein Modell gilt als systemisch riskant, wenn es Fähigkeiten mit hohem Wirkungsgrad hat oder die Kommission dies entscheidet. Bei einer kumulierten Trainingsrechenleistung von mehr als 10²⁵ Gleitkommaoperationen (FLOP) wird dies <strong>vermutet</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_51">Art. 51 Abs. 2</a>); die Kommission kann den Schwellenwert per delegiertem Rechtsakt anpassen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_51">Art. 51 Abs. 3</a>). Der Anbieter meldet das Erreichen der Schwelle unverzüglich, spätestens innerhalb von zwei Wochen, an die Kommission und kann begründet geltend machen, dass trotzdem kein systemisches Risiko besteht (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_52">Art. 52</a>).</p>
+<p>Zusätzliche Pflichten bei systemischem Risiko (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_55">Art. 55 Abs. 1</a>): Modellbewertung nach dem Stand der Technik einschließlich dokumentierter Angriffstests (Adversarial Testing), Bewertung und Minderung systemischer Risiken auf Unionsebene, Erfassung und unverzügliche Meldung schwerwiegender Vorfälle an das KI-Büro und ggf. nationale Behörden, angemessenes Maß an Cybersicherheit für Modell und physische Infrastruktur.</p>
+<p>Anbieter können sich bis zur Veröffentlichung harmonisierter Normen auf Praxisleitfäden nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_56">Art. 56</a> stützen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_53">Art. 53 Abs. 4</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_55">Art. 55 Abs. 2</a>). Modelle, die vor dem 02.08.2025 in Verkehr gebracht wurden, müssen die Pflichten bis zum 02.08.2027 erfüllen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_111">Art. 111 Abs. 3</a>).</p>
+<h3 id="transparenzpflichten-art-50">Transparenzpflichten (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_50">Art. 50</a>)</h3>
+<p>Gelten seit dem 02.08.2026:</p>
+<ul>
+<li><strong>Interaktion mit KI</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_50">Abs. 1</a>): Anbieter gestalten KI-Systeme, die direkt mit natürlichen Personen interagieren, so, dass diese informiert werden, dass sie mit einem KI-System interagieren (außer es ist offensichtlich)</li>
+<li><strong>Kennzeichnung synthetischer Inhalte</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_50">Abs. 2</a>): Anbieter von KI-Systemen, die synthetische Audio-, Bild-, Video- oder Textinhalte erzeugen, stellen sicher, dass die Ausgaben in einem maschinenlesbaren Format gekennzeichnet und als künstlich erzeugt oder manipuliert erkennbar sind. Für Systeme, die vor dem 02.08.2026 in Verkehr gebracht wurden, gilt eine Übergangsfrist bis 02.12.2026 (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_111">Art. 111 Abs. 4</a>, eingefügt durch VO 2026/1744)</li>
+<li><strong>Emotionserkennung und biometrische Kategorisierung</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_50">Abs. 3</a>): Betreiber informieren die betroffenen Personen über den Betrieb des Systems</li>
+<li><strong>Deepfakes und KI-generierte Texte</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_50">Abs. 4</a>): Betreiber legen offen, dass Bild-, Ton- oder Videoinhalte (Deepfakes) künstlich erzeugt oder manipuliert wurden; gleiches gilt für KI-generierte Texte, die veröffentlicht werden, um über Angelegenheiten von öffentlichem Interesse zu informieren, außer bei redaktioneller Kontrolle und Verantwortung. Erleichterungen für offensichtlich künstlerische, kreative, satirische oder fiktionale Werke</li>
+<li>Die Information muss spätestens bei der ersten Interaktion bzw. Aussetzung klar und eindeutig erfolgen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_50">Abs. 5</a>). Praxisleitfäden zur Kennzeichnung werden vom KI-Büro gefördert (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_50">Abs. 7</a>)</li>
+</ul>
+<h3 id="sanktionsregime-art-99-bis-101">Sanktionsregime (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_99">Art. 99</a> bis <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_101">101</a>)</h3>
+<p>Die Mitgliedstaaten legen die Sanktionen fest und müssen dabei die folgenden Obergrenzen beachten (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_99">Art. 99 Abs. 1</a>). Die Beträge sind jeweils Höchstbeträge („bis zu"); maßgeblich ist der höhere Wert, bei Unternehmen bezogen auf den weltweiten Jahresumsatz des vorangegangenen Geschäftsjahres.</p>
+<table>
+<thead>
+<tr>
+<th>Ebene</th>
+<th>Verstoß</th>
+<th>Bußgeld (bis zu)</th>
+<th>Fundstelle</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Tier 1</strong></td>
+<td>Verstoß gegen Verbote (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_5">Art. 5</a>)</td>
+<td><strong>35 Mio. EUR oder 7 %</strong></td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_99">Art. 99 Abs. 3</a></td>
+</tr>
+<tr>
+<td><strong>Tier 2</strong></td>
+<td>Verstöße gegen Pflichten der Anbieter (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_16">Art. 16</a>), Bevollmächtigten (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_22">Art. 22</a>), Einführer (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_23">Art. 23</a>), Händler (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_24">Art. 24</a>) und Betreiber (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_26">Art. 26</a>), Anforderungen an notifizierte Stellen sowie Transparenzpflichten (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_50">Art. 50</a>); durch VO 2026/1744 zusätzlich Pflichten nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_25">Art. 25 Abs. 2 und 4</a></td>
+<td><strong>15 Mio. EUR oder 3 %</strong></td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_99">Art. 99 Abs. 4</a></td>
+</tr>
+<tr>
+<td><strong>Tier 3</strong></td>
+<td>Falsche, unvollständige oder irreführende Informationen auf Auskunftsersuchen an notifizierte Stellen oder nationale Behörden</td>
+<td><strong>7,5 Mio. EUR oder 1 %</strong></td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_99">Art. 99 Abs. 5</a></td>
+</tr>
+<tr>
+<td><strong>GPAI</strong></td>
+<td>Vorsätzliche oder fahrlässige Verstöße von GPAI-Anbietern gegen die Verordnung, Nichtbefolgung von Auskunftsverlangen, Maßnahmen oder Zugangsanforderungen der Kommission; Verhängung durch die Kommission, gilt seit 02.08.2026</td>
+<td><strong>15 Mio. EUR oder 3 %</strong> (je nachdem, was höher ist)</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_101">Art. 101 Abs. 1</a></td>
+</tr>
+<tr>
+<td><strong>EU-Organe</strong></td>
+<td>Verbote bzw. sonstige Verstöße von Organen, Einrichtungen und Stellen der Union; Verhängung durch den EDSB</td>
+<td>1,5 Mio. EUR bzw. 750 000 EUR</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_100">Art. 100 Abs. 2 und 3</a></td>
+</tr>
+</tbody>
+</table>
+<p>Die Pflichten nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_53">Art. 53</a> und <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_55">Art. 55</a> fallen bei Verstößen unter die allgemeine Klausel „einschlägige Bestimmungen" des <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_101">Art. 101 Abs. 1 lit. a</a>.</p>
+<p><strong>KMU-Schutzklausel</strong>: Für KMU, einschließlich Start-ups, gilt für jede Geldbuße nach Art. 99 der jeweils <em>niedrigere</em> der beiden Beträge (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_99">Art. 99 Abs. 6</a>). Durch die VO 2026/1744 gilt dies für kleine Midcap-Unternehmen für Geldbußen nach Abs. 4 und 5 ebenfalls (Abs. 6a). Art. 101 enthält keine entsprechende ausdrückliche Regel. Bei der Bemessung sind u. a. Art, Schwere und Dauer des Verstoßes, Größe und Umsatz des Akteurs sowie Vorsatz oder Fahrlässigkeit zu berücksichtigen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_99">Art. 99 Abs. 7</a>).</p>
+<h3 id="wechselwirkungen-mit-anderen-eu-regularien">Wechselwirkungen mit anderen EU-Regularien</h3>
+<p>Der AI Act überlappt erheblich mit anderen Regelwerken, insbesondere bei Cybersicherheit, Dokumentation und Incident Reporting. Die Zuordnung der Artikel ist eine Orientierung; die Pflichten richten sich an unterschiedliche Adressaten (Anbieter von KI, Hersteller, Einrichtungen, Finanzunternehmen).</p>
+<table>
+<thead>
+<tr>
+<th>Pflicht</th>
+<th>AI Act</th>
+<th><a href="../cra/">CRA</a></th>
+<th><a href="../nis2/">NIS2</a></th>
+<th><a href="../dora/">DORA</a></th>
+<th><a href="../pld/">PLD</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Risikomanagement</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_9">Art. 9</a> (Hochrisiko), <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_55">Art. 55 Abs. 1 lit. b</a> (GPAI mit systemischem Risiko)</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 2 und 3</a> (Cybersicherheitsrisikobewertung)</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_21">Art. 21</a></td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022R2554#art_6">Art. 6</a> (IKT-Risikomanagementrahmen)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Technische Dokumentation / SBOM</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_11">Art. 11</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#anx_IV">Anhang IV</a> (keine SBOM-Pflicht)</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 12</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_31">Art. 31</a>, Anh. VII; SBOM: <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Anh. I Teil II Nr. 1</a></td>
+<td>—</td>
+<td>— (Informationsregister für Drittdienstleister: <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022R2554#art_28">Art. 28 Abs. 3</a>)</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024L2853#art_9">Art. 9</a> (Offenlegung von Beweismitteln im Verfahren)</td>
+</tr>
+<tr>
+<td>Cybersicherheit</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_15">Art. 15 Abs. 5</a></td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 1</a> i. V. m. <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Anh. I Teil I</a></td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_21">Art. 21 Abs. 2</a></td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022R2554#art_9">Art. 9</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022R2554#art_10">Art. 10</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022R2554#art_11">Art. 11</a></td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024L2853#art_7">Art. 7 Abs. 2 lit. f</a> (Cybersicherheitsanforderungen als Fehlerkriterium)</td>
+</tr>
+<tr>
+<td>Schwachstellen-Management</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_15">Art. 15 Abs. 5</a> (KI-spezifische Schwachstellen), <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_72">Art. 72</a> (Beobachtung nach dem Inverkehrbringen)</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 6 und 8</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Anh. I Teil II</a></td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_21">Art. 21 Abs. 2 lit. e</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_12">Art. 12</a> (koordinierte Offenlegung)</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022R2554#art_8">Art. 8 Abs. 2</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022R2554#art_9">Art. 9 Abs. 4 lit. f</a> (Patches und Updates), <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022R2554#art_10">Art. 10 Abs. 1</a></td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024L2853#art_7">Art. 7 Abs. 2</a> (Software-Updates, Lernfähigkeit)</td>
+</tr>
+<tr>
+<td>Incident Reporting</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_73">Art. 73</a> (Anbieter Hochrisiko-KI): spätestens 15 Tage, in Sonderfällen 2 bzw. 10 Tage; <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_55">Art. 55 Abs. 1 lit. c</a> (GPAI mit systemischem Risiko): unverzüglich</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_14">Art. 14</a> (ab 11.09.2026): 24 h / 72 h / Abschlussbericht 14 Tage nach Verfügbarkeit einer Korrektur- oder Risikominderungsmaßnahme (Schwachstelle) bzw. 1 Monat (Vorfall)</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_23">Art. 23 Abs. 4</a>: 24 h / 72 h / 1 Monat</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022R2554#art_19">Art. 19</a> i. V. m. <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32025R0301#art_5">Del. VO (EU) 2025/301 Art. 5</a>: Erstmeldung 4 h nach Einstufung als schwerwiegend, spätestens 24 h nach Kenntnis; Zwischenmeldung 72 h; Abschlussmeldung 1 Monat</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Produkthaftung</td>
+<td>— (Haftung nicht Gegenstand des AI Act)</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024L2853#art_4">Art. 4 Nr. 1</a> (Software ist Produkt), <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024L2853#art_5">Art. 5</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024L2853#art_7">Art. 7</a> (Fehlerhaftigkeit), <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024L2853#art_8">Art. 8</a> (haftende Wirtschaftsakteure); gilt für Produkte, die nach dem 09.12.2026 in Verkehr gebracht werden (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024L2853#art_2">Art. 2 Abs. 1</a>)</td>
+</tr>
+</tbody>
+</table>
+<p>Hinweise zu den Zeitpunkten: Die Meldepflichten nach CRA Art. 14 gelten seit dem 11.09.2026, die übrigen CRA-Pflichten erst ab dem 11.12.2027 (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_71">CRA Art. 71</a>). Die Hochrisiko-Pflichten des AI Act für Systeme nach Anhang III gelten seit der Änderung durch die VO 2026/1744 ab dem 02.12.2027 und damit fast zeitgleich mit der CRA-Hauptanwendung.</p>
+<p><strong>AI Act ↔ CRA:</strong> Hochrisiko-KI-Systeme, die zugleich Produkte mit digitalen Elementen im Sinne des CRA sind, unterliegen beiden Regelwerken. Der CRA enthält hierfür eine ausdrückliche Verzahnung (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_12">CRA Art. 12</a>): Solche Produkte gelten als konform mit den Cybersicherheitsanforderungen des <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_15">Art. 15 AI Act</a>, wenn sie die grundlegenden Anforderungen nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">CRA Anh. I Teil I</a> erfüllen, die Herstellerprozesse <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Anh. I Teil II</a> genügen und dies in der nach dem CRA ausgestellten EU-Konformitätserklärung nachgewiesen wird; das Konformitätsbewertungsverfahren richtet sich nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_43">Art. 43 AI Act</a>. Die Genauigkeits- und Robustheitsanforderungen aus <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_15">Art. 15</a> bleiben unberührt. Eine integrierte Dokumentation (SBOM nach CRA, technische Dokumentation nach AI Act) und ein gemeinsamer Vulnerability-Disclosure-Prozess sind sinnvoll.</p>
+<p><strong>Finanzsektor (<a href="../dora/">DORA</a>):</strong> Setzen Finanzunternehmen KI-Systeme ein (Kreditwürdigkeitsprüfung, Betrugserkennung, Risikomodelle), sind diese Teil der IKT-Assets und unterliegen DORA; schwerwiegende IKT-Vorfälle sind nach DORA zu melden (Erstmeldung 4 Stunden nach Einstufung, spätestens 24 Stunden nach Kenntnis). Der AI Act berücksichtigt die interne Governance des Finanzsektors, etwa bei der Überwachungspflicht der Betreiber (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_26">Art. 26 Abs. 5 und 6</a>), beim Qualitätsmanagementsystem (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_17">Art. 17 Abs. 4</a>) und beim Post-Market-Monitoring (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_72">Art. 72 Abs. 4</a>); als Marktüberwachungsbehörde gilt für regulierte Finanzinstitute die Finanzaufsicht (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_74">Art. 74 Abs. 6</a>). Bei Vorfällen können damit zwei Meldewege mit unterschiedlichen Fristen und Auslösern bestehen.</p>
+<p><strong>Produkthaftung (PLD):</strong> Die Produkthaftungsrichtlinie (EU) 2024/2853 erfasst Software ausdrücklich als Produkt (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024L2853#art_4">Art. 4 Nr. 1</a>) und nennt unter den Umständen der Fehlerhaftigkeit u. a. Lernfähigkeit, Software-Updates und Cybersicherheitsanforderungen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024L2853#art_7">Art. 7 Abs. 2 lit. c, f</a>). Die Einhaltung des AI Act schließt die Haftung nach PLD nicht aus; Sanktionen nach dem AI Act und zivilrechtliche Haftung sind getrennte Regime.</p>
+<h2 id="losungsansatze-hilfestellungen">Lösungsansätze &amp; Hilfestellungen</h2>
+<ul>
+<li>Das <strong>KI-Büro (AI Office)</strong> der Kommission (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_64">Art. 64</a>) ist u. a. für GPAI zuständig und veröffentlicht Leitlinien. Der <a href="https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai">Praxisleitfaden für KI-Modelle mit allgemeinem Verwendungszweck</a> (General-Purpose AI Code of Practice, veröffentlicht am 10.07.2025) mit den Kapiteln Transparenz, Urheberrecht sowie Sicherheit und Gefahrenabwehr dient als Nachweis nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_56">Art. 56</a> und <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_53">Art. 53 Abs. 4</a>. Informationen bietet die <a href="https://digital-strategy.ec.europa.eu/en/policies/ai-office">Seite des KI-Büros</a></li>
+<li>Nationale Behörden: Jeder Mitgliedstaat benennt mindestens eine notifizierende Behörde und eine Marktüberwachungsbehörde sowie eine zentrale Anlaufstelle (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_70">Art. 70</a>). In Deutschland ist nach dem KI-Marktüberwachungs- und Innovationsförderungsgesetz (KI-MIG) die Bundesnetzagentur als zentrale Marktüberwachungsbehörde vorgesehen; für regulierte Finanzinstitute gilt die Finanzaufsicht (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_74">Art. 74 Abs. 6</a>). Der Stand der Verkündung im Bundesgesetzblatt ist hier nicht abschließend geprüft</li>
+<li>Harmonisierte Normen: Die Einhaltung harmonisierter Normen, deren Fundstellen im Amtsblatt veröffentlicht sind, begründet die Vermutung der Konformität (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_40">Art. 40</a>). Die europäischen Normungsorganisationen CEN und CENELEC erarbeiten diese im <a href="https://www.cencenelec.eu/areas-of-work/cen-cenelec-topics/artificial-intelligence/">JTC 21</a>. Bis zu ihrer Verfügbarkeit können <a href="https://www.iso.org/standard/42001">ISO/IEC 42001</a> (KI-Managementsystem) und <a href="https://www.iso.org/standard/77304.html">ISO/IEC 23894</a> (Leitfaden KI-Risikomanagement) als Orientierung dienen. Sie begründen allerdings keine Konformitätsvermutung nach dem AI Act</li>
+<li>Für KMU und Start-ups sehen <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_62">Art. 62</a> und <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_63">Art. 63</a> Unterstützungsmaßnahmen vor (Zugang zu Reallaboren, vereinfachte Elemente des Qualitätsmanagementsystems, Leitlinien); die VO 2026/1744 erweitert diese teilweise auf kleine Midcap-Unternehmen</li>
+<li>Für Open-Source-Anbieter: KI-Systeme unter freier Lizenz sind nur dann ausgenommen, wenn sie weder hochriskant noch von <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_5">Art. 5</a> oder <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_50">Art. 50</a> erfasst sind (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_2">Art. 2 Abs. 12</a>). Bei GPAI-Modellen entfallen die Erleichterungen nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_53">Art. 53 Abs. 2</a>, sobald ein systemisches Risiko vorliegt (Vermutung ab 10²⁵ FLOP, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_51">Art. 51 Abs. 2</a>)</li>
+</ul>
+<h3 id="tools-werkzeuge">Tools &amp; Werkzeuge</h3>
+<h4 id="modell-dokumentation-model-cards-art-11-13">Modell-Dokumentation &amp; Model Cards (Art. 11, 13)</h4>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Lizenz</th>
+<th>Problem / Zweck</th>
+<th>Regulatorische Relevanz</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://huggingface.co/docs/hub/model-cards">Hugging Face Model Cards</a></td>
+<td>Apache-2.0</td>
+<td>Strukturierte Dokumentation von ML-Modellen (Zweck, Limitierungen, Trainingsdaten, Evaluierungsergebnisse) in YAML + Markdown</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_13">Art. 13</a>: Transparenz gegenüber Betreibern; <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_11">Art. 11</a> + <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#anx_IV">Anhang IV</a>: Technische Dokumentation</td>
+</tr>
+<tr>
+<td><a href="https://github.com/google/model-card-toolkit">Google Model Card Toolkit</a></td>
+<td>Apache-2.0</td>
+<td>Programmatische Erzeugung strukturierter Model Cards inkl. quantitativer Performance-Metriken</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_13">Art. 13</a>: Automatisch generierte Transparenz-Dokumentation; <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_15">Art. 15</a>: Performance-Kennzahlen</td>
+</tr>
+<tr>
+<td><a href="https://futurium.ec.europa.eu/en/european-ai-alliance/pages/altai-assessment-list-trustworthy-artificial-intelligence">ALTAI Self-Assessment</a></td>
+<td>Frei (EU-Kommission)</td>
+<td>Online-Selbstbewertungs-Checkliste nach den EU Ethics Guidelines for Trustworthy AI (vor dem AI Act entstanden, nicht auf dessen Artikel zugeschnitten)</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_9">Art. 9</a>: Initialer Gap-Assessment-Einstieg; gute Vorbereitung auf formelle Konformitätsbewertung</td>
+</tr>
+</tbody>
+</table>
+<h4 id="risikobewertung-risikomanagement-art-9">Risikobewertung &amp; Risikomanagement (Art. 9)</h4>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Lizenz</th>
+<th>Problem / Zweck</th>
+<th>Regulatorische Relevanz</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://airc.nist.gov/docs/AI_RMF_Playbook.pdf">NIST AI RMF Playbook</a></td>
+<td>Frei (Public Domain)</td>
+<td>Strukturiertes Risikomanagement für KI (GOVERN / MAP / MEASURE / MANAGE); Hunderte konkreter Maßnahmen</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_9">Art. 9</a>: Iteratives Risikomanagement; lässt sich direkt auf EU AI Act-Artikel mappen</td>
+</tr>
+<tr>
+<td><a href="https://airisk.mit.edu/">MIT AI Risk Repository</a></td>
+<td>Frei (Open Access)</td>
+<td>Durchsuchbare Datenbank mit klassifizierten KI-Risiken nach Ursache und Domäne</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_9">Art. 9</a>: Systematische Risikoidentifikation; Abgleich mit <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#anx_III">Anhang III</a> Hochrisiko-Kategorien</td>
+</tr>
+</tbody>
+</table>
+<h4 id="bias-erkennung-fairness-art-10-15">Bias-Erkennung &amp; Fairness (Art. 10, 15)</h4>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Lizenz</th>
+<th>Problem / Zweck</th>
+<th>Regulatorische Relevanz</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/fairlearn/fairlearn">Fairlearn</a></td>
+<td>MIT</td>
+<td>Fairness-Metriken (Demographic Parity, Equalized Odds) + Mitigationsalgorithmen für Klassifikatoren und Regression</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_10">Art. 10</a>: Disparitäten in Trainingsdaten erkennen; <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_9">Art. 9</a>: Diskriminierungsrisiko quantifizieren</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Trusted-AI/AIF360">IBM AI Fairness 360</a></td>
+<td>Apache-2.0</td>
+<td>Umfangreiche Bibliothek mit 70+ Fairness-Metriken und 10+ Bias-Mitigationsalgorithmen (Pre/In/Post-Processing)</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_10">Art. 10</a>: Pre-Processing gegen Trainingsdaten-Bias; <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_15">Art. 15</a>: Adversarial Debiasing für Robustheit</td>
+</tr>
+<tr>
+<td><a href="https://github.com/dssg/aequitas">Aequitas</a></td>
+<td>MIT</td>
+<td>Bias-Audit-Toolkit mit Gruppen-Disparitäts-Reports; besonders geeignet für Audit-Dokumentation</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_9">Art. 9</a>: Audit-ready Disparity Reports für Konformitätsbewertung; <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_13">Art. 13</a>: Berichtsformat für technische Dokumentation</td>
+</tr>
+</tbody>
+</table>
+<h4 id="erklarbarkeit-xai-art-13">Erklärbarkeit / XAI (Art. 13)</h4>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Lizenz</th>
+<th>Problem / Zweck</th>
+<th>Regulatorische Relevanz</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/shap/shap">SHAP</a></td>
+<td>MIT</td>
+<td>Modell-agnostische Feature-Attribution via Shapley Values; globale und lokale Erklärungen</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_13">Art. 13</a>: Lokale Erklärungen („warum wurde diese Entscheidung getroffen?") für Hochrisiko-KI; <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_9">Art. 9</a>: Risikotreiber identifizieren</td>
+</tr>
+<tr>
+<td><a href="https://github.com/SeldonIO/alibi">Alibi</a></td>
+<td>Apache-2.0</td>
+<td>Counterfactual Explanations, Anchors, Kernel SHAP; Companion <code>alibi-detect</code> für Drift- und Ausreißer-Erkennung</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_13">Art. 13</a>: Counterfactuals direkt handlungsrelevant für betroffene Personen; <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_15">Art. 15</a>: <code>alibi-detect</code> für Robustheit im Betrieb</td>
+</tr>
+<tr>
+<td><a href="https://github.com/interpretml/interpret">InterpretML</a></td>
+<td>MIT</td>
+<td>Erklärbares Boosting (EBM = Glass-Box-Modell mit GBM-Genauigkeit) + Black-Box-Erklärungen (SHAP, LIME, PDP)</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_13">Art. 13</a>: Glass-Box-EBMs bieten inhärente Transparenz ohne Post-hoc-Erklärung — in Konformitätsbewertungen leichter verteidigbar</td>
+</tr>
+<tr>
+<td><a href="https://github.com/marcotcr/lime">LIME</a></td>
+<td>BSD-2-Clause</td>
+<td>Lokale Surrogatmodelle für tabellarische, Text- und Bilddaten</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_13">Art. 13</a>: Einzelentscheidungserklärungen, insb. für NLP-Modelle</td>
+</tr>
+</tbody>
+</table>
+<h4 id="logging-experiment-tracking-mlops-art-11-12-72">Logging, Experiment-Tracking &amp; MLOps (Art. 11, 12, 72)</h4>
+<p>Art. 12 verlangt die automatische Ereignisprotokollierung des <em>laufenden</em> Hochrisiko-Systems; Trainings- und Entwicklungsnachweise gehören dagegen zur technischen Dokumentation (Art. 11, Anhang IV).</p>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Lizenz</th>
+<th>Problem / Zweck</th>
+<th>Regulatorische Relevanz</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/mlflow/mlflow">MLflow</a></td>
+<td>Apache-2.0</td>
+<td>End-to-End ML-Lifecycle: Experiment-Tracking, Model Registry mit Stage-Gates, Artefakt-Speicherung</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_11">Art. 11</a> + <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#anx_IV">Anhang IV</a>: Entwicklungsnachweis (Trainingsläufe, Hyperparameter, Datensatz-Versionen); <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_12">Art. 12</a> betrifft die Betriebsprotokolle des Systems</td>
+</tr>
+<tr>
+<td><a href="https://github.com/iterative/dvc">DVC</a></td>
+<td>Apache-2.0</td>
+<td>Git-basierte Versionierung von Datensätzen und ML-Pipelines; reproduzierbare Trainingsläufe</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_10">Art. 10</a>: Daten-Lineage und -Versionierung; <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_11">Art. 11</a> + <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#anx_IV">Anhang IV</a>: Nachvollziehbarkeit der Pipeline</td>
+</tr>
+<tr>
+<td><a href="https://github.com/evidentlyai/evidently">Evidently AI</a></td>
+<td>Apache-2.0</td>
+<td>ML-Monitoring-Reports für Daten-Drift, Target-Drift und Modell-Performance im Betrieb; HTML/JSON-Output</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_72">Art. 72</a>: Zeitgestempelte Monitoring-Reports als Baustein der Beobachtung nach dem Inverkehrbringen; <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_15">Art. 15</a>: Drift-Erkennung für Robustheit</td>
+</tr>
+</tbody>
+</table>
+<h4 id="datenqualitat-governance-art-10">Datenqualität &amp; Governance (Art. 10)</h4>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Lizenz</th>
+<th>Problem / Zweck</th>
+<th>Regulatorische Relevanz</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/great-expectations/great_expectations">Great Expectations</a></td>
+<td>Apache-2.0</td>
+<td>Datenvalidierungs-Framework mit definierbaren „Expectations"; erzeugt „Data Docs" als menschenlesbare Validierungsberichte</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_10">Art. 10</a>: Nachweis, dass Trainingsdaten definierte Qualitätskriterien erfüllen (Vollständigkeit, Balance, Korrektheit)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/cleanlab/cleanlab">Cleanlab</a></td>
+<td>Apache-2.0</td>
+<td>Automatische Label-Qualitätsprüfung: findet fehlerhafte Labels, Duplikate und Ausreißer in Trainingsdaten</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_10">Art. 10</a> Abs. 3: Unterstützt die Anforderung, dass Datensätze „so weit wie möglich fehlerfrei" sein sollen; <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_15">Art. 15</a>: Saubere Labels verbessern Robustheit</td>
+</tr>
+<tr>
+<td><a href="https://github.com/open-metadata/OpenMetadata">OpenMetadata</a></td>
+<td>Apache-2.0</td>
+<td>Moderner Open-Source-Datenkatalog mit Lineage, Qualitäts-Checks und 50+ Konnektoren</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689#art_10">Art. 10</a> Abs. 2 lit. b: Dokumentation von Datenerhebung und Datenherkunft (Provenienz)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="quellen">Quellen</h2>
+<p>Alle Rechtstexte in der deutschen Fassung im Amtsblatt der EU (ELI-Links):</p>
+<ul>
+<li><a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj">Verordnung (EU) 2024/1689 (AI Act)</a></li>
+<li><a href="https://eur-lex.europa.eu/eli/reg/2026/1744/oj">Verordnung (EU) 2026/1744</a> (Digital-Omnibus-Verordnung zur KI; ändert u. a. die Anwendungszeitpunkte in Art. 113, Art. 4, Art. 5, Art. 99 und Art. 111)</li>
+<li>Für den Abschnitt „Wechselwirkungen": <a href="https://eur-lex.europa.eu/eli/reg/2024/2847/oj">CRA (EU) 2024/2847</a>, <a href="https://eur-lex.europa.eu/eli/dir/2022/2555/oj">NIS2 (EU) 2022/2555</a>, <a href="https://eur-lex.europa.eu/eli/reg/2022/2554/oj">DORA (EU) 2022/2554</a>, <a href="https://eur-lex.europa.eu/eli/reg_del/2025/301/oj">Delegierte Verordnung (EU) 2025/301</a>, <a href="https://eur-lex.europa.eu/eli/dir/2024/2853/oj">PLD (EU) 2024/2853</a></li>
+<li><a href="https://eur-lex.europa.eu/eli/dir/2019/790/oj">Richtlinie (EU) 2019/790</a> (Urheberrecht im digitalen Binnenmarkt, Art. 4 Abs. 3 Rechtevorbehalt)</li>
+<li><a href="https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai">Kommission: General-Purpose AI Code of Practice</a> und <a href="https://digital-strategy.ec.europa.eu/en/policies/ai-office">KI-Büro</a></li>
+<li><a href="https://www.cencenelec.eu/areas-of-work/cen-cenelec-topics/artificial-intelligence/">CEN-CENELEC: Artificial Intelligence (JTC 21)</a></li>
+<li>Normen (kostenpflichtig, Katalogseiten öffentlich): <a href="https://www.iso.org/standard/42001">ISO/IEC 42001:2023</a>, <a href="https://www.iso.org/standard/77304.html">ISO/IEC 23894:2023</a></li>
+<li>Presseberichte zum KI-MIG (Sekundärquelle): <a href="https://www.boerse-express.com/news/articles/ki-gesetz-beschlossen-bundesnetzagentur-wird-zentrale-aufsichtsbehoerde-927249">Börse Express, 12.07.2026</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 <a href="https://osb-alliance.de/impressum">OSBA WG Security</a>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+
+
+
+<h4>Cookie consent</h4>
+<p>We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to make our documentation better. </p>
+<input class="md-toggle" type="checkbox" id="__settings" >
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+    
+    
+      
+        
+  
+  
+    
+    
+  
+  <li class="task-list-item">
+    <label class="task-list-control">
+      <input type="checkbox" name="github" checked>
+      <span class="task-list-indicator"></span>
+      GitHub
+    </label>
+  </li>
+
+      
+    
+    
+      
+        
+  
+  
+    
+    
+  
+  <li class="task-list-item">
+    <label class="task-list-control">
+      <input type="checkbox" name="analytics" >
+      <span class="task-list-indicator"></span>
+      Google Analytics
+    </label>
+  </li>
+
+      
+    
+  </ul>
+</div>
+<div class="md-consent__controls">
+  
+    
+      <button class="md-button md-button--primary">Accept</button>
+    
+    
+    
+  
+    
+    
+    
+      <label class="md-button" for="__settings">Manage settings</label>
+    
+  
+    
+    
+      <button type="reset" class="md-button md-button--primary">Reject</button>
+    
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "header.autohide", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../assets/feedback.js"></script>
+      
+    
+  </body>
+</html>

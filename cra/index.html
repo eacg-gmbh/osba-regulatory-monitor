@@ -1,0 +1,2157 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Stellt eine Uebersicht an Regularien sowie deren Wirkung auf die Software-Entwicklung vor ">
+      
+      
+        <meta name="author" content="OSBA Security Workgroup">
+      
+      
+        <link rel="canonical" href="https://eacg-gmbh.github.io/osba-regulatory-monitor/cra/">
+      
+      
+        <link rel="prev" href="../dora/">
+      
+      
+        <link rel="next" href="../eidas2/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>EU Cyber Resilience Act (CRA) - OSBA Regulatory Monitor</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config",""),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>if("undefined"!=typeof __md_analytics){var consent=__md_get("__consent");consent&&consent.analytics&&__md_analytics()}</script>
+  
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="lime">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#eu-cyber-resilience-act-cra" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://www.osb-alliance.de" title="OSBA Regulatory Monitor" class="md-header__button md-logo" aria-label="OSBA Regulatory Monitor" data-md-component="logo">
+      
+  <img src="../assets/osba-logo-claim.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            OSBA Regulatory Monitor
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              EU Cyber Resilience Act (CRA)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="lime"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/eacg-gmbh/osba-regulatory-monitor" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href=".." class="md-tabs__link">
+          
+  
+  
+    
+  
+  Hintergrund
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../aiact/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  EU Regularien
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../kritis-dachgesetz/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Deutschland
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../iec18974/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Standards
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../about/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  About
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://www.osb-alliance.de" title="OSBA Regulatory Monitor" class="md-nav__button md-logo" aria-label="OSBA Regulatory Monitor" data-md-component="logo">
+      
+  <img src="../assets/osba-logo-claim.svg" alt="logo">
+
+    </a>
+    OSBA Regulatory Monitor
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/eacg-gmbh/osba-regulatory-monitor" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href=".." class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hintergrund
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Hintergrund
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guidelines/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mitarbeit
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EU Regularien
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    EU Regularien
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aiact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EU Artificial Intelligence Act (AI Act)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Directive on the Resilience of critical Entities (CER)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dataact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EU Data Act
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dora/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Digital Operational Resilience Act (DORA)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EU Cyber Resilience Act (CRA)
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EU Cyber Resilience Act (CRA)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#uberblick" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Überblick
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zentrale-forderungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zentrale Forderungen
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#losungsansatze-hilfestellung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lösungsansätze &amp; Hilfestellung
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Lösungsansätze &amp; Hilfestellung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bsi-tr-03183-technische-richtlinie-des-bsi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BSI TR-03183: Technische Richtlinie des BSI
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sbom-erstellung-komponenten-analyse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SBOM-Erstellung &amp; Komponenten-Analyse
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#schwachstellen-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schwachstellen-Management
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coordinated-vulnerability-disclosure-cvd-sicherheits-advisories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Coordinated Vulnerability Disclosure (CVD) &amp; Sicherheits-Advisories
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#software-supply-chain-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Software Supply Chain Security
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quellen
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../eidas2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    eIDAS 2.0 / European Digital Identity Wallet
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nis2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EU NIS2 Directive
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mdr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Medical Device Directive (MDR)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pld/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Product Liability Directive (PLD)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../red/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Radio Frequency Directive (RED)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deutschland
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Deutschland
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kritis-dachgesetz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    KRITIS-Dachgesetz (KRITIS-DachG)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Standards
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Standards
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iec18974/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC-18974
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iec62304/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC-62304
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iec62443/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC-62443
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iec81001-5-1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC-81001-5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../openchain/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ISO-5230
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tisax/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TISAX
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    About
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Über dieses Projekt
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CHANGELOG/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Changelog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#uberblick" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Überblick
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zentrale-forderungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zentrale Forderungen
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#losungsansatze-hilfestellung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lösungsansätze &amp; Hilfestellung
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Lösungsansätze &amp; Hilfestellung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bsi-tr-03183-technische-richtlinie-des-bsi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BSI TR-03183: Technische Richtlinie des BSI
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sbom-erstellung-komponenten-analyse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SBOM-Erstellung &amp; Komponenten-Analyse
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#schwachstellen-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schwachstellen-Management
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coordinated-vulnerability-disclosure-cvd-sicherheits-advisories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Coordinated Vulnerability Disclosure (CVD) &amp; Sicherheits-Advisories
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#software-supply-chain-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Software Supply Chain Security
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quellen
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <a href="../.#tag:cybersecurity" class="md-tag">cybersecurity</a>
+      
+    
+      
+      
+      
+      
+        <a href="../.#tag:documentation" class="md-tag">documentation</a>
+      
+    
+      
+      
+      
+      
+        <a href="../.#tag:general" class="md-tag">general</a>
+      
+    
+      
+      
+      
+      
+        <a href="../.#tag:processes" class="md-tag">processes</a>
+      
+    
+      
+      
+      
+      
+        <a href="../.#tag:reporting" class="md-tag">reporting</a>
+      
+    
+      
+      
+      
+      
+        <a href="../.#tag:risk-management" class="md-tag">risk management</a>
+      
+    
+  </nav>
+
+
+
+<h1 id="eu-cyber-resilience-act-cra">EU Cyber Resilience Act (CRA)</h1>
+<p>Der EU Cyber Resilience Act (CRA, deutsch: Cyberresilienz-Verordnung) legt horizontale Cybersicherheitsanforderungen für Produkte mit digitalen Elementen fest, also für Hard- und Software mit direkter oder indirekter Datenverbindung. Hersteller müssen Sicherheit über den gesamten Lebenszyklus nachweisen (Konzeption, Schwachstellenbehandlung, Updates, Meldungen) und erhalten dafür die CE-Kennzeichnung.</p>
+<blockquote>
+<p>[!NOTE]</p>
+<p>Alle Artikel-, Anhangs- und Erwägungsgrundverweise beziehen sich, sofern nicht anders angegeben, auf die <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847">Verordnung (EU) 2024/2847</a> und führen direkt zur jeweiligen Stelle. Die Quellen der Durchführungsrechtsakte und weiterer Dokumente stehen im Abschnitt <a href="#quellen">Quellen</a>. Die Seite ersetzt keine Rechtsberatung.</p>
+</blockquote>
+<h2 id="uberblick">Überblick</h2>
+<ul>
+<li>
+<p><strong>Segment</strong>: IT Sicherheit / Produktregulierung (Binnenmarkt)</p>
+</li>
+<li>
+<p><strong>Verabschiedet / Veröffentlicht</strong>:</p>
+<ul>
+<li>Verordnung (EU) 2024/2847 vom 23.10.2024 (Unterzeichnung), veröffentlicht im Amtsblatt der EU (Reihe L) am 20.11.2024</li>
+<li>Inkrafttreten: 10.12.2024 (20. Tag nach Veröffentlichung, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_71">Art. 71 Abs. 1</a>)</li>
+</ul>
+</li>
+<li>
+<p><strong>Gültig ab</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_71">Art. 71 Abs. 2</a>):</p>
+<ul>
+<li>Kapitel IV (Notifizierung von Konformitätsbewertungsstellen, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_35">Art. 35–51</a>): <strong>11. Juni 2026</strong></li>
+<li>Meldepflichten der Hersteller (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_14">Art. 14</a>): <strong>11. September 2026</strong>. Sie gelten auch für Produkte, die vor dem 11.12.2027 in Verkehr gebracht wurden (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_69">Art. 69 Abs. 3</a>).</li>
+<li>Alle übrigen Bestimmungen (u. a. grundlegende Anforderungen, Schwachstellenbehandlung, Konformitätsbewertung, CE-Kennzeichnung): <strong>11. Dezember 2027</strong></li>
+<li>Übergang (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_69">Art. 69</a>): Produkte, die vor dem 11.12.2027 in Verkehr gebracht wurden, unterliegen den übrigen Anforderungen nur bei einer <strong>wesentlichen Änderung</strong> nach diesem Datum (Abs. 2; Begriff: <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_3">Art. 3 Nr. 30</a>). Bestimmte EU-Baumusterprüfbescheinigungen und Zulassungen nach anderen Harmonisierungsrechtsvorschriften bleiben bis 11.06.2028 gültig (Abs. 1).</li>
+</ul>
+</li>
+<li>
+<p><strong>Gültig für</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_2">Art. 2 Abs. 1</a>):</p>
+<p>Produkte mit digitalen Elementen, die auf dem Markt bereitgestellt werden und deren bestimmungsgemäßer Zweck oder vernünftigerweise vorhersehbare Verwendung eine direkte oder indirekte logische oder physische Datenverbindung mit einem Gerät oder Netz einschließt. Adressaten sind die Wirtschaftsakteure: Hersteller, Bevollmächtigte, Einführer und Händler (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_3">Art. 3 Nr. 12</a>). Einführer und Händler gelten unter bestimmten Umständen selbst als Hersteller (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_21">Art. 21</a>), ebenso wer eine wesentliche Änderung vornimmt (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_22">Art. 22</a>). Die Bereitstellung auf dem Markt setzt eine Geschäftstätigkeit voraus (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_3">Art. 3 Nr. 22</a>), erfasst aber entgeltliche <strong>und</strong> unentgeltliche Abgabe. Als Hersteller zählt auch, wer Produkte unentgeltlich vermarktet (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_3">Art. 3 Nr. 13</a>). Eine Gewinnerzielungsabsicht ist also keine Voraussetzung.</p>
+<p>Eingeschlossen sind <strong>Datenfernverarbeitungslösungen</strong>, also vom Hersteller (oder unter seiner Verantwortung) entwickelte Backend-Dienste, ohne die das Produkt eine seiner Funktionen nicht erfüllen könnte (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_3">Art. 3 Nr. 2</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#rct_11">ErwG 11</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#rct_12">ErwG 12</a>).</p>
+</li>
+<li>
+<p><strong>Nicht gültig für</strong>:</p>
+<ul>
+<li>Produkte, die unter die Verordnungen (EU) 2017/745 (MDR) und (EU) 2017/746 (IVDR) oder (EU) 2019/2144 (Typgenehmigung Kraftfahrzeuge) fallen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_2">Art. 2 Abs. 2</a>; zu Medizinprodukten siehe <a href="../mdr/">MDR</a>)</li>
+<li>Nach der Verordnung (EU) 2018/1139 zertifizierte Produkte (Zivilluftfahrt, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_2">Art. 2 Abs. 3</a>)</li>
+<li>Geräte im Anwendungsbereich der Richtlinie 2014/90/EU (Schiffsausrüstung, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_2">Art. 2 Abs. 4</a>)</li>
+<li>Identische Ersatzteile (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_2">Art. 2 Abs. 6</a>) sowie ausschließlich für nationale Sicherheit, Verteidigung oder den Umgang mit Verschlusssachen entwickelte Produkte (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_2">Art. 2 Abs. 7</a>)</li>
+<li>Reine Cloud-/SaaS-Angebote, die keine Datenfernverarbeitungslösung eines Produkts sind, sowie Websites ohne Bezug zur Produktfunktion (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#rct_12">ErwG 12</a>). Für Cloud-Dienste kann die NIS-2-Richtlinie greifen, siehe <a href="../nis2/">NIS2</a>.</li>
+<li>Freie und quelloffene Software, die nicht im Rahmen einer Geschäftstätigkeit bereitgestellt wird (z. B. nicht monetarisiert, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#rct_18">ErwG 18</a>); Personen, die lediglich Quellcode zu fremden Open-Source-Produkten beitragen, sind nicht erfasst. <strong>Achtung:</strong> Für den Begriff <em>Verwalter quelloffener Software</em> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_3">Art. 3 Nr. 14</a>) gelten eigene, leichtere Pflichten (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_24">Art. 24</a>).</li>
+<li>Eine Einschränkung oder ein Ausschluss für weitere Produkte mit gleichwertigen Sektorvorschriften ist über delegierte Rechtsakte möglich (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_2">Art. 2 Abs. 5</a>).</li>
+</ul>
+</li>
+<li>
+<p><strong>Grauzone</strong>:</p>
+<ul>
+<li>Abgrenzung "Geschäftstätigkeit" bei Open Source (Monetarisierung, Spenden, Foundations): <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#rct_18">ErwG 18</a> nennt Kriterien, Leitlinien der Kommission sind vorgesehen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_26">Art. 26 Abs. 2</a>).</li>
+<li>SaaS mit IoT-Anteilen: Die Verordnung selbst enthält keine pauschale Regel; maßgeblich ist, ob der Dienst als Datenfernverarbeitungslösung eines Produkts gilt (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#rct_12">ErwG 12</a>). Praxisannahme: Dienst ohne Produktbezug =&gt; NIS-2, Produkt samt zugehörigem Backend =&gt; CRA.</li>
+<li>Dual-Use-Güter und Logistik-Lösungen: Die Verordnung nennt hierzu nichts; entscheidend sind die allgemeinen Kriterien von <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_2">Art. 2 Abs. 1</a> und die Ausnahmen in Abs. 2 bis 4 (Kfz, Luftfahrt, Schiffsausrüstung). Pauschale Aussagen zu Branchen sind nicht belegbar.</li>
+<li>Individualentwicklungen: Auch maßgeschneiderte Produkte sind erfasst, dürfen aber teils vertraglich abweichend geregelt werden (z. B. sichere Standardkonfiguration und kostenlose Updates, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Anhang I Teil I Nr. 2 Buchst. b</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Teil II Nr. 8</a>).</li>
+<li>Nationale Umsetzung (Marktüberwachungsbehörde, Benennung des als Koordinator tätigen CSIRT, Sanktionsregeln nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_52">Art. 52</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_64">Art. 64 Abs. 1</a>): In Deutschland ist hierfür ein eigenes Durchführungsgesetz im Verfahren; das BSI ist dabei als zentrale Behörde vorgesehen. Den aktuellen Stand bitte beim Bundestag (DIP) prüfen.</li>
+</ul>
+</li>
+<li>
+<p><strong>Ziel</strong>:
+  Ein hohes Cybersicherheitsniveau von Produkten mit digitalen Elementen über deren gesamten Lebenszyklus sowie einheitliche Regeln für den Binnenmarkt (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_1">Art. 1</a>).</p>
+</li>
+<li>
+<p><strong>Produktklassen</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_7">Art. 7</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_8">Art. 8</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_32">Art. 32</a>):</p>
+<ul>
+<li><strong>Standardprodukte</strong>: Konformitätsbewertung per interner Kontrolle (Modul A) möglich (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_32">Art. 32 Abs. 1</a>).</li>
+<li><strong>Wichtige Produkte, Klasse I</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_III">Anhang III</a>), z. B. Identitäts- und Passwort-Manager, Browser, VPN, Betriebssysteme, Router und Switches, SIEM: Modul A nur bei vollständiger Anwendung harmonisierter Normen, gemeinsamer Spezifikationen oder eines Zertifizierungsschemas (mind. Stufe "mittel"), sonst Modul B+C oder H (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_32">Art. 32 Abs. 2</a>).</li>
+<li><strong>Wichtige Produkte, Klasse II</strong> (Anhang III), z. B. Hypervisoren und Container-Runtimes, Firewalls, IDS/IPS, manipulationssichere Mikroprozessoren und -controller: Modul B+C, Modul H oder Zertifizierung (mind. Stufe "mittel"), jeweils unter Beteiligung Dritter (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_32">Art. 32 Abs. 3</a>).</li>
+<li><strong>Kritische Produkte</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_IV">Anhang IV</a>: Hardwaregeräte mit Sicherheitsboxen, Smart-Meter-Gateways, Chipkarten/Sicherheitselemente): europäisches Cybersicherheitszertifikat, sofern per delegiertem Rechtsakt gefordert (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_8">Art. 8 Abs. 1</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_32">Art. 32 Abs. 4</a>).</li>
+<li>Die technische Beschreibung der Kategorien regelt die <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32025R2392">Durchführungsverordnung (EU) 2025/2392</a> (nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_7">Art. 7 Abs. 4</a>). Die Kategorien können per delegiertem Rechtsakt geändert werden (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_7">Art. 7 Abs. 3</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_8">Art. 8 Abs. 2</a>).</li>
+<li>Die Integration eines Anhang-III-Produkts macht das umgebende Produkt nicht automatisch zum wichtigen Produkt (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_7">Art. 7 Abs. 1</a>).</li>
+</ul>
+</li>
+<li>
+<p><strong>Neuerungen / Anforderungen</strong>:</p>
+<ul>
+<li>Verbindliche Risikobewertung (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 2 und 3</a>) und grundlegende Cybersicherheitsanforderungen an das Produkt (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Anhang I Teil I</a>)</li>
+<li>Verpflichtende Prozesse zur Schwachstellenbehandlung inkl. SBOM und koordinierter Offenlegung (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Anhang I Teil II</a>)</li>
+<li>Unterstützungszeitraum von in der Regel mindestens fünf Jahren mit Sicherheitsupdates (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 8</a>); Sicherheitsupdates bleiben nach Bereitstellung mindestens zehn Jahre oder bis zum Ende des Unterstützungszeitraums (je nachdem, was länger ist) verfügbar (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 9</a>); Sicherheitsupdates werden kostenlos verbreitet (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Anhang I Teil II Nr. 8</a>)</li>
+<li>Meldung aktiv ausgenutzter Schwachstellen und schwerwiegender Sicherheitsvorfälle über eine einheitliche Meldeplattform der ENISA (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_14">Art. 14</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_16">Art. 16</a>)</li>
+<li>EU-Konformitätserklärung und CE-Kennzeichnung (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_28">Art. 28</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_30">Art. 30</a>)</li>
+<li>Sanktionen: Bußgelder bis 15 Mio. EUR bzw. 2,5 % des weltweiten Jahresumsatzes bei Verstößen gegen Anhang I sowie Art. 13 und 14 (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_64">Art. 64 Abs. 2</a>); bis 10 Mio. EUR bzw. 2 % bei Verstößen gegen weitere Pflichten, z. B. Art. 18 bis 23, 28, 30, 31, 32 (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_64">Abs. 3</a>); bis 5 Mio. EUR bzw. 1 % bei falschen, unvollständigen oder irreführenden Angaben gegenüber Behörden und notifizierten Stellen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_64">Abs. 4</a>). Jeweils gilt der höhere Betrag. Ausnahmen: Verwalter quelloffener Software sind von diesen Geldbußen ausgenommen; Kleinst- und Kleinunternehmen für die 24-Stunden-Frist der Frühwarnung (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_64">Abs. 10</a>).</li>
+<li>Marktüberwachungsbehörden können unter anderem Korrekturmaßnahmen, Rücknahme oder Rückruf durchsetzen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_52">Kapitel V, Art. 52 ff.</a>).</li>
+</ul>
+</li>
+</ul>
+<h2 id="zentrale-forderungen">Zentrale Forderungen</h2>
+<ul>
+<li>
+<p><strong>Software Bill of Materials (SBOM)</strong>: Hersteller müssen Komponenten und Schwachstellen ermitteln und dokumentieren, u. a. durch eine SBOM in einem gängigen maschinenlesbaren Format, die mindestens die obersten Abhängigkeiten abbildet (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Anhang I Teil II Nr. 1</a>). Die SBOM gehört zur technischen Dokumentation (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_VII">Anhang VII Nr. 2 Buchst. b</a>) und ist der Marktüberwachungsbehörde auf begründetes Verlangen vorzulegen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_VII">Anhang VII Nr. 8</a>). Eine Veröffentlichung oder Weitergabe an Nutzer ist nicht vorgeschrieben (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_II">Anhang II Nr. 9</a> regelt nur den Fall, dass der Hersteller sie bereitstellt). Die Kommission kann Format und Elemente per Durchführungsrechtsakt festlegen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 24</a>); ein solcher Rechtsakt war bei der letzten Prüfung dieser Seite nicht ermittelt.</p>
+</li>
+<li>
+<p><strong>Cybersicherheitsrisikobewertung</strong>: Pflicht zur Bewertung, Dokumentation und gegebenenfalls Aktualisierung während des Unterstützungszeitraums, Berücksichtigung in allen Lebenszyklusphasen und Aufnahme in die technische Dokumentation (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 2 bis 4</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_VII">Anhang VII Nr. 3</a>). Systematische Dokumentation aller relevanten Cybersicherheitsaspekte inkl. bekannter Schwachstellen: <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 7</a>.</p>
+</li>
+<li>
+<p><strong>Grundlegende Anforderungen an das Produkt</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Anhang I Teil I</a>), u. a. keine bekannten ausnutzbaren Schwachstellen bei Bereitstellung, sichere Standardkonfiguration, Update-Fähigkeit, Zugriffsschutz, Schutz von Vertraulichkeit und Integrität, Datenminimierung, Protokollierung, sicheres Löschen von Daten.</p>
+</li>
+<li>
+<p><strong>Sorgfaltspflicht bei Drittkomponenten</strong> inkl. Open Source (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 5</a>). Wird in einer Komponente eine Schwachstelle festgestellt, ist sie deren Hersteller bzw. Betreuer zu melden und gemäß Anhang I Teil II zu beheben; entwickelte Korrekturen sind an diesen zurückzugeben (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 6</a>).</p>
+</li>
+<li>
+<p><strong>Schwachstellenbehandlung</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Anhang I Teil II Nr. 2 bis 8</a>): unverzügliche Behebung, regelmäßige Tests, Veröffentlichung behobener Schwachstellen, Strategie für koordinierte Offenlegung (CVD), Kontaktadresse für Schwachstellenmeldungen, sichere Update-Verteilung, kostenlose Verbreitung von Sicherheitsupdates. Dabei sind Sicherheitsupdates soweit technisch machbar getrennt von Funktionsupdates bereitzustellen (Nr. 2).</p>
+</li>
+<li>
+<p><strong>Unterstützungszeitraum</strong>: Der Hersteller legt ihn entsprechend der erwarteten Nutzungsdauer fest, mindestens fünf Jahre; bei erwarteter Betriebsdauer unter fünf Jahren entspricht er dieser (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 8</a>). Das Enddatum (mindestens Monat und Jahr) ist beim Kauf anzugeben (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 19</a>). Die Kommission kann per delegiertem Rechtsakt Mindestzeiträume für Produktkategorien festlegen.</p>
+</li>
+<li>
+<p><strong>Aufbewahrung</strong>: Technische Dokumentation und EU-Konformitätserklärung mindestens zehn Jahre nach Inverkehrbringen oder für die Dauer des Unterstützungszeitraums, je nachdem, was länger ist (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 13</a>); gleiches gilt für Informationen und Anleitungen für Nutzer (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 18</a>).</p>
+</li>
+<li>
+<p><strong>Informationen und Anleitungen für Nutzer</strong> nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_II">Anhang II</a> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 18</a>), zentrale Anlaufstelle für Nutzer und Schwachstellenmeldungen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 17</a>), Herstellerangaben und Produktidentifikation (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 15 und 16</a>).</p>
+</li>
+<li>
+<p><strong>Technische Dokumentation</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_31">Art. 31</a>, Inhalt mindestens nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_VII">Anhang VII</a>), vor dem Inverkehrbringen zu erstellen und mindestens während des Unterstützungszeitraums aktuell zu halten:</p>
+<ul>
+<li>Allgemeine Beschreibung des Produkts inkl. Zweckbestimmung, relevanter Softwareversionen und Nutzerinformationen nach Anhang II (Nr. 1)</li>
+<li>Beschreibung von Konzeption, Entwicklung, Herstellung und der Verfahren zur Schwachstellenbehandlung inkl. SBOM, CVD-Konzept, Kontaktadresse und Update-Verteilung (Nr. 2)</li>
+<li>Cybersicherheitsrisikobewertung (Nr. 3), inkl. Zweckbestimmung und vernünftigerweise vorhersehbarer Verwendung bzw. Fehlanwendung (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 3</a>)</li>
+<li>Informationen, die bei der Festlegung des Unterstützungszeitraums berücksichtigt wurden (Nr. 4)</li>
+<li>Angewandte harmonisierte Normen, gemeinsame Spezifikationen oder Zertifizierungsschemata bzw. Beschreibung der gewählten Lösungen (Nr. 5)</li>
+<li>Testberichte (Nr. 6) und Kopie der EU-Konformitätserklärung (Nr. 7)</li>
+<li>Kleinst- und Kleinunternehmen dürfen ein vereinfachtes Format verwenden (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_33">Art. 33 Abs. 5</a>)</li>
+</ul>
+</li>
+<li>
+<p><strong>Konformitätsbewertung, EU-Konformitätserklärung und CE-Kennzeichnung</strong>: Der Hersteller führt das Verfahren nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_32">Art. 32</a> durch, stellt dann die EU-Konformitätserklärung nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_28">Art. 28</a> (Muster: <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_V">Anhang V</a>; vereinfachte Fassung: <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_VI">Anhang VI</a>) aus und bringt die CE-Kennzeichnung nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_30">Art. 30</a> an (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 12</a>). Bei Software darf die CE-Kennzeichnung auf der Konformitätserklärung oder der begleitenden Website angebracht werden (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_30">Art. 30 Abs. 1</a>). Eine Konformitätsvermutung besteht bei Anwendung harmonisierter Normen, gemeinsamer Spezifikationen oder Zertifikaten (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_27">Art. 27</a>).</p>
+</li>
+<li>
+<p><strong>Korrekturmaßnahmen</strong> bei erkannter Nichtkonformität bis hin zu Rücknahme oder Rückruf (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 21</a>); Zusammenarbeit mit der Marktüberwachung (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 22</a>); Information bei Betriebseinstellung (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 23</a>).</p>
+</li>
+<li>
+<p><strong>Meldepflichten</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_14">Art. 14</a>), gültig seit dem 11. September 2026. Meldungen gehen <strong>gleichzeitig</strong> an das als Koordinator benannte CSIRT des Mitgliedstaats der Hauptniederlassung und an die ENISA, und zwar über die einheitliche Meldeplattform der ENISA (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_14">Art. 14 Abs. 1, 3 und 7</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_16">Art. 16</a>):</p>
+<ul>
+<li>Für <strong>aktiv ausgenutzte Schwachstellen</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_3">Art. 3 Nr. 42</a>), <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_14">Art. 14 Abs. 2</a>:<ul>
+<li>Frühwarnung unverzüglich, spätestens 24 Stunden nach Kenntnis, inkl. Angabe der betroffenen Mitgliedstaaten (Buchst. a)</li>
+<li>Meldung der Schwachstelle unverzüglich, spätestens 72 Stunden nach Kenntnis, mit allgemeinen Produktinformationen, Art der Ausnutzung und Schwachstelle sowie ergriffenen Maßnahmen und Nutzer-Abhilfen (Buchst. b)</li>
+<li>Abschlussbericht spätestens <strong>14 Tage nachdem eine Korrektur- oder Risikominderungsmaßnahme verfügbar ist</strong> (Buchst. c)</li>
+</ul>
+</li>
+<li>Für <strong>schwerwiegende Sicherheitsvorfälle mit Auswirkung auf die Produktsicherheit</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_14">Art. 14 Abs. 3 bis 5</a>):<ul>
+<li>Frühwarnung innerhalb von 24 Stunden, Meldung innerhalb von 72 Stunden</li>
+<li>Abschlussbericht innerhalb <strong>eines Monats nach der 72-Stunden-Meldung</strong></li>
+<li>Schwerwiegend ist ein Vorfall, der die Fähigkeit zum Schutz sensibler oder wichtiger Daten oder Funktionen beeinträchtigt (oder beeinträchtigen kann) oder zur Einschleusung bzw. Ausführung von Schadcode im Produkt oder im Netz bzw. System eines Nutzers geführt hat oder führen kann (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_14">Art. 14 Abs. 5</a>). Der Vorfall muss sich auf die Sicherheit des Produkts mit digitalen Elementen auswirken (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_3">Art. 3 Nr. 44</a>).</li>
+</ul>
+</li>
+<li>Das CSIRT kann <strong>Zwischenberichte</strong> anfordern (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_14">Art. 14 Abs. 6</a>).</li>
+<li><strong>Nutzerinformation</strong>: Nach Kenntnis informiert der Hersteller betroffene Nutzer über die Schwachstelle bzw. den Vorfall und mögliche Gegenmaßnahmen, gegebenenfalls in einem strukturierten, maschinenlesbaren Format (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_14">Art. 14 Abs. 8</a>). Das Format CSAF wird in der Verordnung nicht genannt; es ist ein geeigneter Kandidat für die maschinenlesbare Variante.</li>
+<li><strong>Freiwillige Meldungen</strong> (auch Beinahe-Vorfälle und Cyberbedrohungen, auch durch Dritte): <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_15">Art. 15</a>.</li>
+<li>Format und Verfahren der Meldungen kann die Kommission per Durchführungsrechtsakt präzisieren (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_14">Art. 14 Abs. 10</a>).</li>
+</ul>
+</li>
+<li>
+<p><strong>Koordinierte Offenlegung von Schwachstellen (CVD)</strong>: Strategie aufstellen und umsetzen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Anhang I Teil II Nr. 5</a> und <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 8</a>); Kontaktadresse für Meldungen bereitstellen (Teil II Nr. 6, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_II">Anhang II Nr. 2</a>).</p>
+</li>
+<li>
+<p><strong>Pflichten weiterer Akteure</strong>: Bevollmächtigte (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_18">Art. 18</a>), Einführer (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_19">Art. 19</a>), Händler (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_20">Art. 20</a>) und Verwalter quelloffener Software (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_24">Art. 24</a>: dokumentierte Cybersicherheitsstrategie, Zusammenarbeit mit Behörden; Meldepflichten nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_14">Art. 14</a> nur soweit sie an der Entwicklung beteiligt sind).</p>
+</li>
+<li>
+<p><strong>Verhältnis zu anderen Rechtsakten</strong>: Hochrisiko-KI-Systeme im Sinne der KI-Verordnung gelten bei Erfüllung der CRA-Anforderungen als konform mit deren Cybersicherheitsanforderungen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_12">Art. 12</a>, siehe <a href="../aiact/">AI Act</a>); für Haftungsfragen siehe <a href="../pld/">PLD</a>.</p>
+</li>
+</ul>
+<h2 id="losungsansatze-hilfestellung">Lösungsansätze &amp; Hilfestellung</h2>
+<blockquote>
+<p>[!NOTE]</p>
+<p>Die Spalte "Regulatorische Relevanz" zeigt, welche Anforderung ein Werkzeug unterstützen kann. Kein Werkzeug stellt für sich Konformität her; als Konformitätsnachweis zählen die Verfahren nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_32">Art. 32</a> bzw. die Konformitätsvermutung nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_27">Art. 27</a>. Harmonisierte Normen werden erarbeitet; ihr Status ist bei CEN, CENELEC und ETSI sowie im Amtsblatt zu prüfen.</p>
+</blockquote>
+<h3 id="bsi-tr-03183-technische-richtlinie-des-bsi">BSI TR-03183: Technische Richtlinie des BSI</h3>
+<p>Das BSI veröffentlicht mit der Technischen Richtlinie <a href="https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03183/tr-03183.html">TR-03183</a> seine Auslegung der Cyberresilienz-Anforderungen an Hersteller und Produkte. Sie dient der Vorbereitung auf den CRA, ist <strong>nicht verbindlich</strong>, begründet <strong>keine Konformitätsvermutung</strong> und soll durch die entsprechenden harmonisierten Europäischen Normen abgelöst werden, sobald diese vorliegen (siehe <a href="https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03183/tr-03183.html">BSI-Seite zur TR-03183</a> und Abschnitt 2 von Teil 1). Sie wird als „Living Document" fortlaufend weiterentwickelt. Die Richtlinie besteht aus vier Teilen (Stand der Versionen laut BSI am 09.10.2026):</p>
+<table>
+<thead>
+<tr>
+<th>Teil</th>
+<th>Inhalt</th>
+<th>Aktuelle Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-1_v1_0_0.pdf?__blob=publicationFile&amp;v=3">Teil 1: General Requirements</a></td>
+<td>Allgemeine Anforderungen an Hersteller und Produkte auf Basis der Artikel und Anhänge des CRA: Überblick über den CRA, risikobasierter Ansatz (Risikobewertung und -behandlung), Anhang I im Wortlaut, generische Sicherheitsmaßnahmen („Controls") im maschinenlesbaren Format OSCAL (Zugang auf Anfrage an tr03183@bsi.bund.de)</td>
+<td>1.0.0</td>
+</tr>
+<tr>
+<td><a href="https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-2_v2_1_0.pdf?__blob=publicationFile&amp;v=6">Teil 2: Software Bill of Materials (SBOM)</a></td>
+<td>Formale und technische Anforderungen an SBOMs</td>
+<td>2.1.0</td>
+</tr>
+<tr>
+<td><a href="https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-3_v1_0_0.pdf?__blob=publicationFile&amp;v=4">Teil 3: Vulnerability Reports and Notifications</a></td>
+<td>Umgang mit eingehenden Schwachstellenmeldungen (Coordinated Vulnerability Disclosure)</td>
+<td>1.0.0</td>
+</tr>
+<tr>
+<td><a href="https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-H_v1_1_0.pdf?__blob=publicationFile&amp;v=3">Teil H: Conformity based on full quality assurance (Module H)</a></td>
+<td>Konformitätsnachweis auf Basis einer umfassenden Qualitätssicherung (Modul H, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_VIII">Anhang VIII</a>) über ein ISO/IEC-27001-konformes ISMS, als Alternative zu Modul B+C; kein neuer Managementsystemstandard</td>
+<td>1.1.0</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Teil 2 (SBOM)</strong> verlangt eine maschinenverarbeitbare SBOM im JSON- oder XML-Format nach <strong>CycloneDX ab Version 1.6</strong> oder <strong>SPDX ab Version 3.0.1</strong>. Pflichtangaben sind für die SBOM selbst der Ersteller und ein Zeitstempel, je Komponente u. a. Ersteller, Name, Version, Dateiname, Abhängigkeiten, Distributionslizenz, Hashwert der auslieferbaren Komponente sowie die Eigenschaften „ausführbar", „Archiv" und „strukturiert". Die Abhängigkeiten sind rekursiv mindestens bis zur ersten Komponente außerhalb des Lieferumfangs aufzulösen; das geht über den in <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Anhang I Teil II Nr. 1</a> genannten Mindestumfang (Abhängigkeiten der obersten Ebene) hinaus. Eine SBOM enthält nach der TR keine Aussagen zu Schwachstellen; dafür verweist das BSI auf Sicherheitsadvisories wie CSAF und auf VEX. Die TR enthält ein Mapping der Datenfelder auf SPDX und CycloneDX, das BSI pflegt zudem einen eigenen <a href="https://github.com/BSI-Bund/tr-03183-cyclonedx-property-taxonomy">CycloneDX-Namespace samt Taxonomie</a>. Zur Versionierung gilt: Für neue SBOMs ist die jeweils neueste Fassung der TR zu verwenden; die unmittelbar vorhergehende Fassung darf bis sechs Monate nach Erscheinen einer neuen Fassung weiter angewendet werden.</li>
+<li><strong>Teil 3</strong> behandelt die Anforderungen an den Empfang von Schwachstellenmeldungen: Herstellerwebseite, <code>security.txt</code> nach RFC 9116, vorbereitende Maßnahmen für einen CVD-Prozess (Rollen, Verschlüsselungsoptionen, Webformular) und eine CVD-Policy. Das entspricht inhaltlich den Vorgaben in <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Anhang I Teil II Nr. 5 und 6</a> (CVD-Richtlinie, Kontaktadresse für Schwachstellenmeldungen).</li>
+<li><strong>Teil 1</strong> wird laut BSI als Selbstbewertung durch den Hersteller oder durch einen Dritten im Auftrag des Herstellers angewendet. Er schafft ausdrücklich keine Pflichten für Hersteller und weist darauf hin, dass er nicht den einzigen Weg zur Erfüllung der Anforderungen beschreibt.</li>
+</ul>
+<h3 id="sbom-erstellung-komponenten-analyse">SBOM-Erstellung &amp; Komponenten-Analyse</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Lizenz</th>
+<th>Problem / Zweck</th>
+<th>Regulatorische Relevanz</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/anchore/syft">Syft</a></td>
+<td>Apache-2.0</td>
+<td>Generiert SBOMs aus Container-Images, Dateisystemen und Quellcode in CycloneDX- und SPDX-Format; unterstützt 30+ Ökosysteme</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Anhang I Teil II Nr. 1</a>: Komponentendokumentation / SBOM; <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_VII">Anhang VII Nr. 2 b</a>: SBOM in der technischen Dokumentation</td>
+</tr>
+<tr>
+<td><a href="https://github.com/CycloneDX/cdxgen">cdxgen</a></td>
+<td>Apache-2.0</td>
+<td>Erzeugt CycloneDX-SBOMs aus Quellcode und Build-Manifesten für 20+ Sprachen; unterscheidet Build- und Runtime-Dependencies</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Anhang I Teil II Nr. 1</a>; besonders geeignet für Hersteller, die mit Quellcode-Analysen argumentieren müssen</td>
+</tr>
+<tr>
+<td><a href="https://github.com/aquasecurity/trivy">Trivy</a></td>
+<td>Apache-2.0</td>
+<td>All-in-One-Scanner: SBOM-Generierung + Schwachstellen + Fehlkonfigurationen + Secrets in einem Lauf; ideal für CI/CD</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Anhang I Teil II Nr. 1 und 3</a>: SBOM, Ermittlung von Schwachstellen und regelmäßige Tests; <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Teil I Nr. 2 a</a>: keine bekannten ausnutzbaren Schwachstellen</td>
+</tr>
+<tr>
+<td><a href="https://trustsource.github.io/ts-scan">TrustSource ts-scan</a></td>
+<td>Open Source</td>
+<td>Universeller SCA-Scanner: analysiert Abhängigkeiten aus Build-Systemen und Paketmanagern, erzeugt CycloneDX/SPDX-SBOMs und überträgt Ergebnisse in die TrustSource-Plattform</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Anhang I Teil II Nr. 1</a>: Komponentenerfassung / SBOM</td>
+</tr>
+<tr>
+<td><a href="https://github.com/trustsource/ts-core-ce">TrustSource CE</a></td>
+<td>AGPL (Community Edition)</td>
+<td>Vollständige SCA-Plattform: SBOM-Erstellung, -Versionierung und -Management, Vulnerability Management sowie CSAF-Kommunikation für Security Advisories; CLI-Clients für alle gängigen Build-Systeme</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Anhang I Teil II Nr. 1</a> und <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_VII">Anhang VII Nr. 2 b</a>: SBOM in der technischen Dokumentation; <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_14">Art. 14 Abs. 8</a>: maschinenlesbare Nutzerinformation; <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_21">NIS2 Art. 21 Abs. 2 d und e</a>: Lieferkettensicherheit, Schwachstellenmanagement</td>
+</tr>
+<tr>
+<td><a href="https://trustsource.github.io/sbom2notice/">TrustSource sbom2notice</a></td>
+<td>Open Source</td>
+<td>Generiert rechtskonforme Open-Source-Hinweisdokumente (License Notice Files) aus SBOMs; erfüllt Lizenz-Attribuierungspflichten der enthaltenen Komponenten</td>
+<td>Keine CRA-Pflicht; ergänzt die SBOM um die lizenzrechtliche Komponente (Sorgfalt bei Drittkomponenten: <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 5</a>)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/spdx/tools-java">SPDX Tools</a></td>
+<td>Apache-2.0</td>
+<td>Referenzimplementierung für SPDX-Format: Validierung, Konvertierung, Generierung</td>
+<td>SPDX ist als ISO/IEC 5962:2021 genormt und ein gängiges maschinenlesbares SBOM-Format im Sinne von <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Anhang I Teil II Nr. 1</a>; ein verbindliches Format kann die Kommission per Durchführungsrechtsakt festlegen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 24</a>)</td>
+</tr>
+</tbody>
+</table>
+<p>Für Format und Mindestinhalte einer SBOM ist <a href="#bsi-tr-03183-technische-richtlinie-des-bsi">Teil 2 der BSI TR-03183</a> die maßgebliche Orientierung. Sie ist keine Norm im Sinne des <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_27">Art. 27</a>, begründet also keine Konformitätsvermutung.</p>
+<h3 id="schwachstellen-management">Schwachstellen-Management</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Lizenz</th>
+<th>Problem / Zweck</th>
+<th>Regulatorische Relevanz</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/anchore/grype">Grype</a></td>
+<td>Apache-2.0</td>
+<td>Schwachstellenscanner auf Basis von Syft-SBOMs; gleicht Komponenten gegen NVD, GitHub Advisory DB und OSV ab</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Anhang I Teil II Nr. 2 und 3</a>: Schwachstellen unverzüglich behandeln, regelmäßig testen; <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Teil I Nr. 2 a</a>: keine bekannten ausnutzbaren Schwachstellen bei Bereitstellung</td>
+</tr>
+<tr>
+<td><a href="https://github.com/google/osv-scanner">OSV-Scanner</a></td>
+<td>Apache-2.0</td>
+<td>Scannt Dependency-Manifeste und SBOMs gegen die OSV-Datenbank (Google); hohe Abdeckung für Open-Source-Ökosysteme</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Anhang I Teil II Nr. 1 und 3</a>; <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 5 und 6</a>: Sorgfalt bei Drittkomponenten, Meldung von Komponenten-Schwachstellen</td>
+</tr>
+<tr>
+<td><a href="https://dependencytrack.org/">Dependency-Track</a></td>
+<td>Apache-2.0</td>
+<td>Kontinuierliche SBOM-Analyse-Plattform (OWASP): nimmt SBOMs entgegen, überwacht fortlaufend gegen mehrere Vuln-Quellen, erzeugt VEX-Dokumente</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Anhang I Teil II Nr. 1 und 2</a> sowie <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 7</a>: laufende Komponenten- und Schwachstellenüberwachung samt Dokumentation. Die Meldungen nach Art. 14 erfolgen über die ENISA-Plattform, nicht über das Tool</td>
+</tr>
+<tr>
+<td><a href="https://github.com/DefectDojo/django-DefectDojo">DefectDojo</a></td>
+<td>BSD-3-Clause</td>
+<td>AppSec-Vulnerability-Management: aggregiert Scanner-Ergebnisse, dedupliziert, verfolgt Remediation und SLAs</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Anhang I Teil II Nr. 2</a> und <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 7</a>: nachvollziehbarer Behebungsprozess mit Audit-Trail</td>
+</tr>
+<tr>
+<td><a href="https://github.com/trustsource/ts-core-ce">TrustSource CE</a></td>
+<td>AGPL (Community Edition)</td>
+<td>Kontinuierliches Vulnerability Management auf SBOM-Basis: verfolgt Schwachstellen über den gesamten Produktlebenszyklus, priorisiert nach EPSS/CVSS und kommuniziert Ergebnisse via CSAF</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Anhang I Teil II Nr. 2 und 4</a>: laufende Behebung, Information über behobene Schwachstellen; <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_14">Art. 14 Abs. 8</a>: Nutzerinformation (maschinenlesbar). Die Meldung an CSIRT und ENISA erfolgt über die einheitliche Meldeplattform</td>
+</tr>
+</tbody>
+</table>
+<h3 id="coordinated-vulnerability-disclosure-cvd-sicherheits-advisories">Coordinated Vulnerability Disclosure (CVD) &amp; Sicherheits-Advisories</h3>
+<p>Anforderungen an den Empfang von Schwachstellenmeldungen (<code>security.txt</code>, CVD-Policy, Kontaktwege) beschreibt <a href="#bsi-tr-03183-technische-richtlinie-des-bsi">Teil 3 der BSI TR-03183</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Lizenz</th>
+<th>Problem / Zweck</th>
+<th>Regulatorische Relevanz</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/gocsaf/csaf">CSAF-Tooling (gocsaf/csaf)</a></td>
+<td>Apache-2.0 / MIT</td>
+<td>CSAF-Referenz-Server (<code>csaf_provider</code>), Validator (<code>csaf_checker</code>); der Web-Editor <a href="https://github.com/secvisogram/secvisogram">Secvisogram</a> erstellt maschinenlesbare Sicherheitsadvisories</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Anhang I Teil II Nr. 4</a>: Veröffentlichung von Informationen zu behobenen Schwachstellen; <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_14">Art. 14 Abs. 8</a>: maschinenlesbare Nutzerinformation. Das CRA schreibt CSAF nicht vor</td>
+</tr>
+<tr>
+<td><a href="https://github.com/openvex/spec">OpenVEX</a></td>
+<td>Apache-2.0</td>
+<td>Maschinenlesbares Format zur Kommunikation des Ausnutzbarkeitsstatus von Schwachstellen (affected / not-affected / fixed); <code>vexctl</code> CLI</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Anhang I Teil II Nr. 4</a>: Informationen zu Schwachstellen und deren Auswirkungen teilen; VEX ist im CRA nicht vorgeschrieben, reduziert aber False-Positive-Aufwand</td>
+</tr>
+<tr>
+<td><a href="https://github.com/CERTCC/VINCE">Vince</a></td>
+<td>MIT</td>
+<td>Open-Source-CVD-Case-Management-Plattform von CERT/CC: Intake, Triage, Koordination, Publikation</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Anhang I Teil II Nr. 5 und 6</a> und <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 17</a>: CVD-Prozess, Kontaktadresse, zentrale Anlaufstelle</td>
+</tr>
+<tr>
+<td><a href="https://disclose.io/">disclose.io Templates</a></td>
+<td>CC0</td>
+<td>Standardisierte CVD-Policy-Vorlagen mit rechtlicher Safe-Harbor-Sprache</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Anhang I Teil II Nr. 5</a>: Einstiegspunkt für eine CVD-Policy</td>
+</tr>
+<tr>
+<td><a href="https://github.com/trustsource/ts-core-ce">TrustSource CE</a></td>
+<td>AGPL (Community Edition)</td>
+<td>Integrierte CSAF-Kommunikation: erzeugt und verteilt Security Advisories direkt aus dem Vulnerability-Management-Workflow heraus</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Anhang I Teil II Nr. 4</a> und <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_14">Art. 14 Abs. 8</a>: Advisories an Nutzer; die Meldungen an CSIRT und ENISA sind davon getrennt (einheitliche Meldeplattform, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_16">Art. 16</a>)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="software-supply-chain-security">Software Supply Chain Security</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Lizenz</th>
+<th>Problem / Zweck</th>
+<th>Regulatorische Relevanz</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/sigstore/cosign">Sigstore / cosign</a></td>
+<td>Apache-2.0</td>
+<td>Schlüsselloses Signieren und Verifizieren von Container-Images, SBOMs und anderen Artefakten; <code>cosign</code> kann signierte SBOMs direkt an Images anheften</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Anhang I Teil I Nr. 2 f</a> und <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Teil II Nr. 7</a>: Integrität, sichere Verbreitung von Updates; <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_21">NIS2 Art. 21 Abs. 2 d</a>: Lieferkettensicherheit</td>
+</tr>
+<tr>
+<td><a href="https://slsa.dev/">SLSA Framework</a></td>
+<td>Open Framework (OpenSSF)</td>
+<td>Gestufte Anforderungen für Build-Integrität mit verifizierbarer Provenance; <code>slsa-github-generator</code> für GitHub Actions</td>
+<td>Kein CRA-Pflichtstandard; kann sichere Herstellungs- und Verteilprozesse belegen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_VII">Anhang VII Nr. 2 c</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Anhang I Teil II Nr. 7</a>)</td>
+</tr>
+<tr>
+<td><a href="https://in-toto.io/">in-toto</a></td>
+<td>Apache-2.0</td>
+<td>Kryptografisch verifizierbarer Nachweis jedes Build-Pipeline-Schritts (wer hat was ausgeführt, mit welchen Inputs)</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_VII">Anhang VII Nr. 2 c</a>: Beschreibung und Validierung der Herstellungs- und Überwachungsprozesse</td>
+</tr>
+<tr>
+<td><a href="https://github.com/guacsec/guac">GUAC</a></td>
+<td>Apache-2.0</td>
+<td>Verknüpft SBOM-, SLSA- und Schwachstellendaten in einem Graphen; ermöglicht Queries wie „welche unserer Produkte sind von CVE-X betroffen?"</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 5 bis 7</a>: Drittkomponenten, Schwachstellenmeldung und -dokumentation; <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555#art_21">NIS2 Art. 21 Abs. 2 d</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/trustsource/ts-core-ce">TrustSource CE</a></td>
+<td>AGPL (Community Edition)</td>
+<td>Zentrales SBOM-Repository mit Versionierung: verfolgt die Zusammensetzung jeder Produktversion über die Zeit und macht Lieferketten-Risiken transparent</td>
+<td><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_VII">Anhang VII Nr. 2 b</a> und <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 7</a>: SBOM und Dokumentation über den Produktlebenszyklus; <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#anx_I">Anhang I Teil II Nr. 1</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="quellen">Quellen</h2>
+<ul>
+<li><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847">Verordnung (EU) 2024/2847 (Cyberresilienz-Verordnung)</a>, ELI: <a href="https://eur-lex.europa.eu/eli/reg/2024/2847/oj">eur-lex.europa.eu/eli/reg/2024/2847/oj</a></li>
+<li><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32025R2392">Durchführungsverordnung (EU) 2025/2392</a> der Kommission vom 28.11.2025 über die technische Beschreibung der Kategorien von wichtigen und kritischen Produkten mit digitalen Elementen (veröffentlicht 1.12.2025), ELI: <a href="https://eur-lex.europa.eu/eli/reg_impl/2025/2392/oj">eur-lex.europa.eu/eli/reg_impl/2025/2392/oj</a></li>
+<li><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022L2555">Richtlinie (EU) 2022/2555 (NIS-2)</a>, ELI: <a href="https://eur-lex.europa.eu/eli/dir/2022/2555/oj">eur-lex.europa.eu/eli/dir/2022/2555/oj</a></li>
+<li>Von der Verordnung vorgesehene, bei der letzten Prüfung nicht ermittelte Rechtsakte: Durchführungsrechtsakt zu Format und Elementen der SBOM (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_13">Art. 13 Abs. 24</a>), zu Format und Verfahren der Meldungen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_14">Art. 14 Abs. 10</a>), delegierter Rechtsakt zur Verzögerung der Verbreitung von Meldungen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_14">Art. 14 Abs. 9</a>) sowie Leitlinien der Kommission (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_26">Art. 26</a>). Die Kommission führt eine Liste der erlassenen Rechtsakte (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_26">Art. 26 Abs. 2</a>).</li>
+<li>BSI TR-03183 (<a href="https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03183/tr-03183.html">Übersicht und Downloads</a>): <a href="https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-1_v1_0_0.pdf?__blob=publicationFile&amp;v=3">Teil 1, Version 1.0.0</a>, <a href="https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-2_v2_1_0.pdf?__blob=publicationFile&amp;v=6">Teil 2 (SBOM), Version 2.1.0</a>, <a href="https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-3_v1_0_0.pdf?__blob=publicationFile&amp;v=4">Teil 3, Version 1.0.0</a>, <a href="https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-H_v1_1_0.pdf?__blob=publicationFile&amp;v=3">Teil H, Version 1.1.0</a></li>
+<li><a href="https://www.enisa.europa.eu/">ENISA-Meldeplattform</a> (einheitliche Meldeplattform nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_16">Art. 16</a>)</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 <a href="https://osb-alliance.de/impressum">OSBA WG Security</a>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+
+
+
+<h4>Cookie consent</h4>
+<p>We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to make our documentation better. </p>
+<input class="md-toggle" type="checkbox" id="__settings" >
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+    
+    
+      
+        
+  
+  
+    
+    
+  
+  <li class="task-list-item">
+    <label class="task-list-control">
+      <input type="checkbox" name="github" checked>
+      <span class="task-list-indicator"></span>
+      GitHub
+    </label>
+  </li>
+
+      
+    
+    
+      
+        
+  
+  
+    
+    
+  
+  <li class="task-list-item">
+    <label class="task-list-control">
+      <input type="checkbox" name="analytics" >
+      <span class="task-list-indicator"></span>
+      Google Analytics
+    </label>
+  </li>
+
+      
+    
+  </ul>
+</div>
+<div class="md-consent__controls">
+  
+    
+      <button class="md-button md-button--primary">Accept</button>
+    
+    
+    
+  
+    
+    
+    
+      <label class="md-button" for="__settings">Manage settings</label>
+    
+  
+    
+    
+      <button type="reset" class="md-button md-button--primary">Reject</button>
+    
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "header.autohide", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../assets/feedback.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,2282 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Stellt eine Uebersicht an Regularien sowie deren Wirkung auf die Software-Entwicklung vor ">
+      
+      
+        <meta name="author" content="OSBA Security Workgroup">
+      
+      
+        <link rel="canonical" href="https://eacg-gmbh.github.io/osba-regulatory-monitor/eidas2/">
+      
+      
+        <link rel="prev" href="../cra/">
+      
+      
+        <link rel="next" href="../nis2/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>eIDAS 2.0 / European Digital Identity Wallet - OSBA Regulatory Monitor</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config",""),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>if("undefined"!=typeof __md_analytics){var consent=__md_get("__consent");consent&&consent.analytics&&__md_analytics()}</script>
+  
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="lime">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#eidas-20-european-digital-identity-wallet-eudiw" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://www.osb-alliance.de" title="OSBA Regulatory Monitor" class="md-header__button md-logo" aria-label="OSBA Regulatory Monitor" data-md-component="logo">
+      
+  <img src="../assets/osba-logo-claim.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            OSBA Regulatory Monitor
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              eIDAS 2.0 / European Digital Identity Wallet
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="lime"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/eacg-gmbh/osba-regulatory-monitor" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href=".." class="md-tabs__link">
+          
+  
+  
+    
+  
+  Hintergrund
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../aiact/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  EU Regularien
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../kritis-dachgesetz/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Deutschland
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../iec18974/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Standards
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../about/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  About
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://www.osb-alliance.de" title="OSBA Regulatory Monitor" class="md-nav__button md-logo" aria-label="OSBA Regulatory Monitor" data-md-component="logo">
+      
+  <img src="../assets/osba-logo-claim.svg" alt="logo">
+
+    </a>
+    OSBA Regulatory Monitor
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/eacg-gmbh/osba-regulatory-monitor" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href=".." class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hintergrund
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Hintergrund
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guidelines/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mitarbeit
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EU Regularien
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    EU Regularien
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aiact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EU Artificial Intelligence Act (AI Act)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Directive on the Resilience of critical Entities (CER)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dataact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EU Data Act
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dora/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Digital Operational Resilience Act (DORA)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EU Cyber Resilience Act (CRA)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    eIDAS 2.0 / European Digital Identity Wallet
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    eIDAS 2.0 / European Digital Identity Wallet
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#uberblick" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Überblick
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zentrale-forderungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zentrale Forderungen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Zentrale Forderungen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bereitstellung-der-wallet-durch-mitgliedstaaten-art-5a" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bereitstellung der Wallet durch Mitgliedstaaten (Art. 5a)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vertrauende-beteiligte-art-5b" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vertrauende Beteiligte (Art. 5b)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zertifizierung-und-sicherheitsverletzungen-art-5c-bis-5e" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zertifizierung und Sicherheitsverletzungen (Art. 5c bis 5e)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pflicht-zur-akzeptanz-der-eudiw-art-5f" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pflicht zur Akzeptanz der EUDIW (Art. 5f)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#durchfuhrungsrechtsakte-zur-wallet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Durchführungsrechtsakte zur Wallet
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technische-anforderungen-art-5a-abs-4-und-5-durchfuhrungsrechtsakte" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technische Anforderungen (Art. 5a Abs. 4 und 5, Durchführungsrechtsakte)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#qualifizierte-vertrauensdienste-und-weitere-neuerungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Qualifizierte Vertrauensdienste und weitere Neuerungen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufsicht-sanktionen-und-governance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufsicht, Sanktionen und Governance
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stand-der-umsetzung-09102026" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stand der Umsetzung (09.10.2026)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#losungsansatze-hilfestellungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lösungsansätze &amp; Hilfestellungen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Lösungsansätze &amp; Hilfestellungen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tools-werkzeuge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tools &amp; Werkzeuge
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tools &amp; Werkzeuge">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#eudiw-referenzimplementierungen-art-5a" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EUDIW-Referenzimplementierungen (Art. 5a)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#openid4vc-sd-jwt-bibliotheken" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OpenID4VC-/SD-JWT-Bibliotheken
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#weitere-ssi-frameworks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Weitere SSI-Frameworks
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quellen
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nis2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EU NIS2 Directive
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mdr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Medical Device Directive (MDR)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pld/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Product Liability Directive (PLD)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../red/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Radio Frequency Directive (RED)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deutschland
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Deutschland
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kritis-dachgesetz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    KRITIS-Dachgesetz (KRITIS-DachG)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Standards
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Standards
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iec18974/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC-18974
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iec62304/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC-62304
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iec62443/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC-62443
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iec81001-5-1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC-81001-5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../openchain/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ISO-5230
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tisax/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TISAX
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    About
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Über dieses Projekt
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CHANGELOG/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Changelog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#uberblick" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Überblick
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zentrale-forderungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zentrale Forderungen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Zentrale Forderungen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bereitstellung-der-wallet-durch-mitgliedstaaten-art-5a" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bereitstellung der Wallet durch Mitgliedstaaten (Art. 5a)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vertrauende-beteiligte-art-5b" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vertrauende Beteiligte (Art. 5b)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zertifizierung-und-sicherheitsverletzungen-art-5c-bis-5e" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zertifizierung und Sicherheitsverletzungen (Art. 5c bis 5e)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pflicht-zur-akzeptanz-der-eudiw-art-5f" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pflicht zur Akzeptanz der EUDIW (Art. 5f)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#durchfuhrungsrechtsakte-zur-wallet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Durchführungsrechtsakte zur Wallet
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technische-anforderungen-art-5a-abs-4-und-5-durchfuhrungsrechtsakte" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technische Anforderungen (Art. 5a Abs. 4 und 5, Durchführungsrechtsakte)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#qualifizierte-vertrauensdienste-und-weitere-neuerungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Qualifizierte Vertrauensdienste und weitere Neuerungen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufsicht-sanktionen-und-governance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufsicht, Sanktionen und Governance
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stand-der-umsetzung-09102026" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stand der Umsetzung (09.10.2026)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#losungsansatze-hilfestellungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lösungsansätze &amp; Hilfestellungen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Lösungsansätze &amp; Hilfestellungen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tools-werkzeuge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tools &amp; Werkzeuge
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tools &amp; Werkzeuge">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#eudiw-referenzimplementierungen-art-5a" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EUDIW-Referenzimplementierungen (Art. 5a)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#openid4vc-sd-jwt-bibliotheken" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OpenID4VC-/SD-JWT-Bibliotheken
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#weitere-ssi-frameworks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Weitere SSI-Frameworks
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quellen
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <a href="../.#tag:authentication" class="md-tag">authentication</a>
+      
+    
+      
+      
+      
+      
+        <a href="../.#tag:digital-identity" class="md-tag">digital identity</a>
+      
+    
+      
+      
+      
+      
+        <a href="../.#tag:general" class="md-tag">general</a>
+      
+    
+      
+      
+      
+      
+        <a href="../.#tag:identity" class="md-tag">identity</a>
+      
+    
+  </nav>
+
+
+
+<h1 id="eidas-20-european-digital-identity-wallet-eudiw">eIDAS 2.0 / European Digital Identity Wallet (EUDIW)</h1>
+<p>Die Verordnung (EU) 2024/1183 ändert die eIDAS-Verordnung (EU) Nr. 910/2014 (eIDAS 2.0) und führt die <strong>Europäische Brieftasche für die Digitale Identität</strong> (European Digital Identity Wallet, EUDIW) ein. Jeder Mitgliedstaat muss seinen Bürgerinnen und Bürgern sowie Unternehmen mindestens eine solche Wallet bereitstellen. Mit ihr können sie sich online und, wo möglich, offline identifizieren, Nachweise (Attributsbescheinigungen) speichern und selektiv vorzeigen sowie qualifiziert signieren oder siegeln (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5a">Art. 5a</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_3">Art. 3 Nr. 42</a>). Die Verordnung ergänzt außerdem die Vertrauensdienste um elektronische Attributsbescheinigungen, Archivierungsdienste und elektronische Journale.</p>
+<blockquote>
+<p>[!NOTE]</p>
+<p>Die Wallet-Vorschriften stehen nicht in der Änderungsverordnung selbst, sondern werden dort in die <a href="https://eur-lex.europa.eu/eli/reg/2014/910/oj">Verordnung (EU) Nr. 910/2014</a> eingefügt (Art. 5a bis 5f). Artikelverweise ohne Zusatz beziehen sich deshalb auf die geänderte Verordnung (EU) Nr. 910/2014 in der <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018">konsolidierten Fassung vom 18.10.2024</a> (Stand der jüngsten dort eingearbeiteten Änderung; die konsolidierte Fassung hat keine Rechtswirkung) und führen direkt zum jeweiligen Artikel. Verweise auf die <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1183">Änderungsverordnung (EU) 2024/1183</a> sind als solche gekennzeichnet. Die Fristen der Wallet-Pflichten hängen an den Durchführungsrechtsakten; deren Quellen stehen im Abschnitt <a href="#quellen">Quellen</a>. Stand dieser Seite: 09.10.2026. Keine Rechtsberatung.</p>
+</blockquote>
+<h2 id="uberblick">Überblick</h2>
+<ul>
+<li>
+<p><strong>Segment</strong>: Digitale Identität, Vertrauensdienste, Authentifizierung</p>
+</li>
+<li>
+<p><strong>Verabschiedet / Veröffentlicht</strong>:</p>
+<ul>
+<li>Verordnung (EU) 2024/1183 vom 11.04.2024 (Unterzeichnung), veröffentlicht im Amtsblatt der EU (Reihe L) am 30.04.2024; sie ändert die Verordnung (EU) Nr. 910/2014 "im Hinblick auf die Schaffung des europäischen Rahmens für eine digitale Identität"</li>
+<li>Ausgangsakt: Verordnung (EU) Nr. 910/2014 vom 23.07.2014 (eIDAS)</li>
+</ul>
+</li>
+<li>
+<p><strong>Gültig ab</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1183#art_2">Art. 2 der Änderungsverordnung</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5a">Art. 5a Abs. 1</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5f">Art. 5f</a>):</p>
+<ul>
+<li>In Kraft getreten: 20.05.2024 (20. Tag nach Veröffentlichung am 30.04.2024)</li>
+<li>Die Wallet-Fristen laufen ab dem Inkrafttreten der Durchführungsrechtsakte nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5a">Art. 5a Abs. 23</a> und <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5c">Art. 5c Abs. 6</a>. Die Kommission hat diese am 28.11.2024 erlassen (Durchführungsverordnungen (EU) 2024/2977, 2024/2979, 2024/2980, 2024/2981 und 2024/2982, veröffentlicht am 04.12.2024). Sie sind am <strong>24.12.2024</strong> in Kraft getreten (20. Tag nach Veröffentlichung); die Verordnung selbst nannte hierfür den 21.11.2024 als Zieldatum</li>
+<li><strong>Bereitstellung der Wallets durch die Mitgliedstaaten</strong>: innerhalb von 24 Monaten nach diesem Tag (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5a">Art. 5a Abs. 1</a>), also rechnerisch bis zum <strong>24.12.2026</strong></li>
+<li><strong>Akzeptanz durch öffentliche Stellen</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5f">Art. 5f Abs. 1</a>) und <strong>sehr große Online-Plattformen</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5f">Art. 5f Abs. 3</a>): im Text ohne eigene Frist; da die Pflicht an bereitgestellte Wallets anknüpft, setzt sie praktisch deren Verfügbarkeit voraus (Auslegung)</li>
+<li><strong>Akzeptanz durch private vertrauende Beteiligte</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5f">Art. 5f Abs. 2</a>): spätestens 36 Monate nach dem Inkrafttreten dieser Durchführungsrechtsakte, also rechnerisch bis zum <strong>24.12.2027</strong></li>
+<li>Übergangsfristen für Vertrauensdienste (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_51">Art. 51</a>), u. a.: 21.05.2026 für den Konformitätsbewertungsbericht bereits qualifizierter Anbieter zu <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_24">Art. 24 Abs. 1, 1a und 1b</a> und für die Verwaltung von Fernsignaturerstellungseinheiten durch nicht qualifizierte Anbieter; 21.05.2027 für sichere Signaturerstellungseinheiten nach der Richtlinie 1999/93/EG</li>
+</ul>
+</li>
+<li>
+<p><strong>Gültig für</strong>:</p>
+<ul>
+<li><strong>Mitgliedstaaten</strong>: Bereitstellung mindestens einer Wallet (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5a">Art. 5a Abs. 1</a>), unmittelbar, im Auftrag oder durch eine unabhängig bereitgestellte, aber anerkannte Wallet (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5a">Art. 5a Abs. 2</a>); außerdem Akzeptanz in öffentlichen Online-Diensten (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5f">Art. 5f Abs. 1</a>)</li>
+<li><strong>Wallet-Anbieter</strong> (Anforderungen an Funktionen, Datenschutz, Sicherheit und Zertifizierung, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5a">Art. 5a</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5c">Art. 5c</a>)</li>
+<li><strong>Vertrauende Beteiligte</strong> (Dienste, die Wallets akzeptieren): Registrierung im Niederlassungsstaat (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5b">Art. 5b</a>)</li>
+<li><strong>Private Diensteanbieter</strong> mit gesetzlich oder vertraglich vorgeschriebener Online-Identifizierung mit starker Nutzerauthentifizierung, etwa in Verkehr, Energie, Bankwesen, Finanzdienstleistungen, sozialer Sicherheit, Gesundheit, Trinkwasser, Postdiensten, digitalen Infrastrukturen, Bildung oder Telekommunikation (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5f">Art. 5f Abs. 2</a>)</li>
+<li><strong>Anbieter sehr großer Online-Plattformen</strong> im Sinne von Art. 33 der Verordnung (EU) 2022/2065 (DSA), die eine Nutzerauthentifizierung verlangen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5f">Art. 5f Abs. 3</a>)</li>
+<li><strong>Vertrauensdiensteanbieter</strong> (qualifiziert und nicht qualifiziert, u. a. <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_19a">Art. 19a</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_24">Art. 24</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_45b">Art. 45b ff.</a>), <strong>Anbieter von Webbrowsern</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_45">Art. 45 Abs. 1a</a>) und <strong>Aussteller von Attributsbescheinigungen</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_45g">Art. 45g</a>)</li>
+</ul>
+</li>
+<li>
+<p><strong>Nicht gültig für / Einschränkungen</strong>:</p>
+<ul>
+<li>Die Nutzung der Wallet ist für natürliche und juristische Personen <strong>freiwillig</strong>; der Zugang zu Diensten muss weiterhin über andere Identifizierungs- und Authentifizierungsmittel möglich sein (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5a">Art. 5a Abs. 15</a>)</li>
+<li><strong>Kleinst- und kleine Unternehmen</strong> im Sinne der Empfehlung 2003/361/EG sind von der Akzeptanzpflicht privater vertrauender Beteiligter ausgenommen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5f">Art. 5f Abs. 2</a>)</li>
+<li>Die Akzeptanz ist nur dort verlangt, wo eine Online-Identifizierung mit starker Nutzerauthentifizierung vorgeschrieben ist, und gilt auch dann <strong>nur auf freiwilliges Verlangen des Nutzers</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5f">Art. 5f Abs. 2 und 3</a>)</li>
+<li>Anbieter von Webbrowsern, die Kleinst- oder Kleinunternehmen sind, sind in den ersten fünf Jahren ihrer Tätigkeit von der Unterstützungspflicht für qualifizierte Website-Zertifikate ausgenommen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_45">Art. 45 Abs. 1a</a>)</li>
+</ul>
+</li>
+<li>
+<p><strong>Grauzone</strong>:</p>
+<ul>
+<li>Abgrenzung, wann eine Online-Identifizierung mit starker Nutzerauthentifizierung "nach Unionsrecht oder nationalem Recht" oder "vertraglich" vorgeschrieben ist; die Aufzählung der Sektoren in <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5f">Art. 5f Abs. 2</a> ist nicht abschließend ("auch in den Bereichen"). Die Kommission hatte bis 21.05.2026 zu berichten (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_49">Art. 49 Abs. 1 und 2</a>), u. a. ob alle privaten Online-Diensteanbieter, die Identifizierungsdienste Dritter nutzen, zur Akzeptanz verpflichtet werden sollen; Bericht und etwaiger Änderungsvorschlag wurden für diese Seite nicht geprüft</li>
+<li>Zusammenspiel mit bestehenden nationalen eID-Lösungen (z. B. der deutschen Online-Ausweisfunktion): Die Mitgliedstaaten können zusätzliche Wallet-Funktionen vorsehen, auch Interoperabilität mit bestehenden nationalen Identifizierungsmitteln (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5a">Art. 5a Abs. 7</a>)</li>
+<li>Datenschutzrechtliche Ausgestaltung: Verarbeitungen durch Mitgliedstaaten und beauftragte Stellen müssen DSGVO-konform nachgewiesen werden (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5a">Art. 5a Abs. 17</a>); die Ausgestaltung durch private Diensteanbieter bleibt Sache der DSGVO und des nationalen Rechts</li>
+<li>Reichweite der Open-Source-Pflicht: sie gilt für den Quellcode der <strong>Anwendungssoftwarekomponenten</strong>; bei hinreichender Begründung dürfen Mitgliedstaaten vorsehen, dass der Quellcode von Komponenten, die nicht auf den Geräten der Nutzer installiert sind, nicht offengelegt wird (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5a">Art. 5a Abs. 3</a>)</li>
+</ul>
+</li>
+<li>
+<p><strong>Ziel</strong>:
+  Sicherer, vertrauenswürdiger und nahtloser grenzüberschreitender Zugang zu öffentlichen und privaten Diensten für alle natürlichen und juristischen Personen in der Union, unter Wahrung der vollständigen Kontrolle über die eigenen Daten (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5a">Art. 5a Abs. 1</a>).</p>
+</li>
+<li>
+<p><strong>Neuerungen / Anforderungen</strong>:</p>
+<ul>
+<li>Pflicht der Mitgliedstaaten zur Bereitstellung mindestens einer <strong>Europäischen Brieftasche für die Digitale Identität</strong> auf Sicherheitsniveau "hoch" (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5a">Art. 5a Abs. 1 und 11</a>)</li>
+<li><strong>Open-Source-Lizenz</strong> für den Quellcode der Anwendungssoftwarekomponenten (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5a">Art. 5a Abs. 3</a>)</li>
+<li><strong>Registrierung vertrauender Beteiligter</strong> und Beschränkung auf die angemeldeten Datenabfragen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5b">Art. 5b</a>)</li>
+<li><strong>Zertifizierung</strong> der Wallets und Veröffentlichung einer Liste zertifizierter Wallets (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5c">Art. 5c</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5d">Art. 5d</a>)</li>
+<li><strong>Akzeptanzpflichten</strong> für öffentliche Stellen, bestimmte private Dienste und sehr große Online-Plattformen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5f">Art. 5f</a>)</li>
+<li>Neue Vertrauensdienste: <strong>elektronische Attributsbescheinigungen</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_45b">Art. 45b ff.</a>), <strong>elektronische Archivierung</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_45i">Art. 45i ff.</a>), <strong>elektronische Journale</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_45k">Art. 45k ff.</a>) und die <strong>qualifizierte Verwaltung von Fernsignatur-/Fernsiegelerstellungseinheiten</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_29a">Art. 29a</a>)</li>
+<li>Neue Aufsichts- und Governance-Strukturen für Wallets (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_46a">Art. 46a</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_46c">Art. 46c</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_46e">Art. 46e</a>)</li>
+</ul>
+</li>
+</ul>
+<h2 id="zentrale-forderungen">Zentrale Forderungen</h2>
+<h3 id="bereitstellung-der-wallet-durch-mitgliedstaaten-art-5a">Bereitstellung der Wallet durch Mitgliedstaaten (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5a">Art. 5a</a>)</h3>
+<ul>
+<li>Jeder Mitgliedstaat stellt innerhalb von 24 Monaten nach Inkrafttreten der Durchführungsrechtsakte mindestens eine Wallet bereit (Abs. 1), und zwar unmittelbar, im Auftrag oder unabhängig, aber vom Mitgliedstaat anerkannt (Abs. 2). Sie wird im Rahmen eines notifizierten eID-Systems mit Sicherheitsniveau "hoch" bereitgestellt (Abs. 11) und mit "konzeptintegrierter Sicherheit" (Security by Design) ausgestattet (Abs. 12)</li>
+<li><strong>Open Source</strong> (Abs. 3): Für den Quellcode der Anwendungssoftwarekomponenten muss eine Open-Source-Lizenz gelten; Ausnahme nur in hinreichend begründeten Fällen für Komponenten, die nicht auf den Geräten der Nutzer installiert sind. Erwägungsgrund 33 der <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1183#rct_33">Änderungsverordnung</a> begründet dies mit Transparenz und Rechenschaftspflicht</li>
+<li><strong>Kostenfrei für natürliche Personen</strong> (Abs. 13): Ausstellung, Verwendung und Widerruf; außerdem müssen alle natürlichen Personen kostenlos mit qualifizierten elektronischen Signaturen unterzeichnen können (Abs. 5 Unterabs. 1 lit. g). Die Mitgliedstaaten dürfen die kostenlose Nutzung verhältnismäßig auf nichtgewerbliche Zwecke beschränken (Abs. 5 Unterabs. 2)</li>
+<li><strong>Funktionen</strong> (Abs. 4): sicheres Anfordern, Erhalten, Auswählen, Kombinieren, Speichern, Löschen, Weitergeben und Vorweisen von Personenidentifizierungsdaten (PID) und elektronischen Attributsbescheinigungen unter alleiniger Kontrolle des Nutzers, online und gegebenenfalls offline, mit <strong>selektiver Offenlegung</strong> (lit. a); lokale, verschlüsselte Speicherung von Pseudonymen (lit. b); Authentifizierung von Wallet zu Wallet (lit. c); ein gemeinsames <strong>Dashboard</strong> mit Transaktionsprotokoll, Löschersuchen nach Art. 17 DSGVO und Meldung verdächtiger Datenanfragen an die Datenschutzbehörde (lit. d); qualifiziertes Unterzeichnen und Siegeln (lit. e); Export von Nutzerdaten, soweit technisch möglich (lit. f), und Datenübertragbarkeit (lit. g)</li>
+<li><strong>Privatsphäre</strong>: Der Wallet-Anbieter sammelt keine Nutzungsinformationen, die für die Erbringung der Wallet-Dienste nicht erforderlich sind, und kombiniert keine Wallet-Daten mit Daten aus anderen Diensten (Abs. 14). Der technische Rahmen darf Ausstellern und Dritten nach der Ausstellung kein Verfolgen, Verknüpfen oder Korrelieren von Transaktionen erlauben, sofern der Nutzer nicht ausdrücklich zustimmt, und muss Unverknüpfbarkeit ermöglichen, wenn keine Identifizierung nötig ist (Abs. 16). Aussteller von Attributsbescheinigungen erhalten nach der Ausstellung keine Informationen über deren Verwendung (Abs. 5 Unterabs. 1 lit. b)</li>
+<li><strong>Betrieb</strong>: unverzügliche Information der Nutzer über Sicherheitsverletzungen (Abs. 6), kostenlose Validierungsmechanismen (Abs. 8), Widerrufsmöglichkeit auf Nutzerwunsch, bei kompromittierter Sicherheit sowie bei Tod bzw. Tätigkeitsende (Abs. 9), technischer Support (Abs. 10) und Barrierefreiheit nach der Richtlinie (EU) 2019/882 (Abs. 21)</li>
+<li>Wallets sind für die Bereitstellung nicht an die Art. 7, 9, 10, 12 und 12a gebunden (Abs. 22); die Mitgliedstaaten melden der Kommission die zuständigen Stellen und Validierungsmechanismen (Abs. 18)</li>
+</ul>
+<h3 id="vertrauende-beteiligte-art-5b">Vertrauende Beteiligte (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5b">Art. 5b</a>)</h3>
+<ul>
+<li>Wer für öffentliche oder private Dienste auf Wallets zurückgreifen will, <strong>registriert</strong> sich im Niederlassungsstaat (Abs. 1) und gibt mindestens Identität, Kontaktangaben und die <strong>beabsichtigte Verwendung samt angeforderter Daten</strong> an (Abs. 2)</li>
+<li>Es dürfen <strong>keine anderen Daten verlangt werden</strong> als die registrierten (Abs. 3); Pseudonyme dürfen nicht verweigert werden, wenn keine Identifizierungspflicht besteht (Abs. 9); Vermittler gelten als vertrauende Beteiligte und dürfen keine Transaktionsinhalte speichern (Abs. 10)</li>
+<li>Die Registrierungen werden öffentlich, elektronisch signiert und maschinenlesbar bereitgestellt (Abs. 5); die vertrauenden Beteiligten identifizieren sich gegenüber dem Nutzer (Abs. 8)</li>
+<li>Die Details (nationale Register, Registrierungsverfahren, Zugriffs- und Registrierungszertifikate) regelt die <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32025R0848">Durchführungsverordnung (EU) 2025/848</a>, die ab dem <strong>24.12.2026</strong> gilt</li>
+</ul>
+<h3 id="zertifizierung-und-sicherheitsverletzungen-art-5c-bis-5e">Zertifizierung und Sicherheitsverletzungen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5c">Art. 5c</a> bis <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5e">5e</a>)</h3>
+<ul>
+<li>Die Konformität der Wallets und des eID-Systems mit den Anforderungen aus <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5a">Art. 5a Abs. 4, 5 und 8</a> sowie der logischen Trennung nach Abs. 14 wird von den <strong>durch die Mitgliedstaaten benannten Konformitätsbewertungsstellen</strong> zertifiziert (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5c">Art. 5c Abs. 1</a>). Cybersicherheitsrelevante Anforderungen werden, soweit verfügbar, nach <strong>europäischen Schemata der Verordnung (EU) 2019/881</strong> zertifiziert, im Übrigen über <strong>nationale Zertifizierungssysteme</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5c">Art. 5c Abs. 2 und 3</a>)</li>
+<li>Die Zertifizierung gilt <strong>bis zu fünf Jahre</strong>, sofern alle zwei Jahre eine <strong>Schwachstellenbeurteilung</strong> erfolgt; eine nicht zeitnah behobene Schwachstelle führt zur Aufhebung (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5c">Art. 5c Abs. 4</a>)</li>
+<li>Die <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2981">Durchführungsverordnung (EU) 2024/2981</a> konkretisiert die nationalen Zertifizierungssysteme: Pro System ist ein Systeminhaber zu benennen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2981#art_3">Art. 3</a>); die Systeme stützen sich, soweit verfügbar, auf europäische Cybersicherheitsschemata einschließlich <strong>EUCC</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2981#art_4">Art. 4 Abs. 1</a>). Zertifikatsinhaber müssen ein Schwachstellenmanagement betreiben, das die Anforderungen aus Anhang I der <strong>Cyberresilienz-Verordnung (CRA)</strong> erfüllt, und öffentlich bekannte, behobene Schwachstellen offenlegen oder in Online-Register eintragen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2981#art_5">Art. 5 Abs. 7 und 9</a>)</li>
+<li>Die Mitgliedstaaten melden zertifizierte Wallets an Kommission und Kooperationsgruppe; die Kommission veröffentlicht eine maschinenlesbare <strong>Liste der zertifizierten Wallets</strong> im Amtsblatt (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5d">Art. 5d</a>). Das Verfahren regelt die <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32025R0849">Durchführungsverordnung (EU) 2025/849</a></li>
+<li>Bei Verletzung oder Beeinträchtigung einer Wallet, der Validierungsmechanismen oder des eID-Systems setzt der Mitgliedstaat Bereitstellung und Nutzung <strong>unverzüglich aus</strong>; ist die Verletzung nach drei Monaten nicht behoben, werden die Wallets entzogen und widerrufen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5e">Art. 5e Abs. 1 und 2</a>). Details: <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32025R0847">Durchführungsverordnung (EU) 2025/847</a></li>
+</ul>
+<h3 id="pflicht-zur-akzeptanz-der-eudiw-art-5f">Pflicht zur Akzeptanz der EUDIW (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5f">Art. 5f</a>)</h3>
+<ul>
+<li><strong>Öffentliche Stellen</strong> (Abs. 1): Verlangen Mitgliedstaaten für einen Online-Dienst einer öffentlichen Stelle eine elektronische Identifizierung und Authentifizierung, akzeptieren sie auch die nach der Verordnung bereitgestellten Wallets</li>
+<li><strong>Private vertrauende Beteiligte</strong> (Abs. 2), mit Ausnahme von Kleinst- und kleinen Unternehmen: Ist nach Unionsrecht oder nationalem Recht oder vertraglich eine Online-Identifizierung mit starker Nutzerauthentifizierung vorgeschrieben, akzeptieren sie hierfür auf freiwilliges Verlangen des Nutzers auch Wallets, spätestens 36 Monate nach Inkrafttreten der Durchführungsrechtsakte (rechnerisch 24.12.2027). Genannt werden u. a. Verkehr, Energie, Bankwesen, Finanzdienstleistungen, soziale Sicherheit, Gesundheit, Trinkwasser, Postdienste, digitale Infrastrukturen, Bildung und Telekommunikation</li>
+<li><strong>Sehr große Online-Plattformen</strong> (Abs. 3, Art. 33 DSA): Verlangen sie eine Nutzerauthentifizierung, akzeptieren und erleichtern sie die Wallet, nur auf freiwilliges Verlangen des Nutzers und nur mit den für den Dienst erforderlichen Mindestdaten</li>
+<li>Die Kommission fördert Verhaltenskodizes (Abs. 4) und bewertet innerhalb von 24 Monaten nach Einführung der Wallets Nachfrage, Verfügbarkeit und Nutzbarkeit (Abs. 5)</li>
+<li>Eine allgemeine Pflicht für jeden Dienst oder jeden Sektor enthält <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5f">Art. 5f</a> nicht: Auch für Banken, Telekommunikation oder Gesundheit gilt die Pflicht nur unter den Voraussetzungen von Abs. 2</li>
+</ul>
+<h3 id="durchfuhrungsrechtsakte-zur-wallet">Durchführungsrechtsakte zur Wallet</h3>
+<p>Rechtsgrundlagen sind <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5a">Art. 5a Abs. 23 und 24</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5b">Art. 5b Abs. 11</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5c">Art. 5c Abs. 6</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5d">Art. 5d Abs. 7</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5e">Art. 5e Abs. 5</a>. Alle fünf Rechtsakte aus 2024 und die Rechtsakte aus 2025 sind im Amtsblatt veröffentlicht; die Daten des Inkrafttretens ergeben sich aus dem jeweiligen Art. "Inkrafttreten" (20. Tag nach Veröffentlichung).</p>
+<table>
+<thead>
+<tr>
+<th>Rechtsakt</th>
+<th>Gegenstand</th>
+<th>Inkrafttreten / Anwendung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://eur-lex.europa.eu/eli/reg_impl/2024/2977/oj">(EU) 2024/2977</a></td>
+<td>Personenidentifizierungsdaten (PID) und elektronische Attributsbescheinigungen für Wallets</td>
+<td>24.12.2024</td>
+</tr>
+<tr>
+<td><a href="https://eur-lex.europa.eu/eli/reg_impl/2024/2979/oj">(EU) 2024/2979</a></td>
+<td>Integrität und Kernfunktionen der Wallets</td>
+<td>24.12.2024</td>
+</tr>
+<tr>
+<td><a href="https://eur-lex.europa.eu/eli/reg_impl/2024/2980/oj">(EU) 2024/2980</a></td>
+<td>Notifizierungen an die Kommission zum Wallet-Ökosystem</td>
+<td>24.12.2024</td>
+</tr>
+<tr>
+<td><a href="https://eur-lex.europa.eu/eli/reg_impl/2024/2981/oj">(EU) 2024/2981</a></td>
+<td>Zertifizierung der Wallets</td>
+<td>24.12.2024</td>
+</tr>
+<tr>
+<td><a href="https://eur-lex.europa.eu/eli/reg_impl/2024/2982/oj">(EU) 2024/2982</a></td>
+<td>Protokolle und Schnittstellen</td>
+<td>24.12.2024</td>
+</tr>
+<tr>
+<td><a href="https://eur-lex.europa.eu/eli/reg_impl/2025/846/oj">(EU) 2025/846</a></td>
+<td>Grenzüberschreitender Identitätsabgleich natürlicher Personen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_11a">Art. 11a</a>)</td>
+<td>27.05.2025; gilt ab 24.12.2026</td>
+</tr>
+<tr>
+<td><a href="https://eur-lex.europa.eu/eli/reg_impl/2025/847/oj">(EU) 2025/847</a></td>
+<td>Reaktion auf Sicherheitsverletzungen der Wallets</td>
+<td>27.05.2025; Art. 10 gilt ab 07.05.2026</td>
+</tr>
+<tr>
+<td><a href="https://eur-lex.europa.eu/eli/reg_impl/2025/848/oj">(EU) 2025/848</a></td>
+<td>Registrierung der auf Wallets vertrauenden Beteiligten</td>
+<td>27.05.2025; gilt ab 24.12.2026</td>
+</tr>
+<tr>
+<td><a href="https://eur-lex.europa.eu/eli/reg_impl/2025/849/oj">(EU) 2025/849</a></td>
+<td>Informationen an Kommission und Kooperationsgruppe für die Liste zertifizierter Wallets</td>
+<td>27.05.2025</td>
+</tr>
+<tr>
+<td><a href="https://eur-lex.europa.eu/eli/reg_impl/2025/1569/oj">(EU) 2025/1569</a></td>
+<td>Qualifizierte elektronische Attributsbescheinigungen und Attributsbescheinigungen öffentlicher Stellen</td>
+<td>19.08.2025; Art. 6 und 9 gelten ab 19.08.2026</td>
+</tr>
+<tr>
+<td><a href="https://eur-lex.europa.eu/eli/reg_impl/2026/1730/oj">(EU) 2026/1730</a>, <a href="https://eur-lex.europa.eu/eli/reg_impl/2026/1731/oj">2026/1731</a>, <a href="https://eur-lex.europa.eu/eli/reg_impl/2026/1735/oj">2026/1735</a></td>
+<td>Änderungen der Standards und Spezifikationen in 2025/848, 2024/2977, 2024/2979, 2024/2980, 2024/2982 und 2025/1569</td>
+<td>20. Tag nach Veröffentlichung (22.07.2026), d. h. 11.08.2026; Art. 1 Abs. 3 der 2026/1735 gilt ab 01.01.2027</td>
+</tr>
+</tbody>
+</table>
+<p>Das Inkrafttreten der Rechtsakte aus 2025 und 2026 ist aus "20. Tag nach Veröffentlichung" abgeleitet. Die Rechtsakte aus 2024 sind am 04.12.2024 im Amtsblatt veröffentlicht worden (Datum im Kopf des Dokuments), die aus 2025 am 07.05.2025.</p>
+<h3 id="technische-anforderungen-art-5a-abs-4-und-5-durchfuhrungsrechtsakte">Technische Anforderungen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5a">Art. 5a Abs. 4 und 5</a>, Durchführungsrechtsakte)</h3>
+<ul>
+<li><strong>Offline-Nutzung</strong> und Online-Nutzung: Die Wallet muss Vorweisen und Authentifizierung "online und, gegebenenfalls, offline" ermöglichen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5a">Art. 5a Abs. 4 lit. a, Abs. 5 lit. a Ziff. iii</a>); eine vollständige Offline-Nutzbarkeit für alle Anwendungsfälle ist dort nicht vorgeschrieben</li>
+<li><strong>Gemeinsame Protokolle und Schnittstellen</strong> für Ausstellung, Anforderung, Validierung, Vorweisen, Wallet-zu-Wallet-Interaktion und Authentifizierung vertrauender Beteiligter (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5a">Art. 5a Abs. 5 lit. a</a>); die Durchführungsverordnung (EU) 2024/2982 legt Protokolle und Schnittstellen fest. In der durch die <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32026R1731">Durchführungsverordnung (EU) 2026/1731</a> geänderten Fassung nimmt sie u. a. auf ISO/IEC 18013-5, Anhang C von ISO/IEC 18013-7:2025, das OpenID4VC-HAIP-Profil und ETSI TS 119 472-2 und -3 Bezug</li>
+<li><strong>Credential-Formate</strong>: PID natürlicher Personen werden nach der Durchführungsverordnung (EU) 2024/2977 in der durch 2026/1731 geänderten Fassung im <strong>SD-JWT-VC-Format</strong> und im <strong>ISO/IEC-mdoc-Format</strong> ausgestellt (Verweis auf Anhang II der Durchführungsverordnung (EU) 2024/2979, Abschnitte 5 und 6)</li>
+<li><strong>Hohes Sicherheitsniveau</strong> nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_8">Art. 8</a> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5a">Art. 5a Abs. 5 lit. d und Abs. 11</a>); Zertifizierung siehe oben. Die Kernfunktionen (Integrität, Wallet-Instanzen, kryptografische Anwendungen, Widerruf, Datenexport, Pseudonyme) regelt die <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2979">Durchführungsverordnung (EU) 2024/2979</a></li>
+<li><strong>Kein Tracking</strong> durch Aussteller oder Dritte, Unverknüpfbarkeit, kein Zusammenführen von Wallet-Daten durch den Anbieter: siehe <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5a">Art. 5a Abs. 14 und 16</a></li>
+</ul>
+<h3 id="qualifizierte-vertrauensdienste-und-weitere-neuerungen">Qualifizierte Vertrauensdienste und weitere Neuerungen</h3>
+<ul>
+<li><strong>Elektronische Attributsbescheinigungen</strong>: Sie dürfen nicht allein wegen ihrer elektronischen Form abgelehnt werden (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_45b">Art. 45b Abs. 1</a>). Qualifizierte Attributsbescheinigungen und solche öffentlicher Stellen, die für eine authentische Quelle zuständig sind, haben dieselbe Rechtswirkung wie Papierbescheinigungen (Abs. 2); Letztere werden in allen Mitgliedstaaten anerkannt (Abs. 3). Anforderungen: <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_45d">Art. 45d</a> (Anhang V), <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_45f">Art. 45f</a> (Anhang VII). Aussteller qualifizierter Attributsbescheinigungen und öffentliche Stellen, die Attributsbescheinigungen ausstellen, müssen eine <strong>Schnittstelle zu den Wallets</strong> bereitstellen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_45g">Art. 45g Abs. 2</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_45f">Art. 45f Abs. 8</a>). Die Mitgliedstaaten ermöglichen die Überprüfung bestimmter Attribute (Anhang VI) bei authentischen Quellen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_45e">Art. 45e</a>); Durchführungsrechtsakt: <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32025R1569">(EU) 2025/1569</a></li>
+<li><strong>Elektronische Archivierung</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_45i">Art. 45i</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_45j">Art. 45j</a>) und <strong>elektronische Journale</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_45k">Art. 45k</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_45l">Art. 45l</a>) als neue (qualifizierte) Vertrauensdienste</li>
+<li><strong>Qualifizierte Verwaltung von Fernsignatur- und Fernsiegelerstellungseinheiten</strong> nur durch qualifizierte Vertrauensdiensteanbieter (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_29a">Art. 29a</a>, Übergangsregelung in <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_51">Art. 51 Abs. 3</a>)</li>
+<li><strong>Qualifizierte Website-Zertifikate (QWAC)</strong>: Webbrowser-Anbieter müssen qualifizierte Zertifikate für die Website-Authentifizierung <strong>anerkennen</strong>, die bescheinigten Identitätsdaten benutzerfreundlich darstellen und Unterstützung und Interoperabilität gewährleisten (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_45">Art. 45 Abs. 1a</a>); Vorsorgemaßnahmen sind nur bei begründeten Sicherheitsbedenken und mit Meldung an Aufsichtsstelle und Kommission zulässig (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_45a">Art. 45a</a>). Für QWAC dürfen keine zusätzlichen verbindlichen Anforderungen gelten (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_45">Art. 45 Abs. 1b</a>)</li>
+<li><strong>Pflichten der Vertrauensdiensteanbieter</strong> und Aufsicht: Nicht qualifizierte Anbieter haben Risikomanagementmaßnahmen und eine Meldepflicht für Sicherheitsverletzungen innerhalb von 24 Stunden nach Kenntnis (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_19a">Art. 19a Abs. 1</a>); qualifizierte Anbieter stehen unter Ex-ante- und Ex-post-Aufsicht, nicht qualifizierte unter Ex-post-Aufsicht (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_46b">Art. 46b Abs. 3</a>)</li>
+<li><strong>Elektronische Signaturen und Siegel</strong>: Die qualifizierte elektronische Signatur hat die gleiche Rechtswirkung wie eine handschriftliche Unterschrift (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_25">Art. 25 Abs. 2</a>), anerkannt in allen Mitgliedstaaten (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_24a">Art. 24a</a>). Die Wallet ermöglicht qualifiziertes Unterzeichnen und Siegeln (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5a">Art. 5a Abs. 4 lit. e</a>). Qualifizierte Vertrauensdiensteanbieter können die Identität auch mit der Wallet prüfen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_24">Art. 24 Abs. 1a lit. a</a>)</li>
+</ul>
+<h3 id="aufsicht-sanktionen-und-governance">Aufsicht, Sanktionen und Governance</h3>
+<ul>
+<li>Die Mitgliedstaaten benennen <strong>Aufsichtsstellen für Wallet-Anbieter</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_46a">Art. 46a</a>), <strong>einheitliche Anlaufstellen</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_46c">Art. 46c</a>) und beteiligen sich an der <strong>europäischen Kooperationsgruppe für die digitale Identität</strong> (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_46e">Art. 46e</a>). Die Aufsichtsstelle kann die Aussetzung oder Beendigung der Bereitstellung einer Wallet anordnen, wenn der Anbieter Nichteinhaltung nicht abstellt (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_46a">Art. 46a Abs. 5</a>)</li>
+<li><strong>Sanktionen</strong> legen die Mitgliedstaaten fest; sie müssen wirksam, verhältnismäßig und abschreckend sein. Für Vertrauensdiensteanbieter müssen Geldbußen mit einem Höchstmaß von mindestens 5 Mio. EUR bzw. 1 % des weltweiten Jahresumsatzes (bei juristischen Personen der höhere Betrag) möglich sein (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_16">Art. 16</a>)</li>
+<li><strong>Berichtspflichten</strong>: Statistiken zu Wallets, Diensten, Beschwerden und Vorfällen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_48a">Art. 48a</a>); Überprüfung der Verordnung durch die Kommission bis 21.05.2026 und Fortschrittsbericht bis 21.05.2030 (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_49">Art. 49</a>)</li>
+</ul>
+<h2 id="stand-der-umsetzung-09102026">Stand der Umsetzung (09.10.2026)</h2>
+<ul>
+<li><strong>Durchführungsrechtsakte</strong>: Die fünf Kernrechtsakte vom 28.11.2024 (2024/2977, 2979, 2980, 2981, 2982) und die Rechtsakte vom 06.05.2025 (2025/846 bis 2025/849) sind erlassen; im Juli 2026 hat die Kommission die Standards und Spezifikationen mit den Durchführungsverordnungen (EU) 2026/1730, 2026/1731 und 2026/1735 aktualisiert (siehe Tabelle oben)</li>
+<li><strong>Architecture Reference Framework (ARF)</strong>: Die Kommission und die Mitgliedstaaten pflegen das ARF öffentlich auf <a href="https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework">GitHub</a> und <a href="https://eudi.dev">eudi.dev</a>. Die jüngste Version ist <strong>v3.0.0</strong> vom 23.07.2026 (GitHub-Release); laut Release Notes gleicht sie das ARF an die Durchführungsverordnungen 2024/2977, 2024/2979, 2024/2980, 2024/2982 und 2025/848 an und führt ein Functional Conformance Assessment Framework ein. Das ARF ist ein technisches Dokument und selbst kein Rechtsakt; rechtlich verbindlich sind die Durchführungsverordnungen. Die Durchführungsverordnung (EU) 2024/2981 verweist für die Zertifizierung darauf, dass die technischen Spezifikationen auf der Empfehlung (EU) 2021/946 und insbesondere dem dort enthaltenen Architektur- und Referenzrahmen aufbauen</li>
+<li><strong>Frist für die Mitgliedstaaten</strong>: Die Bereitstellung der Wallets ist rechnerisch bis <strong>24.12.2026</strong> vorgeschrieben (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5a">Art. 5a Abs. 1</a>). Mehrere Durchführungsrechtsakte (2025/846, 2025/848) gelten ausdrücklich ab diesem Datum. Ob und wie viele Mitgliedstaaten die Frist einhalten, wurde für diese Seite nicht geprüft</li>
+<li><strong>Akzeptanzpflicht</strong>: Private Pflichtadressaten müssen die Wallet erst rechnerisch ab dem <strong>24.12.2027</strong> akzeptieren (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5f">Art. 5f Abs. 2</a>)</li>
+<li><strong>Deutschland</strong>: Die Bundesregierung hat den Entwurf eines <strong>Digitale-Identitätengesetzes (DIdG)</strong> vorgelegt (<a href="https://dserver.bundestag.de/btd/21/074/2107408.pdf">Bundestags-Drucksache 21/7408</a> vom 29.07.2026; Artikel 1 ist das "Gesetz über die Europäische Brieftasche für die Digitale Identität", EBDIG). Erste Lesung im Bundestag am 23.09.2026, Anhörung im Ausschuss für Digitales und Staatsmodernisierung am 06.10.2026; die Abstimmung ist laut Bundestag für den 15.10.2026 vorgesehen (<a href="https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-digitale-identitaetengesetz-1211256">Bundestag zum DIdG</a>, <a href="https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-digitales-1218122">Anhörung</a>). Die Wallet soll laut Anhörung am 02.01.2027 starten. Nach dem Entwurf (§ 2 EBDIG) sind zuständig: das Bundesministerium für Digitales und Staatsmodernisierung für die Bereitstellung, das Bundesverwaltungsamt für die Registrierung vertrauender Beteiligter und die Validierungsmechanismen, das <strong>BSI</strong> für nationale Zertifizierungssysteme und Maßnahmen bei Sicherheitsverletzungen, die <strong>Bundesnetzagentur</strong> für Aufsicht und einheitliche Anlaufstelle sowie die Akkreditierungsstelle für die Akkreditierung der Konformitätsbewertungsstellen. Der Bundesrat verlangt, bei der Anbieterauswahl Open-Source-Lösungen zu bevorzugen; ob dies übernommen wird, ist offen. Das Gesetz ist noch nicht verabschiedet; der Entwurf kann sich ändern</li>
+</ul>
+<h2 id="losungsansatze-hilfestellungen">Lösungsansätze &amp; Hilfestellungen</h2>
+<ul>
+<li>Das <strong><a href="https://eudi.dev">Architecture Reference Framework (ARF)</a></strong> beschreibt die technischen Grundlagen der EUDIW und wird laufend aktualisiert (aktuell v3.0.0, siehe oben)</li>
+<li>Die Kommission und die Mitgliedstaaten stellen unter <a href="https://github.com/eu-digital-identity-wallet">github.com/eu-digital-identity-wallet</a> <strong>Open-Source-Referenzimplementierungen</strong> bereit (Wallet-Apps für Android und iOS, Bibliotheken, Aussteller- und Verifier-Dienste); die Bibliotheken stehen überwiegend unter Apache-2.0, die Referenz-Wallet-Apps unter EUPL-1.2 (Stand der GitHub-Lizenzangaben, 09.10.2026)</li>
+<li>Für <strong>Diensteanbieter</strong> (vertrauende Beteiligte): früh prüfen, ob man zur Pflichtgruppe nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5f">Art. 5f Abs. 2</a> gehört; die Registrierung nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5b">Art. 5b</a> bzw. <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32025R0848">Durchführungsverordnung (EU) 2025/848</a> vorbereiten (gilt ab 24.12.2026) und bestehende Authentifizierungslösungen auf Wallet-Kompatibilität (OpenID4VP, ISO/IEC 18013-5/-7, SD-JWT VC, mdoc) prüfen</li>
+<li>Für <strong>Identitätsprovider und SSO-Anbieter</strong>: die Wallet als zusätzliche Quelle für Identitäts- und Attributsnachweise integrieren</li>
+<li>Für <strong>Wallet-Anbieter und Open-Source-Projekte</strong>: Die Open-Source-Pflicht gilt für die Anwendungssoftwarekomponenten (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5a">Art. 5a Abs. 3</a>); die Zertifizierung betrifft die Wallet-Lösung des Anbieters nach den nationalen Systemen (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5c">Art. 5c</a>, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2981">Durchführungsverordnung (EU) 2024/2981</a>). Die dortigen Anforderungen an das Schwachstellenmanagement orientieren sich an Anhang I der Cyberresilienz-Verordnung (siehe <a href="../cra/">CRA</a>). Allgemeine Open-Source-Bibliotheken sind damit nicht automatisch zertifiziert; Zertifizierungsgegenstand ist die Wallet-Lösung samt Prozessen</li>
+<li>Für <strong>Webbrowser-Anbieter</strong> (auch Open Source): Pflichten zu QWAC nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_45">Art. 45 Abs. 1a</a> und <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_45a">Art. 45a</a> beachten</li>
+<li>In Deutschland siehe den Stand der Umsetzung oben (DIdG-Entwurf, Zuständigkeiten von Bundesministerium für Digitales und Staatsmodernisierung, BSI, Bundesnetzagentur)</li>
+</ul>
+<h3 id="tools-werkzeuge">Tools &amp; Werkzeuge</h3>
+<p>Die folgenden Projekte sind Open Source. Sie sind keine Konformitäts- oder Zertifizierungsnachweise; die Lizenzangaben entsprechen den GitHub-Lizenzangaben (Stand 09.10.2026).</p>
+<h4 id="eudiw-referenzimplementierungen-art-5a">EUDIW-Referenzimplementierungen (Art. 5a)</h4>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Lizenz</th>
+<th>Problem / Zweck</th>
+<th>Regulatorische Relevanz</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/eu-digital-identity-wallet">EU Digital Identity Wallet (GitHub-Organisation)</a></td>
+<td>Apache-2.0 (Bibliotheken, Issuer-/Verifier-Dienste), EUPL-1.2 (Wallet-Apps)</td>
+<td>Referenzimplementierung der Kommission und der Mitgliedstaaten: Wallet-Apps für Android und iOS (z. B. <code>eudi-app-android-wallet-ui</code>, <code>eudi-app-ios-wallet-ui</code>), Wallet-Bibliotheken, PID-Issuer (<code>eudi-srv-pid-issuer</code>) und Verifier (<code>eudi-srv-verifier-endpoint</code>)</td>
+<td>Open-Source-Umsetzung des ARF; ein Einsatz begründet für sich keine Konformität oder Zertifizierung nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5c">Art. 5c</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/openwallet-foundation/multipaz">Multipaz (OpenWallet Foundation)</a></td>
+<td>Apache-2.0</td>
+<td>SDK für digitale Credentials mit Unterstützung der Formate ISO mdoc und IETF SD-JWT VC sowie Proximity-Präsentation und OpenID4VP</td>
+<td>Bibliothek für Wallet- und Verifier-Entwicklung; keine Zertifizierung</td>
+</tr>
+<tr>
+<td><a href="https://github.com/walt-id/waltid-identity">walt.id Identity</a></td>
+<td>Apache-2.0</td>
+<td>Open-Source-Toolkit für Wallets, Issuer und Verifier mit OpenID4VCI/OpenID4VP, HAIP, SD-JWT VC und mdoc/mDL laut README</td>
+<td>Unterstützt die im ARF und in den Durchführungsrechtsakten genannten Formate und Protokolle; keine Zertifizierung</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Sphereon-Opensource/mobile-wallet">Sphereon Mobile Wallet</a></td>
+<td>Apache-2.0</td>
+<td>Open-Source-Mobile-Wallet mit Credential-Empfang über OpenID4VCI</td>
+<td>Beispiel für eine Wallet-Implementierung; eine Konformität mit den EUDIW-Vorgaben ist nicht belegt</td>
+</tr>
+</tbody>
+</table>
+<h4 id="openid4vc-sd-jwt-bibliotheken">OpenID4VC-/SD-JWT-Bibliotheken</h4>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Lizenz</th>
+<th>Problem / Zweck</th>
+<th>Regulatorische Relevanz</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/Sphereon-Opensource/OID4VC">Sphereon OID4VC</a></td>
+<td>Apache-2.0</td>
+<td>OpenID-for-Verifiable-Credentials-Module für Aussteller, Wallets (Holder) und vertrauende Beteiligte (TypeScript)</td>
+<td>Protokollbausteine für die Wallet-Interaktion (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5a">Art. 5a Abs. 5 lit. a</a>)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/openwallet-foundation/credo-ts">Credo-TS</a></td>
+<td>Apache-2.0</td>
+<td>TypeScript-Framework für dezentrale Identitäten und Verifiable Credentials mit OpenID4VC- und SD-JWT-VC-Unterstützung (OpenWallet Foundation)</td>
+<td>Baustein für mobile/Node-basierte Wallet- und Verifier-Entwicklung</td>
+</tr>
+<tr>
+<td><a href="https://github.com/openwallet-foundation-labs/sd-jwt-python">SD-JWT Python</a></td>
+<td>Apache-2.0</td>
+<td>Python-Referenzimplementierung von Selective Disclosure JWT</td>
+<td>Selektive Offenlegung ist Wallet-Anforderung (<a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018#art_5a">Art. 5a Abs. 4 lit. a</a>); SD-JWT VC ist eines der PID-Formate laut Durchführungsrechtsakten</td>
+</tr>
+</tbody>
+</table>
+<h4 id="weitere-ssi-frameworks">Weitere SSI-Frameworks</h4>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Lizenz</th>
+<th>Problem / Zweck</th>
+<th>Regulatorische Relevanz</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/decentralized-identity/veramo">Veramo</a></td>
+<td>Apache-2.0</td>
+<td>JavaScript-Framework für Verifiable Data</td>
+<td>Kein direkter Bezug zu den Durchführungsrechtsakten in der Projektdokumentation belegt; für allgemeine VC-Experimente</td>
+</tr>
+<tr>
+<td><a href="https://github.com/openwallet-foundation/acapy">ACA-Py</a></td>
+<td>Apache-2.0</td>
+<td>Grundlage für Anwendungen dezentraler Identitäten (Aries Cloud Agent Python, jetzt bei der OpenWallet Foundation)</td>
+<td>Kein direkter Bezug zu den Durchführungsrechtsakten in der Projektdokumentation belegt</td>
+</tr>
+</tbody>
+</table>
+<h2 id="quellen">Quellen</h2>
+<p>Alle Rechtstexte in der deutschen Fassung im Amtsblatt der EU (ELI-Links):</p>
+<ul>
+<li><a href="https://eur-lex.europa.eu/eli/reg/2024/1183/oj">Verordnung (EU) 2024/1183</a> (Änderungsverordnung, eIDAS 2.0)</li>
+<li><a href="https://eur-lex.europa.eu/eli/reg/2014/910/oj">Verordnung (EU) Nr. 910/2014</a> (eIDAS-Verordnung); <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02014R0910-20241018">konsolidierte Fassung vom 18.10.2024</a></li>
+<li><a href="https://eur-lex.europa.eu/eli/reg_impl/2024/2977/oj">Durchführungsverordnung (EU) 2024/2977</a>: PID und elektronische Attributsbescheinigungen</li>
+<li><a href="https://eur-lex.europa.eu/eli/reg_impl/2024/2979/oj">Durchführungsverordnung (EU) 2024/2979</a>: Integrität und Kernfunktionen der Wallets</li>
+<li><a href="https://eur-lex.europa.eu/eli/reg_impl/2024/2980/oj">Durchführungsverordnung (EU) 2024/2980</a>: Notifizierungen zum Wallet-Ökosystem</li>
+<li><a href="https://eur-lex.europa.eu/eli/reg_impl/2024/2981/oj">Durchführungsverordnung (EU) 2024/2981</a>: Zertifizierung der Wallets</li>
+<li><a href="https://eur-lex.europa.eu/eli/reg_impl/2024/2982/oj">Durchführungsverordnung (EU) 2024/2982</a>: Protokolle und Schnittstellen</li>
+<li><a href="https://eur-lex.europa.eu/eli/reg_impl/2025/846/oj">Durchführungsverordnung (EU) 2025/846</a>: grenzüberschreitender Identitätsabgleich</li>
+<li><a href="https://eur-lex.europa.eu/eli/reg_impl/2025/847/oj">Durchführungsverordnung (EU) 2025/847</a>: Reaktion auf Sicherheitsverletzungen</li>
+<li><a href="https://eur-lex.europa.eu/eli/reg_impl/2025/848/oj">Durchführungsverordnung (EU) 2025/848</a>: Registrierung vertrauender Beteiligter</li>
+<li><a href="https://eur-lex.europa.eu/eli/reg_impl/2025/849/oj">Durchführungsverordnung (EU) 2025/849</a>: Liste zertifizierter Wallets</li>
+<li><a href="https://eur-lex.europa.eu/eli/reg_impl/2025/1569/oj">Durchführungsverordnung (EU) 2025/1569</a>: qualifizierte elektronische Attributsbescheinigungen</li>
+<li><a href="https://eur-lex.europa.eu/eli/reg_impl/2026/1730/oj">Durchführungsverordnung (EU) 2026/1730</a>, <a href="https://eur-lex.europa.eu/eli/reg_impl/2026/1731/oj">2026/1731</a>, <a href="https://eur-lex.europa.eu/eli/reg_impl/2026/1735/oj">2026/1735</a>: Aktualisierung der Standards und Spezifikationen</li>
+<li>Architecture Reference Framework: <a href="https://eudi.dev">eudi.dev</a>, <a href="https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/releases">GitHub-Repository mit Releases</a></li>
+<li>Deutschland: <a href="https://dserver.bundestag.de/btd/21/074/2107408.pdf">Gesetzentwurf DIdG, Drucksache 21/7408</a>; <a href="https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-digitale-identitaetengesetz-1211256">Bundestag zum Gesetzentwurf</a>; <a href="https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-digitales-1218122">Bundestag zur Anhörung am 06.10.2026</a></li>
+<li>Für Querbezüge: <a href="https://eur-lex.europa.eu/eli/reg/2024/2847/oj">CRA (EU) 2024/2847</a>, <a href="https://eur-lex.europa.eu/eli/reg/2022/2065/oj">DSA (EU) 2022/2065</a>, <a href="https://eur-lex.europa.eu/eli/reg/2019/881/oj">Cybersecurity Act (EU) 2019/881</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 <a href="https://osb-alliance.de/impressum">OSBA WG Security</a>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+
+
+
+<h4>Cookie consent</h4>
+<p>We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to make our documentation better. </p>
+<input class="md-toggle" type="checkbox" id="__settings" >
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+    
+    
+      
+        
+  
+  
+    
+    
+  
+  <li class="task-list-item">
+    <label class="task-list-control">
+      <input type="checkbox" name="github" checked>
+      <span class="task-list-indicator"></span>
+      GitHub
+    </label>
+  </li>
+
+      
+    
+    
+      
+        
+  
+  
+    
+    
+  
+  <li class="task-list-item">
+    <label class="task-list-control">
+      <input type="checkbox" name="analytics" >
+      <span class="task-list-indicator"></span>
+      Google Analytics
+    </label>
+  </li>
+
+      
+    
+  </ul>
+</div>
+<div class="md-consent__controls">
+  
+    
+      <button class="md-button md-button--primary">Accept</button>
+    
+    
+    
+  
+    
+    
+    
+      <label class="md-button" for="__settings">Manage settings</label>
+    
+  
+    
+    
+      <button type="reset" class="md-button md-button--primary">Reject</button>
+    
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "header.autohide", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../assets/feedback.js"></script>
+      
+    
+  </body>
+</html>
