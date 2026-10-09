@@ -148,4 +148,4 @@ Alle Pakete haben denselben Aufbau: *Warum – Wer ist betroffen – Was ist zu 
 
 - Die BSI-Seiten sind teilweise inkonsistent (z. B. „30 Tage" statt „einen Monat" bei der Abschlussmeldung auf der Seite „NIS-2-Pflichten", DORA-Inkrafttreten 17.01.2023). Bei Zitaten immer den Gesetzes- oder Verordnungstext gegenprüfen.
 - Die Grundschutz-Praktiken und die Stand-der-Technik-Bibliothek werden überarbeitet; Mappings können sich ändern.
-- Noch nicht ausgewertet: BSI-Standards 200-1 bis 200-4, TR-02102, TR-03107, TR-03183 (SBOM), UP-KRITIS-Lieferantenanforderungen sowie die verlinkten Hilfsmittel und Onepager. Falls wir daraus Konkretes für die Seiten zu CRA oder NIS-2 brauchen (z. B. SBOM-Anforderungen), lesen wir die jeweils gezielt nach.
+- Noch nicht ausgewertet: BSI-Standards 200-1 bis 200-4, TR-02102, TR-03107, UP-KRITIS-Lieferantenanforderungen sowie die verlinkten Hilfsmittel und Onepager. Die TR-03183 ist separat in [bsi-tr-03183.md](bsi-tr-03183.md) zusammengefasst. Falls wir weitere Details für die Seiten zu CRA oder NIS-2 brauchen, lesen wir die jeweils gezielt nach.

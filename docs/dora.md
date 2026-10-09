@@ -128,7 +128,7 @@ Software- und Cloud-Anbieter, die Finanzunternehmen beliefern, sind in der Regel
 * Prüf- und Auditrechte sowie Exit- und Migrationsunterstützung (Art. 30 Abs. 3 lit. e und f)
 * Offenlegung und Steuerung von Unterauftragsketten (Art. 29 Abs. 2, Art. 30 Abs. 2 lit. a)
 
-DORA enthält **keine ausdrückliche SBOM-Pflicht**. Ohne belastbare Komponentenkenntnis lassen sich die oben genannten Anforderungen aber kaum nachweisbar erfüllen, eine SBOM ist daher ein naheliegendes Mittel. Die Anforderungen ergänzen sich mit dem [Cyber Resilience Act](cra.md) für Produkte mit digitalen Elementen und mit [NIS2](nis2.md), das für Finanzunternehmen durch DORA als Spezialregelung verdrängt wird.
+Für Format und Mindestinhalte einer SBOM bietet die [BSI TR-03183 Teil 2](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-2_v2_1_0.pdf?__blob=publicationFile&v=6) eine Orientierung (siehe [CRA](cra.md#bsi-tr-03183-technische-richtlinie-des-bsi)); sie hat keinen DORA-Bezug. DORA enthält **keine ausdrückliche SBOM-Pflicht**. Ohne belastbare Komponentenkenntnis lassen sich die oben genannten Anforderungen aber kaum nachweisbar erfüllen, eine SBOM ist daher ein naheliegendes Mittel. Die Anforderungen ergänzen sich mit dem [Cyber Resilience Act](cra.md) für Produkte mit digitalen Elementen und mit [NIS2](nis2.md), das für Finanzunternehmen durch DORA als Spezialregelung verdrängt wird.
 
 ### Wechselwirkungen mit anderen EU-Regularien
 
