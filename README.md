@@ -15,6 +15,7 @@ Der Monitor deckt aktuell folgende Regularien und Standards ab:
 - Digital Operational Resilience Act (DORA)
 - EU Cyber Resilience Act (CRA)
 - eIDAS 2.0 / European Digital Identity Wallet (EUDIW)
+- EU Maschinenverordnung (MVO)
 - EU NIS2 Directive
 - Medical Device Regulation (MDR)
 - Product Liability Directive (PLD)
