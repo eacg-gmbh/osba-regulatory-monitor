@@ -123,6 +123,8 @@ Der EU Cyber Resilience Act (CRA, deutsch: Cyberresilienz-Verordnung) legt horiz
 
 * **Verhältnis zu anderen Rechtsakten**: Hochrisiko-KI-Systeme im Sinne der KI-Verordnung gelten bei Erfüllung der CRA-Anforderungen als konform mit deren Cybersicherheitsanforderungen ([Art. 12](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#art_12), siehe [AI Act](aiact.md)); für Haftungsfragen siehe [PLD](pld.md).
 
+* **Verhältnis zur Maschinenverordnung**: Hersteller von Maschinen, die zugleich Produkte mit digitalen Elementen sind, müssen sowohl den CRA als auch die [Maschinenverordnung (EU) 2023/1230](machinery.md) erfüllen und beide Konformitätsbewertungsverfahren durchführen. Die Einhaltung des CRA kann den Nachweis für Anhang III Nr. 1.1.9 und 1.2.1 der Maschinenverordnung erleichtern; die Synergien muss der Hersteller nachweisen ([ErwG 53](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R2847#rct_53)).
+
 ## Lösungsansätze & Hilfestellung
 
 > [!NOTE]

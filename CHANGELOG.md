@@ -6,6 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ## [Unreleased]
 
 ### Added
+- **Maschinenverordnung (MVO)**: neue Seite `machinery.md` zur Verordnung (EU) 2023/1230 — Überblick mit berichtigten Anwendungsdaten (20.01.2027), Geltungsbereich inkl. Software als Sicherheitsbauteil, zentrale Forderungen mit Artikelverweisen, Anhang III Nr. 1.1.9 (Schutz gegen Korrumpierung) und Nr. 1.2.1 (Steuerungen), Abschnitt „Konsequenzen für Software-Hersteller", Verhältnis zu CRA und AI Act (VO (EU) 2026/1744), Zeitplan, Normenstand (prEN 50742) und Tool-Tabellen; Querverweise in **CRA** und **AI Act**
 - **CRA**: Abschnitt „BSI TR-03183: Technische Richtlinie des BSI" mit Teil 1 (1.0.0), Teil 2 SBOM (2.1.0; CycloneDX ≥ 1.6, SPDX ≥ 3.0.1, Pflichtfelder), Teil 3 Schwachstellenmeldungen (1.0.0) und Teil H Modul H (1.1.0); Hinweis auf fehlende Konformitätsvermutung; Quellen aktualisiert. Kurzverweise in **NIS2** und **DORA**
 - **Wissensbasis**: `wissensbasis/bsi-tr-03183.md` fasst die TR-03183 intern zusammen
 - **Wissensbasis**: `wissensbasis/nis2-bsi-infopakete.md` fasst die BSI-#nis2know-Infopakete (Risikoanalyse, Incident Response, BCM, Lieferkette, Sicherheitsmaßnahmen/Schwachstellenmanagement, Wirksamkeit, Schulungen, Kryptografie, Personal/Zugriff/Assets, MFA, Meldepflicht, Geschäftsleitungsschulung, DORA, ISO/IEC 27001, Gesundheit) als internen Hintergrund zusammen (nicht Teil der veröffentlichten Website)
