@@ -1,4 +1,4 @@
-name: ci 
+name: ci
 on:
   push:
     branches:
@@ -17,12 +17,10 @@ jobs:
       - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
         with:
           python-version: 3.x
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
-      - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
-        with:
-          key: mkdocs-material-${{ env.cache_id }}
-          path: .cache 
-          restore-keys: |
-            mkdocs-material-
-      - run: pip install mkdocs-material mkdocs-include-markdown-plugin
-      - run: mkdocs gh-deploy --force
+      # Zensical liest die bestehende mkdocs.yml. Auf einen Build-Cache wird
+      # verzichtet, Zensical empfiehlt ihn fuer CI derzeit nicht.
+      - run: pip install zensical ghp-import
+      - run: zensical build --clean
+      # Zensical kennt kein "gh-deploy". ghp-import veroeffentlicht site/ wie
+      # bisher auf dem Branch gh-pages (dasselbe Werkzeug nutzte mkdocs intern).
+      - run: ghp-import --no-jekyll --push --force --message "Deployed ${GITHUB_SHA::7} with Zensical" site

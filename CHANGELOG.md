@@ -14,6 +14,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 - **DORA**: Seite vertieft — Verordnung (EU) 2022/2554 mit Verabschiedungs- und Anwendungsdaten, Geltungsbereich und Ausnahmen (Art. 2), Neuerungen, zentrale Forderungen mit Artikelverweisen (Art. 5–50), Meldefristen für Vorfälle (4 h / 72 h / 1 Monat), TLPT, Informationsregister und Mindestvertragsinhalte, Aufsicht über kritische IKT-Drittanbieter, Sanktionen, Abschnitt „Relevanz für Software-Hersteller und Open Source", Zeitplan der Level-2-Rechtsakte, Abschnitt „Wechselwirkungen mit anderen EU-Regularien" (NIS2, CRA, AI Act, PLD); SBOM-&-Lieferkettensicherheit-Tabelle (ts-scan, TrustSource CE, Dependency-Track)
 
 ### Changed
+- **Website-Generator**: Umstieg von MkDocs / Material for MkDocs auf [Zensical](https://zensical.org). Zensical liest die bestehende `mkdocs.yml` (Plugins `tags` und `include-markdown` sind nativ umgesetzt); die Theme-Variante `classic` erhält das bisherige Erscheinungsbild. Der Workflow `ci.yml` baut mit `zensical build --clean` und veröffentlicht `site/` per `ghp-import` weiterhin auf dem Branch `gh-pages`; der Build-Cache (`actions/cache`) entfällt. Sichtbare Änderungen: Tags stehen am Seitenende statt am Seitenanfang, und die Website hat jetzt eine Suche (bei Zensical standardmäßig aktiv). Mitarbeits-Hinweise um die lokale Vorschau (`zensical serve`) ergänzt
 - **CI**: GitHub Actions im Workflow `ci.yml` auf Node-24-Versionen angehoben und per Commit-SHA gepinnt (`actions/checkout` v7.0.1, `actions/setup-python` v7.1.0, `actions/cache` v6.1.0); `.github/dependabot.yml` hält die Pins wöchentlich aktuell
 - **Data Act, CER, eIDAS 2, RED, MDR, KRITIS-DachG**: Aussagen gegen den Wortlaut im Amtsblatt der EU bzw. das Gesetz geprüft, Artikel-/Paragraphenverweise als Links ergänzt, Abschnitt „Quellen" hinzugefügt, Stand 09.10.2026 aktualisiert
 - **Data Act**: Anwendbarkeit gestaffelt (Art. 50: Art. 3 Abs. 1 für Produkte ab 12.09.2026, Kapitel IV für Altverträge ab 12.09.2027); Cloud-Wechselfristen (Art. 25: 2 Monate Kündigungsfrist, 30 Kalendertage Übergangszeitraum), Wechselentgelte (Art. 29), KMU-Ausnahme (Art. 7), Smart Contracts (Art. 36); Durchführungsgesetz in Deutschland; Abschnitt für Software-Hersteller
@@ -30,6 +31,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 - **PLD**: Verabschiedung, Geltung ab 09.12.2026, Haftende, Produktbegriff, Beweiserleichterungen, Fristen und Haftungsausschlüsse belegt; unbelegte Aussagen zu Höchstgrenze/Selbstbehalt abgeschwächt
 
 ### Fixed
+- **Hinweisboxen**: GitHub-Alerts (`> [!NOTE]`) erschienen als Zitat mit dem Text „[!NOTE]"; die Markdown-Erweiterung `pymdownx.quotes` (`callouts: true`) in `mkdocs.yml` rendert sie jetzt als Hinweisboxen (alle 18 Vorkommen, unter MkDocs Material und Zensical)
+- **IEC 18974**: defekter Link auf die Seite ISO 5230 / OpenChain korrigiert
 - **DORA**: Tippfehler korrigiert
 
 ---
