@@ -27,7 +27,7 @@ Wir strukturieren den Inhalt derzeit in die drei Bereiche (Töpfe):
 * Non-EU-Regularien (das können auch mehr Bereiche werden, derzeit ist es aber alles in einem) 
 * Standards 
 
-Diese Zuordnung erfolgt über die Datei `mkdocs.yaml` im Root-Verzeichnis des Repositories. Dort gibt es einen Tag **nav:** , welcher die Hauptnavigation organisiert. Das können wir im Zuge des Pull Requests nachholen, und muss nicht Bestandteil des PRs sein. 
+Diese Zuordnung erfolgt über die Datei `mkdocs.yml` im Root-Verzeichnis des Repositories. Dort gibt es einen Tag **nav:** , welcher die Hauptnavigation organisiert. Das können wir im Zuge des Pull Requests nachholen, und muss nicht Bestandteil des PRs sein. 
 
 Als weiteres Gestaltungsmerkmal nutzen wir Tags (s.u. Design). Daraus wird der Index auf der Vorderseite erstellt. Tags befinden sich am Kopf des templates und lassen sich einfach anpassen. Wir haben einige Tags vorgegeben. Diese können jedoch auch beliebig erweitert werden, wenn sinnvoll. 
 
@@ -37,7 +37,9 @@ Als weiteres Gestaltungsmerkmal nutzen wir Tags (s.u. Design). Daraus wird der I
 
 ## Optisches
 
-Wir nutzen für diesen Web-Auftritt [Github Pages](https://pages.github.com), das Theme [MKDocs](https://www.mkdocs.org) mit der Erweiterung [material design](https://squidfunk.github.io/mkdocs-material/) von [Martin Donath](https://github.com/squidfunk). Dieses verfügt unter anderem über das Plugin *tags*. Mit Hilfe der **Tags** wird der **Index** organisiert. 
+Wir nutzen für diesen Web-Auftritt [Github Pages](https://pages.github.com) und den Generator [Zensical](https://zensical.org), den Nachfolger von [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) vom Team um [Martin Donath](https://github.com/squidfunk). Die Konfiguration liegt weiterhin in der Datei `mkdocs.yml`, die Zensical direkt liest. Zensical verfügt unter anderem über das Plugin *tags*. Mit Hilfe der **Tags** wird der **Index** organisiert. 
+
+Für eine lokale Vorschau genügen `pip install zensical` und anschließend `zensical serve` im Root-Verzeichnis des Repositories.
 
 > [!Note]
 >
