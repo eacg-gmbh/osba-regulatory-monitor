@@ -30,6 +30,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 - **PLD**: Verabschiedung, Geltung ab 09.12.2026, Haftende, Produktbegriff, Beweiserleichterungen, Fristen und Haftungsausschlüsse belegt; unbelegte Aussagen zu Höchstgrenze/Selbstbehalt abgeschwächt
 
 ### Fixed
+- **Hinweisboxen**: GitHub-Alerts (`> [!NOTE]`) erschienen als Zitat mit dem Text „[!NOTE]"; die Markdown-Erweiterung `pymdownx.quotes` (`callouts: true`) in `mkdocs.yml` rendert sie jetzt als Hinweisboxen (alle 18 Vorkommen, unter MkDocs Material und Zensical)
 - **DORA**: Tippfehler korrigiert
 
 ---

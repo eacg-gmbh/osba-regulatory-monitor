@@ -94,7 +94,12 @@ theme:
 plugins:
   - tags
   - include-markdown
-    
+
+markdown_extensions:
+  # Rendert GitHub-Alerts (> [!NOTE], > [!WARNING] ...) als Hinweisboxen
+  - pymdownx.quotes:
+      callouts: true
+
 extra:
   homepage: https://www.osb-alliance.de
   consent:
